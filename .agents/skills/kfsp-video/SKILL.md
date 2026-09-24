@@ -72,10 +72,10 @@ Sau khi phân tích, **AI phải đề xuất DÀN Ý BAN ĐẦU** (logic mạch
 
 ### Bước 4 — Sản xuất Kịch bản Video & Tái chế đa kênh (Video First)
 Dựa trên dàn ý đã chốt, BẮT BUỘC ưu tiên sản xuất nội dung theo thứ tự:
-1. **Lên Kịch bản Video (Ưu tiên 1):** Định dạng Short dọc (~60s). BẮT BUỘC áp dụng **Công thức Kép:** 
+1. **Lên Kịch bản Video (Ưu tiên 1):** Định dạng Short dọc (thời lượng linh hoạt, tối đa 3 phút). BẮT BUỘC áp dụng **Công thức Kép:** 
    - **Mở đầu:** Gieo kỳ vọng ngay lập tức (nói rõ xem đến cuối sẽ nhận được giải pháp/danh sách cơ hội gì) để giữ chân người xem.
    - **Kết thúc:** Gieo kỳ vọng lần 2 (tạo sự tò mò về tính năng/đặc quyền/giá trị của KFSP) để ép họ hành động (Inbox/Tải app).
-   - **Cấu trúc xuất ra:** Gồm Phần Full Text Voice (cô đọng, xoáy 4 nỗi đau) và Phần Kịch bản Kỹ thuật (chia cảnh, Text trên màn hình, Visual/Animation 2D, SFX).
+   - **Cấu trúc xuất ra:** Gồm Phần Full Text Voice và Kịch bản Kỹ thuật. Kịch bản Kỹ thuật phải **đề xuất chi tiết Visual/Components cho Remotion** (định dạng dọc 9:16) để phục vụ cho việc lập trình sinh video. **ĐẶC BIỆT LƯU Ý VỀ LỜI THOẠI (VO):** Tuyệt đối không dùng văn viết, sáo rỗng hay hàn lâm. Bắt buộc dùng 100% **VĂN NÓI (Spoken language)**, ngắt nghỉ tự nhiên, dùng từ ngữ đời thường như đang trò chuyện trực tiếp với bạn bè.
 2. **Tái chế thành bài Text (Áp giọng):** Sau khi chốt kịch bản video, chuyển thể Voice thành bài Fanpage bám sát **`reference/style-fanpage.md`** (Tít CAPS 2 vế · đánh số · xưng "bạn" · CTA phễu hối lộ · brand spine).
 3. **Kênh khác →** xem `reference/style-<kênh>.md`.
 
@@ -96,13 +96,15 @@ Sau khi nội dung được duyệt hoàn chỉnh, AI phải đề xuất concep
 - **Khung công thức = reference cục bộ** (`reference/fanpage-frameworks.md`), không phụ thuộc vào skill ngoài.
 - **Content thành phẩm** (bài đăng) lưu theo campaign (`campaigns/`), KHÔNG lưu trong `idea-bank/` (idea-bank chỉ giữ gốc phân tích + link).
 
-## Tư duy Lõi & Chiến lược Sản xuất (Core Mindset & Production)
-- **Tư duy Chuyển đổi (Bán kết quả):** Ngừng nhắm vanity metrics (like/share). Khách hàng không mua tính năng (AI, bộ lọc), họ mua kết quả (tiết kiệm thời gian quét mã trong 10s, bắt sóng sớm 5-10%) và sự an tâm.
-- **Khai thác 4 cái "Mất" (Pain points):** Luôn xoáy sâu vào nỗi đau kẹt hàng: Mất vốn, mất cơ hội, mất tinh thần, mất thời gian.
-- **Storytelling & Bắc cầu (Trend-jacking):** Không viết kiến thức khô khan ngẫu nhiên. Bắt trend vĩ mô (nâng hạng, dòng tiền) → Ngành hưởng lợi → App KFSP → Phân tích mã. Dùng ví dụ đời thường (ốp lưng điện thoại, v.v.) để liên tưởng.
-- **Video First (Eat That Frog):** Ưu tiên kịch bản Video ngắn (1-3 phút) trước.
-- **Tái chế & Đa kênh:** 1 Video gốc = Bài Fanpage (bóc voice) + Infographic (trích frame). Đăng chéo Fanpage/TikTok/YouTube (cách 30p-1h) để ám ảnh tâm trí khách hàng.
-- **Phễu Nurturing & CTA "Hối lộ":** Đưa lead vào phễu trung gian (Zalo OA, Email) để "nuôi" trước. CTA phải sắc bén: "Inbox để nhận thêm 5 ngày dùng thử, hỗ trợ cài bộ lọc và tặng checklist".
+## Tư duy Lõi & Kỷ luật Viết Kịch bản (BẮT BUỘC TUÂN THỦ)
+- **Không tự huyễn/Lùa gà (Compliance):** Tuyệt đối KHÔNG dùng các từ cam kết chắc nịch như "không bao giờ", "chắc chắn 100%", "cứu tài khoản ngày mai". Phải hạ tông giọng xuống mức thực tế, khiêm tốn: "chủ động phòng tránh", "hạn chế sai lầm". KFSP là công cụ giáo dục, không phải thuốc tiên.
+- **Đồng cảm trước, Giải pháp sau:** KHÔNG nhảy cóc vào giải pháp ngay lập tức. Phải vẽ ra bức tranh thực trạng (hiện tượng) và gọi tên đúng nỗi đau, cảm giác hiện tại của người xem (vd: xót ruột, tê liệt, không biết bán hay giữ) để họ thấy mình trong đó, rồi mới được đưa thuốc.
+- **Giải phẫu triệt để gốc rễ:** Không hô hào sáo rỗng (vd: chỉ hô "Tỉa cỏ trồng hoa" mà không giải thích). Phải giải thích được bản chất logic (Cỏ là gì? Là khi cổ phiếu gãy khỏi vùng kỳ vọng). Người xem cần "How" chứ không chỉ "What".
+- **Tuyệt đối không Phím hàng:** Cấm dùng lời lẽ hô hào kiểu "dồn hết tiền vào đánh mã này". Phải lùi KFSP về vị thế một công cụ quét dữ liệu khách quan ("bằng dữ liệu, không cảm tính").
+- **Treo đầu dê, Bán thịt dê (Logic Phễu):** Nỗi đau ở đầu video phải khớp 100% với CTA "hối lộ" ở cuối. Nếu đầu video hứa giải quyết việc mua nhầm, thì cuối video phải chốt Inbox để tặng Checklist/Cảnh báo chống mua nhầm. KHÔNG gieo kỳ vọng một đằng, chốt sale một nẻo.
+- **Thời lượng là phụ, Trọn vẹn ý là chính:** Không cần cố bóp nghẹt kịch bản cho ngắn nếu điều đó làm gãy logic. Ưu tiên truyền tải ĐỦ và ĐÚNG tư duy sâu sắc đến người xem (Tối đa 3 phút).
+- **Video First & Tái chế:** Ưu tiên Kịch bản Video trước. 1 Video gốc = Bài Fanpage (bóc voice) + Infographic (trích frame).
+- **Phễu Nurturing & CTA "Hối lộ":** Đưa lead vào phễu trung gian bằng mồi nhử cụ thể (Inbox nhận checklist + 5 ngày VIP).
 
 
 ## Registry reference
