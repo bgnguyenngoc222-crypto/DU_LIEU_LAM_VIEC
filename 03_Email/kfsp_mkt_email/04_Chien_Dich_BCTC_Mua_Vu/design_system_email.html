@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KFSP Email Design System v2 — Night Sky</title>
+<style>
+  :root {
+    /* KFSP NIGHT palette (from actual Calm + Captions analysis) */
+    --night-bg-1: #100019;
+    --night-bg-2: #28065E;
+    --night-bg-3: #370D5A;
+    --night-cta: #2E0E52;
+    --accent-violet: #B378FF;
+    --accent-purple: #8C20F8;
+    --accent-kfsp: #7B3AEC;
+    --accent-pink: #F0758A;
+    --accent-light: #C8B1F2;
+    --text-white: #FFFFFF;
+    --text-light: #D2D2D2;
+    --text-dim: rgba(255,255,255,0.7);
+    --text-muted: rgba(255,255,255,0.5);
+    --stock-up: #0DBE55;
+    --stock-down: #FF3B30;
+    --stock-ref: #ECC800;
+
+    /* Documentation UI (light theme for this doc) */
+    --doc-bg: #F6F6F8;
+    --doc-card: #FFFFFF;
+    --doc-border: #E8E8EE;
+    --doc-text: #1A1A2E;
+    --doc-text-sub: #5A5E78;
+    --doc-text-muted: #8A8EA6;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif; background: var(--doc-bg); color: var(--doc-text); line-height: 1.7; font-size: 15px; }
+
+  .hero {
+    background: linear-gradient(135deg, var(--night-bg-1) 0%, var(--night-bg-2) 60%, var(--accent-kfsp) 140%);
+    color: white; padding: 56px 24px 44px; text-align: center; position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(circle at 20% 30%, rgba(179,120,255,0.35), transparent 50%);
+  }
+  .hero h1 { font-size: 32px; font-weight: 800; margin-bottom: 12px; letter-spacing: -0.8px; position: relative; z-index: 1; }
+  .hero .tag { font-size: 17px; opacity: 0.95; max-width: 720px; margin: 0 auto; line-height: 1.5; position: relative; z-index: 1; }
+  .hero .meta { margin-top: 20px; font-size: 12px; opacity: 0.65; position: relative; z-index: 1; }
+
+  .nav-container { background: white; border-bottom: 1px solid var(--doc-border); position: sticky; top: 0; z-index: 100; overflow-x: auto; }
+  .nav-tabs { display: flex; max-width: 1080px; margin: 0 auto; padding: 0 16px; min-width: max-content; }
+  .nav-tab { padding: 14px 18px; font-size: 13px; font-weight: 500; color: var(--doc-text-muted); cursor: pointer; border-bottom: 2px solid transparent; white-space: nowrap; transition: all 0.2s; }
+  .nav-tab:hover { color: var(--accent-kfsp); }
+  .nav-tab.active { color: var(--accent-kfsp); border-bottom-color: var(--accent-kfsp); font-weight: 600; }
+
+  .container { max-width: 1080px; margin: 0 auto; padding: 40px 16px 80px; }
+  .panel { display: none; }
+  .panel.on { display: block; animation: fade 0.3s; }
+  @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+  h2 { font-size: 26px; font-weight: 700; margin-bottom: 8px; letter-spacing: -0.5px; }
+  h2 .sub { font-size: 14px; color: var(--doc-text-muted); font-weight: 400; display: block; margin-top: 6px; }
+  h3 { font-size: 18px; font-weight: 600; margin: 32px 0 12px; }
+  h4 { font-size: 13px; font-weight: 700; color: var(--accent-kfsp); margin: 20px 0 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+  p { color: var(--doc-text-sub); margin-bottom: 12px; }
+  strong { color: var(--doc-text); font-weight: 600; }
+  a { color: var(--accent-kfsp); text-decoration: none; }
+  ul, ol { margin: 8px 0 16px 24px; color: var(--doc-text-sub); }
+  li { margin-bottom: 6px; }
+
+  .card { background: white; border-radius: 14px; padding: 24px 28px; margin-bottom: 20px; border: 1px solid var(--doc-border); }
+  .card-hl { border-left: 4px solid var(--accent-kfsp); }
+
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 13px; background: white; border-radius: 10px; overflow: hidden; }
+  th { background: #F3EDFC; color: var(--accent-kfsp); padding: 12px 14px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; }
+  td { padding: 12px 14px; border-top: 1px solid var(--doc-border); color: var(--doc-text-sub); vertical-align: top; }
+
+  .split-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0; }
+  @media (max-width: 720px) { .split-2 { grid-template-columns: 1fr; } }
+
+  /* NIGHT theme preview cards */
+  .night-card {
+    background: linear-gradient(135deg, var(--night-bg-1) 0%, var(--night-bg-2) 100%);
+    color: white; border-radius: 14px; padding: 28px; position: relative; overflow: hidden;
+  }
+  .night-card.bg-calm {
+    background: linear-gradient(135deg, #2A0844 0%, var(--night-bg-3) 100%);
+  }
+  .night-card h3, .night-card h4 { color: var(--accent-violet); }
+  .night-card p { color: var(--text-light); }
+  .night-card ul li { color: var(--text-light); }
+  .night-card strong { color: var(--text-white); }
+  .night-card a { color: var(--accent-light); }
+  .night-card .badge { background: rgba(179,120,255,0.2); color: var(--accent-violet); }
+
+  .badge { display: inline-block; font-size: 10px; font-weight: 700; padding: 3px 10px; border-radius: 12px; letter-spacing: 0.3px; text-transform: uppercase; background: #F3EDFC; color: var(--accent-kfsp); }
+
+  .comp { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 12px 0; }
+  @media (max-width: 720px) { .comp { grid-template-columns: 1fr; } }
+  .comp-cell { padding: 14px 18px; border-radius: 10px; font-size: 13px; line-height: 1.5; }
+  .comp-bad { background: #FFEBEE; color: #C62828; }
+  .comp-good { background: #E8F5E9; color: #2E7D32; }
+  .comp-cell strong { display: block; margin-bottom: 6px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+  /* SAMPLE EMAIL MOCKUPS */
+  .sample-email {
+    border-radius: 18px; overflow: hidden;
+    box-shadow: 0 16px 48px rgba(0,0,0,0.3);
+    margin: 20px 0;
+    max-width: 500px;
+    margin-left: auto; margin-right: auto;
+  }
+  .sample-header {
+    padding: 14px 20px; background: #F6F6F8; border-bottom: 1px solid var(--doc-border);
+    font-size: 12px; color: var(--doc-text-muted);
+  }
+  .sample-header strong { display: block; font-size: 14px; color: var(--doc-text); margin: 2px 0; }
+  .night-hero {
+    padding: 48px 28px 32px;
+    background: linear-gradient(180deg, var(--night-bg-1) 0%, var(--night-bg-2) 100%);
+    text-align: center; color: white;
+    position: relative; overflow: hidden;
+  }
+  .night-hero::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(circle at 50% 0%, rgba(179,120,255,0.25), transparent 60%);
+    pointer-events: none;
+  }
+  .night-hero .eyebrow {
+    font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+    color: rgba(255,255,255,0.6); margin-bottom: 16px; position: relative; z-index: 1;
+  }
+  .night-hero .h1 {
+    font-size: 32px; font-weight: 700; line-height: 1.25; letter-spacing: -0.5px;
+    color: white; margin-bottom: 14px; position: relative; z-index: 1;
+  }
+  .night-hero .sub {
+    font-size: 15px; line-height: 1.7; color: rgba(255,255,255,0.8);
+    max-width: 380px; margin: 0 auto; position: relative; z-index: 1;
+  }
+  .night-body {
+    padding: 32px 28px;
+    background: var(--night-bg-1);
+    text-align: center;
+  }
+  .pill-cta {
+    display: inline-block; padding: 3px; border-radius: 45px;
+    background: linear-gradient(135deg, #B275F0 0%, #F0758A 100%);
+    box-shadow: 0 4px 16px rgba(178,117,240,0.3);
+    text-decoration: none;
+  }
+  .pill-cta-inner {
+    display: inline-block; padding: 14px 36px; border-radius: 45px;
+    background: var(--night-cta); color: white !important;
+    font-weight: 600; font-size: 15px; letter-spacing: 0.3px;
+  }
+  .flat-cta {
+    display: inline-block; padding: 18px 36px; border-radius: 10px;
+    background: var(--accent-purple); color: white !important;
+    font-weight: 700; font-size: 16px; text-decoration: none;
+  }
+  .gift-box {
+    background: linear-gradient(135deg, #C8B1F2 0%, #F0758A 100%);
+    border-radius: 16px; padding: 28px 24px; margin: 16px auto;
+    max-width: 300px; color: white; text-align: center;
+  }
+  .gift-box .gift-label {
+    font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+    color: rgba(255,255,255,0.85); margin-bottom: 8px;
+  }
+  .gift-box .gift-value {
+    font-size: 32px; font-weight: 800; line-height: 1;
+  }
+  .gift-box .gift-sub {
+    font-size: 13px; margin-top: 8px; color: rgba(255,255,255,0.9);
+  }
+
+  .token-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; margin: 16px 0; }
+  .token { padding: 14px; border-radius: 10px; border: 1px solid var(--doc-border); background: white; }
+  .token-swatch { height: 44px; border-radius: 6px; margin-bottom: 8px; }
+  .token-name { font-size: 12px; font-weight: 600; color: var(--doc-text); }
+  .token-hex { font-size: 11px; color: var(--doc-text-muted); font-family: 'SF Mono', Menlo, monospace; margin-top: 2px; }
+
+  .rule-item {
+    background: white; border-radius: 10px; padding: 16px 20px; margin-bottom: 10px;
+    border-left: 3px solid var(--accent-kfsp); border-top: 1px solid var(--doc-border); border-right: 1px solid var(--doc-border); border-bottom: 1px solid var(--doc-border);
+  }
+  .rule-item strong { display: block; font-size: 14px; color: var(--doc-text); margin-bottom: 4px; }
+  .rule-item p { margin: 0; font-size: 13px; color: var(--doc-text-sub); }
+
+  .source-analysis { background: #0A0A18; color: white; padding: 20px 24px; border-radius: 12px; font-family: 'SF Mono', Menlo, monospace; font-size: 12px; line-height: 1.8; margin: 12px 0; overflow-x: auto; }
+  .source-analysis strong { color: var(--accent-violet); }
+
+  .footer-note { text-align: center; font-size: 12px; color: var(--doc-text-muted); margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--doc-border); }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>🌌 KFSP Email Design System v2 — Night Sky</h1>
+  <p class="tag">Dựa trên phân tích source code thực tế email Calm &ldquo;Unlock deep sleep&rdquo; + Captions &ldquo;You've unlocked 1 week free&rdquo;.</p>
+  <div class="meta">Cập nhật 15/04/2026 · Thay thế v1 (white background) hoàn toàn</div>
+</div>
+
+<div class="nav-container">
+  <div class="nav-tabs">
+    <div class="nav-tab active" data-tab="analysis">Phân tích 2 email gốc</div>
+    <div class="nav-tab" data-tab="principles">6 nguyên tắc</div>
+    <div class="nav-tab" data-tab="tokens">Tokens</div>
+    <div class="nav-tab" data-tab="components">Components</div>
+    <div class="nav-tab" data-tab="copy">Copy patterns</div>
+    <div class="nav-tab" data-tab="migration">Migration (rework email cũ)</div>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- TAB 1: ANALYSIS -->
+<div class="panel on" id="analysis">
+  <h2>Phân tích source code thực tế <span class="sub">Cả 2 email đều dùng DARK PURPLE aesthetic — không phải cream/warm như dự đoán ban đầu</span></h2>
+
+  <div class="card card-hl">
+    <h4>💡 Insight quan trọng</h4>
+    <p>Thanh cung cấp source code 2 email. Trước đó tôi đoán Style A (Extend trial) là "cream warm empathy" — <strong>SAI HOÀN TOÀN</strong>.</p>
+    <p>Thực tế: <strong>cả 2 email đều dùng dark purple gradient background + text trắng + purple accent</strong>. Sự khác biệt không phải palette, mà là <strong>mật độ nội dung + visual anchor</strong>:</p>
+    <ul>
+      <li>Calm = RICH — 3 feature tiles, dài, có product showcase</li>
+      <li>Captions = MINIMAL — 1 gift card image + 1 câu, ngắn gọn</li>
+    </ul>
+    <p>Cả 2 cùng truyền cảm giác <strong>premium + generosity + aspirational</strong>. Đây là aesthetic mới cho KFSP.</p>
+  </div>
+
+  <h3>Email 1 — Calm &ldquo;Unlock the power of deep sleep&rdquo;</h3>
+  <div class="split-2">
+    <div>
+      <div class="night-card bg-calm">
+        <span class="badge" style="background:rgba(255,255,255,0.2);color:white;">CALM · WELCOME SLEEP</span>
+        <h3 style="margin-top:14px;color:white;">Unlock the power of deep sleep</h3>
+        <p style="color:rgba(255,255,255,0.85);">We're changing the way people drift off to sleep with an ever-growing library of Sleep Stories, music, meditations...</p>
+        <div style="margin-top:20px;text-align:center;">
+          <a href="#" class="pill-cta"><span class="pill-cta-inner">Try Calm For Free</span></a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h4>Spec extract từ source</h4>
+      <ul>
+        <li><strong>Background:</strong> <code>#370D5A</code> deep purple + header image overlay</li>
+        <li><strong>Font:</strong> Avenir Next, Avenir, Helvetica</li>
+        <li><strong>H1:</strong> 36px / 500 weight / line-height 50px / trắng</li>
+        <li><strong>Body:</strong> 18px / normal / line-height 30px / trắng</li>
+        <li><strong>Offer text:</strong> 27px / center / trắng</li>
+        <li><strong>CTA:</strong> Pill 45px radius, outer gradient <code>#B275F0 → #F0758A</code>, inner <code>#2E0E52</code>, text "Try Calm For Free" 18px, width 280px, height 48px</li>
+        <li><strong>Mix-blend-mode:</strong> <code>screen</code> + <code>difference</code> (trên Gmail — effect night sky layering)</li>
+        <li><strong>Sections:</strong> Sleep Stories / Meditate / Soundscapes — mỗi cái có icon + tile image + caption + "Unlock to listen" link</li>
+        <li><strong>Spacing:</strong> 30-80px giữa sections (rất generous)</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Email 2 — Captions &ldquo;You've unlocked 1 week free&rdquo;</h3>
+  <div class="split-2">
+    <div>
+      <div class="night-card">
+        <span class="badge">CAPTIONS · TRIAL EXTEND</span>
+        <h3 style="margin-top:14px;color:var(--accent-violet);text-align:center;">You've unlocked 1 week free.</h3>
+        <p style="color:var(--text-light);text-align:center;">Need more time to create your project? Enjoy another week of Captions Pro on us!</p>
+        <div class="gift-box">
+          <div class="gift-label">GIFT CARD</div>
+          <div class="gift-value">+7 DAYS</div>
+          <div class="gift-sub">Captions Pro · Free</div>
+        </div>
+        <p style="color:#FF5B5B;font-size:13px;text-align:center;margin-top:12px;">Offer expires in 7 days.</p>
+      </div>
+    </div>
+    <div>
+      <h4>Spec extract từ source</h4>
+      <ul>
+        <li><strong>Background:</strong> <code>#100019</code> → <code>#28065E</code> linear-gradient (xuống dưới)</li>
+        <li><strong>Font:</strong> Inter, Helvetica Neue, Arial</li>
+        <li><strong>H1:</strong> 28px / bold / center / color <code>#B378FF</code> (purple nhẹ) + <code>mix-blend-mode: difference</code></li>
+        <li><strong>Body:</strong> 16px / line-height 1.3 / color <code>#d2d2d2</code> (light gray)</li>
+        <li><strong>Visual anchor:</strong> Gift card image làm CTA (clickable image) — thay vì button truyền thống</li>
+        <li><strong>Alt CTA style:</strong> <code>.intercom-h2b-button</code> với <code>#8C20F8</code> bg, border-radius 8px, padding 20px 40px, font 18px bold</li>
+        <li><strong>Warning text:</strong> "Offer expires in 7 days" — đỏ nhẹ</li>
+        <li><strong>Tổng email ngắn:</strong> ~80 từ, 1 paragraph + 1 CTA</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>2 điểm chung quan trọng nhất</h3>
+  <div class="card">
+    <h4>1. &ldquo;Unlock&rdquo; framing — generosity, không fear</h4>
+    <p><strong>Calm:</strong> "Unlock the power of deep sleep" · <strong>Captions:</strong> "You've unlocked 1 week free"</p>
+    <p>Cả 2 đều dùng ngôn ngữ "mở khóa / tặng thêm" thay vì "bạn sẽ mất / thời gian sắp hết". Generosity-first.</p>
+  </div>
+  <div class="card">
+    <h4>2. Night sky aesthetic — cảm giác "private, premium, dreamy"</h4>
+    <p>Deep purple gradient + white text + purple accent = tạo không khí riêng tư như đêm. Khác hoàn toàn với email bán hàng truyền thống (background trắng, nhiều màu loè loẹt).</p>
+  </div>
+</div>
+
+<!-- TAB 2: PRINCIPLES -->
+<div class="panel" id="principles">
+  <h2>6 nguyên tắc cốt lõi <span class="sub">Rút ra trực tiếp từ 2 email gốc</span></h2>
+
+  <div class="rule-item">
+    <strong>1. Night sky palette — deep purple gradient thay vì white</strong>
+    <p>Background: <code>#100019 → #28065E</code> (Captions) hoặc <code>#370D5A</code> solid (Calm). Text trắng/light gray. Purple accent <code>#B378FF</code> cho headline và link. Không dùng white background nữa — cảm giác "email bán hàng tầm thường".</p>
+  </div>
+
+  <div class="rule-item">
+    <strong>2. &ldquo;Unlock / Tặng&rdquo; framing, không fear-based</strong>
+    <p>Mọi CTA và headline dùng ngôn ngữ "mở khóa, tặng, nhận": "Anh/chị đã mở khóa 7 ngày Pro", "Nhận 7 ngày thêm miễn phí" thay vì "Trial sắp hết", "Đây là những gì sẽ mất". Generosity = trust.</p>
+  </div>
+
+  <div class="rule-item">
+    <strong>3. Visual anchor lớn — illustration/gift/product tile thay vì screenshot khô</strong>
+    <p>Calm dùng hero image + sleep story tiles. Captions dùng gift card image. <strong>KFSP NÊN dùng: "Crystal ball" hoặc "Signal lantern" style</strong> — hình visual đại diện cho giá trị, không phải screenshot UI trần trụi.</p>
+  </div>
+
+  <div class="rule-item">
+    <strong>4. Typography generous — &gt;28px headline, &gt;1.5 line-height</strong>
+    <p>H1 28-36px, body 16-18px, line-height tối thiểu 1.5 (Calm dùng 50px line-height cho 36px H1 = ratio 1.39). Max-width container 600px nhưng nội dung thực tế gói trong 414-475px (margin 2 bên rộng).</p>
+  </div>
+
+  <div class="rule-item">
+    <strong>5. CTA pill-shape với gradient accent</strong>
+    <p>Calm: pill 45px radius, gradient pink-purple border + dark fill. KFSP apply: pill radius 45px, outer gradient <code>#7B3AEC → #F0758A</code> (dùng màu stock red như Calm dùng pink), inner <code>#2E0E52</code>, text trắng 16-18px. Width ~280-300px.</p>
+  </div>
+
+  <div class="rule-item">
+    <strong>6. Mật độ nội dung theo mục đích</strong>
+    <p><strong>Rich (như Calm)</strong> cho email welcome/feature showcase — 3-4 section, mỗi section có icon + image + caption. <strong>Minimal (như Captions)</strong> cho email extend/retention — 1 visual + 1 câu + 1 CTA. KFSP: T0/T1/T2 = rich, T3/T4 = minimal.</p>
+  </div>
+</div>
+
+<!-- TAB 3: TOKENS -->
+<div class="panel" id="tokens">
+  <h2>Design Tokens <span class="sub">Night Sky palette — chính xác từ 2 email gốc</span></h2>
+
+  <h3>Background gradients</h3>
+  <div class="token-grid">
+    <div class="token"><div class="token-swatch" style="background:#100019;"></div><div class="token-name">Night BG base</div><div class="token-hex">#100019</div></div>
+    <div class="token"><div class="token-swatch" style="background:#28065E;"></div><div class="token-name">Night BG deep</div><div class="token-hex">#28065E</div></div>
+    <div class="token"><div class="token-swatch" style="background:#370D5A;"></div><div class="token-name">Calm purple</div><div class="token-hex">#370D5A</div></div>
+    <div class="token"><div class="token-swatch" style="background:linear-gradient(180deg,#100019,#28065E);"></div><div class="token-name">Gradient main</div><div class="token-hex">180deg #100019→#28065E</div></div>
+    <div class="token"><div class="token-swatch" style="background:linear-gradient(135deg,#100019,#5B2ABA);"></div><div class="token-name">Gradient hero</div><div class="token-hex">135deg #100019→#5B2ABA</div></div>
+  </div>
+
+  <h3>Accent colors</h3>
+  <div class="token-grid">
+    <div class="token"><div class="token-swatch" style="background:#B378FF;"></div><div class="token-name">Accent violet (H1)</div><div class="token-hex">#B378FF</div></div>
+    <div class="token"><div class="token-swatch" style="background:#8C20F8;"></div><div class="token-name">CTA purple</div><div class="token-hex">#8C20F8</div></div>
+    <div class="token"><div class="token-swatch" style="background:#7B3AEC;"></div><div class="token-name">KFSP primary</div><div class="token-hex">#7B3AEC</div></div>
+    <div class="token"><div class="token-swatch" style="background:#2E0E52;"></div><div class="token-name">CTA inner dark</div><div class="token-hex">#2E0E52</div></div>
+    <div class="token"><div class="token-swatch" style="background:linear-gradient(135deg,#B275F0,#F0758A);"></div><div class="token-name">CTA pill gradient</div><div class="token-hex">#B275F0→#F0758A</div></div>
+    <div class="token"><div class="token-swatch" style="background:#C8B1F2;"></div><div class="token-name">Dreamy purple</div><div class="token-hex">#C8B1F2</div></div>
+  </div>
+
+  <h3>Text colors</h3>
+  <div class="token-grid">
+    <div class="token"><div class="token-swatch" style="background:#FFFFFF;border:1px solid #E8E8EE;"></div><div class="token-name">White pure</div><div class="token-hex">#FFFFFF</div></div>
+    <div class="token"><div class="token-swatch" style="background:#D2D2D2;"></div><div class="token-name">Light gray (body)</div><div class="token-hex">#D2D2D2</div></div>
+    <div class="token"><div class="token-swatch" style="background:rgba(255,255,255,0.7);"></div><div class="token-name">Dim text</div><div class="token-hex">rgba(255,255,255,0.7)</div></div>
+    <div class="token"><div class="token-swatch" style="background:rgba(255,255,255,0.5);"></div><div class="token-name">Muted text</div><div class="token-hex">rgba(255,255,255,0.5)</div></div>
+  </div>
+
+  <h3>Shared (stock colors)</h3>
+  <div class="token-grid">
+    <div class="token"><div class="token-swatch" style="background:#0DBE55;"></div><div class="token-name">Stock up</div><div class="token-hex">#0DBE55</div></div>
+    <div class="token"><div class="token-swatch" style="background:#FF3B30;"></div><div class="token-name">Stock down</div><div class="token-hex">#FF3B30</div></div>
+    <div class="token"><div class="token-swatch" style="background:#ECC800;"></div><div class="token-name">Stock ref</div><div class="token-hex">#ECC800</div></div>
+  </div>
+
+  <h3>Typography spec (rút từ Calm/Captions)</h3>
+  <table>
+    <tr><th>Element</th><th>Spec</th><th>Nguồn</th></tr>
+    <tr><td>Font family</td><td>Inter, Avenir Next, Helvetica Neue, Arial, sans-serif</td><td>Cả 2</td></tr>
+    <tr><td>Hero H1</td><td>28-36px / weight 500-700 / line-height 1.3-1.4 / center</td><td>Calm: 36/500/50px · Captions: 28/700</td></tr>
+    <tr><td>Section H2</td><td>20-27px / weight 500-600 / center</td><td>Calm offer: 27px</td></tr>
+    <tr><td>Body</td><td>16-18px / weight normal / line-height 1.7 (28-30px)</td><td>Calm: 18/30px · Captions: 16</td></tr>
+    <tr><td>Caption/help</td><td>12-14px / weight normal / line-height 1.6</td><td>Cả 2</td></tr>
+    <tr><td>CTA text</td><td>15-18px / weight 600-700 / letter-spacing 0.3px</td><td>Cả 2</td></tr>
+  </table>
+
+  <h3>Spacing</h3>
+  <ul>
+    <li><strong>Container max:</strong> 600px (email safe), nội dung inner 414-475px</li>
+    <li><strong>Section gap:</strong> 40-80px (generous — Calm dùng 80px giữa feature sections)</li>
+    <li><strong>Padding block:</strong> 30-40px dọc, 28-45px ngang</li>
+    <li><strong>CTA margin top:</strong> 24px from content above</li>
+    <li><strong>Pill CTA padding:</strong> 3px outer border + 14-18px dọc × 36px ngang inner</li>
+  </ul>
+</div>
+
+<!-- TAB 4: COMPONENTS -->
+<div class="panel" id="components">
+  <h2>Components <span class="sub">Mockup thực tế (dark theme) — copy vào email KFSP</span></h2>
+
+  <h3>Mẫu 1 — T1 First Signal (Rich night sky, như Calm)</h3>
+  <div class="sample-email">
+    <div class="sample-header">
+      Từ: KFSP &lt;hello@kfsp.vn&gt;
+      <strong>🔔 Anh/chị vừa mở khóa tín hiệu đầu tiên</strong>
+      <div>BOT đã quét xong danh sách của anh/chị. Signal đang chờ — mở app để xem.</div>
+    </div>
+    <div class="night-hero">
+      <div class="eyebrow">BOT SIGNAL · SÁNG MAI 9:15</div>
+      <div style="font-size:48px;font-weight:800;color:white;letter-spacing:-1px;line-height:1;">VPB</div>
+      <div style="color:#0DBE55;font-size:20px;font-weight:700;margin-top:4px;">+3.2% expected</div>
+      <div style="margin-top:20px;color:rgba(255,255,255,0.75);font-size:12px;letter-spacing:0.5px;">Breakout · Volume 2.3x · RSI divergence</div>
+    </div>
+    <div class="night-body">
+      <div style="font-size:28px;font-weight:700;color:white;line-height:1.3;margin-bottom:14px;letter-spacing:-0.3px;">
+        Anh/chị vừa mở khóa<br>tín hiệu đầu tiên.
+      </div>
+      <div style="font-size:15px;color:rgba(255,255,255,0.8);line-height:1.7;margin-bottom:28px;max-width:360px;margin-left:auto;margin-right:auto;">
+        BOT phát hiện breakout pattern trên VPB. 9h15 sáng mai mở phiên — anh/chị chỉ cần 30 giây đọc tín hiệu.
+      </div>
+      <a href="#" class="pill-cta"><span class="pill-cta-inner">Xem tín hiệu →</span></a>
+      <div style="margin-top:20px;color:rgba(255,255,255,0.5);font-size:12px;">Historical accuracy: 72% (2022-2025)</div>
+    </div>
+  </div>
+
+  <h3>Mẫu 2 — T4 Last Call đổi sang &ldquo;Extend&rdquo; (Minimal, như Captions)</h3>
+  <div class="sample-email">
+    <div class="sample-header">
+      Từ: KFSP &lt;hello@kfsp.vn&gt;
+      <strong>🎁 Anh/chị đã mở khóa thêm 7 ngày Pro</strong>
+      <div>Cần thêm thời gian? Chúng tôi tặng thêm 1 tuần Pro — hoàn toàn free.</div>
+    </div>
+    <div class="night-hero" style="padding:48px 28px 28px;">
+      <div class="eyebrow">KFSP TRIAL EXTENDED</div>
+      <div class="h1" style="font-size:28px;color:var(--accent-violet);">
+        Anh/chị đã mở khóa<br>thêm 7 ngày Pro.
+      </div>
+    </div>
+    <div class="night-body" style="padding:20px 28px 40px;">
+      <p style="color:var(--text-light);font-size:15px;line-height:1.7;max-width:380px;margin:0 auto 20px;">
+        Cần thêm thời gian để quyết định? Không vấn đề. Nhận thêm 1 tuần Pro trên tay — không cần thẻ, không cam kết.
+      </p>
+      <div class="gift-box">
+        <div class="gift-label">GIFT · KFSP PRO</div>
+        <div class="gift-value">+7 NGÀY</div>
+        <div class="gift-sub">Hết hạn sau 48 giờ nếu không nhận</div>
+      </div>
+      <a href="#" class="pill-cta" style="margin-top:8px;"><span class="pill-cta-inner">Nhận 7 ngày thêm →</span></a>
+      <div style="margin-top:20px;color:rgba(255,255,255,0.5);font-size:12px;">Hoặc <a href="#" style="color:var(--accent-light);">nâng cấp Pro 12 tháng -30%</a></div>
+    </div>
+  </div>
+
+  <h3>CTA variants</h3>
+  <table>
+    <tr><th>Loại</th><th>Dùng khi</th><th>Visual</th></tr>
+    <tr><td>Pill gradient (primary)</td><td>CTA chính mọi email</td><td style="background:#100019;padding:14px;border-radius:8px;"><a href="#" class="pill-cta"><span class="pill-cta-inner">Xem tín hiệu →</span></a></td></tr>
+    <tr><td>Flat purple</td><td>Fallback cho email client không render gradient</td><td style="background:#100019;padding:14px;border-radius:8px;"><a href="#" class="flat-cta" style="padding:14px 28px;font-size:15px;">Nâng cấp Pro</a></td></tr>
+    <tr><td>Text link với arrow</td><td>Alt CTA / escape hatch</td><td style="background:#100019;padding:14px;border-radius:8px;"><a href="#" style="color:#C8B1F2;font-size:14px;text-decoration:none;">Xem lại khi có thời gian →</a></td></tr>
+  </table>
+
+  <h3>Gift card component (cho email trial extend)</h3>
+  <div style="background:#100019;padding:32px;border-radius:12px;text-align:center;">
+    <div class="gift-box">
+      <div class="gift-label">GIFT · KFSP PRO</div>
+      <div class="gift-value">+7 NGÀY</div>
+      <div class="gift-sub">Extend trial · Miễn phí</div>
+    </div>
+  </div>
+  <p style="margin-top:10px;font-size:13px;color:var(--doc-text-muted);">Clickable image thay vì button truyền thống — metaphor "gift" rõ hơn.</p>
+
+  <h3>Do / Don't</h3>
+  <div class="comp">
+    <div class="comp-cell comp-bad"><strong>❌ Don't (white bg v1)</strong>Background trắng + text đen = cảm giác "email bán hàng thường"</div>
+    <div class="comp-cell comp-good"><strong>✅ Do (night sky)</strong>Background dark purple gradient + text trắng = cảm giác premium, private</div>
+  </div>
+  <div class="comp">
+    <div class="comp-cell comp-bad"><strong>❌ Don't</strong>"Hôm nay trial kết thúc — đây là những gì sẽ mất"</div>
+    <div class="comp-cell comp-good"><strong>✅ Do</strong>"Anh/chị đã mở khóa 7 ngày thêm — hoàn toàn free"</div>
+  </div>
+  <div class="comp">
+    <div class="comp-cell comp-bad"><strong>❌ Don't</strong>Button vuông vắn flat, text "Click here" hoặc "Upgrade Now"</div>
+    <div class="comp-cell comp-good"><strong>✅ Do</strong>Pill 45px radius, gradient border, text "Nhận 7 ngày thêm →"</div>
+  </div>
+  <div class="comp">
+    <div class="comp-cell comp-bad"><strong>❌ Don't</strong>Hero = UI screenshot khô của app</div>
+    <div class="comp-cell comp-good"><strong>✅ Do</strong>Hero = dark gradient + ticker symbol lớn + signal indicator (như Calm's night sky)</div>
+  </div>
+</div>
+
+<!-- TAB 5: COPY -->
+<div class="panel" id="copy">
+  <h2>Copy Patterns <span class="sub">&ldquo;Unlock&rdquo; framing chung — khác biệt chỉ ở mật độ</span></h2>
+
+  <h3>Headline formulas — &ldquo;Unlock&rdquo; framing</h3>
+  <div class="card">
+    <h4>Pattern: [Ai] đã mở khóa [điều gì] / Mở khóa [giá trị] của [lĩnh vực]</h4>
+    <ul>
+      <li>"Anh/chị đã mở khóa tín hiệu đầu tiên"</li>
+      <li>"Anh/chị đã mở khóa 7 ngày Pro thêm"</li>
+      <li>"Mở khóa sức mạnh của Radar 11 trục"</li>
+      <li>"Đã mở khóa: 3 cơ hội BOT catch sáng nay"</li>
+    </ul>
+  </div>
+
+  <h3>CTA formulas — Action + Timeline/Gift</h3>
+  <table>
+    <tr><th>Pattern</th><th>Ví dụ</th></tr>
+    <tr><td>Xem + [cái gì] → <span style="color:var(--accent-kfsp);">(immediate action)</span></td><td>Xem tín hiệu → · Xem radar 11 trục →</td></tr>
+    <tr><td>Nhận + [gift/extend] → <span style="color:var(--accent-kfsp);">(generosity)</span></td><td>Nhận 7 ngày thêm → · Nhận quà tặng trial →</td></tr>
+    <tr><td>Mở khóa + [value] → <span style="color:var(--accent-kfsp);">(unlock metaphor)</span></td><td>Mở khóa Pro tools → · Mở khóa BOT Signal →</td></tr>
+    <tr><td>Thử + [brand/feature] <span style="color:var(--accent-kfsp);">(low-commit, như Calm)</span></td><td>Thử KFSP Pro Free · Thử Radar 5 giây</td></tr>
+  </table>
+
+  <h3>Subject line — 2 kiểu</h3>
+  <table>
+    <tr><th>Rich (T0/T1/T2)</th><th>Minimal (T3/T4)</th></tr>
+    <tr><td>"🔔 Anh/chị vừa mở khóa tín hiệu đầu tiên"</td><td>"🎁 Anh/chị đã mở khóa thêm 7 ngày Pro"</td></tr>
+    <tr><td>"Sáng mai 9h15 — [VPB] có thể +3.2%"</td><td>"Cần thêm thời gian? Nhận thêm 7 ngày."</td></tr>
+    <tr><td>"Mở khóa sức mạnh Radar 11 trục"</td><td>"Trial gift card đã đến"</td></tr>
+  </table>
+
+  <h3>Preheader (hidden preview)</h3>
+  <ul>
+    <li><strong>Rich:</strong> "BOT đã quét xong danh sách của anh/chị. Signal đang chờ — mở app để xem."</li>
+    <li><strong>Minimal:</strong> "Cần thêm thời gian? Chúng tôi tặng thêm 1 tuần Pro — hoàn toàn free."</li>
+  </ul>
+
+  <div class="card card-hl">
+    <h4>🎯 Nguyên tắc phân phối Rich vs Minimal</h4>
+    <table>
+      <tr><th>Email</th><th>Mật độ</th><th>Lý do</th></tr>
+      <tr><td>T0 Welcome</td><td>Rich (như Calm)</td><td>Cần showcase 3 feature chính (BOT/Heatmap/FA)</td></tr>
+      <tr><td>T1 First Signal</td><td>Rich medium</td><td>1 hero signal + 3 bước đọc</td></tr>
+      <tr><td>T2 Radar 11 trục</td><td>Rich (như Calm)</td><td>Cần deliver AHA với metaphor + showcase</td></tr>
+      <tr><td>T3 Social + Pricing</td><td>Medium</td><td>3 testimonial + 3 pricing card</td></tr>
+      <tr><td>T4 Last Call → Extend</td><td><strong>Minimal (như Captions)</strong></td><td>1 gift card + 1 câu + 1 CTA — không overload</td></tr>
+      <tr><td>Renewal email</td><td>Minimal</td><td>User đang lo hết hạn — tặng gift, không pitch</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- TAB 6: MIGRATION -->
+<div class="panel" id="migration">
+  <h2>Migration plan <span class="sub">5 email Trial đã làm cần REWORK sang night sky</span></h2>
+
+  <div class="card card-hl">
+    <h4>⚠ Tình trạng email KFSP hiện tại</h4>
+    <p>5 email Trial hiện tại (T0-T4) đều dùng <strong>background trắng</strong> + layout table-based light theme. Cảm giác "email bán hàng tầm thường" — <strong>KHÔNG match aesthetic Calm/Captions</strong>.</p>
+    <p>Cần rework toàn bộ sang <strong>night sky palette</strong>. Rework không phải viết lại từ đầu — chỉ swap palette + tăng spacing + chuyển CTA sang pill gradient.</p>
+  </div>
+
+  <table>
+    <tr><th>Email</th><th>Hiện tại</th><th>Action</th><th>Priority</th></tr>
+    <tr>
+      <td><strong>T4 Last Call</strong></td>
+      <td>White bg · "những gì sẽ mất" fear-based · countdown đỏ</td>
+      <td><strong>REWORK FULL</strong> → minimal night sky + gift card "đã mở khóa 7 ngày" + pill CTA</td>
+      <td>🔴 CAO NHẤT</td>
+    </tr>
+    <tr>
+      <td><strong>T1 First Signal</strong></td>
+      <td>White bg + hero signal dark (mismatch)</td>
+      <td><strong>REWORK FULL</strong> → toàn email night sky, hero ticker symbol lớn + eyebrow "SÁNG MAI 9:15"</td>
+      <td>🔴 CAO</td>
+    </tr>
+    <tr>
+      <td><strong>T2 Multi-feature</strong></td>
+      <td>White bg + 200→5 metaphor tốt nhưng dày</td>
+      <td><strong>REWORK + SIMPLIFY</strong> → night sky, giữ metaphor nhưng trình bày như Calm "Sleep Stories/Meditate/Soundscapes" = 3 tile sections</td>
+      <td>🟡 TRUNG</td>
+    </tr>
+    <tr>
+      <td><strong>T3 Social + Pricing</strong></td>
+      <td>White bg + 3 testimonial + pricing cards</td>
+      <td><strong>REWORK palette</strong> → night sky, testimonial và pricing vẫn OK nhưng đổi background + typography</td>
+      <td>🟡 TRUNG</td>
+    </tr>
+    <tr>
+      <td><strong>T0 Welcome</strong></td>
+      <td>Gradient purple hero + white body</td>
+      <td><strong>REWORK palette</strong> → toàn email night sky, giữ 3 bước setup nhưng trình bày như Calm feature tiles</td>
+      <td>🟢 THẤP (nhìn OK-ish)</td>
+    </tr>
+  </table>
+
+  <h3>Recommended rework order</h3>
+  <ol>
+    <li><strong>T4 trước</strong> — đây là conversion moment quan trọng nhất, đổi từ fear → gift (impact cao nhất)</li>
+    <li><strong>T1 First Signal</strong> — moment WOW đầu, cần night sky feel đúng</li>
+    <li><strong>T0 Welcome</strong> — user impression đầu tiên</li>
+    <li><strong>T2 + T3</strong> — có thể rework song song sau khi T0/T1/T4 xong</li>
+  </ol>
+
+  <h3>Rework method — swap palette, không viết lại content</h3>
+  <div class="card">
+    <h4>Bước cơ bản cho mỗi email</h4>
+    <ol>
+      <li>Body background: <code>#F6F6F8</code> → <code>linear-gradient(180deg, #100019 0%, #28065E 100%)</code></li>
+      <li>Container bg: <code>#FFFFFF</code> → xoá (để gradient show through) hoặc <code>#100019</code></li>
+      <li>Text: <code>#1A1A2E</code> → <code>#FFFFFF</code> (headlines), <code>#D2D2D2</code> (body)</li>
+      <li>Accent: giữ <code>#7B3AEC</code> cho link + đổi headline H1 sang <code>#B378FF</code></li>
+      <li>CTA: button flat → pill gradient (code snippet bên dưới)</li>
+      <li>Padding block: tăng 40-80px giữa sections (generous spacing)</li>
+      <li>Hero: đổi từ white-box với gradient sang full dark hero với eyebrow + H1 lớn</li>
+    </ol>
+  </div>
+
+  <h3>Code snippet — Pill CTA (copy-paste)</h3>
+  <div class="source-analysis">
+&lt;!-- Pill CTA Gradient (Calm-style) --&gt;<br>
+&lt;table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center"&gt;<br>
+&nbsp;&nbsp;&lt;tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;td style="border-radius:45px;padding:3px;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background:linear-gradient(135deg,#B275F0 0%,#F0758A 100%);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;box-shadow:0 4px 7px rgba(0,0,0,0.2);"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="#" style="display:block;padding:14px 36px;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background:<strong>#2E0E52</strong>;color:#FFFFFF;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font-size:16px;font-weight:600;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-radius:45px;text-decoration:none;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font-family:Inter,Avenir Next,sans-serif;"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nhận 7 ngày thêm →<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/a&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/td&gt;<br>
+&nbsp;&nbsp;&lt;/tr&gt;<br>
+&lt;/table&gt;
+  </div>
+
+  <div class="card card-hl">
+    <h4>🚀 Đề xuất bước tiếp theo</h4>
+    <p>Thanh approve design system v2 này → tôi rework T4 trước (impact cao nhất), Thanh review rendering → sau đó rework T1 + T0 + T2 + T3 theo thứ tự.</p>
+  </div>
+
+  <div class="footer-note">
+    KFSP Email Design System v2 (Night Sky) · 2026-04-15 · Based on actual source analysis of Calm + Captions.<br>
+    Reference: <a href="Email_Strategy_2026_Q2.html">Email Strategy Q2/2026</a> · <a href="Research/03_Copy_Bank_Stock_App.html">Copy Bank</a>
+  </div>
+</div>
+
+</div>
+
+<script>
+  document.querySelectorAll('.nav-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.panel').forEach(p => p.classList.remove('on'));
+      tab.classList.add('active');
+      document.getElementById(tab.dataset.tab).classList.add('on');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+</script>
+
+</body>
+</html>

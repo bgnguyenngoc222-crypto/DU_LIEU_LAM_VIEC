@@ -1,0 +1,96 @@
+{
+ "duration_s": 4.2,
+ "text": "Theo dõi để xem tiếp cách đọc tín hiệu của thị trường nhé. Chứng khoán trong tầm tay.",
+ "words": [
+  {
+   "word": "Theo",
+   "start": 0.0,
+   "end": 0.12
+  },
+  {
+   "word": "dõi",
+   "start": 0.12,
+   "end": 0.42
+  },
+  {
+   "word": "để",
+   "start": 0.42,
+   "end": 0.52
+  },
+  {
+   "word": "xem",
+   "start": 0.52,
+   "end": 0.76
+  },
+  {
+   "word": "tiếp",
+   "start": 0.76,
+   "end": 0.98
+  },
+  {
+   "word": "cách",
+   "start": 0.98,
+   "end": 1.2
+  },
+  {
+   "word": "đọc",
+   "start": 1.2,
+   "end": 1.48
+  },
+  {
+   "word": "tín",
+   "start": 1.48,
+   "end": 1.62
+  },
+  {
+   "word": "hiệu",
+   "start": 1.62,
+   "end": 1.84
+  },
+  {
+   "word": "của",
+   "start": 1.84,
+   "end": 1.96
+  },
+  {
+   "word": "thị",
+   "start": 1.96,
+   "end": 2.1
+  },
+  {
+   "word": "trường",
+   "start": 2.1,
+   "end": 2.38
+  },
+  {
+   "word": "nhé.",
+   "start": 2.38,
+   "end": 2.68
+  },
+  {
+   "word": "Chứng",
+   "start": 3.3,
+   "end": 3.46
+  },
+  {
+   "word": "khoán",
+   "start": 3.46,
+   "end": 3.76
+  },
+  {
+   "word": "trong",
+   "start": 3.76,
+   "end": 3.86
+  },
+  {
+   "word": "tầm",
+   "start": 3.86,
+   "end": 4.04
+  },
+  {
+   "word": "tay.",
+   "start": 4.04,
+   "end": 4.2
+  }
+ ]
+}

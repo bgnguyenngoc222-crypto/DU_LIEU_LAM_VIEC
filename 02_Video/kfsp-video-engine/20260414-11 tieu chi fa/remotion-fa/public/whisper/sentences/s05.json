@@ -1,0 +1,96 @@
+{
+  "id": "s05",
+  "duration_s": 4.57,
+  "word_timestamps": [
+    {
+      "word": "mà,",
+      "start": 0.05,
+      "end": 0.21
+    },
+    {
+      "word": "đây",
+      "start": 0.65,
+      "end": 0.83
+    },
+    {
+      "word": "không",
+      "start": 0.83,
+      "end": 1.01
+    },
+    {
+      "word": "phải",
+      "start": 1.01,
+      "end": 1.19
+    },
+    {
+      "word": "vấn",
+      "start": 1.19,
+      "end": 1.39
+    },
+    {
+      "word": "đề",
+      "start": 1.39,
+      "end": 1.51
+    },
+    {
+      "word": "của",
+      "start": 1.51,
+      "end": 1.73
+    },
+    {
+      "word": "riêng",
+      "start": 1.73,
+      "end": 1.95
+    },
+    {
+      "word": "bạn",
+      "start": 1.95,
+      "end": 2.11
+    },
+    {
+      "word": "đầu.",
+      "start": 2.11,
+      "end": 2.37
+    },
+    {
+      "word": "Ai",
+      "start": 3.03,
+      "end": 3.23
+    },
+    {
+      "word": "mới",
+      "start": 3.23,
+      "end": 3.37
+    },
+    {
+      "word": "vô",
+      "start": 3.37,
+      "end": 3.57
+    },
+    {
+      "word": "thị",
+      "start": 3.57,
+      "end": 3.73
+    },
+    {
+      "word": "trường",
+      "start": 3.73,
+      "end": 3.97
+    },
+    {
+      "word": "cũng",
+      "start": 3.97,
+      "end": 4.13
+    },
+    {
+      "word": "vậy",
+      "start": 4.13,
+      "end": 4.27
+    },
+    {
+      "word": "hết.",
+      "start": 4.27,
+      "end": 4.49
+    }
+  ]
+}

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="only light" name="color-scheme" />
+    <title>[KFSP] Đừng tự tắt đi chiếc radar của bạn ngay trước thềm cơn sóng mới</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            color-scheme: only light;
+        }
+
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+            background-color: #FAFAFA;
+            font-family: 'Open Sans', Arial, sans-serif;
+            color: #1A1A1A;
+        }
+
+        .email-container {
+            width: 100% !important;
+            max-width: 600px !important;
+        }
+
+        @media screen and (max-width: 600px) {
+            .email-container {
+                border-radius: 0 !important;
+            }
+
+            .fluid-col {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                text-align: center !important;
+            }
+
+            .mobile-padding {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+
+            .mobile-center {
+                text-align: center !important;
+            }
+
+            .mobile-img {
+                width: 100% !important;
+                max-width: 300px !important;
+                height: auto !important;
+                margin: 0 auto 20px auto !important;
+            }
+
+            .hero-title {
+                font-size: 24px !important;
+                line-height: 34px !important;
+            }
+
+            .mobile-btn {
+                display: block !important;
+                width: 100% !important;
+                box-sizing: border-box !important;
+            }
+        }
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0; background-color: #FAFAFA; font-family: 'Open Sans', Arial, sans-serif;">
+
+    <!-- Preheader Spacer Hack -->
+    <div
+        style="display: none; font-size: 1px; color: #FFFFFF; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all;">
+        Thị trường rũ bỏ là lúc siêu cổ phiếu lộ diện. Thay vì tự mình chắp vá thông tin, hãy để KFSP hỗ trợ bạn...
+        &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </div>
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="font-family: 'Open Sans', Arial, sans-serif;">
+        <tr>
+            <td align="center" style="padding: 20px 0; font-family: 'Open Sans', Arial, sans-serif;">
+
+                <!-- MAIN CONTAINER -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="email-container"
+                    style="max-width: 600px; margin: 0 auto; background-color: #FFFFFF; box-shadow: 0 15px 50px rgba(0,0,0,0.1); border-radius: 20px; overflow: hidden; font-family: 'Open Sans', Arial, sans-serif;">
+
+                    <!-- SECTION 1: HERO (BANNER + HEADLINE) -->
+                    <tr>
+                        <td
+                            style="background-color: #FDF9F1; border-bottom: 1px solid #F1F5F9; border-radius: 20px 20px 0 0; font-family: 'Open Sans', Arial, sans-serif;">
+
+                            <!-- HERO BANNER -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                style="font-family: 'Open Sans', Arial, sans-serif;">
+                                <tr>
+                                    <td align="center"
+                                        style="padding: 0; font-family: 'Open Sans', Arial, sans-serif; background-color: #FDF9F1;">
+                                        <img src="https://cdn.jsdelivr.net/gh/kfspteam/email-assets@main/images/banner_sinh_nhat_4_tuoi.png"
+                                            alt="Ưu đãi sinh nhật 4 tuổi KFSP" width="100%"
+                                            style="display: block; border-radius: 20px 20px 0 0;" />
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- HERO HEADLINE -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                style="font-family: 'Open Sans', Arial, sans-serif;">
+                                <tr>
+                                    <td width="100%" valign="middle" align="center"
+                                        style="padding: 30px 20px 20px 20px; background-color: #FDF9F1; font-family: 'Open Sans', Arial, sans-serif;">
+                                        <h1 class="hero-title"
+                                            style="margin: 0 0 25px 0; font-size: 28px; line-height: 38px; font-weight: 900; color: #7B3AEC; text-transform: uppercase; letter-spacing: -1px; font-family: 'Open Sans', Arial, sans-serif; text-shadow: 1px 1px 0px rgba(123,58,236,0.1);">
+                                            NẮM BẮT THỜI CƠ<br>VỮNG VÀNG HÀNH ĐỘNG
+                                        </h1>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+
+                    <!-- LEAD IN TEXT -->
+                    <tr>
+                        <td align="center"
+                            style="padding: 10px 25px 30px 25px; background-color: #FDF9F1; border-radius: 0 0 20px 20px; font-family: 'Open Sans', Arial, sans-serif;"
+                            class="mobile-padding">
+                            <p
+                                style="margin: 0 0 15px 0; font-size: 16px; line-height: 26px; color: #334155; text-align: left; font-family: 'Open Sans', Arial, sans-serif;">
+                                <strong style="color: #1A1A1A;">Trên thị trường chứng khoán, có những cơ hội một khi bạn
+                                    bỏ qua, sẽ rất khó để xuất hiện lại lần thứ hai ở mức giá đó.</strong>
+                            </p>
+                            <p
+                                style="margin: 0 0 15px 0; font-size: 16px; line-height: 26px; color: #334155; text-align: left; font-family: 'Open Sans', Arial, sans-serif;">
+                                Lúc này chính là thời điểm thích hợp nhất để bạn hành động. Giữa muôn vàn những thứ <i
+                                    style="font-family: 'Open Sans', Arial, sans-serif;">"trông có vẻ như là cơ
+                                    hội"</i>, bạn cần trang bị cho mình một hệ thống tìm kiếm cơ hội thật sự để không đi
+                                sai hướng.
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- SECTION 2: 3 BULLETS (STYLE TICKET MỚI) -->
+                    <tr>
+                        <td align="center"
+                            style="padding: 20px 25px 40px 25px; background-color: #FFFFFF; font-family: 'Open Sans', Arial, sans-serif;"
+                            class="mobile-padding">
+
+                            <!-- Tiêu đề Section -->
+                            <div
+                                style="text-align: center; margin-bottom: 25px; font-family: 'Open Sans', Arial, sans-serif;">
+                                <h2
+                                    style="margin: 0 0 8px 0; font-size: 24px; font-weight: 900; color: #1E1B4B; font-family: 'Open Sans', Arial, sans-serif;">
+                                    KFSP đã chuẩn bị sẵn.</h2>
+                                <p
+                                    style="margin: 0; font-size: 15px; color: #64748B; font-family: 'Open Sans', Arial, sans-serif;">
+                                    Để bạn không phải làm điều đó một mình.</p>
+                            </div>
+
+                            <!-- Thẻ 1: Nhận diện tự động -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                style="background-color: #F8FAFC; background: linear-gradient(90deg, #EFF6FF 0%, #F8FAFC 100%); border-radius: 16px; margin-bottom: 16px; font-family: 'Open Sans', Arial, sans-serif; position: relative; overflow: hidden; border: 1px solid #E2E8F0;">
+                                <tr>
+                                    <td align="center" valign="middle"
+                                        style="padding: 20px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        <h3
+                                            style="margin: 0 0 6px 0; font-size: 16px; font-weight: 800; color: #1E1B4B; font-family: 'Open Sans', Arial, sans-serif;">
+                                            Nhận diện tự động</h3>
+                                        <p
+                                            style="margin: 0 0 15px 0; font-size: 14.5px; line-height: 24px; color: #475569; font-family: 'Open Sans', Arial, sans-serif;">
+                                            Bắt trúng các mẫu hình kinh điển như Hai Đáy hay Vai Đầu Vai Ngược ngay khi
+                                            chúng vừa hình thành.
+                                        </p>
+                                        <div style="text-align: center; margin-bottom: 5px;">
+                                            <img src="https://cdn.jsdelivr.net/gh/kfspteam/email-assets@main/images/bsr_hai_day_v3.png"
+                                                alt="Mẫu hình Hai đáy BSR - KFSP" width="100%"
+                                                style="display: block; max-width: 480px; margin: 0 auto;" />
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- Thẻ 2: AI Mua/Bán -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                style="background-color: #F8FAFC; background: linear-gradient(90deg, #FFF1F2 0%, #F8FAFC 100%); border-radius: 16px; margin-bottom: 16px; font-family: 'Open Sans', Arial, sans-serif; position: relative; overflow: hidden; border: 1px solid #E2E8F0;">
+                                <tr>
+                                    <td align="center" valign="middle"
+                                        style="padding: 20px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        <h3
+                                            style="margin: 0 0 6px 0; font-size: 16px; font-weight: 800; color: #1E1B4B; font-family: 'Open Sans', Arial, sans-serif;">
+                                            AI Mua/Bán</h3>
+                                        <p
+                                            style="margin: 0 0 15px 0; font-size: 14.5px; line-height: 24px; color: #475569; font-family: 'Open Sans', Arial, sans-serif;">
+                                            Tự động quét toàn bộ thị trường để phát hiện dòng tiền đi ngược bão và những
+                                            điểm mua an toàn.
+                                        </p>
+                                        <div style="text-align: center; margin-bottom: 5px;">
+                                            <img src="https://cdn.jsdelivr.net/gh/kfspteam/email-assets@main/images/hhp_ai_mua.png"
+                                                alt="Tín hiệu AI Mua Bán HHP - KFSP" width="100%"
+                                                style="display: block; max-width: 480px; margin: 0 auto;" />
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- Thẻ 3: Kịch bản sẵn sàng -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                style="background-color: #F8FAFC; background: linear-gradient(90deg, #ECFDF5 0%, #F8FAFC 100%); border-radius: 16px; margin-bottom: 25px; font-family: 'Open Sans', Arial, sans-serif; position: relative; overflow: hidden; border: 1px solid #E2E8F0;">
+                                <tr>
+                                    <td align="center" valign="middle"
+                                        style="padding: 20px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        <h3
+                                            style="margin: 0 0 6px 0; font-size: 16px; font-weight: 800; color: #1E1B4B; font-family: 'Open Sans', Arial, sans-serif;">
+                                            Kịch bản sẵn sàng</h3>
+                                        <p
+                                            style="margin: 0 0 15px 0; font-size: 14.5px; line-height: 24px; color: #475569; font-family: 'Open Sans', Arial, sans-serif;">
+                                            Mọi cơ hội đều được thiết lập sẵn điểm mua, ngưỡng cắt lỗ và mục tiêu chốt
+                                            lời. Kế hoạch đã nằm gọn trong tay, chỉ chờ bạn đưa ra mệnh lệnh thực thi.
+                                        </p>
+                                        <div style="text-align: center; margin-bottom: 5px;">
+                                            <img src="https://cdn.jsdelivr.net/gh/kfspteam/email-assets@main/images/vnm_kich_ban_v2.png"
+                                                alt="Kịch bản sẵn sàng VNM - KFSP" width="100%"
+                                                style="display: block; max-width: 480px; margin: 0 auto;" />
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <div
+                                style="text-align: center; padding: 0 10px; font-family: 'Open Sans', Arial, sans-serif;">
+                                <p
+                                    style="margin: 0; font-size: 15px; line-height: 24px; font-weight: 700; color: #1A1A1A; font-family: 'Open Sans', Arial, sans-serif;">
+                                    Thị trường rũ bỏ là lúc siêu cổ phiếu lộ diện. Thay vì tự mình chắp vá thông
+                                    tin,<br><span
+                                        style="color: #EF4444; font-family: 'Open Sans', Arial, sans-serif;">hãy để KFSP
+                                        hỗ trợ bạn ngay thời điểm này để tìm ra Cơ hội.</span>
+                                </p>
+                            </div>
+
+                        </td>
+                    </tr>
+
+                    <!-- SECTION 3: ƯU ĐÃI SINH NHẬT - STACKED CARDS -->
+                    <tr>
+                        <td style="background: #F8FAFC url('https://cdn.jsdelivr.net/gh/kfspteam/email-assets@main/images/confetti-bg.png') top center no-repeat; background-size: 100% auto; padding: 50px 20px; border-top: 1px solid #E2E8F0; border-bottom: 1px solid #E2E8F0; font-family: 'Open Sans', Arial, sans-serif;"
+                            class="mobile-padding">
+
+                            <!-- Tiêu đề phụ mang không khí sinh nhật -->
+                            <div
+                                style="text-align: center; margin-bottom: 40px; position: relative; font-family: 'Open Sans', Arial, sans-serif;">
+                                <div
+                                    style="position: relative; z-index: 1; font-family: 'Open Sans', Arial, sans-serif;">
+                                    <div
+                                        style="display: inline-block; background-color: #FEF2F2; color: #EF4444; font-size: 13px; font-weight: 800; padding: 6px 16px; border-radius: 20px; text-transform: uppercase; margin-bottom: 12px; letter-spacing: 0.5px; border: 1px dashed #FCA5A5; box-shadow: 0 2px 5px rgba(239,68,68,0.1); font-family: 'Open Sans', Arial, sans-serif;">
+                                        MỪNG SINH NHẬT 4 TUỔI
+                                    </div>
+                                    <h2
+                                        style="margin: 0 0 10px 0; font-size: 24px; font-weight: 900; color: #7B3AEC; text-transform: uppercase; letter-spacing: -1px; text-shadow: 2px 2px 0px rgba(123,58,236,0.15); font-family: 'Open Sans', Arial, sans-serif;">
+                                        ƯU ĐÃI TRONG THÁNG SINH NHẬT
+                                    </h2>
+                                    <p
+                                        style="margin: 0 auto; font-size: 14.5px; line-height: 24px; color: #475569; max-width: 520px; text-align: center; font-family: 'Open Sans', Arial, sans-serif;">
+                                        Nhân dịp sinh nhật 4 tuổi, KFSP mang đến đặc quyền lớn nhất trong năm. Đây là
+                                        thời điểm tốt nhất để bạn gia hạn radar tầm soát cơ hội với mức chi phí tối ưu
+                                        nhất:
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- KHỐI 3 THẺ GIÁ XẾP DỌC (CENTERED) -->
+                            <div
+                                style="width: 100%; max-width: 480px; margin: 0 auto; position: relative; z-index: 1; font-family: 'Open Sans', Arial, sans-serif;">
+
+                                <!-- CARD 1: 2 NĂM (YELLOW THEME) -->
+                                <div
+                                    style="background-color: #FFFBEB; border-radius: 20px; padding: 35px 25px; margin-bottom: 25px; text-align: center; border: 1px solid #FEF08A; box-shadow: 0 10px 25px rgba(217,119,6,0.1); font-family: 'Open Sans', Arial, sans-serif;">
+                                    <!-- Badge -->
+                                    <div
+                                        style="display: inline-block; background-color: #FACC15; color: #854D0E; font-size: 11px; font-weight: 900; padding: 6px 16px; border-radius: 20px; text-transform: uppercase; margin-bottom: 20px; font-family: 'Open Sans', Arial, sans-serif; letter-spacing: 0.5px;">
+                                        TIẾT KIỆM TỐI ĐA
+                                    </div>
+
+                                    <!-- Title -->
+                                    <h3
+                                        style="font-size: 26px; font-weight: 900; color: #1E1B4B; margin: 0 0 15px 0; font-family: 'Open Sans', Arial, sans-serif;">
+                                        VÀNG 2 NĂM</h3>
+
+                                    <!-- Gift -->
+                                    <div
+                                        style="font-size: 15px; font-weight: 800; color: #D97706; margin-bottom: 20px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        Sử dụng 24 tháng + Tặng 4 tháng
+                                    </div>
+
+                                    <!-- Full Price -->
+                                    <div
+                                        style="font-size: 15px; font-weight: 700; color: #94A3B8; text-decoration: line-through; margin-bottom: 5px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        11.880.000 đ
+                                    </div>
+
+                                    <!-- Daily Price -->
+                                    <div
+                                        style="font-size: 32px; font-weight: 900; color: #D97706; margin-bottom: 20px; letter-spacing: -1px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        ≈ 14.000 đ/ngày
+                                    </div>
+
+                                    <!-- Divider -->
+                                    <div
+                                        style="height: 1px; background-color: #FDE047; width: 60%; margin: 0 auto 20px auto;">
+                                    </div>
+
+                                    <!-- Feature -->
+                                    <div
+                                        style="font-size: 14px; line-height: 24px; color: #334155; margin-bottom: 30px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        Đủ dài để ôm trọn vẹn một siêu chu kỳ Uptrend.
+                                    </div>
+
+                                    <!-- Button -->
+                                    <a href="https://link.kfsp.vn/webhook/email-register?plan=gold_2y&email={{ $json.email }}&u={{ $json.user_id }}&source=email_expiring_promo&c=2026_birthday&content=cta_gold_2y"
+                                        target="_blank"
+                                        style="display: inline-block; background-color: #EAB308; color: #1A1A1A; font-size: 15px; font-weight: 900; padding: 16px 36px; border-radius: 30px; text-decoration: none; text-transform: uppercase; box-shadow: 0 4px 10px rgba(217,119,6,0.2); font-family: 'Open Sans', Arial, sans-serif;">
+                                        GIA HẠN GÓI 2 NĂM &rarr;
+                                    </a>
+                                </div>
+
+                                <!-- CARD 2: 1 NĂM (PURPLE THEME) -->
+                                <div
+                                    style="background-color: #F5F3FF; border-radius: 20px; padding: 35px 25px; margin-bottom: 25px; text-align: center; border: 1px solid #E9D5FF; box-shadow: 0 10px 25px rgba(126,34,206,0.1); font-family: 'Open Sans', Arial, sans-serif;">
+                                    <!-- Badge -->
+                                    <div
+                                        style="display: inline-block; background-color: #C084FC; color: #FFFFFF; font-size: 11px; font-weight: 900; padding: 6px 16px; border-radius: 20px; text-transform: uppercase; margin-bottom: 20px; font-family: 'Open Sans', Arial, sans-serif; letter-spacing: 0.5px;">
+                                        CÂN BẰNG NHẤT
+                                    </div>
+
+                                    <!-- Title -->
+                                    <h3
+                                        style="font-size: 26px; font-weight: 900; color: #1E1B4B; margin: 0 0 15px 0; font-family: 'Open Sans', Arial, sans-serif;">
+                                        VÀNG 1 NĂM</h3>
+
+                                    <!-- Gift -->
+                                    <div
+                                        style="font-size: 15px; font-weight: 800; color: #7E22CE; margin-bottom: 20px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        Sử dụng 12 tháng + Tặng 2 tháng
+                                    </div>
+
+                                    <!-- Full Price -->
+                                    <div
+                                        style="font-size: 15px; font-weight: 700; color: #94A3B8; text-decoration: line-through; margin-bottom: 5px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        7.680.000 đ
+                                    </div>
+
+                                    <!-- Daily Price -->
+                                    <div
+                                        style="font-size: 32px; font-weight: 900; color: #7E22CE; margin-bottom: 20px; letter-spacing: -1px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        ≈ 18.000 đ/ngày
+                                    </div>
+
+                                    <!-- Divider -->
+                                    <div
+                                        style="height: 1px; background-color: #D8B4FE; width: 60%; margin: 0 auto 20px auto;">
+                                    </div>
+
+                                    <!-- Feature -->
+                                    <div
+                                        style="font-size: 14px; line-height: 24px; color: #334155; margin-bottom: 30px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        Đi qua đủ 4 mùa báo cáo tài chính, một chu kỳ kinh doanh trọn vẹn.
+                                    </div>
+
+                                    <!-- Button -->
+                                    <a href="https://link.kfsp.vn/webhook/email-register?plan=gold_1y&email={{ $json.email }}&u={{ $json.user_id }}&source=email_expiring_promo&c=2026_birthday&content=cta_gold_1y"
+                                        target="_blank"
+                                        style="display: inline-block; background-color: #A855F7; color: #FFFFFF; font-size: 15px; font-weight: 900; padding: 16px 36px; border-radius: 30px; text-decoration: none; text-transform: uppercase; box-shadow: 0 4px 10px rgba(126,34,206,0.2); font-family: 'Open Sans', Arial, sans-serif;">
+                                        GIA HẠN GÓI 1 NĂM &rarr;
+                                    </a>
+                                </div>
+
+                                <!-- CARD 3: 3 THÁNG (GREEN THEME) -->
+                                <div
+                                    style="background-color: #F0FDF4; border-radius: 20px; padding: 35px 25px; margin-bottom: 10px; text-align: center; border: 1px solid #D1FAE5; box-shadow: 0 10px 25px rgba(5,150,105,0.05); font-family: 'Open Sans', Arial, sans-serif;">
+                                    <!-- Badge -->
+                                    <div
+                                        style="display: inline-block; background-color: #10B981; color: #FFFFFF; font-size: 11px; font-weight: 900; padding: 6px 16px; border-radius: 20px; text-transform: uppercase; margin-bottom: 20px; font-family: 'Open Sans', Arial, sans-serif; letter-spacing: 0.5px;">
+                                        LINH HOẠT NHẤT
+                                    </div>
+
+                                    <!-- Title -->
+                                    <h3
+                                        style="font-size: 26px; font-weight: 900; color: #1E1B4B; margin: 0 0 15px 0; font-family: 'Open Sans', Arial, sans-serif;">
+                                        BẠC 3 THÁNG</h3>
+
+                                    <!-- Gift -->
+                                    <div
+                                        style="font-size: 15px; font-weight: 800; color: #059669; margin-bottom: 20px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        Sử dụng 3 tháng + Tặng 2 tuần
+                                    </div>
+
+                                    <!-- Full Price -->
+                                    <div
+                                        style="font-size: 15px; font-weight: 700; color: #94A3B8; text-decoration: line-through; margin-bottom: 5px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        2.168.000 đ
+                                    </div>
+
+                                    <!-- Daily Price -->
+                                    <div
+                                        style="font-size: 32px; font-weight: 900; color: #059669; margin-bottom: 20px; letter-spacing: -1px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        ≈ 21.000 đ/ngày
+                                    </div>
+
+                                    <!-- Divider -->
+                                    <div
+                                        style="height: 1px; background-color: #A7F3D0; width: 60%; margin: 0 auto 20px auto;">
+                                    </div>
+
+                                    <!-- Feature -->
+                                    <div
+                                        style="font-size: 14px; line-height: 24px; color: #334155; margin-bottom: 30px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        Vừa đủ để trải nghiệm sức mạnh hệ thống trong 1 nhịp sóng ngắn.
+                                    </div>
+
+                                    <!-- Button -->
+                                    <a href="https://link.kfsp.vn/webhook/email-register?plan=silver_3m&email={{ $json.email }}&u={{ $json.user_id }}&source=email_expiring_promo&c=2026_birthday&content=cta_silver_3m"
+                                        target="_blank"
+                                        style="display: inline-block; background-color: #10B981; color: #FFFFFF; font-size: 15px; font-weight: 900; padding: 16px 36px; border-radius: 30px; text-decoration: none; text-transform: uppercase; box-shadow: 0 4px 10px rgba(5,150,105,0.2); font-family: 'Open Sans', Arial, sans-serif;">
+                                        GIA HẠN GÓI 3 THÁNG &rarr;
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <!-- Deadline Banner -->
+                            <div
+                                style="text-align: center; margin-top: 25px; font-family: 'Open Sans', Arial, sans-serif;">
+                                <span
+                                    style="display: inline-block; background-color: #FEF2F2; color: #EF4444; font-size: 13px; font-weight: 700; padding: 8px 18px; border-radius: 8px; border: 1px dashed #FCA5A5; font-family: 'Open Sans', Arial, sans-serif;">
+                                    Chương trình áp dụng đến hết ngày 30/09/2026.
+                                </span>
+                            </div>
+
+                        </td>
+                    </tr>
+
+                    <!-- SECTION 4: CHỐT HẠ & CTA (WHITE BG) -->
+                    <tr>
+                        <td align="center"
+                            style="padding: 50px 25px 30px 25px; background-color: #FFFFFF; font-family: 'Open Sans', Arial, sans-serif;"
+                            class="mobile-padding">
+                            <p
+                                style="margin: 0 0 30px 0; font-size: 15px; line-height: 26px; color: #1A1A1A; font-weight: 600; text-align: center; font-family: 'Open Sans', Arial, sans-serif;">
+                                Bạn cần tư vấn thêm các gói khác? Liên hệ ngay với KFSP để được hỗ trợ:
+                            </p>
+
+                            <!-- CTA Button -->
+                            <table border="0" cellpadding="0" cellspacing="0"
+                                style="margin: 0 auto; font-family: 'Open Sans', Arial, sans-serif;">
+                                <tr>
+                                    <td align="center"
+                                        style="border-radius: 30px; font-family: 'Open Sans', Arial, sans-serif;">
+                                        <a href="https://link.kfsp.vn/webhook/email-click?u={{ $json.user_id }}&e={{ $json.email }}&c=2026_birthday&src=email_birthday_expiring_tu_van_fanpage&r=https%3A%2F%2Fwww.facebook.com%2Fkfsp.official%2F"
+                                            target="_blank" class="mobile-btn"
+                                            style="display: inline-block; background-color: #0082FB; color: #FFFFFF; font-size: 15px; font-weight: 900; padding: 16px 36px; border-radius: 30px; text-decoration: none; text-transform: uppercase; box-shadow: 0 4px 10px rgba(0,130,251,0.2); font-family: 'Open Sans', Arial, sans-serif;">
+                                            KFSP HỖ TRỢ TƯ VẤN &rarr;
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- SECTION 6: BRAND FOOTER TEXT -->
+                    <tr>
+                        <td align="center"
+                            style="padding: 30px 20px; background-color: #F8FAFC; font-family: 'Open Sans', Arial, sans-serif;">
+                            <p
+                                style="margin: 0 0 15px 0; font-size: 14px; line-height: 24px; color: #334155; font-weight: 700; font-family: 'Open Sans', Arial, sans-serif;">
+                                Bão giông sẽ qua, nhưng cơ hội thì không chờ đợi người chưa sẵn sàng. KFSP đã chuẩn bị
+                                sẵn chiếc radar tốt nhất, phần còn lại phụ thuộc vào sự quyết đoán của bạn.
+                            </p>
+                            <p
+                                style="margin: 0 0 15px 0; font-size: 13px; line-height: 22px; color: #64748B; font-style: italic; font-family: 'Open Sans', Arial, sans-serif;">
+                                Chủ động trong hành vi.<br>
+                                Vững vàng trong tâm trí.<br>
+                                Bền bỉ trong ý chí.
+                            </p>
+                            <p
+                                style="margin: 0; font-size: 14px; font-weight: 800; color: #7B3AEC; text-transform: uppercase; font-family: 'Open Sans', Arial, sans-serif;">
+                                Đưa chứng khoán về tầm tay bạn.
+                            </p>
+                            
+                            <hr style="border: 0; border-top: 1px solid #E2E8F0; margin: 25px auto 20px auto; width: 100%;">
+                            
+                            <p style="margin: 0 0 15px 0; font-size: 11px; line-height: 18px; color: #94A3B8; text-align: left; font-style: italic; font-family: 'Open Sans', Arial, sans-serif;">
+                                Cảnh báo rủi ro: Mọi dữ liệu phân tích chỉ mang tính chất khách quan, độc lập, không phải khuyến nghị mua bán hay phím hàng. Giao dịch chứng khoán luôn tiềm ẩn rủi ro mất vốn.
+                            </p>
+                            
+                            <div style="font-family: 'Open Sans', Arial, sans-serif; font-size: 11.5px; line-height: 20px; color: #64748B; text-align: left;">
+                                <p style="margin: 0 0 8px 0;">
+                                    <strong style="color: #4C1D95; font-weight: 800;">KFSP &bull; Kungfu Stock Pro</strong> &middot; Ứng dụng hỗ trợ phân tích chứng khoán Việt Nam
+                                </p>
+                                <p style="margin: 0 0 12px 0;">
+                                    Email gửi tới vì bạn đang dùng tài khoản KFSP.
+                                </p>
+                                <p style="margin: 0;">
+                                    <a href="https://link.kfsp.vn/webhook/email-unsubscribe?u={{ $json.user_id }}&e={{ $json.email }}&c=2026_birthday" style="color: #64748B; text-decoration: underline;">Huỷ đăng ký</a>
+                                    &nbsp;&middot;&nbsp;
+                                    <a href="https://kfsp.vn/chinh-sach-bao-mat/" style="color: #64748B; text-decoration: underline;">Chính sách bảo mật</a>
+                                    &nbsp;&middot;&nbsp;
+                                    <a href="https://kfsp.vn/lien-he/" style="color: #64748B; text-decoration: underline;">Liên hệ CGS</a>
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Tracking Open Pixel -->
+    <img src="https://link.kfsp.vn/webhook/email-open?u={{ $json.user_id }}&e={{ $json.email }}&c=2026_birthday&src=email_expiring_promo"
+        width="1" height="1" alt="" style="display:block;width:1px;height:1px;border:0;opacity:0;">
+
+</body>
+
+</html>

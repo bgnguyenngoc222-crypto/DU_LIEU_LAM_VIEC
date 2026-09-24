@@ -1,0 +1,145 @@
+{
+ "duration_s": 7.272,
+ "words": [
+  {
+   "word": "Cái",
+   "start": 0.68,
+   "end": 0.8
+  },
+  {
+   "word": "hay",
+   "start": 0.8,
+   "end": 0.94
+  },
+  {
+   "word": "là",
+   "start": 0.94,
+   "end": 1.1
+  },
+  {
+   "word": "ông",
+   "start": 1.1,
+   "end": 1.2
+  },
+  {
+   "word": "bà",
+   "start": 1.2,
+   "end": 1.4
+  },
+  {
+   "word": "không",
+   "start": 1.4,
+   "end": 1.56
+  },
+  {
+   "word": "hề",
+   "start": 1.56,
+   "end": 1.74
+  },
+  {
+   "word": "đoán",
+   "start": 1.74,
+   "end": 1.9
+  },
+  {
+   "word": "mỏ,",
+   "start": 1.9,
+   "end": 2.12
+  },
+  {
+   "word": "mỗi",
+   "start": 2.6,
+   "end": 2.72
+  },
+  {
+   "word": "dấu",
+   "start": 2.72,
+   "end": 2.88
+  },
+  {
+   "word": "hiệu",
+   "start": 2.88,
+   "end": 3.08
+  },
+  {
+   "word": "trên",
+   "start": 3.08,
+   "end": 3.26
+  },
+  {
+   "word": "trời",
+   "start": 3.26,
+   "end": 3.5
+  },
+  {
+   "word": "ứng",
+   "start": 3.5,
+   "end": 3.7
+  },
+  {
+   "word": "với",
+   "start": 3.7,
+   "end": 3.92
+  },
+  {
+   "word": "một",
+   "start": 3.92,
+   "end": 4.04
+  },
+  {
+   "word": "điều",
+   "start": 4.04,
+   "end": 4.22
+  },
+  {
+   "word": "sắp",
+   "start": 4.22,
+   "end": 4.48
+  },
+  {
+   "word": "xảy",
+   "start": 4.48,
+   "end": 4.7
+  },
+  {
+   "word": "ra,",
+   "start": 4.7,
+   "end": 4.86
+  },
+  {
+   "word": "đọc",
+   "start": 5.34,
+   "end": 5.48
+  },
+  {
+   "word": "đúng",
+   "start": 5.48,
+   "end": 5.64
+  },
+  {
+   "word": "điểm",
+   "start": 5.64,
+   "end": 5.9
+  },
+  {
+   "word": "là",
+   "start": 5.9,
+   "end": 6.06
+  },
+  {
+   "word": "chuẩn",
+   "start": 6.06,
+   "end": 6.2
+  },
+  {
+   "word": "bị",
+   "start": 6.2,
+   "end": 6.36
+  },
+  {
+   "word": "kịp.",
+   "start": 6.36,
+   "end": 6.64
+  }
+ ]
+}

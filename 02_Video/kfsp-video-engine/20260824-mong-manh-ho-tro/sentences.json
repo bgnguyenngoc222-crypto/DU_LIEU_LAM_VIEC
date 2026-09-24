@@ -1,0 +1,128 @@
+{
+  "videoId": "20260824-mong-manh-ho-tro",
+  "framework": "GIAT-GAN (Hook-Mistake-Rescue-Proof-Lesson-CTA)",
+  "voice": "user_voice",
+  "default_speed": 1.0,
+  "sentences": [
+    {
+      "id": "s01",
+      "phase": "HOOK",
+      "display": "Vì sao bạn đã kẻ đúng mọi đường hỗ trợ trên biểu đồ mà tài khoản vẫn liên tục bị bào mòn?",
+      "tts": "Vì sao bạn đã kẻ đúng mọi đường hỗ trợ trên biểu đồ mà tài khoản vẫn liên tục bị bào mòn?",
+      "main_idea": "Hỗ trợ vô tác dụng",
+      "duration_s": 5.0
+    },
+    {
+      "id": "s02",
+      "phase": "MISTAKE",
+      "display": "Khi phần lớn cổ phiếu trên thị trường đều rơi xuống dưới đường trung bình động MA200, các mốc hỗ trợ kỹ thuật mà bạn tin tưởng bỗng trở nên vô cùng yếu ớt.",
+      "tts": "Khi phần lớn cổ phiếu trên thị trường đều rơi xuống dưới đường trung bình động MA200, các mốc hỗ trợ kỹ thuật mà bạn tin tưởng bỗng trở nên vô cùng yếu ớt.",
+      "main_idea": "Thị trường dưới MA200",
+      "duration_s": 7.0
+    },
+    {
+      "id": "s03",
+      "phase": "MISTAKE",
+      "display": "Bạn liên tục hy vọng vào những nhịp nảy ngắn hạn để bắt đáy, nhưng càng giao dịch thì nguồn vốn tích lũy bấy lâu càng vơi dần.",
+      "tts": "Bạn liên tục hy vọng vào những nhịp nảy ngắn hạn để bắt đáy, nhưng càng giao dịch thì nguồn vốn tích lũy bấy lâu càng vơi dần.",
+      "main_idea": "Bắt đáy vơi vốn",
+      "duration_s": 6.0
+    },
+    {
+      "id": "s04",
+      "phase": "MISTAKE",
+      "display": "Cố gắng dùng phân tích kỹ thuật để chặn đà rơi khi dòng tiền lớn đã rút lui cũng giống như việc lấy tay không đỡ một khối đá đang lăn xuống từ sườn dốc.",
+      "tts": "Cố gắng dùng phân tích kỹ thuật để chặn đà rơi khi dòng tiền lớn đã rút lui cũng giống như việc lấy tay không đỡ một khối đá đang lăn xuống từ sườn dốc.",
+      "main_idea": "Đỡ khối đá lăn",
+      "duration_s": 7.0
+    },
+    {
+      "id": "s05",
+      "phase": "MISTAKE",
+      "display": "Nó chỉ khiến bạn mất thêm tiền và kiệt quệ tâm lý. Sự kiệt quệ đó chỉ dừng lại khi bạn nhận ra rằng, trong dài hạn, giá cổ phiếu luôn được neo giữ bởi sức khỏe kinh doanh thực tế.",
+      "tts": "Nó chỉ khiến bạn mất thêm tiền và kiệt quệ tâm lý. Sự kiệt quệ đó chỉ dừng lại khi bạn nhận ra rằng, trong dài hạn, giá cổ phiếu luôn được neo giữ bởi sức khỏe kinh doanh thực tế.",
+      "main_idea": "Giá neo theo kinh doanh",
+      "duration_s": 8.0
+    },
+    {
+      "id": "s06",
+      "phase": "PROBLEM",
+      "display": "Nhưng vấn đề là để tự kiểm tra nội tại của một doanh nghiệp, bạn sẽ tốn hàng giờ đồng hồ lặn ngụp trong các bản báo cáo tài chính dài lê thê.",
+      "tts": "Nhưng vấn đề là để tự kiểm tra nội tại của một doanh nghiệp, bạn sẽ tốn hàng giờ đồng hồ lặn ngụp trong các bản báo cáo tài chính dài lê thê.",
+      "main_idea": "Đọc BCTC tốn thời gian",
+      "duration_s": 6.0
+    },
+    {
+      "id": "s07",
+      "phase": "PROBLEM",
+      "display": "Nếu không có chuyên môn sâu về kế toán, bạn rất dễ lạc lối trong ma trận số liệu rồi tự đẩy mình vào tình trạng quá tải mà vẫn không thể đưa ra quyết định mua bán chính xác.",
+      "tts": "Nếu không có chuyên môn sâu về kế toán, bạn rất dễ lạc lối trong ma trận số liệu rồi tự đẩy mình vào tình trạng quá tải mà vẫn không thể đưa ra quyết định mua bán chính xác.",
+      "main_idea": "Quá tải số liệu",
+      "duration_s": 8.0
+    },
+    {
+      "id": "s08",
+      "phase": "SOLUTION",
+      "display": "Và đó là lý do tính năng Chấm điểm 4M và CANSLIM trên KFSP ra đời để gánh thay phần nặng nhọc nhất trong việc đánh giá doanh nghiệp, giúp bạn tiết kiệm thời gian và sức lực.",
+      "tts": "Và đó là lý do tính năng Chấm điểm 4M và CANSLIM trên KFSP ra đời để gánh thay phần nặng nhọc nhất trong việc đánh giá doanh nghiệp, giúp bạn tiết kiệm thời gian và sức lực.",
+      "main_idea": "Giải pháp KFSP",
+      "duration_s": 7.0
+    },
+    {
+      "id": "s09",
+      "phase": "SOLUTION",
+      "display": "Thay vì tự thu thập và tính toán hàng chục chỉ số phức tạp, KFSP tự động quy đổi toàn bộ dữ liệu tài chính lộn xộn thành một con số Điểm tổng trực quan.",
+      "tts": "Thay vì tự thu thập và tính toán hàng chục chỉ số phức tạp, KFSP tự động quy đổi toàn bộ dữ liệu tài chính lộn xộn thành một con số Điểm tổng trực quan.",
+      "main_idea": "Điểm tổng trực quan",
+      "duration_s": 6.0
+    },
+    {
+      "id": "s10",
+      "phase": "SOLUTION",
+      "display": "Chỉ cần 5 giây, bạn nhìn vào là biết ngay doanh nghiệp đang khỏe lên, yếu đi hay duy trì phong độ ổn định xuyên suốt 8 quý liên tiếp, biến khối đá dữ liệu từng đè nặng bạn thành một tấm khiên bảo vệ túi tiền của bạn vững chắc.",
+      "tts": "Chỉ cần 5 giây, bạn nhìn vào là biết ngay doanh nghiệp đang khỏe lên, yếu đi hay duy trì phong độ ổn định xuyên suốt 8 quý liên tiếp, biến khối đá dữ liệu từng đè nặng bạn thành một tấm khiên bảo vệ túi tiền của bạn vững chắc.",
+      "main_idea": "Biết ngay phong độ 8 quý",
+      "duration_s": 10.0
+    },
+    {
+      "id": "s11",
+      "phase": "CTA",
+      "display": "Và để bảo vệ danh mục trong giai đoạn này, bạn cần áp dụng quy trình 3 bước thực chiến này trên KFSP:",
+      "tts": "Và để bảo vệ danh mục trong giai đoạn này, bạn cần áp dụng quy trình 3 bước thực chiến này trên KFSP:",
+      "main_idea": "3 bước thực chiến",
+      "duration_s": 4.0
+    },
+    {
+      "id": "s12",
+      "phase": "CTA",
+      "display": "1. Mở tính năng chấm điểm 4M và CANSLIM trên KFSP để quy đổi hàng tá dữ liệu tài chính phức tạp thành các con số điểm tổng trực quan.",
+      "tts": "1. Mở tính năng chấm điểm 4M và CANSLIM trên KFSP để quy đổi hàng tá dữ liệu tài chính phức tạp thành các con số điểm tổng trực quan.",
+      "main_idea": "Bước 1: Mở chấm điểm",
+      "duration_s": 6.0
+    },
+    {
+      "id": "s13",
+      "phase": "CTA",
+      "display": "2. Sử dụng bộ lọc tích hợp để sàng lọc ra những cái tên có nền tảng vững chắc nhất, từ đó xây dựng danh sách theo dõi dựa trên dữ liệu thực tế thay vì cảm tính dò đáy.",
+      "tts": "2. Sử dụng bộ lọc tích hợp để sàng lọc ra những cái tên có nền tảng vững chắc nhất, từ đó xây dựng danh sách theo dõi dựa trên dữ liệu thực tế thay vì cảm tính dò đáy.",
+      "main_idea": "Bước 2: Lọc doanh nghiệp",
+      "duration_s": 7.0
+    },
+    {
+      "id": "s14",
+      "phase": "CTA",
+      "display": "3. Đối chiếu điểm số qua các quý để xác nhận doanh nghiệp đang duy trì phong độ hay đang suy yếu, trước khi quyết định giải ngân bất kỳ đồng vốn nào.",
+      "tts": "3. Đối chiếu điểm số qua các quý để xác nhận doanh nghiệp đang duy trì phong độ hay đang suy yếu, trước khi quyết định giải ngân bất kỳ đồng vốn nào.",
+      "main_idea": "Bước 3: Đối chiếu quý",
+      "duration_s": 6.0
+    },
+    {
+      "id": "s15",
+      "phase": "CTA",
+      "display": "Đầu tư luôn đi kèm rủi ro. Không có công cụ hay phương pháp nào thay thế được việc bạn tự chịu trách nhiệm với quyết định của chính mình. Đưa chứng khoán về tầm tay bạn.",
+      "tts": "Đầu tư luôn đi kèm rủi ro. Không có công cụ hay phương pháp nào thay thế được việc bạn tự chịu trách nhiệm với quyết định của chính mình. Đưa chứng khoán về tầm tay bạn.",
+      "main_idea": "Disclaimer & Slogan",
+      "duration_s": 7.0
+    }
+  ]
+}

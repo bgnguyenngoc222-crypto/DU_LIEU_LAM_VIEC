@@ -1,0 +1,8 @@
+{
+  "name": "remotion-cai-bay-gia-re",
+  "version": "1.0.0",
+  "scripts": {
+    "studio": "npx remotion studio --port=3019",
+    "render": "npx remotion render Main out/final.mp4"
+  }
+}

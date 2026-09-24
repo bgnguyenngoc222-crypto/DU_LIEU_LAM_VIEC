@@ -1,0 +1,66 @@
+{
+  "id": "s06",
+  "text": "Thoạn xu hướng giá đang lên, nghỉ một nhịp rồi đi tiếp.",
+  "words": [
+    {
+      "word": "Thoạn",
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "word": "xu",
+      "start": 0.58,
+      "end": 0.76
+    },
+    {
+      "word": "hướng",
+      "start": 0.76,
+      "end": 1.16
+    },
+    {
+      "word": "giá",
+      "start": 1.16,
+      "end": 1.62
+    },
+    {
+      "word": "đang",
+      "start": 1.62,
+      "end": 1.76
+    },
+    {
+      "word": "lên,",
+      "start": 1.76,
+      "end": 1.96
+    },
+    {
+      "word": "nghỉ",
+      "start": 2.36,
+      "end": 2.52
+    },
+    {
+      "word": "một",
+      "start": 2.52,
+      "end": 2.66
+    },
+    {
+      "word": "nhịp",
+      "start": 2.66,
+      "end": 2.94
+    },
+    {
+      "word": "rồi",
+      "start": 2.94,
+      "end": 3.02
+    },
+    {
+      "word": "đi",
+      "start": 3.02,
+      "end": 3.16
+    },
+    {
+      "word": "tiếp.",
+      "start": 3.16,
+      "end": 3.32
+    }
+  ]
+}

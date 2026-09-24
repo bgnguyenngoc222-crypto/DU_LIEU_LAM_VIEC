@@ -1,0 +1,26 @@
+# Heavy / generated — không commit (cài lại bằng npm install / render lại)
+node_modules/
+out/
+dist/
+.cache/
+__pycache__/
+*.pyc
+
+# Video render — giữ ở máy/OneDrive, không lên git (NẶNG ~777MB)
+*.mp4
+*.mov
+*.zip
+# Audio TTS cũ (giọng clone Thanh) ĐƯỢC commit — tài sản nội bộ KFSP
+
+# 🔴 SECRET — không bao giờ commit
+*.env
+!*.env.example
+*.key
+*.pem
+
+# editor / OS
+*.backup
+*.bak
+*.genlog
+.DS_Store
+Thumbs.db

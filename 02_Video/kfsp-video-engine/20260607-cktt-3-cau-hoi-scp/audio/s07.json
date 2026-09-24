@@ -1,0 +1,62 @@
+[
+ {
+  "word": "Câu",
+  "start": 0.0,
+  "end": 0.16
+ },
+ {
+  "word": "2",
+  "start": 0.16,
+  "end": 0.32
+ },
+ {
+  "word": "là",
+  "start": 0.32,
+  "end": 0.46
+ },
+ {
+  "word": "có",
+  "start": 0.46,
+  "end": 0.6
+ },
+ {
+  "word": "rồng",
+  "start": 0.6,
+  "end": 0.8
+ },
+ {
+  "word": "tiền",
+  "start": 0.8,
+  "end": 1.06
+ },
+ {
+  "word": "lớn",
+  "start": 1.06,
+  "end": 1.38
+ },
+ {
+  "word": "đứng",
+  "start": 1.38,
+  "end": 1.6
+ },
+ {
+  "word": "sau",
+  "start": 1.6,
+  "end": 1.72
+ },
+ {
+  "word": "lưng",
+  "start": 1.72,
+  "end": 1.9
+ },
+ {
+  "word": "nó",
+  "start": 1.9,
+  "end": 2.06
+ },
+ {
+  "word": "khóc.",
+  "start": 2.06,
+  "end": 2.26
+ }
+]

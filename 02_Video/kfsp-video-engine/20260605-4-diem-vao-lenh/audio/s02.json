@@ -1,0 +1,86 @@
+{
+  "id": "s02",
+  "text": "Vấn đề thường không phải con cổ phiếu, mà là bạn vào lệnh sai thời điểm.",
+  "words": [
+    {
+      "word": "Vấn",
+      "start": 0.0,
+      "end": 0.16
+    },
+    {
+      "word": "đề",
+      "start": 0.16,
+      "end": 0.28
+    },
+    {
+      "word": "thường",
+      "start": 0.28,
+      "end": 0.58
+    },
+    {
+      "word": "không",
+      "start": 0.58,
+      "end": 0.76
+    },
+    {
+      "word": "phải",
+      "start": 0.76,
+      "end": 0.9
+    },
+    {
+      "word": "con",
+      "start": 0.9,
+      "end": 1.0
+    },
+    {
+      "word": "cổ",
+      "start": 1.0,
+      "end": 1.26
+    },
+    {
+      "word": "phiếu,",
+      "start": 1.26,
+      "end": 1.56
+    },
+    {
+      "word": "mà",
+      "start": 1.7,
+      "end": 1.98
+    },
+    {
+      "word": "là",
+      "start": 1.98,
+      "end": 2.12
+    },
+    {
+      "word": "bạn",
+      "start": 2.12,
+      "end": 2.32
+    },
+    {
+      "word": "vào",
+      "start": 2.32,
+      "end": 2.5
+    },
+    {
+      "word": "lệnh",
+      "start": 2.5,
+      "end": 2.74
+    },
+    {
+      "word": "sai",
+      "start": 2.74,
+      "end": 2.94
+    },
+    {
+      "word": "thời",
+      "start": 2.94,
+      "end": 3.08
+    },
+    {
+      "word": "điểm.",
+      "start": 3.08,
+      "end": 3.32
+    }
+  ]
+}

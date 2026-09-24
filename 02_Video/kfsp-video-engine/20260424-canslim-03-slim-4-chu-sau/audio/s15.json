@@ -1,0 +1,41 @@
+{
+  "id": "s15",
+  "duration_s": 2.9,
+  "word_timestamps": [
+    {
+      "word": "đi",
+      "start": 0.0,
+      "end": 0.18
+    },
+    {
+      "word": "sự",
+      "start": 0.18,
+      "end": 0.88
+    },
+    {
+      "word": "tham",
+      "start": 0.88,
+      "end": 1.22
+    },
+    {
+      "word": "gia",
+      "start": 1.22,
+      "end": 1.44
+    },
+    {
+      "word": "của",
+      "start": 1.44,
+      "end": 1.68
+    },
+    {
+      "word": "tổ",
+      "start": 1.68,
+      "end": 1.96
+    },
+    {
+      "word": "chức.",
+      "start": 1.96,
+      "end": 2.24
+    }
+  ]
+}

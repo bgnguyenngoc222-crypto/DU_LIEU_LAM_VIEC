@@ -1,0 +1,21 @@
+# Script HIỂN THỊ v3 — tông nói chuyện (dùng cho subtitle karaoke)
+# Giữ nguyên từ gốc: P/E, ROE, EBITDA, OCF, TTM, YoY, Kungfu, FA, ok, BCTC, bio, choang sắc choáng
+# Ngày: 2026-04-14 | Video: 11 tiêu chí FA | Duration target: ~78-82s
+
+[HOOK] 0:00 → 0:18
+P/E, ROE, EBITDA, OCF, TTM, YoY... mới vô chứng khoán mà nhìn mấy từ này, chỉ có thấy choang sắc choáng thôi. Nếu bạn cũng đang choáng thì video này cho bạn đó. Mình sẽ giúp bạn vượt qua giai đoạn lạc lối đầu tiên khi học phân tích FA.
+
+[P — PROBLEM] 0:18 → 0:28
+Có phải bạn đang mở app đọc tin, thấy "P/E có vẻ rẻ", "ROE hơi cao", "biên lợi nhuận có sự cải thiện" — nghe cũng ok, cũng hơi hơi hiểu được. Xong bấm vào BCTC của mã đang quan tâm, thấy gì, thấy 200 dòng số, 50 chỉ số. Đơ luôn. Không biết bắt đầu từ đâu nữa.
+
+[A — AGITATE] 0:28 → 0:50
+Mà... đây không phải vấn đề của riêng bạn đâu. Ai mới vô thị trường cũng vậy hết. Phân tích FA xịn thì phải mất tầm vài năm đọc mới thấm từng chỉ số — nên đa số người mới bỏ cuộc từ khúc này. Nhưng bạn không cần đợi vài năm nữa mới có thể tiếp tục trên thị trường chứng khoán. Bạn chỉ cần một bộ chỉ số được chọn sẵn — đủ để bắt đầu phân tích thật. Giống hồi cấp 1 học "quy tắc tam suất" vậy đó: chấp nhận quy tắc trước, hiểu gốc công thức sau.
+
+[S — SOLVE] 0:50 → 1:10
+Và đó là cái Kungfu làm. 11 chỉ số phân tích cơ bản gom lại, vẽ thành 1 cái radar — kiểu radar cầu thủ bóng đá ấy: trục nhô ra là mạnh, trục lõm vào là yếu. Bấm thẳng vào từng điểm trên radar, app hiện luôn điểm thành phần, kèm lý do vì sao nó thấp. 
+
+Việc của bạn bây giờ là chỉ tập trung vào thấu hiểu 11 chỉ số đã được chọn lọc này thôi. Khi đã quen rồi, bạn hoàn toàn có thể nhìn ngay sức khoẻ cổ phiếu một cách tổng quát trong vòng 5-10s. Cánh cửa phân tích FA cho người mới được mở toang ra chào đón bạn.
+
+Truy cập KFSP ở link trên bio nha.
+[ACTION] 1:10 → 1:22
+Mở Kungfu, chọn mã quan tâm, nhìn radar — 5 giây nắm sơ bộ. Bấm vào các tooltip để xem điểm số từng khía cạnh. Cánh cửa vào FA cho người mới là đây. Link tải ở bio nha.

@@ -1,0 +1,55 @@
+{
+ "duration_s": 2.904,
+ "words": [
+  {
+   "word": "Thực",
+   "start": 0.29,
+   "end": 0.65
+  },
+  {
+   "word": "rất",
+   "start": 0.65,
+   "end": 0.89
+  },
+  {
+   "word": "rất",
+   "start": 0.89,
+   "end": 1.01
+  },
+  {
+   "word": "khoát",
+   "start": 1.01,
+   "end": 1.29
+  },
+  {
+   "word": "và",
+   "start": 1.29,
+   "end": 1.77
+  },
+  {
+   "word": "đây",
+   "start": 1.77,
+   "end": 1.93
+  },
+  {
+   "word": "chính",
+   "start": 1.93,
+   "end": 2.11
+  },
+  {
+   "word": "là",
+   "start": 2.11,
+   "end": 2.25
+  },
+  {
+   "word": "vùng",
+   "start": 2.25,
+   "end": 2.37
+  },
+  {
+   "word": "đẹp.",
+   "start": 2.37,
+   "end": 2.63
+  }
+ ]
+}

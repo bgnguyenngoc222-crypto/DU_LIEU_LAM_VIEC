@@ -1,0 +1,91 @@
+{
+  "id": "s13",
+  "duration_s": 4.13,
+  "word_timestamps": [
+    {
+      "word": "Mở",
+      "start": 0.05,
+      "end": 0.37
+    },
+    {
+      "word": "áp",
+      "start": 0.37,
+      "end": 0.57
+    },
+    {
+      "word": "cung",
+      "start": 0.57,
+      "end": 0.65
+    },
+    {
+      "word": "phù",
+      "start": 0.65,
+      "end": 0.91
+    },
+    {
+      "word": "lên,",
+      "start": 0.91,
+      "end": 1.05
+    },
+    {
+      "word": "trọn",
+      "start": 1.61,
+      "end": 1.65
+    },
+    {
+      "word": "báo",
+      "start": 1.65,
+      "end": 1.83
+    },
+    {
+      "word": "quan",
+      "start": 1.83,
+      "end": 1.99
+    },
+    {
+      "word": "tâm,",
+      "start": 1.99,
+      "end": 2.27
+    },
+    {
+      "word": "nhìn",
+      "start": 2.69,
+      "end": 2.81
+    },
+    {
+      "word": "gia",
+      "start": 2.81,
+      "end": 2.93
+    },
+    {
+      "word": "đa",
+      "start": 2.93,
+      "end": 3.11
+    },
+    {
+      "word": "nằm",
+      "start": 3.11,
+      "end": 3.33
+    },
+    {
+      "word": "dây",
+      "start": 3.33,
+      "end": 3.53
+    },
+    {
+      "word": "nằm",
+      "start": 3.53,
+      "end": 3.71
+    },
+    {
+      "word": "sơ",
+      "start": 3.71,
+      "end": 3.91
+    },
+    {
+      "word": "bộ.",
+      "start": 3.91,
+      "end": 4.05
+    }
+  ]
+}

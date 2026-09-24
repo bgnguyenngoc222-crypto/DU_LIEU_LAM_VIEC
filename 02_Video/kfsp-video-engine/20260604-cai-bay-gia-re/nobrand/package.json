@@ -1,0 +1,9 @@
+{
+  "name": "cai-bay-gia-re-mtdt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.6.71 preview",
+    "render": "npx --yes hyperframes@0.6.71 render"
+  }
+}

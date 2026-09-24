@@ -1,0 +1,66 @@
+{
+  "id": "s16",
+  "duration_s": 4.101,
+  "word_timestamps": [
+    {
+      "word": "Có",
+      "start": 0.0,
+      "end": 0.14
+    },
+    {
+      "word": "quỹ",
+      "start": 0.14,
+      "end": 0.36
+    },
+    {
+      "word": "lớn,",
+      "start": 0.36,
+      "end": 0.68
+    },
+    {
+      "word": "có",
+      "start": 1.02,
+      "end": 1.16
+    },
+    {
+      "word": "cám",
+      "start": 1.16,
+      "end": 1.36
+    },
+    {
+      "word": "bập",
+      "start": 1.36,
+      "end": 1.5
+    },
+    {
+      "word": "nào,",
+      "start": 1.5,
+      "end": 1.76
+    },
+    {
+      "word": "đang",
+      "start": 2.18,
+      "end": 2.48
+    },
+    {
+      "word": "gòng",
+      "start": 2.48,
+      "end": 2.7
+    },
+    {
+      "word": "cổ",
+      "start": 2.7,
+      "end": 2.92
+    },
+    {
+      "word": "phiếu",
+      "start": 2.92,
+      "end": 3.16
+    },
+    {
+      "word": "không?",
+      "start": 3.16,
+      "end": 3.34
+    }
+  ]
+}

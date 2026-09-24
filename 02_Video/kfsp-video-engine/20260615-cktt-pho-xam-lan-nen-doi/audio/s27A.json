@@ -1,0 +1,50 @@
+{
+ "duration_s": 3.0,
+ "words": [
+  {
+   "word": "Đưa",
+   "start": 0.0,
+   "end": 0.14
+  },
+  {
+   "word": "chương",
+   "start": 0.14,
+   "end": 0.34
+  },
+  {
+   "word": "khoán",
+   "start": 0.34,
+   "end": 0.64
+  },
+  {
+   "word": "về",
+   "start": 0.64,
+   "end": 0.74
+  },
+  {
+   "word": "tầm",
+   "start": 0.74,
+   "end": 0.94
+  },
+  {
+   "word": "tay",
+   "start": 0.94,
+   "end": 1.12
+  },
+  {
+   "word": "bạn",
+   "start": 1.12,
+   "end": 1.42
+  },
+  {
+   "word": "cùng",
+   "start": 1.42,
+   "end": 1.66
+  },
+  {
+   "word": "KBSP.",
+   "start": 1.66,
+   "end": 2.18
+  }
+ ]
+}

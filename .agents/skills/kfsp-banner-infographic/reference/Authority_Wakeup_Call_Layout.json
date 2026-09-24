@@ -1,0 +1,226 @@
+{
+  "prompt_type": "image_generation",
+  "layout_name": "Authority_Wakeup_Call",
+  "layout_purpose": "Banner chân dung nhân vật quyền lực / huyền thoại đầu tư, câu hook cảnh báo xoáy vào nỗi đau, bối cảnh lịch sử. Dùng cho tuyến content câu chuyện huyền thoại, bài học sai lầm, tâm lý FOMO.",
+  "project": "KFSP Stock Investing Authority Content Banner",
+
+  "canvas": {
+    "supported_ratios": ["1:1", "4:5"],
+    "default": {
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": "1:1",
+      "orientation": "square"
+    },
+    "portrait": {
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": "4:5",
+      "orientation": "portrait"
+    }
+  },
+
+  "color_palette": {
+    "style_name": "KFSP Dark Purple Authority",
+    "note": "Sử dụng chung hệ màu Dark Purple KFSP, chỉ khác cách dùng accent cho tone cảnh báo/quyền lực.",
+    "background": {
+      "dark_purple_deep": "#0D0620",
+      "violet_primary": "#230C59",
+      "gradient": "radial-gradient from #230C59 center to #0D0620 edges"
+    },
+    "typography": {
+      "primary_white": "#FFFFFF",
+      "secondary_silver": "#D1D5DB",
+      "accent_warning_gold": "#FBBF24",
+      "accent_authority_purple": "#A78BFA",
+      "hook_text_color": "#FFFFFF"
+    },
+    "authority_accents": {
+      "nameplate_background": "linear-gradient(135deg, #4C1D95, #581C87)",
+      "nameplate_border": "#7C3AED",
+      "nameplate_text": "#FFFFFF",
+      "warning_highlight": "#FBBF24",
+      "quote_italic": "#A78BFA"
+    }
+  },
+
+  "layers": {
+    "layer_order": ["background_base", "midground_context", "foreground_subject", "typography_layout"],
+
+    "background_base": {
+      "type": "dark purple gradient with texture overlay",
+      "gradient": "radial-gradient from #230C59 center to #0D0620 edges",
+      "texture": "Subtle grain/noise texture at 5-10% opacity for depth",
+      "elements": "Faint stock chart lines, candlestick silhouettes, or financial grid pattern at 8-15% opacity as atmospheric background detail",
+      "lighting": "Soft violet ambient glow from center"
+    },
+
+    "midground_context": {
+      "purpose": "Hai hình nổi hai bên tạo bối cảnh lịch sử và nỗi đau, blend mờ vào nền",
+      "left_floating_image": {
+        "content_guide": "Cảnh tượng đám đông / sự kiện lịch sử liên quan đến nhân vật hoặc bài học (ví dụ: sàn giao dịch tấp nập, đám đông panic sell)",
+        "opacity": "40%-60%",
+        "blend_mode": "Luminosity or Multiply",
+        "color_treatment": "Desaturated, tinted purple to match palette",
+        "position": "Left side, vertically centered"
+      },
+      "right_floating_image": {
+        "content_guide": "Tài liệu / công cụ thể hiện sự sai lầm hoặc kỷ luật (ví dụ: biểu đồ sụp đổ, sổ lệnh stop-loss, bảng điện đỏ lửa)",
+        "opacity": "40%-60%",
+        "blend_mode": "Luminosity or Multiply",
+        "color_treatment": "Desaturated, tinted purple to match palette",
+        "position": "Right side, vertically centered"
+      }
+    },
+
+    "foreground_subject": {
+      "central_figure": {
+        "type": "Chân dung nhân vật quyền lực / chuyên gia / huyền thoại đầu tư",
+        "style": "High contrast, sharp details, intense eyes looking straight at viewer",
+        "color_treatment": "Slightly desaturated with purple/violet rim lighting to integrate with KFSP palette",
+        "position": "Center-bottom of canvas",
+        "fade": "Gradually fade out at chest level into the dark purple background",
+        "scale": "Occupies approximately 40-50% of canvas height"
+      },
+      "nameplate": {
+        "type": "Glassmorphism card with KFSP purple neon border",
+        "background": "linear-gradient(135deg, #4C1D95, #581C87)",
+        "border": "1px solid #7C3AED",
+        "border_radius": "8px",
+        "text_color": "#FFFFFF",
+        "text_weight": "SemiBold (600)",
+        "text_size": "14px-16px",
+        "text_transform": "UPPERCASE",
+        "content_guide": "Tên nhân vật hoặc định vị ngắn (ví dụ: WILLIAM O'NEIL · HUYỀN THOẠI CANSLIM)",
+        "position": "Centered at chest level of the figure, overlapping the fade zone"
+      }
+    },
+
+    "typography_layout": {
+      "hook_text": {
+        "content_guide": "Câu hỏi xoáy sâu vào nỗi đau / sai lầm phổ biến. Ngắn gọn, đánh trúng, tạo khẩn cấp. Ví dụ: 'BẠN CÓ ĐANG MUA ĐUỔI GIÁ VÌ SỢ LỠ CHUYẾN?'",
+        "font_family": "Inter, sans-serif",
+        "font_weight": "Bold (700)",
+        "text_transform": "UPPERCASE",
+        "font_size": "28px-36px (responsive to text length)",
+        "color": "#FFFFFF",
+        "position": "Top center, with generous padding from edges",
+        "max_lines": 3,
+        "alignment": "center",
+        "letter_spacing": "0.5px"
+      },
+      "sub_text": {
+        "content_guide": "Nguồn bài học hoặc tên giải pháp. Ví dụ: 'Từ di sản nghiên cứu 140 năm của William O'Neil'",
+        "font_family": "Georgia, serif",
+        "font_weight": "Regular (400)",
+        "font_style": "italic",
+        "font_size": "16px-20px",
+        "color": "#A78BFA",
+        "position": "Directly below hook_text, center aligned",
+        "alignment": "center"
+      }
+    }
+  },
+
+  "visual_rules": [
+    "The central figure (nhân vật) is the primary focal point, not a chart.",
+    "Hook text must be immediately readable at thumbnail size.",
+    "Midground floating images must be subtle — they provide atmosphere, not compete with the subject.",
+    "All elements must integrate into the KFSP Dark Purple palette. No off-brand colors.",
+    "Nameplate must be clearly readable against the figure.",
+    "Typography hierarchy: Hook (largest) > Nameplate (medium) > Sub text (smallest).",
+    "Maintain generous negative space around hook text.",
+    "Use purple rim lighting on the central figure to unify with the background."
+  ],
+
+  "negative_prompt": [
+    "cartoon characters",
+    "chibi style",
+    "watercolor painting",
+    "photorealistic modern setting",
+    "busy cluttered background",
+    "excessive neon cyberpunk glow",
+    "gold luxury aesthetic",
+    "red dominant color",
+    "blue dominant color",
+    "stock photography watermark",
+    "low contrast",
+    "3D rendered characters",
+    "anime style",
+    "multiple people as main subject",
+    "text-heavy composition",
+    "logo as main element",
+    "bright cheerful colors"
+  ],
+
+  "consistency_rules": {
+    "series_consistency": true,
+    "note": "All Authority banners across the series must share the same visual DNA for brand recognition.",
+    "keep_same": [
+      "Dark purple gradient background (#0D0620 to #230C59)",
+      "KFSP purple color palette",
+      "Glassmorphism nameplate style",
+      "Hook text typography (Inter Bold UPPERCASE white)",
+      "Sub text typography (Georgia Italic #A78BFA)",
+      "Central figure fade treatment at chest level",
+      "Purple rim lighting on subject",
+      "Grain texture overlay on background"
+    ],
+    "change_per_banner": [
+      "Central figure (different person per banner)",
+      "Hook text content",
+      "Sub text content",
+      "Nameplate text",
+      "Midground floating images (relevant to the specific story)",
+      "Canvas ratio (1:1 or 4:5 as needed)"
+    ]
+  },
+
+  "intake_checklist_authority": {
+    "note": "Khi user chọn Layout B (Authority), hỏi các thông tin sau thay cho checklist Infographic:",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Nhân vật trung tâm là ai?",
+        "example": "William O'Neil, Jesse Livermore, Warren Buffett..."
+      },
+      {
+        "id": 2,
+        "question": "Câu Hook (câu hỏi / cảnh báo xoáy vào nỗi đau)?",
+        "example": "BẠN CÓ ĐANG MUA ĐUỔI GIÁ VÌ SỢ LỠ CHUYẾN?"
+      },
+      {
+        "id": 3,
+        "question": "Dòng Sub text (nguồn bài học / tên giải pháp)?",
+        "example": "Từ di sản nghiên cứu 140 năm của William O'Neil"
+      },
+      {
+        "id": 4,
+        "question": "Nội dung Nameplate (tên + định vị ngắn)?",
+        "example": "WILLIAM O'NEIL · HUYỀN THOẠI CANSLIM"
+      },
+      {
+        "id": 5,
+        "question": "Bối cảnh lịch sử cho midground (2 hình nổi 2 bên)?",
+        "example": "Trái: sàn NYSE thập niên 60 tấp nập. Phải: biểu đồ mẫu hình Cup & Handle trên giấy."
+      },
+      {
+        "id": 6,
+        "question": "Kích thước canvas?",
+        "options": ["1:1 (1080x1080)", "4:5 (1080x1350)"],
+        "default": "1:1"
+      }
+    ]
+  },
+
+  "example_filled": {
+    "note": "Ví dụ JSON đã điền cho bài William O'Neil (IF-007)",
+    "hook_text": "BẠN CÓ ĐỦ THỜI GIAN ĐỂ ĐÃI CÁT TÌM VÀNG MỖI TỐI?",
+    "sub_text": "Bí quyết từ 140 năm nghiên cứu của huyền thoại William O'Neil",
+    "central_figure": "William O'Neil, American investor, 1960s-style portrait, sharp eyes, confident, wearing suit",
+    "nameplate": "WILLIAM O'NEIL · HUYỀN THOẠI CANSLIM",
+    "left_floating": "New York Stock Exchange trading floor, 1960s, crowded, black and white photo",
+    "right_floating": "Hand-drawn stock chart patterns on paper, Cup & Handle and Double Bottom sketches",
+    "canvas": "1:1"
+  }
+}

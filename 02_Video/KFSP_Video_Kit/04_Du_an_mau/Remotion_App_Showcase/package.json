@@ -1,0 +1,21 @@
+{
+  "name": "remotion-app-showcase",
+  "version": "1.0.0",
+  "description": "Remotion App Showcase & Launch Feature Video for KFSP",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "remotion preview src/index.ts",
+    "build": "remotion render src/index.ts KFSP-CoHoiTiemNang-16-9 out/KFSP_CoHoiTiemNang_16_9.mp4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,3842 @@
+{
+  "videoId": "livermore-kien-nhan",
+  "framework": "Hook-Problem-Agitate-Lesson-Gap-Solve-CTA",
+  "audioMode": "monolithic-aligned",
+  "sentences": [
+    {
+      "id": "s01",
+      "phase": "HOOK",
+      "display": "Kiên nhẫn là tiền — bài học đắt giá từ Jesse Livermore.",
+      "tts": "Kiên nhẫn là tiền: bài học đắt giá từ Giét-xi Líp-vơ-mo.",
+      "main_idea": "kiên nhẫn là tiền",
+      "enum_items": null,
+      "pause_after_ms": 500,
+      "abs_start_s": 0.0,
+      "abs_end_s": 2.16,
+      "duration_s": 2.16,
+      "word_timestamps": [
+        {
+          "word": "Kiên",
+          "start": 0.0,
+          "end": 0.14
+        },
+        {
+          "word": "nhẫn",
+          "start": 0.14,
+          "end": 0.26
+        },
+        {
+          "word": "là",
+          "start": 0.26,
+          "end": 0.4
+        },
+        {
+          "word": "tiền",
+          "start": 0.4,
+          "end": 0.6
+        },
+        {
+          "word": "—",
+          "start": 0.6,
+          "end": 0.9
+        },
+        {
+          "word": "bài",
+          "start": 0.6,
+          "end": 0.9
+        },
+        {
+          "word": "học",
+          "start": 0.9,
+          "end": 1.02
+        },
+        {
+          "word": "đắt",
+          "start": 1.02,
+          "end": 1.18
+        },
+        {
+          "word": "giá",
+          "start": 1.18,
+          "end": 1.38
+        },
+        {
+          "word": "từ",
+          "start": 1.38,
+          "end": 1.54
+        },
+        {
+          "word": "Jesse",
+          "start": 1.54,
+          "end": 2.16
+        },
+        {
+          "word": "Livermore.",
+          "start": 1.54,
+          "end": 2.16
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "phase": "HOOK",
+      "display": "Jesse Livermore từng nói một câu mà bất kỳ nhà đầu tư nào cũng nên ghi nhớ:",
+      "tts": "Giét-xi Líp-vơ-mo từng nói một câu mà bất kỳ nhà đầu tư nào cũng nên ghi nhớ:",
+      "main_idea": "Livermore từng nói",
+      "enum_items": null,
+      "pause_after_ms": 250,
+      "abs_start_s": 3.08,
+      "abs_end_s": 5.3,
+      "duration_s": 2.22,
+      "word_timestamps": [
+        {
+          "word": "Jesse",
+          "start": 0.0,
+          "end": 0.28
+        },
+        {
+          "word": "Livermore",
+          "start": 0.0,
+          "end": 0.28
+        },
+        {
+          "word": "từng",
+          "start": 0.28,
+          "end": 0.52
+        },
+        {
+          "word": "nói",
+          "start": 0.52,
+          "end": 0.56
+        },
+        {
+          "word": "một",
+          "start": 0.56,
+          "end": 0.76
+        },
+        {
+          "word": "câu",
+          "start": 0.76,
+          "end": 0.9
+        },
+        {
+          "word": "mà",
+          "start": 0.9,
+          "end": 1.04
+        },
+        {
+          "word": "bất",
+          "start": 1.04,
+          "end": 1.18
+        },
+        {
+          "word": "kỳ",
+          "start": 1.18,
+          "end": 1.3
+        },
+        {
+          "word": "nhà",
+          "start": 1.3,
+          "end": 1.42
+        },
+        {
+          "word": "đầu",
+          "start": 1.42,
+          "end": 1.52
+        },
+        {
+          "word": "tư",
+          "start": 1.52,
+          "end": 1.64
+        },
+        {
+          "word": "nào",
+          "start": 1.64,
+          "end": 1.82
+        },
+        {
+          "word": "cũng",
+          "start": 1.96,
+          "end": 2.06
+        },
+        {
+          "word": "nên",
+          "start": 2.06,
+          "end": 2.12
+        },
+        {
+          "word": "ghi",
+          "start": 2.12,
+          "end": 2.22
+        },
+        {
+          "word": "nhớ:",
+          "start": 2.12,
+          "end": 2.22
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "phase": "HOOK",
+      "display": "\"Tiền không được tạo ra bằng việc suy nghĩ. Tiền được tạo ra bằng việc ngồi xuống và chờ đợi.\"",
+      "tts": "Tiền không được tạo ra bằng việc suy nghĩ. Tiền được tạo ra bằng việc ngồi xuống và chờ đợi.",
+      "main_idea": "ngồi xuống và chờ",
+      "enum_items": null,
+      "pause_after_ms": 700,
+      "abs_start_s": 5.3,
+      "abs_end_s": 9.16,
+      "duration_s": 3.86,
+      "word_timestamps": [
+        {
+          "word": "\"Tiền",
+          "start": 0.0,
+          "end": 0.16
+        },
+        {
+          "word": "không",
+          "start": 0.56,
+          "end": 0.56
+        },
+        {
+          "word": "được",
+          "start": 0.56,
+          "end": 0.7
+        },
+        {
+          "word": "tạo",
+          "start": 0.7,
+          "end": 0.92
+        },
+        {
+          "word": "ra",
+          "start": 0.92,
+          "end": 1.02
+        },
+        {
+          "word": "bằng",
+          "start": 1.02,
+          "end": 1.18
+        },
+        {
+          "word": "việc",
+          "start": 1.18,
+          "end": 1.3
+        },
+        {
+          "word": "suy",
+          "start": 1.3,
+          "end": 1.44
+        },
+        {
+          "word": "nghĩ.",
+          "start": 1.44,
+          "end": 1.6
+        },
+        {
+          "word": "Tiền",
+          "start": 2.12,
+          "end": 2.24
+        },
+        {
+          "word": "được",
+          "start": 2.24,
+          "end": 2.36
+        },
+        {
+          "word": "tạo",
+          "start": 2.36,
+          "end": 2.58
+        },
+        {
+          "word": "ra",
+          "start": 2.58,
+          "end": 2.68
+        },
+        {
+          "word": "bằng",
+          "start": 2.68,
+          "end": 2.82
+        },
+        {
+          "word": "việc",
+          "start": 2.82,
+          "end": 2.94
+        },
+        {
+          "word": "ngồi",
+          "start": 2.94,
+          "end": 3.1
+        },
+        {
+          "word": "xuống",
+          "start": 3.1,
+          "end": 3.34
+        },
+        {
+          "word": "và",
+          "start": 3.34,
+          "end": 3.56
+        },
+        {
+          "word": "chờ",
+          "start": 3.56,
+          "end": 3.68
+        },
+        {
+          "word": "đợi.\"",
+          "start": 3.68,
+          "end": 3.86
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "phase": "PROBLEM",
+      "display": "Một câu nói sâu sắc nhưng cũng dễ bị hiểu nhầm.",
+      "tts": "Một câu nói sâu sắc nhưng cũng dễ bị hiểu nhầm.",
+      "main_idea": "dễ bị hiểu nhầm",
+      "enum_items": null,
+      "pause_after_ms": 300,
+      "abs_start_s": 9.64,
+      "abs_end_s": 11.36,
+      "duration_s": 1.72,
+      "word_timestamps": [
+        {
+          "word": "Một",
+          "start": 0.0,
+          "end": 0.1
+        },
+        {
+          "word": "câu",
+          "start": 0.1,
+          "end": 0.2
+        },
+        {
+          "word": "nói",
+          "start": 0.2,
+          "end": 0.34
+        },
+        {
+          "word": "sâu",
+          "start": 0.34,
+          "end": 0.52
+        },
+        {
+          "word": "sắc",
+          "start": 0.52,
+          "end": 0.7
+        },
+        {
+          "word": "nhưng",
+          "start": 0.92,
+          "end": 1.02
+        },
+        {
+          "word": "cũng",
+          "start": 1.02,
+          "end": 1.16
+        },
+        {
+          "word": "dễ",
+          "start": 1.16,
+          "end": 1.3
+        },
+        {
+          "word": "bị",
+          "start": 1.3,
+          "end": 1.42
+        },
+        {
+          "word": "hiểu",
+          "start": 1.42,
+          "end": 1.58
+        },
+        {
+          "word": "nhầm.",
+          "start": 1.58,
+          "end": 1.72
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "phase": "PROBLEM",
+      "display": "Bởi phần lớn nhà đầu tư mới thường nghĩ rằng càng nhìn bảng điện nhiều, càng mua bán nhiều, càng phân tích nhiều mã cổ phiếu thì càng tiến gần đến lợi nhuận.",
+      "tts": "Bởi phần lớn nhà đầu tư mới gia nhập thị trường thường nghĩ rằng: càng nhìn bảng điện nhiều, càng mua bán nhiều, càng phân tích nhiều mã cổ phiếu thì càng tiến gần đến lợi nhuận.",
+      "main_idea": "càng nhiều càng lời?",
+      "enum_items": [
+        "nhìn bảng điện",
+        "mua bán nhiều",
+        "phân tích nhiều mã"
+      ],
+      "pause_after_ms": 300,
+      "abs_start_s": 11.86,
+      "abs_end_s": 18.08,
+      "duration_s": 6.22,
+      "word_timestamps": [
+        {
+          "word": "Bởi",
+          "start": 0.0,
+          "end": 0.12
+        },
+        {
+          "word": "phần",
+          "start": 0.12,
+          "end": 0.24
+        },
+        {
+          "word": "lớn",
+          "start": 0.24,
+          "end": 0.44
+        },
+        {
+          "word": "nhà",
+          "start": 0.44,
+          "end": 0.52
+        },
+        {
+          "word": "đầu",
+          "start": 0.52,
+          "end": 0.6
+        },
+        {
+          "word": "tư",
+          "start": 0.6,
+          "end": 0.74
+        },
+        {
+          "word": "mới",
+          "start": 0.74,
+          "end": 0.88
+        },
+        {
+          "word": "thường",
+          "start": 1.5,
+          "end": 1.66
+        },
+        {
+          "word": "nghĩ",
+          "start": 1.66,
+          "end": 1.84
+        },
+        {
+          "word": "rằng",
+          "start": 1.84,
+          "end": 1.98
+        },
+        {
+          "word": "càng",
+          "start": 2.26,
+          "end": 2.36
+        },
+        {
+          "word": "nhìn",
+          "start": 2.36,
+          "end": 2.44
+        },
+        {
+          "word": "bảng",
+          "start": 2.44,
+          "end": 2.56
+        },
+        {
+          "word": "điện",
+          "start": 2.56,
+          "end": 2.72
+        },
+        {
+          "word": "nhiều,",
+          "start": 2.72,
+          "end": 2.84
+        },
+        {
+          "word": "càng",
+          "start": 3.24,
+          "end": 3.32
+        },
+        {
+          "word": "mua",
+          "start": 3.32,
+          "end": 3.4
+        },
+        {
+          "word": "bán",
+          "start": 3.4,
+          "end": 3.58
+        },
+        {
+          "word": "nhiều,",
+          "start": 3.58,
+          "end": 3.7
+        },
+        {
+          "word": "càng",
+          "start": 4.12,
+          "end": 4.16
+        },
+        {
+          "word": "phân",
+          "start": 4.16,
+          "end": 4.28
+        },
+        {
+          "word": "tích",
+          "start": 4.28,
+          "end": 4.42
+        },
+        {
+          "word": "nhiều",
+          "start": 4.42,
+          "end": 4.54
+        },
+        {
+          "word": "mã",
+          "start": 4.54,
+          "end": 4.82
+        },
+        {
+          "word": "cổ",
+          "start": 4.82,
+          "end": 4.9
+        },
+        {
+          "word": "phiếu",
+          "start": 4.9,
+          "end": 5.12
+        },
+        {
+          "word": "thì",
+          "start": 5.36,
+          "end": 5.4
+        },
+        {
+          "word": "càng",
+          "start": 5.4,
+          "end": 5.52
+        },
+        {
+          "word": "tiến",
+          "start": 5.52,
+          "end": 5.72
+        },
+        {
+          "word": "gần",
+          "start": 5.72,
+          "end": 5.82
+        },
+        {
+          "word": "đến",
+          "start": 5.82,
+          "end": 5.94
+        },
+        {
+          "word": "lợi",
+          "start": 5.94,
+          "end": 6.08
+        },
+        {
+          "word": "nhuận.",
+          "start": 6.08,
+          "end": 6.22
+        }
+      ],
+      "enum_beats": [
+        {
+          "item": "nhìn bảng điện",
+          "anchor_word": "nhìn",
+          "rel_start_s": 2.367,
+          "frame_30fps": 71
+        },
+        {
+          "item": "mua bán nhiều",
+          "anchor_word": "mua",
+          "rel_start_s": 3.333,
+          "frame_30fps": 100
+        },
+        {
+          "item": "phân tích nhiều mã",
+          "anchor_word": "phân",
+          "rel_start_s": 4.8,
+          "frame_30fps": 144,
+          "patched": true
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "phase": "PROBLEM",
+      "display": "Họ nhầm lẫn giữa chăm chỉ và giao dịch liên tục, nhầm giữa bận rộn và hiệu quả.",
+      "tts": "Họ nhầm lẫn giữa chăm chỉ và giao dịch liên tục, nhầm giữa bận rộn và hiệu quả.",
+      "main_idea": "nhầm bận rộn = hiệu quả",
+      "enum_items": null,
+      "pause_after_ms": 650,
+      "abs_start_s": 18.42,
+      "abs_end_s": 21.8,
+      "duration_s": 3.38,
+      "word_timestamps": [
+        {
+          "word": "Họ",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "nhầm",
+          "start": 0.32,
+          "end": 0.46
+        },
+        {
+          "word": "lẫn",
+          "start": 0.46,
+          "end": 0.6
+        },
+        {
+          "word": "giữa",
+          "start": 0.6,
+          "end": 0.78
+        },
+        {
+          "word": "chăm",
+          "start": 0.78,
+          "end": 0.9
+        },
+        {
+          "word": "chỉ",
+          "start": 0.9,
+          "end": 1.06
+        },
+        {
+          "word": "và",
+          "start": 1.06,
+          "end": 1.3
+        },
+        {
+          "word": "giao",
+          "start": 1.3,
+          "end": 1.46
+        },
+        {
+          "word": "dịch",
+          "start": 1.46,
+          "end": 1.58
+        },
+        {
+          "word": "liên",
+          "start": 1.58,
+          "end": 1.7
+        },
+        {
+          "word": "tục,",
+          "start": 1.7,
+          "end": 1.88
+        },
+        {
+          "word": "nhầm",
+          "start": 2.18,
+          "end": 2.3
+        },
+        {
+          "word": "giữa",
+          "start": 2.3,
+          "end": 2.42
+        },
+        {
+          "word": "bận",
+          "start": 2.42,
+          "end": 2.56
+        },
+        {
+          "word": "rộn",
+          "start": 2.56,
+          "end": 2.68
+        },
+        {
+          "word": "và",
+          "start": 2.68,
+          "end": 2.98
+        },
+        {
+          "word": "hiệu",
+          "start": 2.98,
+          "end": 3.14
+        },
+        {
+          "word": "quả.",
+          "start": 3.14,
+          "end": 3.38
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "phase": "AGITATE",
+      "display": "Sự thật là thị trường không trả tiền cho sự bận rộn.",
+      "tts": "Sự thật là thị trường không trả tiền cho sự bận rộn.",
+      "main_idea": "không trả cho bận rộn",
+      "enum_items": null,
+      "pause_after_ms": 300,
+      "abs_start_s": 22.28,
+      "abs_end_s": 24.02,
+      "duration_s": 1.74,
+      "word_timestamps": [
+        {
+          "word": "Sự",
+          "start": 0.0,
+          "end": 0.12
+        },
+        {
+          "word": "thật",
+          "start": 0.12,
+          "end": 0.24
+        },
+        {
+          "word": "là",
+          "start": 0.24,
+          "end": 0.38
+        },
+        {
+          "word": "thị",
+          "start": 0.38,
+          "end": 0.5
+        },
+        {
+          "word": "trường",
+          "start": 0.5,
+          "end": 0.68
+        },
+        {
+          "word": "không",
+          "start": 0.68,
+          "end": 0.86
+        },
+        {
+          "word": "trả",
+          "start": 0.86,
+          "end": 1.02
+        },
+        {
+          "word": "tiền",
+          "start": 1.02,
+          "end": 1.2
+        },
+        {
+          "word": "cho",
+          "start": 1.2,
+          "end": 1.36
+        },
+        {
+          "word": "sự",
+          "start": 1.36,
+          "end": 1.48
+        },
+        {
+          "word": "bận",
+          "start": 1.48,
+          "end": 1.6
+        },
+        {
+          "word": "rộn.",
+          "start": 1.6,
+          "end": 1.74
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "phase": "AGITATE",
+      "display": "Thị trường chỉ trả tiền cho những quyết định đúng thời điểm.",
+      "tts": "Thị trường chỉ trả tiền cho những quyết định đúng thời điểm.",
+      "main_idea": "trả cho đúng thời điểm",
+      "enum_items": null,
+      "pause_after_ms": 350,
+      "abs_start_s": 24.46,
+      "abs_end_s": 26.28,
+      "duration_s": 1.82,
+      "word_timestamps": [
+        {
+          "word": "Thị",
+          "start": 0.0,
+          "end": 0.24
+        },
+        {
+          "word": "trường",
+          "start": 0.24,
+          "end": 0.38
+        },
+        {
+          "word": "chỉ",
+          "start": 0.38,
+          "end": 0.54
+        },
+        {
+          "word": "trả",
+          "start": 0.54,
+          "end": 0.66
+        },
+        {
+          "word": "tiền",
+          "start": 0.66,
+          "end": 0.84
+        },
+        {
+          "word": "cho",
+          "start": 0.84,
+          "end": 0.96
+        },
+        {
+          "word": "những",
+          "start": 0.96,
+          "end": 1.04
+        },
+        {
+          "word": "quyết",
+          "start": 1.04,
+          "end": 1.28
+        },
+        {
+          "word": "định",
+          "start": 1.28,
+          "end": 1.34
+        },
+        {
+          "word": "đúng",
+          "start": 1.34,
+          "end": 1.52
+        },
+        {
+          "word": "thời",
+          "start": 1.52,
+          "end": 1.68
+        },
+        {
+          "word": "điểm.",
+          "start": 1.68,
+          "end": 1.82
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "phase": "AGITATE",
+      "display": "Một nhà đầu tư giàu kinh nghiệm hiểu rằng tiền mặt cũng là một vị thế.",
+      "tts": "Một nhà đầu tư giàu kinh nghiệm hiểu rằng tiền mặt cũng là một vị thế.",
+      "main_idea": "tiền mặt là vị thế",
+      "enum_items": null,
+      "pause_after_ms": 350,
+      "abs_start_s": 26.78,
+      "abs_end_s": 29.28,
+      "duration_s": 2.5,
+      "word_timestamps": [
+        {
+          "word": "Một",
+          "start": 0.0,
+          "end": 0.12
+        },
+        {
+          "word": "nhà",
+          "start": 0.12,
+          "end": 0.22
+        },
+        {
+          "word": "đầu",
+          "start": 0.22,
+          "end": 0.3
+        },
+        {
+          "word": "tư",
+          "start": 0.3,
+          "end": 0.46
+        },
+        {
+          "word": "giàu",
+          "start": 0.46,
+          "end": 0.66
+        },
+        {
+          "word": "kinh",
+          "start": 0.66,
+          "end": 0.82
+        },
+        {
+          "word": "nghiệm",
+          "start": 0.82,
+          "end": 0.96
+        },
+        {
+          "word": "hiểu",
+          "start": 1.22,
+          "end": 1.26
+        },
+        {
+          "word": "rằng",
+          "start": 1.26,
+          "end": 1.4
+        },
+        {
+          "word": "tiền",
+          "start": 1.4,
+          "end": 1.72
+        },
+        {
+          "word": "mặt",
+          "start": 1.72,
+          "end": 1.84
+        },
+        {
+          "word": "cũng",
+          "start": 1.84,
+          "end": 1.98
+        },
+        {
+          "word": "là",
+          "start": 1.98,
+          "end": 2.12
+        },
+        {
+          "word": "một",
+          "start": 2.12,
+          "end": 2.24
+        },
+        {
+          "word": "vị",
+          "start": 2.24,
+          "end": 2.38
+        },
+        {
+          "word": "thế.",
+          "start": 2.38,
+          "end": 2.5
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "phase": "AGITATE",
+      "display": "Đứng ngoài thị trường không có nghĩa là bỏ lỡ cơ hội.",
+      "tts": "Đứng ngoài thị trường không có nghĩa là bỏ lỡ cơ hội.",
+      "main_idea": "đứng ngoài không phải bỏ lỡ",
+      "enum_items": null,
+      "pause_after_ms": 300,
+      "abs_start_s": 29.78,
+      "abs_end_s": 31.7,
+      "duration_s": 1.92,
+      "word_timestamps": [
+        {
+          "word": "Đứng",
+          "start": 0.0,
+          "end": 0.16
+        },
+        {
+          "word": "ngoài",
+          "start": 0.16,
+          "end": 0.3
+        },
+        {
+          "word": "thị",
+          "start": 0.3,
+          "end": 0.4
+        },
+        {
+          "word": "trường",
+          "start": 0.4,
+          "end": 0.64
+        },
+        {
+          "word": "không",
+          "start": 0.64,
+          "end": 0.86
+        },
+        {
+          "word": "có",
+          "start": 0.86,
+          "end": 0.96
+        },
+        {
+          "word": "nghĩa",
+          "start": 0.96,
+          "end": 1.14
+        },
+        {
+          "word": "là",
+          "start": 1.14,
+          "end": 1.28
+        },
+        {
+          "word": "bỏ",
+          "start": 1.28,
+          "end": 1.48
+        },
+        {
+          "word": "lỡ",
+          "start": 1.48,
+          "end": 1.6
+        },
+        {
+          "word": "cơ",
+          "start": 1.6,
+          "end": 1.78
+        },
+        {
+          "word": "hội.",
+          "start": 1.78,
+          "end": 1.92
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "phase": "AGITATE",
+      "display": "Đôi khi, đó là cách khôn ngoan nhất để bảo toàn sức mạnh, giữ sự tỉnh táo và chờ đến lúc lợi thế thật sự nghiêng về phía mình.",
+      "tts": "Đôi khi, đó là cách khôn ngoan nhất để bảo toàn sức mạnh, giữ sự tỉnh táo và chờ đến lúc lợi thế thật sự nghiêng về phía mình.",
+      "main_idea": "chờ lợi thế nghiêng về mình",
+      "enum_items": null,
+      "pause_after_ms": 650,
+      "abs_start_s": 32.1,
+      "abs_end_s": 37.18,
+      "duration_s": 5.08,
+      "word_timestamps": [
+        {
+          "word": "Đôi",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "word": "khi,",
+          "start": 0.22,
+          "end": 0.32
+        },
+        {
+          "word": "đó",
+          "start": 0.72,
+          "end": 0.78
+        },
+        {
+          "word": "là",
+          "start": 0.78,
+          "end": 0.9
+        },
+        {
+          "word": "cách",
+          "start": 0.9,
+          "end": 1.02
+        },
+        {
+          "word": "khôn",
+          "start": 1.02,
+          "end": 1.22
+        },
+        {
+          "word": "ngoan",
+          "start": 1.22,
+          "end": 1.4
+        },
+        {
+          "word": "nhất",
+          "start": 1.4,
+          "end": 1.58
+        },
+        {
+          "word": "để",
+          "start": 1.78,
+          "end": 1.78
+        },
+        {
+          "word": "bảo",
+          "start": 1.78,
+          "end": 1.92
+        },
+        {
+          "word": "toàn",
+          "start": 1.92,
+          "end": 2.08
+        },
+        {
+          "word": "sức",
+          "start": 2.08,
+          "end": 2.26
+        },
+        {
+          "word": "mạnh,",
+          "start": 2.26,
+          "end": 2.44
+        },
+        {
+          "word": "giữ",
+          "start": 2.72,
+          "end": 2.76
+        },
+        {
+          "word": "sự",
+          "start": 2.76,
+          "end": 2.92
+        },
+        {
+          "word": "tỉnh",
+          "start": 2.92,
+          "end": 3.08
+        },
+        {
+          "word": "táo",
+          "start": 3.08,
+          "end": 3.28
+        },
+        {
+          "word": "và",
+          "start": 3.28,
+          "end": 3.58
+        },
+        {
+          "word": "chờ",
+          "start": 3.58,
+          "end": 3.74
+        },
+        {
+          "word": "đến",
+          "start": 3.74,
+          "end": 3.84
+        },
+        {
+          "word": "lúc",
+          "start": 3.84,
+          "end": 3.98
+        },
+        {
+          "word": "lợi",
+          "start": 3.98,
+          "end": 4.12
+        },
+        {
+          "word": "thế",
+          "start": 4.12,
+          "end": 4.28
+        },
+        {
+          "word": "thật",
+          "start": 4.28,
+          "end": 4.44
+        },
+        {
+          "word": "sự",
+          "start": 4.44,
+          "end": 4.52
+        },
+        {
+          "word": "nghiêng",
+          "start": 4.52,
+          "end": 4.7
+        },
+        {
+          "word": "về",
+          "start": 4.7,
+          "end": 4.82
+        },
+        {
+          "word": "phía",
+          "start": 4.82,
+          "end": 4.92
+        },
+        {
+          "word": "mình.",
+          "start": 4.92,
+          "end": 5.08
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "phase": "LESSON",
+      "display": "Với Livermore, một cơ hội đáng để xuống tiền không xuất hiện chỉ vì cổ phiếu vừa giảm sâu, tin tức có vẻ tích cực, hay đơn giản vì cảm giác \"mua được rồi\".",
+      "tts": "Với Líp-vơ-mo, một cơ hội đáng để xuống tiền không xuất hiện chỉ vì cổ phiếu vừa giảm sâu, tin tức có vẻ tích cực, hay đơn giản vì cảm giác mua được rồi.",
+      "main_idea": "cơ hội không tùy tiện",
+      "enum_items": [
+        "giảm sâu",
+        "tin tích cực",
+        "cảm giác mua được"
+      ],
+      "pause_after_ms": 350,
+      "abs_start_s": 37.66,
+      "abs_end_s": 44.12,
+      "duration_s": 6.46,
+      "word_timestamps": [
+        {
+          "word": "Với",
+          "start": 0.0,
+          "end": 0.12
+        },
+        {
+          "word": "Livermore,",
+          "start": 0.12,
+          "end": 0.52
+        },
+        {
+          "word": "một",
+          "start": 0.92,
+          "end": 1.02
+        },
+        {
+          "word": "cơ",
+          "start": 1.02,
+          "end": 1.14
+        },
+        {
+          "word": "hội",
+          "start": 1.14,
+          "end": 1.22
+        },
+        {
+          "word": "đáng",
+          "start": 1.22,
+          "end": 1.44
+        },
+        {
+          "word": "để",
+          "start": 1.44,
+          "end": 1.52
+        },
+        {
+          "word": "xuống",
+          "start": 1.52,
+          "end": 1.64
+        },
+        {
+          "word": "tiền",
+          "start": 1.64,
+          "end": 1.82
+        },
+        {
+          "word": "không",
+          "start": 1.82,
+          "end": 1.98
+        },
+        {
+          "word": "xuất",
+          "start": 1.98,
+          "end": 2.14
+        },
+        {
+          "word": "hiện",
+          "start": 2.14,
+          "end": 2.26
+        },
+        {
+          "word": "chỉ",
+          "start": 2.26,
+          "end": 2.64
+        },
+        {
+          "word": "vì",
+          "start": 2.26,
+          "end": 2.64
+        },
+        {
+          "word": "cổ",
+          "start": 2.64,
+          "end": 2.86
+        },
+        {
+          "word": "phiếu",
+          "start": 2.86,
+          "end": 3.06
+        },
+        {
+          "word": "vừa",
+          "start": 3.06,
+          "end": 3.26
+        },
+        {
+          "word": "giảm",
+          "start": 3.26,
+          "end": 3.42
+        },
+        {
+          "word": "sâu,",
+          "start": 3.42,
+          "end": 3.58
+        },
+        {
+          "word": "tin",
+          "start": 3.98,
+          "end": 4.04
+        },
+        {
+          "word": "tức",
+          "start": 4.04,
+          "end": 4.16
+        },
+        {
+          "word": "có",
+          "start": 4.16,
+          "end": 4.3
+        },
+        {
+          "word": "vẻ",
+          "start": 4.3,
+          "end": 4.4
+        },
+        {
+          "word": "tích",
+          "start": 4.4,
+          "end": 4.58
+        },
+        {
+          "word": "cực,",
+          "start": 4.58,
+          "end": 4.78
+        },
+        {
+          "word": "hay",
+          "start": 4.78,
+          "end": 5.08
+        },
+        {
+          "word": "đơn",
+          "start": 5.08,
+          "end": 5.24
+        },
+        {
+          "word": "giản",
+          "start": 5.24,
+          "end": 5.46
+        },
+        {
+          "word": "vì",
+          "start": 5.46,
+          "end": 5.7
+        },
+        {
+          "word": "cảm",
+          "start": 5.7,
+          "end": 5.88
+        },
+        {
+          "word": "giác",
+          "start": 5.88,
+          "end": 6.02
+        },
+        {
+          "word": "\"mua",
+          "start": 6.02,
+          "end": 6.2
+        },
+        {
+          "word": "được",
+          "start": 6.2,
+          "end": 6.26
+        },
+        {
+          "word": "rồi\".",
+          "start": 6.26,
+          "end": 6.46
+        }
+      ],
+      "enum_beats": [
+        {
+          "item": "giảm sâu",
+          "anchor_word": "giảm",
+          "rel_start_s": 3.267,
+          "frame_30fps": 98
+        },
+        {
+          "item": "tin tích cực",
+          "anchor_word": "tin",
+          "rel_start_s": 3.967,
+          "frame_30fps": 119
+        },
+        {
+          "item": "cảm giác mua được",
+          "anchor_word": "cảm",
+          "rel_start_s": 5.7,
+          "frame_30fps": 171
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "phase": "LESSON",
+      "display": "Cơ hội thật sự chỉ xuất hiện khi nhiều yếu tố cùng hội tụ: thị trường chung ủng hộ, nhóm ngành dẫn dắt thu hút dòng tiền, cổ phiếu hành động mạnh mẽ, và điểm Pivotal xuất hiện rõ ràng.",
+      "tts": "Cơ hội thật sự chỉ xuất hiện khi nhiều yếu tố cùng hội tụ: thị trường chung ủng hộ, nhóm ngành dẫn dắt đang thu hút dòng tiền, cổ phiếu hành động mạnh mẽ, và điểm Pi-vô-tồ xuất hiện rõ ràng.",
+      "main_idea": "bốn yếu tố hội tụ",
+      "enum_items": [
+        "thị trường chung",
+        "nhóm ngành dẫn dắt",
+        "cổ phiếu mạnh",
+        "điểm Pivotal"
+      ],
+      "pause_after_ms": 400,
+      "abs_start_s": 44.52,
+      "abs_end_s": 52.02,
+      "duration_s": 7.5,
+      "word_timestamps": [
+        {
+          "word": "Cơ",
+          "start": 0.0,
+          "end": 0.2
+        },
+        {
+          "word": "hội",
+          "start": 0.2,
+          "end": 0.32
+        },
+        {
+          "word": "thật",
+          "start": 0.32,
+          "end": 0.44
+        },
+        {
+          "word": "sự",
+          "start": 0.44,
+          "end": 0.56
+        },
+        {
+          "word": "chỉ",
+          "start": 0.56,
+          "end": 0.76
+        },
+        {
+          "word": "xuất",
+          "start": 0.76,
+          "end": 0.92
+        },
+        {
+          "word": "hiện",
+          "start": 0.92,
+          "end": 1.02
+        },
+        {
+          "word": "khi",
+          "start": 1.02,
+          "end": 1.28
+        },
+        {
+          "word": "nhiều",
+          "start": 1.28,
+          "end": 1.42
+        },
+        {
+          "word": "yếu",
+          "start": 1.42,
+          "end": 1.54
+        },
+        {
+          "word": "tố",
+          "start": 1.54,
+          "end": 1.66
+        },
+        {
+          "word": "cùng",
+          "start": 1.66,
+          "end": 1.82
+        },
+        {
+          "word": "hội",
+          "start": 1.82,
+          "end": 1.96
+        },
+        {
+          "word": "tụ:",
+          "start": 1.96,
+          "end": 2.4
+        },
+        {
+          "word": "thị",
+          "start": 2.52,
+          "end": 2.56
+        },
+        {
+          "word": "trường",
+          "start": 2.56,
+          "end": 2.7
+        },
+        {
+          "word": "chung",
+          "start": 2.56,
+          "end": 2.7
+        },
+        {
+          "word": "ủng",
+          "start": 2.7,
+          "end": 2.82
+        },
+        {
+          "word": "hộ,",
+          "start": 2.82,
+          "end": 3.0
+        },
+        {
+          "word": "nhóm",
+          "start": 3.42,
+          "end": 3.46
+        },
+        {
+          "word": "ngành",
+          "start": 3.46,
+          "end": 3.6
+        },
+        {
+          "word": "dẫn",
+          "start": 3.6,
+          "end": 3.74
+        },
+        {
+          "word": "dắt",
+          "start": 3.74,
+          "end": 3.9
+        },
+        {
+          "word": "thu",
+          "start": 4.1,
+          "end": 4.26
+        },
+        {
+          "word": "hút",
+          "start": 4.26,
+          "end": 4.38
+        },
+        {
+          "word": "dòng",
+          "start": 4.38,
+          "end": 4.5
+        },
+        {
+          "word": "tiền,",
+          "start": 4.5,
+          "end": 4.68
+        },
+        {
+          "word": "cổ",
+          "start": 5.06,
+          "end": 5.1
+        },
+        {
+          "word": "phiếu",
+          "start": 5.1,
+          "end": 5.3
+        },
+        {
+          "word": "hành",
+          "start": 5.3,
+          "end": 5.42
+        },
+        {
+          "word": "động",
+          "start": 5.42,
+          "end": 5.52
+        },
+        {
+          "word": "mạnh",
+          "start": 5.52,
+          "end": 5.66
+        },
+        {
+          "word": "mẽ,",
+          "start": 5.66,
+          "end": 5.86
+        },
+        {
+          "word": "và",
+          "start": 5.86,
+          "end": 6.28
+        },
+        {
+          "word": "điểm",
+          "start": 6.28,
+          "end": 6.44
+        },
+        {
+          "word": "Pivotal",
+          "start": 6.58,
+          "end": 6.7
+        },
+        {
+          "word": "xuất",
+          "start": 6.7,
+          "end": 6.8
+        },
+        {
+          "word": "hiện",
+          "start": 7.04,
+          "end": 7.16
+        },
+        {
+          "word": "rõ",
+          "start": 7.16,
+          "end": 7.34
+        },
+        {
+          "word": "ràng.",
+          "start": 7.34,
+          "end": 7.5
+        }
+      ],
+      "enum_beats": [
+        {
+          "item": "thị trường chung",
+          "anchor_word": "chung",
+          "rel_start_s": 2.567,
+          "frame_30fps": 77
+        },
+        {
+          "item": "nhóm ngành dẫn dắt",
+          "anchor_word": "nhóm",
+          "rel_start_s": 3.433,
+          "frame_30fps": 103
+        },
+        {
+          "item": "cổ phiếu mạnh",
+          "anchor_word": "cổ",
+          "rel_start_s": 4.867,
+          "frame_30fps": 146,
+          "patched": true
+        },
+        {
+          "item": "điểm Pivotal",
+          "anchor_word": "điểm",
+          "rel_start_s": 6.267,
+          "frame_30fps": 188
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "phase": "LESSON",
+      "display": "Khi đó, nhà đầu tư mới nên hành động bằng kế hoạch đã chuẩn bị từ trước, không phải bằng cảm xúc của khoảnh khắc.",
+      "tts": "Khi đó, nhà đầu tư mới nên hành động bằng kế hoạch đã được chuẩn bị từ trước, không phải bằng cảm xúc của khoảnh khắc.",
+      "main_idea": "hành động bằng kế hoạch",
+      "enum_items": null,
+      "pause_after_ms": 600,
+      "abs_start_s": 52.64,
+      "abs_end_s": 57.16,
+      "duration_s": 4.52,
+      "word_timestamps": [
+        {
+          "word": "Khi",
+          "start": 0.0,
+          "end": 0.1
+        },
+        {
+          "word": "đó,",
+          "start": 0.1,
+          "end": 0.26
+        },
+        {
+          "word": "nhà",
+          "start": 0.64,
+          "end": 0.72
+        },
+        {
+          "word": "đầu",
+          "start": 0.72,
+          "end": 0.82
+        },
+        {
+          "word": "tư",
+          "start": 0.82,
+          "end": 0.94
+        },
+        {
+          "word": "mới",
+          "start": 0.94,
+          "end": 1.1
+        },
+        {
+          "word": "nên",
+          "start": 1.1,
+          "end": 1.24
+        },
+        {
+          "word": "hành",
+          "start": 1.24,
+          "end": 1.38
+        },
+        {
+          "word": "động",
+          "start": 1.38,
+          "end": 1.5
+        },
+        {
+          "word": "bằng",
+          "start": 1.5,
+          "end": 1.66
+        },
+        {
+          "word": "kế",
+          "start": 1.66,
+          "end": 1.8
+        },
+        {
+          "word": "hoạch",
+          "start": 1.8,
+          "end": 2.08
+        },
+        {
+          "word": "đã",
+          "start": 2.08,
+          "end": 2.22
+        },
+        {
+          "word": "chuẩn",
+          "start": 2.32,
+          "end": 2.48
+        },
+        {
+          "word": "bị",
+          "start": 2.48,
+          "end": 2.6
+        },
+        {
+          "word": "từ",
+          "start": 2.6,
+          "end": 2.74
+        },
+        {
+          "word": "trước,",
+          "start": 2.74,
+          "end": 2.9
+        },
+        {
+          "word": "không",
+          "start": 2.9,
+          "end": 3.36
+        },
+        {
+          "word": "phải",
+          "start": 3.36,
+          "end": 3.52
+        },
+        {
+          "word": "bằng",
+          "start": 3.52,
+          "end": 3.66
+        },
+        {
+          "word": "cảm",
+          "start": 3.66,
+          "end": 3.8
+        },
+        {
+          "word": "xúc",
+          "start": 3.8,
+          "end": 4.0
+        },
+        {
+          "word": "của",
+          "start": 4.0,
+          "end": 4.18
+        },
+        {
+          "word": "khoảnh",
+          "start": 4.18,
+          "end": 4.32
+        },
+        {
+          "word": "khắc.",
+          "start": 4.32,
+          "end": 4.52
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "phase": "LESSON",
+      "display": "Sự kiên nhẫn này không phải là thụ động, mà là kiên nhẫn có chuẩn bị.",
+      "tts": "Sự kiên nhẫn này không phải là thụ động, mà là kiên nhẫn có chuẩn bị.",
+      "main_idea": "kiên nhẫn có chuẩn bị",
+      "enum_items": null,
+      "pause_after_ms": 350,
+      "abs_start_s": 57.64,
+      "abs_end_s": 60.08,
+      "duration_s": 2.44,
+      "word_timestamps": [
+        {
+          "word": "Sự",
+          "start": 0.0,
+          "end": 0.08
+        },
+        {
+          "word": "kiên",
+          "start": 0.08,
+          "end": 0.24
+        },
+        {
+          "word": "nhẫn",
+          "start": 0.24,
+          "end": 0.34
+        },
+        {
+          "word": "này",
+          "start": 0.34,
+          "end": 0.48
+        },
+        {
+          "word": "không",
+          "start": 0.48,
+          "end": 0.68
+        },
+        {
+          "word": "phải",
+          "start": 0.68,
+          "end": 0.82
+        },
+        {
+          "word": "là",
+          "start": 0.82,
+          "end": 0.96
+        },
+        {
+          "word": "thụ",
+          "start": 0.96,
+          "end": 1.08
+        },
+        {
+          "word": "động,",
+          "start": 1.08,
+          "end": 1.2
+        },
+        {
+          "word": "mà",
+          "start": 1.54,
+          "end": 1.62
+        },
+        {
+          "word": "là",
+          "start": 1.62,
+          "end": 1.72
+        },
+        {
+          "word": "kiên",
+          "start": 1.72,
+          "end": 1.88
+        },
+        {
+          "word": "nhẫn",
+          "start": 1.88,
+          "end": 2.02
+        },
+        {
+          "word": "có",
+          "start": 2.02,
+          "end": 2.16
+        },
+        {
+          "word": "chuẩn",
+          "start": 2.16,
+          "end": 2.3
+        },
+        {
+          "word": "bị.",
+          "start": 2.3,
+          "end": 2.44
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "phase": "LESSON",
+      "display": "Bạn quan sát thị trường mỗi ngày, theo dõi nhóm ngành dẫn dắt, ghi lại hành động giá, chờ tín hiệu xác nhận, và giữ tiền cho đúng thời điểm.",
+      "tts": "Bạn quan sát thị trường mỗi ngày, theo dõi nhóm ngành dẫn dắt, ghi lại hành động giá, chờ tín hiệu xác nhận, và giữ tiền cho đúng thời điểm.",
+      "main_idea": "việc làm mỗi ngày",
+      "enum_items": [
+        "quan sát thị trường",
+        "theo dõi nhóm ngành",
+        "ghi lại hành động giá",
+        "chờ tín hiệu",
+        "giữ tiền"
+      ],
+      "pause_after_ms": 350,
+      "abs_start_s": 60.62,
+      "abs_end_s": 66.14,
+      "duration_s": 5.52,
+      "word_timestamps": [
+        {
+          "word": "Bạn",
+          "start": 0.0,
+          "end": 0.1
+        },
+        {
+          "word": "quan",
+          "start": 0.1,
+          "end": 0.24
+        },
+        {
+          "word": "sát",
+          "start": 0.24,
+          "end": 0.38
+        },
+        {
+          "word": "thị",
+          "start": 0.38,
+          "end": 0.52
+        },
+        {
+          "word": "trường",
+          "start": 0.52,
+          "end": 0.64
+        },
+        {
+          "word": "mỗi",
+          "start": 0.64,
+          "end": 0.82
+        },
+        {
+          "word": "ngày,",
+          "start": 0.82,
+          "end": 1.04
+        },
+        {
+          "word": "theo",
+          "start": 1.34,
+          "end": 1.4
+        },
+        {
+          "word": "dõi",
+          "start": 1.4,
+          "end": 1.66
+        },
+        {
+          "word": "nhóm",
+          "start": 1.66,
+          "end": 1.72
+        },
+        {
+          "word": "ngành",
+          "start": 1.72,
+          "end": 1.92
+        },
+        {
+          "word": "dẫn",
+          "start": 1.92,
+          "end": 2.04
+        },
+        {
+          "word": "dắt,",
+          "start": 2.2,
+          "end": 2.34
+        },
+        {
+          "word": "ghi",
+          "start": 2.34,
+          "end": 2.6
+        },
+        {
+          "word": "lại",
+          "start": 2.6,
+          "end": 2.68
+        },
+        {
+          "word": "hành",
+          "start": 2.68,
+          "end": 2.82
+        },
+        {
+          "word": "động",
+          "start": 2.82,
+          "end": 2.94
+        },
+        {
+          "word": "giá,",
+          "start": 2.94,
+          "end": 3.28
+        },
+        {
+          "word": "chờ",
+          "start": 3.56,
+          "end": 3.62
+        },
+        {
+          "word": "tín",
+          "start": 3.62,
+          "end": 3.82
+        },
+        {
+          "word": "hiệu",
+          "start": 3.82,
+          "end": 3.94
+        },
+        {
+          "word": "xác",
+          "start": 3.94,
+          "end": 4.12
+        },
+        {
+          "word": "nhận,",
+          "start": 4.12,
+          "end": 4.26
+        },
+        {
+          "word": "và",
+          "start": 4.26,
+          "end": 4.62
+        },
+        {
+          "word": "giữ",
+          "start": 4.62,
+          "end": 4.78
+        },
+        {
+          "word": "tiền",
+          "start": 4.78,
+          "end": 4.92
+        },
+        {
+          "word": "cho",
+          "start": 4.92,
+          "end": 5.06
+        },
+        {
+          "word": "đúng",
+          "start": 5.06,
+          "end": 5.2
+        },
+        {
+          "word": "thời",
+          "start": 5.2,
+          "end": 5.34
+        },
+        {
+          "word": "điểm.",
+          "start": 5.34,
+          "end": 5.52
+        }
+      ],
+      "enum_beats": [
+        {
+          "item": "quan sát thị trường",
+          "anchor_word": "quan",
+          "rel_start_s": 0.1,
+          "frame_30fps": 3
+        },
+        {
+          "item": "theo dõi nhóm ngành",
+          "anchor_word": "theo",
+          "rel_start_s": 1.333,
+          "frame_30fps": 40
+        },
+        {
+          "item": "ghi lại hành động giá",
+          "anchor_word": "ghi",
+          "rel_start_s": 2.333,
+          "frame_30fps": 70
+        },
+        {
+          "item": "chờ tín hiệu",
+          "anchor_word": "chờ",
+          "rel_start_s": 3.567,
+          "frame_30fps": 107
+        },
+        {
+          "item": "giữ tiền",
+          "anchor_word": "giữ",
+          "rel_start_s": 4.633,
+          "frame_30fps": 139
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "phase": "LESSON",
+      "display": "Phần lớn sai lầm của nhà đầu tư đến từ việc muốn thị trường phải trao cơ hội mỗi ngày.",
+      "tts": "Phần lớn sai lầm của nhà đầu tư đến từ việc muốn thị trường phải trao cơ hội mỗi ngày.",
+      "main_idea": "đòi cơ hội mỗi ngày",
+      "enum_items": null,
+      "pause_after_ms": 300,
+      "abs_start_s": 66.52,
+      "abs_end_s": 69.78,
+      "duration_s": 3.26,
+      "word_timestamps": [
+        {
+          "word": "Phần",
+          "start": 0.0,
+          "end": 0.2
+        },
+        {
+          "word": "lớn",
+          "start": 0.2,
+          "end": 0.38
+        },
+        {
+          "word": "sai",
+          "start": 0.38,
+          "end": 0.52
+        },
+        {
+          "word": "lầm",
+          "start": 0.52,
+          "end": 0.64
+        },
+        {
+          "word": "của",
+          "start": 0.64,
+          "end": 0.78
+        },
+        {
+          "word": "nhà",
+          "start": 0.78,
+          "end": 0.9
+        },
+        {
+          "word": "đầu",
+          "start": 0.9,
+          "end": 0.96
+        },
+        {
+          "word": "tư",
+          "start": 0.96,
+          "end": 1.16
+        },
+        {
+          "word": "đến",
+          "start": 1.4,
+          "end": 1.46
+        },
+        {
+          "word": "từ",
+          "start": 1.46,
+          "end": 1.56
+        },
+        {
+          "word": "việc",
+          "start": 1.56,
+          "end": 1.7
+        },
+        {
+          "word": "muốn",
+          "start": 1.7,
+          "end": 1.88
+        },
+        {
+          "word": "thị",
+          "start": 1.88,
+          "end": 2.0
+        },
+        {
+          "word": "trường",
+          "start": 2.0,
+          "end": 2.24
+        },
+        {
+          "word": "phải",
+          "start": 2.24,
+          "end": 2.52
+        },
+        {
+          "word": "trao",
+          "start": 2.64,
+          "end": 2.76
+        },
+        {
+          "word": "cơ",
+          "start": 2.76,
+          "end": 2.88
+        },
+        {
+          "word": "hội",
+          "start": 2.88,
+          "end": 2.94
+        },
+        {
+          "word": "mỗi",
+          "start": 2.94,
+          "end": 3.12
+        },
+        {
+          "word": "ngày.",
+          "start": 3.12,
+          "end": 3.26
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "phase": "LESSON",
+      "display": "Nhưng những thương vụ lớn không đến thường xuyên.",
+      "tts": "Nhưng những thương vụ lớn không đến thường xuyên.",
+      "main_idea": "thương vụ lớn hiếm",
+      "enum_items": null,
+      "pause_after_ms": 300,
+      "abs_start_s": 70.26,
+      "abs_end_s": 71.76,
+      "duration_s": 1.5,
+      "word_timestamps": [
+        {
+          "word": "Nhưng",
+          "start": 0.0,
+          "end": 0.18
+        },
+        {
+          "word": "những",
+          "start": 0.18,
+          "end": 0.3
+        },
+        {
+          "word": "thương",
+          "start": 0.3,
+          "end": 0.44
+        },
+        {
+          "word": "vụ",
+          "start": 0.44,
+          "end": 0.6
+        },
+        {
+          "word": "lớn",
+          "start": 0.6,
+          "end": 0.82
+        },
+        {
+          "word": "không",
+          "start": 0.82,
+          "end": 1.0
+        },
+        {
+          "word": "đến",
+          "start": 1.0,
+          "end": 1.08
+        },
+        {
+          "word": "thường",
+          "start": 1.08,
+          "end": 1.3
+        },
+        {
+          "word": "xuyên.",
+          "start": 1.3,
+          "end": 1.5
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "phase": "LESSON",
+      "display": "Chúng cần thời gian để hình thành, phát triển và xác nhận.",
+      "tts": "Chúng cần thời gian để hình thành, phát triển và xác nhận.",
+      "main_idea": "cần thời gian hình thành",
+      "enum_items": [
+        "hình thành",
+        "phát triển",
+        "xác nhận"
+      ],
+      "pause_after_ms": 650,
+      "abs_start_s": 72.22,
+      "abs_end_s": 74.32,
+      "duration_s": 2.1,
+      "word_timestamps": [
+        {
+          "word": "Chúng",
+          "start": 0.0,
+          "end": 0.14
+        },
+        {
+          "word": "cần",
+          "start": 0.14,
+          "end": 0.26
+        },
+        {
+          "word": "thời",
+          "start": 0.26,
+          "end": 0.4
+        },
+        {
+          "word": "gian",
+          "start": 0.4,
+          "end": 0.6
+        },
+        {
+          "word": "để",
+          "start": 0.6,
+          "end": 0.72
+        },
+        {
+          "word": "hình",
+          "start": 0.72,
+          "end": 0.84
+        },
+        {
+          "word": "thành,",
+          "start": 0.84,
+          "end": 1.02
+        },
+        {
+          "word": "phát",
+          "start": 1.42,
+          "end": 1.46
+        },
+        {
+          "word": "triển",
+          "start": 1.46,
+          "end": 1.64
+        },
+        {
+          "word": "và",
+          "start": 1.64,
+          "end": 1.78
+        },
+        {
+          "word": "xác",
+          "start": 1.78,
+          "end": 1.92
+        },
+        {
+          "word": "nhận.",
+          "start": 1.92,
+          "end": 2.1
+        }
+      ],
+      "enum_beats": [
+        {
+          "item": "hình thành",
+          "anchor_word": "hình",
+          "rel_start_s": 0.733,
+          "frame_30fps": 22
+        },
+        {
+          "item": "phát triển",
+          "anchor_word": "phát",
+          "rel_start_s": 1.433,
+          "frame_30fps": 43
+        },
+        {
+          "item": "xác nhận",
+          "anchor_word": "xác",
+          "rel_start_s": 1.767,
+          "frame_30fps": 53
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "phase": "GAP",
+      "display": "Vấn đề là một nhà đầu tư cá nhân, đặc biệt khi mới gia nhập thị trường, rất khó để theo dõi đồng thời tất cả những yếu tố ấy mà vẫn giữ được sự tỉnh táo.",
+      "tts": "Vấn đề là một nhà đầu tư cá nhân, đặc biệt khi mới gia nhập thị trường, rất khó để theo dõi đồng thời tất cả những yếu tố ấy mỗi ngày mà vẫn giữ được sự tỉnh táo.",
+      "main_idea": "cá nhân khó theo dõi",
+      "enum_items": null,
+      "pause_after_ms": 350,
+      "abs_start_s": 74.78,
+      "abs_end_s": 81.48,
+      "duration_s": 6.7,
+      "word_timestamps": [
+        {
+          "word": "Vấn",
+          "start": 0.0,
+          "end": 0.14
+        },
+        {
+          "word": "đề",
+          "start": 0.14,
+          "end": 0.28
+        },
+        {
+          "word": "là",
+          "start": 0.28,
+          "end": 0.4
+        },
+        {
+          "word": "một",
+          "start": 0.4,
+          "end": 0.52
+        },
+        {
+          "word": "nhà",
+          "start": 0.52,
+          "end": 0.64
+        },
+        {
+          "word": "đầu",
+          "start": 0.64,
+          "end": 0.72
+        },
+        {
+          "word": "tư",
+          "start": 0.72,
+          "end": 0.9
+        },
+        {
+          "word": "cá",
+          "start": 0.9,
+          "end": 1.06
+        },
+        {
+          "word": "nhân,",
+          "start": 1.06,
+          "end": 1.18
+        },
+        {
+          "word": "đặc",
+          "start": 1.44,
+          "end": 1.7
+        },
+        {
+          "word": "biệt",
+          "start": 1.7,
+          "end": 1.88
+        },
+        {
+          "word": "khi",
+          "start": 1.88,
+          "end": 2.18
+        },
+        {
+          "word": "mới",
+          "start": 2.18,
+          "end": 2.28
+        },
+        {
+          "word": "gia",
+          "start": 2.28,
+          "end": 2.4
+        },
+        {
+          "word": "nhập",
+          "start": 2.4,
+          "end": 2.54
+        },
+        {
+          "word": "thị",
+          "start": 2.54,
+          "end": 2.66
+        },
+        {
+          "word": "trường,",
+          "start": 2.66,
+          "end": 2.9
+        },
+        {
+          "word": "rất",
+          "start": 3.22,
+          "end": 3.32
+        },
+        {
+          "word": "khó",
+          "start": 3.32,
+          "end": 3.54
+        },
+        {
+          "word": "để",
+          "start": 3.54,
+          "end": 3.68
+        },
+        {
+          "word": "theo",
+          "start": 3.68,
+          "end": 3.82
+        },
+        {
+          "word": "dõi",
+          "start": 3.82,
+          "end": 4.1
+        },
+        {
+          "word": "đồng",
+          "start": 4.26,
+          "end": 4.32
+        },
+        {
+          "word": "thời",
+          "start": 4.32,
+          "end": 4.44
+        },
+        {
+          "word": "tất",
+          "start": 4.54,
+          "end": 4.64
+        },
+        {
+          "word": "cả",
+          "start": 4.64,
+          "end": 4.76
+        },
+        {
+          "word": "những",
+          "start": 4.76,
+          "end": 4.9
+        },
+        {
+          "word": "yếu",
+          "start": 4.9,
+          "end": 5.02
+        },
+        {
+          "word": "tố",
+          "start": 5.02,
+          "end": 5.14
+        },
+        {
+          "word": "ấy",
+          "start": 5.26,
+          "end": 5.36
+        },
+        {
+          "word": "mà",
+          "start": 5.56,
+          "end": 5.78
+        },
+        {
+          "word": "vẫn",
+          "start": 5.78,
+          "end": 5.9
+        },
+        {
+          "word": "giữ",
+          "start": 5.9,
+          "end": 6.06
+        },
+        {
+          "word": "được",
+          "start": 6.06,
+          "end": 6.18
+        },
+        {
+          "word": "sự",
+          "start": 6.18,
+          "end": 6.3
+        },
+        {
+          "word": "tỉnh",
+          "start": 6.3,
+          "end": 6.48
+        },
+        {
+          "word": "táo.",
+          "start": 6.48,
+          "end": 6.7
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "phase": "GAP",
+      "display": "Bạn không có thời gian ngồi cả ngày trước bảng điện, không có công cụ chuyên nghiệp để quét nhóm ngành dẫn dắt, và không có kinh nghiệm nhận diện điểm Pivotal một cách hệ thống.",
+      "tts": "Bạn không có thời gian để ngồi cả ngày trước bảng điện, không có công cụ chuyên nghiệp để quét nhóm ngành dẫn dắt, và càng không có kinh nghiệm nhận diện điểm Pi-vô-tồ một cách hệ thống.",
+      "main_idea": "thiếu ba thứ",
+      "enum_items": [
+        "không có thời gian",
+        "không có công cụ",
+        "không có kinh nghiệm"
+      ],
+      "pause_after_ms": 350,
+      "abs_start_s": 81.92,
+      "abs_end_s": 88.62,
+      "duration_s": 6.7,
+      "word_timestamps": [
+        {
+          "word": "Bạn",
+          "start": 0.0,
+          "end": 0.2
+        },
+        {
+          "word": "không",
+          "start": 0.2,
+          "end": 0.36
+        },
+        {
+          "word": "có",
+          "start": 0.36,
+          "end": 0.46
+        },
+        {
+          "word": "thời",
+          "start": 0.46,
+          "end": 0.58
+        },
+        {
+          "word": "gian",
+          "start": 0.58,
+          "end": 0.76
+        },
+        {
+          "word": "ngồi",
+          "start": 0.76,
+          "end": 0.86
+        },
+        {
+          "word": "cả",
+          "start": 1.04,
+          "end": 1.18
+        },
+        {
+          "word": "ngày",
+          "start": 1.18,
+          "end": 1.34
+        },
+        {
+          "word": "trước",
+          "start": 1.34,
+          "end": 1.48
+        },
+        {
+          "word": "bảng",
+          "start": 1.48,
+          "end": 1.66
+        },
+        {
+          "word": "điện,",
+          "start": 1.66,
+          "end": 1.84
+        },
+        {
+          "word": "không",
+          "start": 2.12,
+          "end": 2.22
+        },
+        {
+          "word": "có",
+          "start": 2.22,
+          "end": 2.32
+        },
+        {
+          "word": "công",
+          "start": 2.32,
+          "end": 2.48
+        },
+        {
+          "word": "cụ",
+          "start": 2.48,
+          "end": 2.56
+        },
+        {
+          "word": "chuyên",
+          "start": 2.56,
+          "end": 2.8
+        },
+        {
+          "word": "nghiệp",
+          "start": 2.8,
+          "end": 2.96
+        },
+        {
+          "word": "để",
+          "start": 2.96,
+          "end": 3.22
+        },
+        {
+          "word": "quét",
+          "start": 3.22,
+          "end": 3.32
+        },
+        {
+          "word": "nhóm",
+          "start": 3.32,
+          "end": 3.5
+        },
+        {
+          "word": "ngành",
+          "start": 3.5,
+          "end": 3.62
+        },
+        {
+          "word": "dẫn",
+          "start": 3.62,
+          "end": 3.84
+        },
+        {
+          "word": "dắt,",
+          "start": 3.84,
+          "end": 3.98
+        },
+        {
+          "word": "và",
+          "start": 3.98,
+          "end": 4.38
+        },
+        {
+          "word": "không",
+          "start": 4.5,
+          "end": 4.72
+        },
+        {
+          "word": "có",
+          "start": 4.72,
+          "end": 4.8
+        },
+        {
+          "word": "kinh",
+          "start": 4.8,
+          "end": 4.96
+        },
+        {
+          "word": "nghiệm",
+          "start": 4.96,
+          "end": 5.1
+        },
+        {
+          "word": "nhận",
+          "start": 5.1,
+          "end": 5.3
+        },
+        {
+          "word": "diện",
+          "start": 5.3,
+          "end": 5.48
+        },
+        {
+          "word": "điểm",
+          "start": 5.48,
+          "end": 5.66
+        },
+        {
+          "word": "Pivotal",
+          "start": 5.66,
+          "end": 6.04
+        },
+        {
+          "word": "một",
+          "start": 6.24,
+          "end": 6.32
+        },
+        {
+          "word": "cách",
+          "start": 6.32,
+          "end": 6.44
+        },
+        {
+          "word": "hệ",
+          "start": 6.44,
+          "end": 6.48
+        },
+        {
+          "word": "thống.",
+          "start": 6.48,
+          "end": 6.7
+        }
+      ],
+      "enum_beats": [
+        {
+          "item": "không có thời gian",
+          "anchor_word": "thời",
+          "rel_start_s": 0.467,
+          "frame_30fps": 14
+        },
+        {
+          "item": "không có công cụ",
+          "anchor_word": "công",
+          "rel_start_s": 2.333,
+          "frame_30fps": 70
+        },
+        {
+          "item": "không có kinh nghiệm",
+          "anchor_word": "kinh",
+          "rel_start_s": 4.8,
+          "frame_30fps": 144
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "phase": "GAP",
+      "display": "Và chính khoảng trống đó là nơi cảm xúc len vào, biến những quyết định lẽ ra phải lý trí thành những cú nhấp chuột theo trào lưu.",
+      "tts": "Và chính khoảng trống đó là nơi cảm xúc len vào, biến những quyết định lẽ ra phải lý trí thành những cú nhấp chuột theo trào lưu.",
+      "main_idea": "cảm xúc len vào",
+      "enum_items": null,
+      "pause_after_ms": 700,
+      "abs_start_s": 89.08,
+      "abs_end_s": 93.7,
+      "duration_s": 4.62,
+      "word_timestamps": [
+        {
+          "word": "Và",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "word": "chính",
+          "start": 0.22,
+          "end": 0.32
+        },
+        {
+          "word": "khoảng",
+          "start": 0.32,
+          "end": 0.52
+        },
+        {
+          "word": "trống",
+          "start": 0.52,
+          "end": 0.72
+        },
+        {
+          "word": "đó",
+          "start": 0.72,
+          "end": 0.84
+        },
+        {
+          "word": "là",
+          "start": 0.84,
+          "end": 0.96
+        },
+        {
+          "word": "nơi",
+          "start": 0.96,
+          "end": 1.08
+        },
+        {
+          "word": "cảm",
+          "start": 1.08,
+          "end": 1.2
+        },
+        {
+          "word": "xúc",
+          "start": 1.2,
+          "end": 1.38
+        },
+        {
+          "word": "len",
+          "start": 1.38,
+          "end": 1.52
+        },
+        {
+          "word": "vào,",
+          "start": 1.52,
+          "end": 1.7
+        },
+        {
+          "word": "biến",
+          "start": 1.7,
+          "end": 2.14
+        },
+        {
+          "word": "những",
+          "start": 2.14,
+          "end": 2.24
+        },
+        {
+          "word": "quyết",
+          "start": 2.24,
+          "end": 2.44
+        },
+        {
+          "word": "định",
+          "start": 2.44,
+          "end": 2.58
+        },
+        {
+          "word": "lẽ",
+          "start": 2.58,
+          "end": 2.66
+        },
+        {
+          "word": "ra",
+          "start": 2.66,
+          "end": 2.84
+        },
+        {
+          "word": "phải",
+          "start": 2.84,
+          "end": 3.04
+        },
+        {
+          "word": "lý",
+          "start": 3.04,
+          "end": 3.14
+        },
+        {
+          "word": "trí",
+          "start": 3.14,
+          "end": 3.28
+        },
+        {
+          "word": "thành",
+          "start": 3.28,
+          "end": 3.4
+        },
+        {
+          "word": "những",
+          "start": 3.4,
+          "end": 3.5
+        },
+        {
+          "word": "cú",
+          "start": 3.5,
+          "end": 3.7
+        },
+        {
+          "word": "nhấp",
+          "start": 3.7,
+          "end": 3.78
+        },
+        {
+          "word": "chuột",
+          "start": 3.78,
+          "end": 4.02
+        },
+        {
+          "word": "theo",
+          "start": 4.02,
+          "end": 4.24
+        },
+        {
+          "word": "trào",
+          "start": 4.24,
+          "end": 4.38
+        },
+        {
+          "word": "lưu.",
+          "start": 4.38,
+          "end": 4.62
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "phase": "SOLVE",
+      "display": "Đó là lý do KFSP được xây dựng.",
+      "tts": "Đó là lý do KFS B được xây dựng.",
+      "main_idea": "vì sao có KFSP",
+      "enum_items": null,
+      "pause_after_ms": 300,
+      "abs_start_s": 94.1,
+      "abs_end_s": 95.88,
+      "duration_s": 1.78,
+      "word_timestamps": [
+        {
+          "word": "Đó",
+          "start": 0.0,
+          "end": 0.14
+        },
+        {
+          "word": "là",
+          "start": 0.14,
+          "end": 0.22
+        },
+        {
+          "word": "lý",
+          "start": 0.22,
+          "end": 0.32
+        },
+        {
+          "word": "do",
+          "start": 0.32,
+          "end": 0.42
+        },
+        {
+          "word": "KFSP",
+          "start": 0.62,
+          "end": 0.96
+        },
+        {
+          "word": "được",
+          "start": 0.96,
+          "end": 1.22
+        },
+        {
+          "word": "xây",
+          "start": 1.22,
+          "end": 1.34
+        },
+        {
+          "word": "dựng.",
+          "start": 1.34,
+          "end": 1.78
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "phase": "SOLVE",
+      "display": "Một ứng dụng dành cho nhà đầu tư cá nhân muốn đi con đường đơn giản, vững vàng và lâu dài, không phải mua bán liên tục theo cảm xúc đám đông.",
+      "tts": "Một ứng dụng dành cho nhà đầu tư cá nhân muốn đi con đường đơn giản, vững vàng và lâu dài, không phải con đường mua bán liên tục theo cảm xúc đám đông.",
+      "main_idea": "con đường vững vàng",
+      "enum_items": null,
+      "pause_after_ms": 350,
+      "abs_start_s": 95.98,
+      "abs_end_s": 102.52,
+      "duration_s": 6.54,
+      "word_timestamps": [
+        {
+          "word": "Một",
+          "start": 0.0,
+          "end": 0.2
+        },
+        {
+          "word": "ứng",
+          "start": 0.2,
+          "end": 0.32
+        },
+        {
+          "word": "dụng",
+          "start": 0.32,
+          "end": 0.46
+        },
+        {
+          "word": "dành",
+          "start": 0.46,
+          "end": 0.68
+        },
+        {
+          "word": "cho",
+          "start": 0.68,
+          "end": 0.84
+        },
+        {
+          "word": "nhà",
+          "start": 0.84,
+          "end": 0.92
+        },
+        {
+          "word": "đầu",
+          "start": 0.92,
+          "end": 1.0
+        },
+        {
+          "word": "tư",
+          "start": 1.0,
+          "end": 1.16
+        },
+        {
+          "word": "cá",
+          "start": 1.16,
+          "end": 1.32
+        },
+        {
+          "word": "nhân",
+          "start": 1.32,
+          "end": 1.48
+        },
+        {
+          "word": "muốn",
+          "start": 1.72,
+          "end": 1.82
+        },
+        {
+          "word": "đi",
+          "start": 1.82,
+          "end": 1.92
+        },
+        {
+          "word": "con",
+          "start": 1.92,
+          "end": 2.06
+        },
+        {
+          "word": "đường",
+          "start": 2.06,
+          "end": 2.14
+        },
+        {
+          "word": "đơn",
+          "start": 2.14,
+          "end": 2.3
+        },
+        {
+          "word": "giản,",
+          "start": 2.3,
+          "end": 2.5
+        },
+        {
+          "word": "vững",
+          "start": 2.84,
+          "end": 2.9
+        },
+        {
+          "word": "vàng",
+          "start": 2.84,
+          "end": 2.9
+        },
+        {
+          "word": "và",
+          "start": 2.9,
+          "end": 3.04
+        },
+        {
+          "word": "lâu",
+          "start": 3.04,
+          "end": 3.3
+        },
+        {
+          "word": "dài,",
+          "start": 3.3,
+          "end": 3.48
+        },
+        {
+          "word": "không",
+          "start": 3.74,
+          "end": 3.96
+        },
+        {
+          "word": "phải",
+          "start": 3.96,
+          "end": 4.1
+        },
+        {
+          "word": "mua",
+          "start": 4.36,
+          "end": 4.54
+        },
+        {
+          "word": "bán",
+          "start": 4.54,
+          "end": 4.7
+        },
+        {
+          "word": "liên",
+          "start": 4.82,
+          "end": 4.86
+        },
+        {
+          "word": "tục",
+          "start": 4.86,
+          "end": 5.08
+        },
+        {
+          "word": "theo",
+          "start": 5.08,
+          "end": 5.26
+        },
+        {
+          "word": "cảm",
+          "start": 5.26,
+          "end": 5.38
+        },
+        {
+          "word": "xúc",
+          "start": 5.38,
+          "end": 5.6
+        },
+        {
+          "word": "đám",
+          "start": 5.6,
+          "end": 5.74
+        },
+        {
+          "word": "đông.",
+          "start": 6.32,
+          "end": 6.54
+        }
+      ]
+    },
+    {
+      "id": "s25",
+      "phase": "SOLVE",
+      "display": "Trong KFSP, bạn có Bản đồ nhiệt để biết thị trường chung có ủng hộ không, Bộ lọc nhóm ngành để thấy dòng tiền chảy về đâu, Bảng giá và phân tích kỹ thuật để theo dõi cổ phiếu nào đang mạnh, và Cảnh báo điểm Pivotal để không bỏ lỡ khoảnh khắc xác suất nghiêng về phía mình.",
+      "tts": "Trong KFS B, bạn có Bản đồ nhiệt để nhìn một cái biết thị trường chung đang ủng hộ hay không, có Bộ lọc theo nhóm ngành để thấy dòng tiền đang chảy về đâu, có Bảng giá và phân tích kỹ thuật để theo dõi cổ phiếu nào đang hành động mạnh, và có Cảnh báo điểm Pi-vô-tồ để bạn không bỏ lỡ khoảnh khắc xác suất nghiêng về phía mình.",
+      "main_idea": "bốn tính năng KFSP",
+      "enum_items": [
+        "Bản đồ nhiệt",
+        "Bộ lọc nhóm ngành",
+        "Bảng giá & kỹ thuật",
+        "Cảnh báo Pivotal"
+      ],
+      "pause_after_ms": 400,
+      "abs_start_s": 102.52,
+      "abs_end_s": 115.38,
+      "duration_s": 12.86,
+      "word_timestamps": [
+        {
+          "word": "Trong",
+          "start": 0.0,
+          "end": 0.18
+        },
+        {
+          "word": "KFSP,",
+          "start": 0.18,
+          "end": 0.6
+        },
+        {
+          "word": "bạn",
+          "start": 0.98,
+          "end": 1.04
+        },
+        {
+          "word": "có",
+          "start": 1.04,
+          "end": 1.14
+        },
+        {
+          "word": "Bản",
+          "start": 1.14,
+          "end": 1.28
+        },
+        {
+          "word": "đồ",
+          "start": 1.28,
+          "end": 1.4
+        },
+        {
+          "word": "nhiệt",
+          "start": 1.4,
+          "end": 1.6
+        },
+        {
+          "word": "để",
+          "start": 1.8,
+          "end": 1.94
+        },
+        {
+          "word": "biết",
+          "start": 2.1,
+          "end": 2.26
+        },
+        {
+          "word": "thị",
+          "start": 2.26,
+          "end": 2.56
+        },
+        {
+          "word": "trường",
+          "start": 2.26,
+          "end": 2.56
+        },
+        {
+          "word": "chung",
+          "start": 2.56,
+          "end": 2.68
+        },
+        {
+          "word": "có",
+          "start": 2.88,
+          "end": 2.96
+        },
+        {
+          "word": "ủng",
+          "start": 2.96,
+          "end": 3.14
+        },
+        {
+          "word": "hộ",
+          "start": 3.14,
+          "end": 3.24
+        },
+        {
+          "word": "không,",
+          "start": 3.4,
+          "end": 3.54
+        },
+        {
+          "word": "Bộ",
+          "start": 3.98,
+          "end": 4.1
+        },
+        {
+          "word": "lọc",
+          "start": 4.1,
+          "end": 4.28
+        },
+        {
+          "word": "nhóm",
+          "start": 4.38,
+          "end": 4.52
+        },
+        {
+          "word": "ngành",
+          "start": 4.52,
+          "end": 4.78
+        },
+        {
+          "word": "để",
+          "start": 4.78,
+          "end": 5.04
+        },
+        {
+          "word": "thấy",
+          "start": 5.04,
+          "end": 5.16
+        },
+        {
+          "word": "dòng",
+          "start": 5.16,
+          "end": 5.3
+        },
+        {
+          "word": "tiền",
+          "start": 5.3,
+          "end": 5.48
+        },
+        {
+          "word": "chảy",
+          "start": 5.48,
+          "end": 5.64
+        },
+        {
+          "word": "về",
+          "start": 5.64,
+          "end": 5.84
+        },
+        {
+          "word": "đâu,",
+          "start": 6.3,
+          "end": 6.48
+        },
+        {
+          "word": "Bảng",
+          "start": 6.48,
+          "end": 6.62
+        },
+        {
+          "word": "giá",
+          "start": 6.62,
+          "end": 6.88
+        },
+        {
+          "word": "và",
+          "start": 6.88,
+          "end": 7.1
+        },
+        {
+          "word": "phân",
+          "start": 7.1,
+          "end": 7.22
+        },
+        {
+          "word": "tích",
+          "start": 7.22,
+          "end": 7.34
+        },
+        {
+          "word": "kỹ",
+          "start": 7.34,
+          "end": 7.5
+        },
+        {
+          "word": "thuật",
+          "start": 7.5,
+          "end": 7.72
+        },
+        {
+          "word": "để",
+          "start": 7.72,
+          "end": 8.0
+        },
+        {
+          "word": "theo",
+          "start": 8.0,
+          "end": 8.1
+        },
+        {
+          "word": "dõi",
+          "start": 8.1,
+          "end": 8.32
+        },
+        {
+          "word": "cổ",
+          "start": 8.32,
+          "end": 8.44
+        },
+        {
+          "word": "phiếu",
+          "start": 8.44,
+          "end": 8.56
+        },
+        {
+          "word": "nào",
+          "start": 8.56,
+          "end": 8.72
+        },
+        {
+          "word": "đang",
+          "start": 8.72,
+          "end": 8.9
+        },
+        {
+          "word": "mạnh,",
+          "start": 9.14,
+          "end": 9.32
+        },
+        {
+          "word": "và",
+          "start": 9.72,
+          "end": 9.72
+        },
+        {
+          "word": "Cảnh",
+          "start": 9.84,
+          "end": 10.0
+        },
+        {
+          "word": "báo",
+          "start": 10.0,
+          "end": 10.16
+        },
+        {
+          "word": "điểm",
+          "start": 10.16,
+          "end": 10.32
+        },
+        {
+          "word": "Pivotal",
+          "start": 10.32,
+          "end": 10.76
+        },
+        {
+          "word": "để",
+          "start": 11.02,
+          "end": 11.04
+        },
+        {
+          "word": "không",
+          "start": 11.16,
+          "end": 11.32
+        },
+        {
+          "word": "bỏ",
+          "start": 11.32,
+          "end": 11.48
+        },
+        {
+          "word": "lỡ",
+          "start": 11.48,
+          "end": 11.66
+        },
+        {
+          "word": "khoảnh",
+          "start": 11.66,
+          "end": 11.78
+        },
+        {
+          "word": "khắc",
+          "start": 11.78,
+          "end": 12.0
+        },
+        {
+          "word": "xác",
+          "start": 12.0,
+          "end": 12.18
+        },
+        {
+          "word": "suất",
+          "start": 12.18,
+          "end": 12.34
+        },
+        {
+          "word": "nghiêng",
+          "start": 12.34,
+          "end": 12.48
+        },
+        {
+          "word": "về",
+          "start": 12.48,
+          "end": 12.58
+        },
+        {
+          "word": "phía",
+          "start": 12.58,
+          "end": 12.66
+        },
+        {
+          "word": "mình.",
+          "start": 12.66,
+          "end": 12.86
+        }
+      ],
+      "enum_beats": [
+        {
+          "item": "Bản đồ nhiệt",
+          "anchor_word": "Bản",
+          "rel_start_s": 0.967,
+          "frame_30fps": 29
+        },
+        {
+          "item": "Bộ lọc nhóm ngành",
+          "anchor_word": "Bộ",
+          "rel_start_s": 3.967,
+          "frame_30fps": 119
+        },
+        {
+          "item": "Bảng giá & kỹ thuật",
+          "anchor_word": "Bảng",
+          "rel_start_s": 6.467,
+          "frame_30fps": 194
+        },
+        {
+          "item": "Cảnh báo Pivotal",
+          "anchor_word": "Cảnh",
+          "rel_start_s": 9.833,
+          "frame_30fps": 295
+        }
+      ]
+    },
+    {
+      "id": "s26",
+      "phase": "SOLVE",
+      "display": "Mỗi tính năng trong app được thiết kế để giúp bạn rèn luyện đúng thứ Livermore đã dạy hơn một thế kỷ trước: kiên nhẫn có chuẩn bị.",
+      "tts": "Mỗi tính năng trong áp được thiết kế để giúp bạn rèn luyện đúng thứ Líp-vơ-mo đã dạy hơn một thế kỷ trước: kiên nhẫn có chuẩn bị.",
+      "main_idea": "rèn kiên nhẫn có chuẩn bị",
+      "enum_items": null,
+      "pause_after_ms": 700,
+      "abs_start_s": 115.98,
+      "abs_end_s": 120.74,
+      "duration_s": 4.76,
+      "word_timestamps": [
+        {
+          "word": "Mỗi",
+          "start": 0.0,
+          "end": 0.06
+        },
+        {
+          "word": "tính",
+          "start": 0.06,
+          "end": 0.2
+        },
+        {
+          "word": "năng",
+          "start": 0.2,
+          "end": 0.32
+        },
+        {
+          "word": "trong",
+          "start": 0.32,
+          "end": 0.44
+        },
+        {
+          "word": "app",
+          "start": 0.44,
+          "end": 0.66
+        },
+        {
+          "word": "được",
+          "start": 0.66,
+          "end": 0.74
+        },
+        {
+          "word": "thiết",
+          "start": 0.74,
+          "end": 0.9
+        },
+        {
+          "word": "kế",
+          "start": 0.9,
+          "end": 1.1
+        },
+        {
+          "word": "để",
+          "start": 0.9,
+          "end": 1.1
+        },
+        {
+          "word": "giúp",
+          "start": 1.34,
+          "end": 1.48
+        },
+        {
+          "word": "bạn",
+          "start": 1.48,
+          "end": 1.66
+        },
+        {
+          "word": "rèn",
+          "start": 1.66,
+          "end": 1.84
+        },
+        {
+          "word": "luyện",
+          "start": 1.84,
+          "end": 2.02
+        },
+        {
+          "word": "đúng",
+          "start": 2.02,
+          "end": 2.2
+        },
+        {
+          "word": "thứ",
+          "start": 2.2,
+          "end": 2.34
+        },
+        {
+          "word": "Livermore",
+          "start": 2.48,
+          "end": 2.58
+        },
+        {
+          "word": "đã",
+          "start": 2.58,
+          "end": 2.78
+        },
+        {
+          "word": "dạy",
+          "start": 3.02,
+          "end": 3.1
+        },
+        {
+          "word": "hơn",
+          "start": 3.26,
+          "end": 3.36
+        },
+        {
+          "word": "một",
+          "start": 3.36,
+          "end": 3.52
+        },
+        {
+          "word": "thế",
+          "start": 3.52,
+          "end": 3.6
+        },
+        {
+          "word": "kỷ",
+          "start": 3.6,
+          "end": 3.74
+        },
+        {
+          "word": "trước:",
+          "start": 3.74,
+          "end": 3.96
+        },
+        {
+          "word": "kiên",
+          "start": 4.18,
+          "end": 4.22
+        },
+        {
+          "word": "nhẫn",
+          "start": 4.22,
+          "end": 4.32
+        },
+        {
+          "word": "có",
+          "start": 4.32,
+          "end": 4.5
+        },
+        {
+          "word": "chuẩn",
+          "start": 4.5,
+          "end": 4.66
+        },
+        {
+          "word": "bị.",
+          "start": 4.66,
+          "end": 4.76
+        }
+      ]
+    },
+    {
+      "id": "s27",
+      "phase": "CTA",
+      "display": "Bởi vì cuối cùng, một nhà đầu tư vững vàng không phải là người mua bán nhiều nhất.",
+      "tts": "Bởi vì cuối cùng, một nhà đầu tư vững vàng không phải là người mua bán nhiều nhất.",
+      "main_idea": "không phải mua bán nhiều nhất",
+      "enum_items": null,
+      "pause_after_ms": 350,
+      "abs_start_s": 121.3,
+      "abs_end_s": 124.44,
+      "duration_s": 3.14,
+      "word_timestamps": [
+        {
+          "word": "Bởi",
+          "start": 0.0,
+          "end": 0.08
+        },
+        {
+          "word": "vì",
+          "start": 0.08,
+          "end": 0.22
+        },
+        {
+          "word": "cuối",
+          "start": 0.22,
+          "end": 0.4
+        },
+        {
+          "word": "cùng,",
+          "start": 0.4,
+          "end": 0.6
+        },
+        {
+          "word": "một",
+          "start": 0.96,
+          "end": 1.04
+        },
+        {
+          "word": "nhà",
+          "start": 1.04,
+          "end": 1.16
+        },
+        {
+          "word": "đầu",
+          "start": 1.16,
+          "end": 1.22
+        },
+        {
+          "word": "tư",
+          "start": 1.22,
+          "end": 1.38
+        },
+        {
+          "word": "vững",
+          "start": 1.38,
+          "end": 1.56
+        },
+        {
+          "word": "vàng",
+          "start": 1.56,
+          "end": 1.78
+        },
+        {
+          "word": "không",
+          "start": 1.78,
+          "end": 2.1
+        },
+        {
+          "word": "phải",
+          "start": 2.1,
+          "end": 2.24
+        },
+        {
+          "word": "là",
+          "start": 2.24,
+          "end": 2.36
+        },
+        {
+          "word": "người",
+          "start": 2.36,
+          "end": 2.5
+        },
+        {
+          "word": "mua",
+          "start": 2.5,
+          "end": 2.6
+        },
+        {
+          "word": "bán",
+          "start": 2.6,
+          "end": 2.8
+        },
+        {
+          "word": "nhiều",
+          "start": 2.8,
+          "end": 2.92
+        },
+        {
+          "word": "nhất.",
+          "start": 2.92,
+          "end": 3.14
+        }
+      ]
+    },
+    {
+      "id": "s28",
+      "phase": "CTA",
+      "display": "Mà là người biết chờ đúng lúc, và khi cơ hội thật sự đến, hành động bằng một kế hoạch đã được chuẩn bị sẵn.",
+      "tts": "Mà là người biết chờ đúng lúc, và khi cơ hội thật sự đến, hành động bằng một kế hoạch đã được chuẩn bị sẵn.",
+      "main_idea": "chờ đúng lúc rồi hành động",
+      "enum_items": null,
+      "pause_after_ms": 0,
+      "abs_start_s": 124.9,
+      "abs_end_s": 129.08,
+      "duration_s": 4.18,
+      "word_timestamps": [
+        {
+          "word": "Mà",
+          "start": 0.0,
+          "end": 0.08
+        },
+        {
+          "word": "là",
+          "start": 0.08,
+          "end": 0.16
+        },
+        {
+          "word": "người",
+          "start": 0.16,
+          "end": 0.28
+        },
+        {
+          "word": "biết",
+          "start": 0.28,
+          "end": 0.44
+        },
+        {
+          "word": "chờ",
+          "start": 0.44,
+          "end": 0.64
+        },
+        {
+          "word": "đúng",
+          "start": 0.64,
+          "end": 0.84
+        },
+        {
+          "word": "lúc,",
+          "start": 0.84,
+          "end": 1.0
+        },
+        {
+          "word": "và",
+          "start": 1.0,
+          "end": 1.34
+        },
+        {
+          "word": "khi",
+          "start": 1.34,
+          "end": 1.48
+        },
+        {
+          "word": "cơ",
+          "start": 1.48,
+          "end": 1.66
+        },
+        {
+          "word": "hội",
+          "start": 1.66,
+          "end": 1.72
+        },
+        {
+          "word": "thật",
+          "start": 1.72,
+          "end": 1.88
+        },
+        {
+          "word": "sự",
+          "start": 1.88,
+          "end": 2.02
+        },
+        {
+          "word": "đến,",
+          "start": 2.02,
+          "end": 2.24
+        },
+        {
+          "word": "hành",
+          "start": 2.24,
+          "end": 2.68
+        },
+        {
+          "word": "động",
+          "start": 2.68,
+          "end": 2.78
+        },
+        {
+          "word": "bằng",
+          "start": 2.78,
+          "end": 2.94
+        },
+        {
+          "word": "một",
+          "start": 2.94,
+          "end": 3.1
+        },
+        {
+          "word": "kế",
+          "start": 3.1,
+          "end": 3.22
+        },
+        {
+          "word": "hoạch",
+          "start": 3.22,
+          "end": 3.36
+        },
+        {
+          "word": "đã",
+          "start": 3.36,
+          "end": 3.64
+        },
+        {
+          "word": "được",
+          "start": 3.64,
+          "end": 3.74
+        },
+        {
+          "word": "chuẩn",
+          "start": 3.74,
+          "end": 3.88
+        },
+        {
+          "word": "bị",
+          "start": 3.88,
+          "end": 4.0
+        },
+        {
+          "word": "sẵn.",
+          "start": 4.0,
+          "end": 4.18
+        }
+      ]
+    }
+  ]
+}

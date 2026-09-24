@@ -1,0 +1,91 @@
+{
+  "id": "s24",
+  "duration_s": 5.251,
+  "word_timestamps": [
+    {
+      "word": "Vậy",
+      "start": 0.0,
+      "end": 0.3
+    },
+    {
+      "word": "là",
+      "start": 0.3,
+      "end": 0.48
+    },
+    {
+      "word": "đủ",
+      "start": 0.48,
+      "end": 0.74
+    },
+    {
+      "word": "bảy",
+      "start": 0.74,
+      "end": 1.0
+    },
+    {
+      "word": "chữ,",
+      "start": 1.0,
+      "end": 1.24
+    },
+    {
+      "word": "can",
+      "start": 1.56,
+      "end": 1.88
+    },
+    {
+      "word": "cho",
+      "start": 1.88,
+      "end": 2.08
+    },
+    {
+      "word": "quả",
+      "start": 2.08,
+      "end": 2.32
+    },
+    {
+      "word": "khứ",
+      "start": 2.32,
+      "end": 2.54
+    },
+    {
+      "word": "với",
+      "start": 2.54,
+      "end": 2.7
+    },
+    {
+      "word": "tương",
+      "start": 2.7,
+      "end": 2.92
+    },
+    {
+      "word": "lai,",
+      "start": 2.92,
+      "end": 3.24
+    },
+    {
+      "word": "sơ",
+      "start": 3.48,
+      "end": 3.84
+    },
+    {
+      "word": "lim",
+      "start": 3.84,
+      "end": 3.98
+    },
+    {
+      "word": "cho",
+      "start": 3.98,
+      "end": 4.18
+    },
+    {
+      "word": "hiện",
+      "start": 4.18,
+      "end": 4.38
+    },
+    {
+      "word": "tại.",
+      "start": 4.38,
+      "end": 4.58
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Script TTS v3.2 — Vbee đọc (tông nói chuyện của Thanh)
+# Tricks: KFSP → "Kungfu" (brand shortname) | FA → "Ép ây" | ok → "ô kê" | bio → "bai-ô"
+# Thuật ngữ HOOK spell-letter:
+#   P/E → "Pê E" | ROE → "Rờ Ô Ê" | EBITDA → "Ê Bít Đa"
+#   OCF → "Ô Xê Ép" | TTM → "Tê Tê Mờ" | YoY → "I Ô I" (Y tiếng Việt = "i")
+# BCTC → "báo cáo tài chính"
+# Ngày: 2026-04-14 | speed_rate: 0.85 (Thanh) / 1.0 (Hoang Nam)
+
+[HOOK]
+Pê trên E, rờ ô e , Ê Bít Đa, Ô Xê Ép, Tê Tê Mờ, Dia-ô-vờ-dia... mới vô chứng khoán mà nhìn mấy từ này, chỉ có thấy choang sắc choáng thôi. Nếu bạn cũng đang choáng thì video này cho bạn đó. Mình sẽ giúp bạn vượt qua giai đoạn lạc lối đầu tiên khi học phân tích Ép ây...
+
+[P — PROBLEM]
+...Có phải bạn đang mở áp đọc tin, thấy "Pê trên E có vẻ rẻ", "Rờ Ô Ê hơi cao", "biên lợi nhuận có sự cải thiện" — nghe cũng ô kê, cũng hơi hơi hiểu được... Xong bấm vào báo cáo tài chính của mã đang quan tâm, thấy gì, thấy 200 dòng số, 50 chỉ số. Đơ luôn. Không biết bắt đầu từ đâu nữa....
+
+[A — AGITATE]
+... Mà... đây không phải vấn đề của riêng bạn đâu. Ai mới vô thị trường cũng vậy hết. Phân tích Ép ây xịn thì phải mất tầm vài năm đọc mới thấm từng chỉ số. Nên đa số người mới bỏ cuộc từ khúc này. Nhưng bạn không cần đợi vài năm nữa mới có thể tiếp tục trên thị trường chứng khoán. Bạn chỉ cần một bộ chỉ số được chọn sẵn — đủ để bắt đầu phân tích thật. Giống hồi cấp 1 học "quy tắc tam suất" vậy đó: chấp nhận quy tắc trước, hiểu gốc công thức sau.
+
+[S — SOLVE]
+Và đó là cái Kungfu làm. 11 chỉ số phân tích cơ bản gom lại, vẽ thành 1 cái ra-đa, kiểu ra-đa cầu thủ bóng đá ấy: trục nhô ra là mạnh, trục lõm vào là yếu. Bấm thẳng vào từng điểm trên ra-đa, app hiện luôn điểm thành phần. Bạn vẫn đang phân tích Ép ây, chỉ là bây giờ có lối vào, có người dẫn.
+
+[ACTION]
+Mở áp Kungfu lên, chọn mã quan tâm, nhìn ra-đa, 5 giây là nắm sơ bộ. Bấm vào các tooltip để xem điểm số từng khía cạnh. Cánh cửa vào Ép ây cho người mới là đây. Link tải ở bai-ô nha.

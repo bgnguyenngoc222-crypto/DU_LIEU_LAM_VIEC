@@ -1,0 +1,11 @@
+📝 Input length: 846 chars
+🎤 Voice: n_hanoi_male_baotrungmc_news_vc
+⏱  Speed rate: 1.0
+⏳ Submitting to Vbee...
+✅ Request ID: 39406a38-5981-4724-a74d-d5d5d5ff6fdf
+   [1] status=IN_PROGRESS progress=0%
+   [2] status=IN_PROGRESS progress=0%
+   [3] status=SUCCESS progress=100%
+🎧 Audio URL: https://vbee.vn/s/39406a38-5981-4724-a74d-d5d5d5ff6fdf/71571273-2135-4cfd-896e-b1104cbf9ad9
+⬇️  Downloading...
+✅ Saved: voice-drafts/draft_2_baotrung.mp3 (824877 bytes, 51.528000s)

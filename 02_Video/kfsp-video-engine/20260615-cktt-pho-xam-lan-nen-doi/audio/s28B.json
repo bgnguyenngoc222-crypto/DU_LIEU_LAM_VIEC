@@ -1,0 +1,30 @@
+{
+ "duration_s": 2.04,
+ "words": [
+  {
+   "word": "Chứng",
+   "start": 0.31,
+   "end": 0.47
+  },
+  {
+   "word": "khoán",
+   "start": 0.47,
+   "end": 0.77
+  },
+  {
+   "word": "trong",
+   "start": 0.77,
+   "end": 0.87
+  },
+  {
+   "word": "tầm",
+   "start": 0.87,
+   "end": 1.05
+  },
+  {
+   "word": "tay.",
+   "start": 1.05,
+   "end": 1.21
+  }
+ ]
+}

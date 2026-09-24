@@ -1,0 +1,106 @@
+{
+  "id": "s17",
+  "duration_s": 6.113,
+  "word_timestamps": [
+    {
+      "word": "vì",
+      "start": 0.0,
+      "end": 0.2
+    },
+    {
+      "word": "khi",
+      "start": 0.2,
+      "end": 0.46
+    },
+    {
+      "word": "tổ",
+      "start": 0.46,
+      "end": 0.74
+    },
+    {
+      "word": "chức",
+      "start": 0.74,
+      "end": 0.94
+    },
+    {
+      "word": "lớn",
+      "start": 0.94,
+      "end": 1.2
+    },
+    {
+      "word": "vào,",
+      "start": 1.2,
+      "end": 1.38
+    },
+    {
+      "word": "dòng",
+      "start": 1.98,
+      "end": 2.12
+    },
+    {
+      "word": "tiền",
+      "start": 2.12,
+      "end": 2.44
+    },
+    {
+      "word": "không",
+      "start": 2.44,
+      "end": 2.64
+    },
+    {
+      "word": "bao",
+      "start": 2.64,
+      "end": 2.8
+    },
+    {
+      "word": "giờ",
+      "start": 2.8,
+      "end": 3.0
+    },
+    {
+      "word": "là",
+      "start": 3.0,
+      "end": 3.18
+    },
+    {
+      "word": "chuyện",
+      "start": 3.18,
+      "end": 3.44
+    },
+    {
+      "word": "nhỏ,",
+      "start": 3.44,
+      "end": 3.7
+    },
+    {
+      "word": "họ",
+      "start": 4.18,
+      "end": 4.3
+    },
+    {
+      "word": "vòng",
+      "start": 4.3,
+      "end": 4.62
+    },
+    {
+      "word": "nghĩ",
+      "start": 4.62,
+      "end": 4.76
+    },
+    {
+      "word": "là",
+      "start": 4.76,
+      "end": 4.94
+    },
+    {
+      "word": "họ",
+      "start": 4.94,
+      "end": 5.12
+    },
+    {
+      "word": "tin.",
+      "start": 5.12,
+      "end": 5.38
+    }
+  ]
+}

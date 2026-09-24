@@ -1,0 +1,61 @@
+{
+  "id": "s05",
+  "text": "đưng đuổi mà chờ nó kiểm tra lại rồi mới vào.",
+  "words": [
+    {
+      "word": "đưng",
+      "start": 0.0,
+      "end": 0.16
+    },
+    {
+      "word": "đuổi",
+      "start": 0.16,
+      "end": 0.44
+    },
+    {
+      "word": "mà",
+      "start": 0.44,
+      "end": 0.88
+    },
+    {
+      "word": "chờ",
+      "start": 0.88,
+      "end": 1.12
+    },
+    {
+      "word": "nó",
+      "start": 1.12,
+      "end": 1.24
+    },
+    {
+      "word": "kiểm",
+      "start": 1.24,
+      "end": 1.44
+    },
+    {
+      "word": "tra",
+      "start": 1.44,
+      "end": 1.64
+    },
+    {
+      "word": "lại",
+      "start": 1.64,
+      "end": 1.84
+    },
+    {
+      "word": "rồi",
+      "start": 1.84,
+      "end": 2.0
+    },
+    {
+      "word": "mới",
+      "start": 2.0,
+      "end": 2.18
+    },
+    {
+      "word": "vào.",
+      "start": 2.18,
+      "end": 2.36
+    }
+  ]
+}

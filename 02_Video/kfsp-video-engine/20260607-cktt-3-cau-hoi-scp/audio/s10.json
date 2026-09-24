@@ -1,0 +1,107 @@
+[
+ {
+  "word": "một",
+  "start": 0.0,
+  "end": 0.12
+ },
+ {
+  "word": "cổ",
+  "start": 0.12,
+  "end": 0.28
+ },
+ {
+  "word": "phiếu",
+  "start": 0.28,
+  "end": 0.52
+ },
+ {
+  "word": "khỏe",
+  "start": 0.52,
+  "end": 0.84
+ },
+ {
+  "word": "tới",
+  "start": 0.84,
+  "end": 0.98
+ },
+ {
+  "word": "mấy",
+  "start": 0.98,
+  "end": 1.24
+ },
+ {
+  "word": "mà",
+  "start": 1.24,
+  "end": 1.46
+ },
+ {
+  "word": "thì",
+  "start": 1.46,
+  "end": 1.56
+ },
+ {
+  "word": "trường",
+  "start": 1.56,
+  "end": 1.8
+ },
+ {
+  "word": "trung",
+  "start": 1.8,
+  "end": 2.04
+ },
+ {
+  "word": "đang",
+  "start": 2.04,
+  "end": 2.18
+ },
+ {
+  "word": "xuống",
+  "start": 2.18,
+  "end": 2.48
+ },
+ {
+  "word": "thì",
+  "start": 2.48,
+  "end": 2.62
+ },
+ {
+  "word": "vẫn",
+  "start": 2.62,
+  "end": 2.76
+ },
+ {
+  "word": "đuối",
+  "start": 2.76,
+  "end": 3.04
+ },
+ {
+  "word": "nên",
+  "start": 3.04,
+  "end": 3.5
+ },
+ {
+  "word": "mình",
+  "start": 3.5,
+  "end": 3.66
+ },
+ {
+  "word": "chờ",
+  "start": 3.66,
+  "end": 3.94
+ },
+ {
+  "word": "lúc",
+  "start": 3.94,
+  "end": 4.12
+ },
+ {
+  "word": "sống",
+  "start": 4.12,
+  "end": 4.3
+ },
+ {
+  "word": "thuận.",
+  "start": 4.3,
+  "end": 4.56
+ }
+]

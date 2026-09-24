@@ -1,0 +1,15 @@
+{
+  "video": "20260604-4-nguyen-tac-he-thong",
+  "voice_code": "n_hanoi_male_baotrungmc_news_vc",
+  "voice_name": "Bảo Trung MC (clone news)",
+  "speed_rate": 1.0,
+  "chosen_by": "Thanh",
+  "chosen_date": "2026-06-05",
+  "total_duration_s": 68.73,
+  "shortlist_3_voices": [
+    "n_hanam_male_kfspthanh20260411135755079_education_vc (giọng Thanh clone, speed 0.9)",
+    "n_hanoi_male_baotrungmc_news_vc (Bảo Trung MC, speed 1.0)",
+    "hn_male_minhquan_yt-stable (Minh Quân trẻ, speed 1.0)"
+  ],
+  "note": "Chỉ dùng 3 giọng trong shortlist. Video này = Bảo Trung MC. gen_tts.sh <tts> <out> 1.0 n_hanoi_male_baotrungmc_news_vc"
+}

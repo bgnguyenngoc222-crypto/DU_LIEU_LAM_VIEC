@@ -1,0 +1,1927 @@
+{
+  "videoId": "20260604-cai-bay-gia-re",
+  "framework": "GIAT-GAN (Hook-Mistake-Rescue-Proof-Lesson-CTA)",
+  "voice": "hn_male_manhdung_news_48k-fhg",
+  "default_speed": 1.0,
+  "sentences": [
+    {
+      "id": "s01",
+      "phase": "HOOK",
+      "display": "Người ta nhớ Warren Buffett là nhà đầu tư vĩ đại nhất lịch sử.",
+      "tts": "Người ta nhớ Goa Ren Búp Phét là nhà đầu tư vĩ đại nhất lịch sử.",
+      "main_idea": "Buffett vĩ đại nhất",
+      "enum_items": null,
+      "pause_after_ms": 300,
+      "speed": 1.0,
+      "duration_s": 3.432,
+      "word_timestamps": [
+        {
+          "word": "người",
+          "start": 0.0,
+          "end": 0.26
+        },
+        {
+          "word": "ta",
+          "start": 0.26,
+          "end": 0.4
+        },
+        {
+          "word": "nhớ",
+          "start": 0.4,
+          "end": 0.64
+        },
+        {
+          "word": "của",
+          "start": 0.64,
+          "end": 0.78
+        },
+        {
+          "word": "RAN",
+          "start": 0.78,
+          "end": 0.94
+        },
+        {
+          "word": "BOOK",
+          "start": 0.94,
+          "end": 1.08
+        },
+        {
+          "word": "FAT",
+          "start": 1.08,
+          "end": 1.3
+        },
+        {
+          "word": "là",
+          "start": 1.3,
+          "end": 1.58
+        },
+        {
+          "word": "nhà",
+          "start": 1.58,
+          "end": 1.72
+        },
+        {
+          "word": "đầu",
+          "start": 1.72,
+          "end": 1.86
+        },
+        {
+          "word": "tư",
+          "start": 1.86,
+          "end": 2.06
+        },
+        {
+          "word": "ví",
+          "start": 2.06,
+          "end": 2.22
+        },
+        {
+          "word": "đại",
+          "start": 2.22,
+          "end": 2.38
+        },
+        {
+          "word": "nhất",
+          "start": 2.38,
+          "end": 2.5
+        },
+        {
+          "word": "lịch",
+          "start": 2.5,
+          "end": 2.7
+        },
+        {
+          "word": "sử.",
+          "start": 2.7,
+          "end": 2.94
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "phase": "HOOK",
+      "display": "Ít ai biết ông từng mắc một sai lầm suýt xoá sổ tên mình khỏi bản đồ đầu tư.",
+      "tts": "Ít ai biết ông từng mắc một sai lầm suýt xoá sổ tên mình khỏi bản đồ đầu tư.",
+      "main_idea": "sai lầm suýt xoá sổ",
+      "enum_items": null,
+      "pause_after_ms": 350,
+      "speed": 1.0,
+      "duration_s": 3.816,
+      "word_timestamps": [
+        {
+          "word": "ít,",
+          "start": 0.0,
+          "end": 0.24
+        },
+        {
+          "word": "I",
+          "start": 0.26,
+          "end": 0.32
+        },
+        {
+          "word": "biết",
+          "start": 0.32,
+          "end": 0.46
+        },
+        {
+          "word": "ông",
+          "start": 0.46,
+          "end": 0.58
+        },
+        {
+          "word": "từng",
+          "start": 0.58,
+          "end": 0.9
+        },
+        {
+          "word": "mắt",
+          "start": 0.9,
+          "end": 0.98
+        },
+        {
+          "word": "một",
+          "start": 0.98,
+          "end": 1.14
+        },
+        {
+          "word": "xa",
+          "start": 1.14,
+          "end": 1.3
+        },
+        {
+          "word": "lầm",
+          "start": 1.3,
+          "end": 1.52
+        },
+        {
+          "word": "suích",
+          "start": 1.52,
+          "end": 1.72
+        },
+        {
+          "word": "soát",
+          "start": 1.72,
+          "end": 1.94
+        },
+        {
+          "word": "số",
+          "start": 1.94,
+          "end": 2.12
+        },
+        {
+          "word": "tên",
+          "start": 2.12,
+          "end": 2.3
+        },
+        {
+          "word": "mình,",
+          "start": 2.3,
+          "end": 2.38
+        },
+        {
+          "word": "quả",
+          "start": 2.56,
+          "end": 2.64
+        },
+        {
+          "word": "bản",
+          "start": 2.64,
+          "end": 2.8
+        },
+        {
+          "word": "đô",
+          "start": 2.8,
+          "end": 2.9
+        },
+        {
+          "word": "đầu",
+          "start": 2.9,
+          "end": 3.06
+        },
+        {
+          "word": "tư.",
+          "start": 3.06,
+          "end": 3.28
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "phase": "HOOK",
+      "display": "Thứ cứu ông không phải một thương vụ thần kỳ, chỉ là một câu nói.",
+      "tts": "Thứ cứu ông không phải một thương vụ thần kỳ, chỉ là một câu nói.",
+      "main_idea": "cứu bằng một câu nói",
+      "enum_items": null,
+      "pause_after_ms": 700,
+      "speed": 1.0,
+      "duration_s": 3.168,
+      "word_timestamps": [
+        {
+          "word": "Thứ",
+          "start": 0.0,
+          "end": 0.24
+        },
+        {
+          "word": "cứu",
+          "start": 0.24,
+          "end": 0.46
+        },
+        {
+          "word": "không",
+          "start": 0.46,
+          "end": 0.52
+        },
+        {
+          "word": "phải",
+          "start": 0.52,
+          "end": 0.82
+        },
+        {
+          "word": "một",
+          "start": 0.82,
+          "end": 0.94
+        },
+        {
+          "word": "tương",
+          "start": 0.94,
+          "end": 1.14
+        },
+        {
+          "word": "vụ",
+          "start": 1.14,
+          "end": 1.26
+        },
+        {
+          "word": "tân",
+          "start": 1.26,
+          "end": 1.44
+        },
+        {
+          "word": "kỳ,",
+          "start": 1.44,
+          "end": 1.64
+        },
+        {
+          "word": "chỉ",
+          "start": 1.9,
+          "end": 2.08
+        },
+        {
+          "word": "là",
+          "start": 2.08,
+          "end": 2.2
+        },
+        {
+          "word": "một",
+          "start": 2.2,
+          "end": 2.34
+        },
+        {
+          "word": "câu",
+          "start": 2.34,
+          "end": 2.52
+        },
+        {
+          "word": "nói.",
+          "start": 2.52,
+          "end": 2.62
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "phase": "MISTAKE",
+      "display": "Thời trẻ, Buffett nghiện mua rẻ, lối đầu tư ông gọi vui là điếu xì gà hút dở.",
+      "tts": "Thời trẻ, Búp Phét nghiện mua rẻ, lối đầu tư ông gọi vui là điếu xì gà hút dở.",
+      "main_idea": "nghiện mua rẻ",
+      "enum_items": null,
+      "pause_after_ms": 350,
+      "speed": 1.0,
+      "duration_s": 4.608,
+      "word_timestamps": [
+        {
+          "word": "Thôi",
+          "start": 0.0,
+          "end": 0.24
+        },
+        {
+          "word": "trẻ,",
+          "start": 0.24,
+          "end": 0.5
+        },
+        {
+          "word": "bước",
+          "start": 0.82,
+          "end": 0.9
+        },
+        {
+          "word": "phát",
+          "start": 0.9,
+          "end": 1.08
+        },
+        {
+          "word": "nhiệm",
+          "start": 1.08,
+          "end": 1.22
+        },
+        {
+          "word": "mua",
+          "start": 1.22,
+          "end": 1.38
+        },
+        {
+          "word": "dài,",
+          "start": 1.38,
+          "end": 1.6
+        },
+        {
+          "word": "lối",
+          "start": 1.98,
+          "end": 2.06
+        },
+        {
+          "word": "đầu",
+          "start": 2.06,
+          "end": 2.14
+        },
+        {
+          "word": "tư",
+          "start": 2.14,
+          "end": 2.34
+        },
+        {
+          "word": "ông",
+          "start": 2.34,
+          "end": 2.54
+        },
+        {
+          "word": "gọi",
+          "start": 2.54,
+          "end": 2.68
+        },
+        {
+          "word": "vui",
+          "start": 2.68,
+          "end": 2.92
+        },
+        {
+          "word": "là",
+          "start": 2.92,
+          "end": 3.12
+        },
+        {
+          "word": "đấu",
+          "start": 3.12,
+          "end": 3.34
+        },
+        {
+          "word": "sĩ",
+          "start": 3.34,
+          "end": 3.56
+        },
+        {
+          "word": "gà",
+          "start": 3.56,
+          "end": 3.7
+        },
+        {
+          "word": "hút",
+          "start": 3.7,
+          "end": 3.92
+        },
+        {
+          "word": "giở.",
+          "start": 3.92,
+          "end": 4.14
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "phase": "MISTAKE",
+      "display": "Nhặt những công ty gần phá sản chỉ vì chúng quá rẻ, rít nốt hơi lợi nhuận cuối rồi bỏ đi.",
+      "tts": "Nhặt những công ty gần phá sản chỉ vì chúng quá rẻ, rít nốt hơi lợi nhuận cuối rồi bỏ đi.",
+      "main_idea": "nhặt công ty gần phá sản",
+      "enum_items": null,
+      "pause_after_ms": 400,
+      "speed": 1.0,
+      "duration_s": 4.584,
+      "word_timestamps": [
+        {
+          "word": "Nhật",
+          "start": 0.0,
+          "end": 0.3
+        },
+        {
+          "word": "những",
+          "start": 0.3,
+          "end": 0.38
+        },
+        {
+          "word": "công",
+          "start": 0.38,
+          "end": 0.58
+        },
+        {
+          "word": "ty",
+          "start": 0.58,
+          "end": 0.72
+        },
+        {
+          "word": "gần",
+          "start": 0.72,
+          "end": 0.94
+        },
+        {
+          "word": "phát",
+          "start": 0.94,
+          "end": 1.14
+        },
+        {
+          "word": "sản",
+          "start": 1.14,
+          "end": 1.3
+        },
+        {
+          "word": "chỉ",
+          "start": 1.3,
+          "end": 1.5
+        },
+        {
+          "word": "vì",
+          "start": 1.5,
+          "end": 1.66
+        },
+        {
+          "word": "chúng",
+          "start": 1.66,
+          "end": 1.8
+        },
+        {
+          "word": "quá",
+          "start": 1.8,
+          "end": 2.02
+        },
+        {
+          "word": "xẻ,",
+          "start": 2.02,
+          "end": 2.3
+        },
+        {
+          "word": "giết",
+          "start": 2.6,
+          "end": 2.74
+        },
+        {
+          "word": "nốt",
+          "start": 2.74,
+          "end": 2.9
+        },
+        {
+          "word": "hơi",
+          "start": 2.9,
+          "end": 3.1
+        },
+        {
+          "word": "lợi",
+          "start": 3.1,
+          "end": 3.28
+        },
+        {
+          "word": "gần",
+          "start": 3.28,
+          "end": 3.38
+        },
+        {
+          "word": "quấy",
+          "start": 3.38,
+          "end": 3.62
+        },
+        {
+          "word": "rồi",
+          "start": 3.62,
+          "end": 3.74
+        },
+        {
+          "word": "bỏ",
+          "start": 3.74,
+          "end": 3.92
+        },
+        {
+          "word": "đi.",
+          "start": 3.92,
+          "end": 4.04
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "phase": "MISTAKE",
+      "display": "Lối đó đưa ông tới canh bạc tệ nhất đời mình.",
+      "tts": "Lối đó đưa ông tới canh bạc tệ nhất đời mình.",
+      "main_idea": "canh bạc tệ nhất đời",
+      "enum_items": null,
+      "pause_after_ms": 350,
+      "speed": 1.0,
+      "duration_s": 2.448,
+      "word_timestamps": [
+        {
+          "word": "Lối",
+          "start": 0.0,
+          "end": 0.28
+        },
+        {
+          "word": "đó",
+          "start": 0.28,
+          "end": 0.48
+        },
+        {
+          "word": "đưa",
+          "start": 0.48,
+          "end": 0.64
+        },
+        {
+          "word": "ông",
+          "start": 0.64,
+          "end": 0.78
+        },
+        {
+          "word": "tới",
+          "start": 0.78,
+          "end": 0.94
+        },
+        {
+          "word": "căng",
+          "start": 0.94,
+          "end": 1.14
+        },
+        {
+          "word": "bạc",
+          "start": 1.14,
+          "end": 1.34
+        },
+        {
+          "word": "tệ",
+          "start": 1.34,
+          "end": 1.42
+        },
+        {
+          "word": "nhất",
+          "start": 1.42,
+          "end": 1.62
+        },
+        {
+          "word": "đời",
+          "start": 1.62,
+          "end": 1.8
+        },
+        {
+          "word": "mình.",
+          "start": 1.8,
+          "end": 1.9
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "phase": "MISTAKE",
+      "display": "Ông mua một xưởng dệt đang hấp hối chỉ vì nó rẻ, tên là Berkshire Hathaway.",
+      "tts": "Ông mua một xưởng dệt đang hấp hối chỉ vì nó rẻ, tên là Bớc Sa Ha Tha Guây.",
+      "main_idea": "xưởng dệt Berkshire",
+      "enum_items": null,
+      "pause_after_ms": 350,
+      "speed": 1.0,
+      "duration_s": 3.84,
+      "word_timestamps": [
+        {
+          "word": "ấm",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "word": "một",
+          "start": 0.22,
+          "end": 0.32
+        },
+        {
+          "word": "sựng",
+          "start": 0.32,
+          "end": 0.66
+        },
+        {
+          "word": "dịch",
+          "start": 0.66,
+          "end": 0.86
+        },
+        {
+          "word": "đàn",
+          "start": 0.86,
+          "end": 0.96
+        },
+        {
+          "word": "hấp",
+          "start": 0.96,
+          "end": 1.14
+        },
+        {
+          "word": "hối",
+          "start": 1.14,
+          "end": 1.32
+        },
+        {
+          "word": "chỉ",
+          "start": 1.32,
+          "end": 1.5
+        },
+        {
+          "word": "vì",
+          "start": 1.5,
+          "end": 1.62
+        },
+        {
+          "word": "nó",
+          "start": 1.62,
+          "end": 1.76
+        },
+        {
+          "word": "dẻ,",
+          "start": 1.76,
+          "end": 2.02
+        },
+        {
+          "word": "từng",
+          "start": 2.32,
+          "end": 2.5
+        },
+        {
+          "word": "là",
+          "start": 2.5,
+          "end": 2.56
+        },
+        {
+          "word": "bước",
+          "start": 2.56,
+          "end": 2.74
+        },
+        {
+          "word": "xa",
+          "start": 2.74,
+          "end": 2.92
+        },
+        {
+          "word": "hà",
+          "start": 2.92,
+          "end": 3.04
+        },
+        {
+          "word": "ta",
+          "start": 3.04,
+          "end": 3.14
+        },
+        {
+          "word": "quay.",
+          "start": 3.14,
+          "end": 3.32
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "phase": "MISTAKE",
+      "display": "Ông mắc kẹt vận hành cái xưởng chết dần đó suốt gần hai mươi năm.",
+      "tts": "Ông mắc kẹt vận hành cái xưởng chết dần đó suốt gần hai mươi năm.",
+      "main_idea": "mắc kẹt 20 năm",
+      "enum_items": null,
+      "pause_after_ms": 350,
+      "speed": 1.0,
+      "duration_s": 3.0,
+      "word_timestamps": [
+        {
+          "word": "ổ",
+          "start": 0.0,
+          "end": 0.18
+        },
+        {
+          "word": "mắc",
+          "start": 0.18,
+          "end": 0.32
+        },
+        {
+          "word": "kẹt",
+          "start": 0.32,
+          "end": 0.52
+        },
+        {
+          "word": "vận",
+          "start": 0.52,
+          "end": 0.66
+        },
+        {
+          "word": "hành",
+          "start": 0.66,
+          "end": 0.82
+        },
+        {
+          "word": "cái",
+          "start": 0.82,
+          "end": 0.98
+        },
+        {
+          "word": "sự",
+          "start": 0.98,
+          "end": 1.12
+        },
+        {
+          "word": "chiếc",
+          "start": 1.12,
+          "end": 1.38
+        },
+        {
+          "word": "dẫn",
+          "start": 1.38,
+          "end": 1.56
+        },
+        {
+          "word": "đó",
+          "start": 1.56,
+          "end": 1.68
+        },
+        {
+          "word": "xuất",
+          "start": 1.68,
+          "end": 2.0
+        },
+        {
+          "word": "gần",
+          "start": 2.0,
+          "end": 2.16
+        },
+        {
+          "word": "25.",
+          "start": 2.16,
+          "end": 2.38
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "phase": "MISTAKE",
+      "display": "Sau này ông gọi nó là cổ phiếu ngu ngốc nhất đời mình, ngốn hơn hai trăm tỷ đô chi phí cơ hội.",
+      "tts": "Sau này ông gọi nó là cổ phiếu ngu ngốc nhất đời mình, ngốn hơn hai trăm tỷ đô chi phí cơ hội.",
+      "main_idea": "ngu ngốc nhất, 200 tỷ",
+      "enum_items": null,
+      "pause_after_ms": 700,
+      "speed": 1.0,
+      "duration_s": 4.632,
+      "word_timestamps": [
+        {
+          "word": "Sau",
+          "start": 0.0,
+          "end": 0.2
+        },
+        {
+          "word": "này,",
+          "start": 0.2,
+          "end": 0.36
+        },
+        {
+          "word": "ông",
+          "start": 0.54,
+          "end": 0.64
+        },
+        {
+          "word": "gọi",
+          "start": 0.64,
+          "end": 0.76
+        },
+        {
+          "word": "nó",
+          "start": 0.76,
+          "end": 0.9
+        },
+        {
+          "word": "là",
+          "start": 0.9,
+          "end": 1.06
+        },
+        {
+          "word": "của",
+          "start": 1.06,
+          "end": 1.24
+        },
+        {
+          "word": "phíu",
+          "start": 1.24,
+          "end": 1.44
+        },
+        {
+          "word": "ngốc",
+          "start": 1.44,
+          "end": 1.66
+        },
+        {
+          "word": "nhất",
+          "start": 1.66,
+          "end": 1.8
+        },
+        {
+          "word": "đời",
+          "start": 1.8,
+          "end": 2.04
+        },
+        {
+          "word": "mình,",
+          "start": 2.04,
+          "end": 2.16
+        },
+        {
+          "word": "vốn",
+          "start": 2.5,
+          "end": 2.62
+        },
+        {
+          "word": "hơn",
+          "start": 2.62,
+          "end": 2.74
+        },
+        {
+          "word": "200",
+          "start": 2.74,
+          "end": 2.96
+        },
+        {
+          "word": "tỷ",
+          "start": 2.96,
+          "end": 3.24
+        },
+        {
+          "word": "đồ",
+          "start": 3.24,
+          "end": 3.46
+        },
+        {
+          "word": "chi",
+          "start": 3.46,
+          "end": 3.58
+        },
+        {
+          "word": "phí",
+          "start": 3.58,
+          "end": 3.76
+        },
+        {
+          "word": "cơ",
+          "start": 3.76,
+          "end": 3.98
+        },
+        {
+          "word": "hội.",
+          "start": 3.98,
+          "end": 4.14
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "phase": "RESCUE",
+      "display": "Người kéo ông ra khỏi vực là Charlie Munger, với một câu để đời.",
+      "tts": "Người kéo ông ra khỏi vực là Chác Li Mung Gơ, với một câu để đời.",
+      "main_idea": "Munger kéo khỏi vực",
+      "enum_items": null,
+      "pause_after_ms": 400,
+      "speed": 1.0,
+      "duration_s": 3.384,
+      "word_timestamps": [
+        {
+          "word": "Người",
+          "start": 0.0,
+          "end": 0.24
+        },
+        {
+          "word": "kéo",
+          "start": 0.24,
+          "end": 0.44
+        },
+        {
+          "word": "ông",
+          "start": 0.44,
+          "end": 0.6
+        },
+        {
+          "word": "ra",
+          "start": 0.6,
+          "end": 0.74
+        },
+        {
+          "word": "khỏi",
+          "start": 0.74,
+          "end": 0.96
+        },
+        {
+          "word": "vực",
+          "start": 0.96,
+          "end": 1.18
+        },
+        {
+          "word": "là",
+          "start": 1.18,
+          "end": 1.32
+        },
+        {
+          "word": "chắc",
+          "start": 1.32,
+          "end": 1.52
+        },
+        {
+          "word": "li",
+          "start": 1.52,
+          "end": 1.58
+        },
+        {
+          "word": "mụ",
+          "start": 1.58,
+          "end": 1.74
+        },
+        {
+          "word": "gờ,",
+          "start": 1.74,
+          "end": 1.9
+        },
+        {
+          "word": "với",
+          "start": 2.18,
+          "end": 2.28
+        },
+        {
+          "word": "một",
+          "start": 2.28,
+          "end": 2.48
+        },
+        {
+          "word": "tổ",
+          "start": 2.48,
+          "end": 2.6
+        },
+        {
+          "word": "để",
+          "start": 2.6,
+          "end": 2.74
+        },
+        {
+          "word": "nơi.",
+          "start": 2.74,
+          "end": 2.9
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "phase": "RESCUE",
+      "display": "Thà trả giá hợp lý cho một doanh nghiệp tuyệt vời, còn hơn mua thật rẻ một doanh nghiệp tầm thường.",
+      "tts": "Thà trả giá hợp lý cho một doanh nghiệp tuyệt vời, còn hơn mua thật rẻ một doanh nghiệp tầm thường.",
+      "main_idea": "DN tốt giá hợp lý",
+      "enum_items": null,
+      "pause_after_ms": 550,
+      "speed": 1.0,
+      "duration_s": 4.32,
+      "word_timestamps": [
+        {
+          "word": "Tha",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "word": "chạy",
+          "start": 0.22,
+          "end": 0.34
+        },
+        {
+          "word": "xã",
+          "start": 0.34,
+          "end": 0.58
+        },
+        {
+          "word": "hợp",
+          "start": 0.58,
+          "end": 0.74
+        },
+        {
+          "word": "lý",
+          "start": 0.74,
+          "end": 0.86
+        },
+        {
+          "word": "cho",
+          "start": 0.86,
+          "end": 1.06
+        },
+        {
+          "word": "một",
+          "start": 1.06,
+          "end": 1.22
+        },
+        {
+          "word": "dân",
+          "start": 1.22,
+          "end": 1.38
+        },
+        {
+          "word": "nghiệp",
+          "start": 1.38,
+          "end": 1.54
+        },
+        {
+          "word": "tự",
+          "start": 1.54,
+          "end": 1.62
+        },
+        {
+          "word": "vời,",
+          "start": 1.62,
+          "end": 1.9
+        },
+        {
+          "word": "còn",
+          "start": 2.2,
+          "end": 2.34
+        },
+        {
+          "word": "hơi",
+          "start": 2.34,
+          "end": 2.44
+        },
+        {
+          "word": "mua",
+          "start": 2.44,
+          "end": 2.64
+        },
+        {
+          "word": "thật",
+          "start": 2.64,
+          "end": 2.78
+        },
+        {
+          "word": "dạy",
+          "start": 2.78,
+          "end": 3.1
+        },
+        {
+          "word": "một",
+          "start": 3.1,
+          "end": 3.16
+        },
+        {
+          "word": "dân",
+          "start": 3.16,
+          "end": 3.34
+        },
+        {
+          "word": "nghiệp",
+          "start": 3.34,
+          "end": 3.52
+        },
+        {
+          "word": "tâm",
+          "start": 3.52,
+          "end": 3.64
+        },
+        {
+          "word": "thương.",
+          "start": 3.64,
+          "end": 3.8
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "phase": "RESCUE",
+      "display": "Một câu thôi, nhưng nó đảo ngược toàn bộ cách Buffett nhìn thị trường.",
+      "tts": "Một câu thôi, nhưng nó đảo ngược toàn bộ cách Búp Phét nhìn thị trường.",
+      "main_idea": "đảo ngược tất cả",
+      "enum_items": null,
+      "pause_after_ms": 700,
+      "speed": 1.0,
+      "duration_s": 3.24,
+      "word_timestamps": [
+        {
+          "word": "Một",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "word": "câu",
+          "start": 0.22,
+          "end": 0.4
+        },
+        {
+          "word": "thôi,",
+          "start": 0.4,
+          "end": 0.54
+        },
+        {
+          "word": "nhưng",
+          "start": 0.9,
+          "end": 0.96
+        },
+        {
+          "word": "nó",
+          "start": 0.96,
+          "end": 1.1
+        },
+        {
+          "word": "đỏng",
+          "start": 1.1,
+          "end": 1.34
+        },
+        {
+          "word": "ngược",
+          "start": 1.34,
+          "end": 1.42
+        },
+        {
+          "word": "tấn",
+          "start": 1.42,
+          "end": 1.56
+        },
+        {
+          "word": "bộ",
+          "start": 1.56,
+          "end": 1.72
+        },
+        {
+          "word": "các",
+          "start": 1.72,
+          "end": 1.86
+        },
+        {
+          "word": "bục",
+          "start": 1.86,
+          "end": 2.06
+        },
+        {
+          "word": "phát",
+          "start": 2.06,
+          "end": 2.22
+        },
+        {
+          "word": "nhìn",
+          "start": 2.22,
+          "end": 2.42
+        },
+        {
+          "word": "thiệt",
+          "start": 2.42,
+          "end": 2.6
+        },
+        {
+          "word": "trường.",
+          "start": 2.6,
+          "end": 2.76
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "phase": "PROOF",
+      "display": "Bằng chứng là See's Candies, ông trả gấp ba lần giá trị sổ sách, nhiều người chê đắt.",
+      "tts": "Bằng chứng là Xi Ken Đi, ông trả gấp ba lần giá trị sổ sách, nhiều người chê đắt.",
+      "main_idea": "See's, gấp 3 sổ sách",
+      "enum_items": null,
+      "pause_after_ms": 350,
+      "speed": 1.0,
+      "duration_s": 4.368,
+      "word_timestamps": [
+        {
+          "word": "Mẵng",
+          "start": 0.0,
+          "end": 0.28
+        },
+        {
+          "word": "trứng",
+          "start": 0.28,
+          "end": 0.48
+        },
+        {
+          "word": "là",
+          "start": 0.48,
+          "end": 0.62
+        },
+        {
+          "word": "sức",
+          "start": 0.62,
+          "end": 0.78
+        },
+        {
+          "word": "cà",
+          "start": 0.78,
+          "end": 0.92
+        },
+        {
+          "word": "đi,",
+          "start": 0.92,
+          "end": 1.02
+        },
+        {
+          "word": "ông",
+          "start": 1.42,
+          "end": 1.54
+        },
+        {
+          "word": "chả",
+          "start": 1.54,
+          "end": 1.72
+        },
+        {
+          "word": "gấp",
+          "start": 1.72,
+          "end": 1.9
+        },
+        {
+          "word": "và",
+          "start": 1.9,
+          "end": 2.08
+        },
+        {
+          "word": "lần",
+          "start": 2.08,
+          "end": 2.26
+        },
+        {
+          "word": "giá",
+          "start": 2.26,
+          "end": 2.42
+        },
+        {
+          "word": "trị",
+          "start": 2.42,
+          "end": 2.62
+        },
+        {
+          "word": "số",
+          "start": 2.62,
+          "end": 2.84
+        },
+        {
+          "word": "sắc,",
+          "start": 2.84,
+          "end": 3.1
+        },
+        {
+          "word": "nhiều",
+          "start": 3.38,
+          "end": 3.48
+        },
+        {
+          "word": "người",
+          "start": 3.48,
+          "end": 3.62
+        },
+        {
+          "word": "chấp.",
+          "start": 3.62,
+          "end": 3.86
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "phase": "PROOF",
+      "display": "Nhưng thương hiệu đó mạnh đến mức tăng giá đều mà khách vẫn ở lại, mang về hơn hai tỷ đô lợi nhuận.",
+      "tts": "Nhưng thương hiệu đó mạnh đến mức tăng giá đều mà khách vẫn ở lại, mang về hơn hai tỷ đô lợi nhuận.",
+      "main_idea": "thương hiệu mạnh, 2 tỷ",
+      "enum_items": null,
+      "pause_after_ms": 350,
+      "speed": 1.0,
+      "duration_s": 4.56,
+      "word_timestamps": [
+        {
+          "word": "Nhưng",
+          "start": 0.0,
+          "end": 0.24
+        },
+        {
+          "word": "tuyệt",
+          "start": 0.24,
+          "end": 0.46
+        },
+        {
+          "word": "hiệu",
+          "start": 0.46,
+          "end": 0.54
+        },
+        {
+          "word": "đó",
+          "start": 0.54,
+          "end": 0.68
+        },
+        {
+          "word": "mạnh",
+          "start": 0.68,
+          "end": 0.9
+        },
+        {
+          "word": "đến",
+          "start": 0.9,
+          "end": 1.04
+        },
+        {
+          "word": "nước",
+          "start": 1.04,
+          "end": 1.18
+        },
+        {
+          "word": "tăng",
+          "start": 1.18,
+          "end": 1.38
+        },
+        {
+          "word": "xá",
+          "start": 1.38,
+          "end": 1.56
+        },
+        {
+          "word": "đều",
+          "start": 1.56,
+          "end": 1.82
+        },
+        {
+          "word": "mà",
+          "start": 1.82,
+          "end": 1.96
+        },
+        {
+          "word": "khách",
+          "start": 1.96,
+          "end": 2.14
+        },
+        {
+          "word": "vẫn",
+          "start": 2.14,
+          "end": 2.28
+        },
+        {
+          "word": "ở",
+          "start": 2.28,
+          "end": 2.4
+        },
+        {
+          "word": "lại,",
+          "start": 2.4,
+          "end": 2.58
+        },
+        {
+          "word": "mang",
+          "start": 2.9,
+          "end": 2.98
+        },
+        {
+          "word": "về",
+          "start": 2.98,
+          "end": 3.12
+        },
+        {
+          "word": "hơn",
+          "start": 3.12,
+          "end": 3.26
+        },
+        {
+          "word": "2",
+          "start": 3.26,
+          "end": 3.42
+        },
+        {
+          "word": "tỷ",
+          "start": 3.42,
+          "end": 3.62
+        },
+        {
+          "word": "đô",
+          "start": 3.62,
+          "end": 3.76
+        },
+        {
+          "word": "lợi",
+          "start": 3.76,
+          "end": 3.92
+        },
+        {
+          "word": "nhận.",
+          "start": 3.92,
+          "end": 4.06
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "phase": "PROOF",
+      "display": "Buffett gọi lợi thế đó là con hào kinh tế.",
+      "tts": "Búp Phét gọi lợi thế đó là con hào kinh tế.",
+      "main_idea": "con hào kinh tế",
+      "enum_items": null,
+      "pause_after_ms": 700,
+      "speed": 1.0,
+      "duration_s": 2.376,
+      "word_timestamps": [
+        {
+          "word": "Bụt",
+          "start": 0.0,
+          "end": 0.28
+        },
+        {
+          "word": "phép",
+          "start": 0.28,
+          "end": 0.38
+        },
+        {
+          "word": "gọi",
+          "start": 0.38,
+          "end": 0.54
+        },
+        {
+          "word": "lợi",
+          "start": 0.54,
+          "end": 0.68
+        },
+        {
+          "word": "thế",
+          "start": 0.68,
+          "end": 0.8
+        },
+        {
+          "word": "đó",
+          "start": 0.8,
+          "end": 1.02
+        },
+        {
+          "word": "là",
+          "start": 1.02,
+          "end": 1.18
+        },
+        {
+          "word": "con",
+          "start": 1.18,
+          "end": 1.34
+        },
+        {
+          "word": "học",
+          "start": 1.34,
+          "end": 1.48
+        },
+        {
+          "word": "kinh",
+          "start": 1.48,
+          "end": 1.66
+        },
+        {
+          "word": "tế.",
+          "start": 1.66,
+          "end": 1.86
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "phase": "LESSON",
+      "display": "Một mã rẻ có thể rẻ vì bị định giá sai, cũng có thể rẻ vì đang chết dần.",
+      "tts": "Một mã rẻ có thể rẻ vì bị định giá sai, cũng có thể rẻ vì đang chết dần.",
+      "main_idea": "rẻ sai giá hay chết dần",
+      "enum_items": [
+        "định giá sai",
+        "đang chết dần"
+      ],
+      "pause_after_ms": 350,
+      "speed": 1.0,
+      "duration_s": 4.176,
+      "word_timestamps": [
+        {
+          "word": "Một",
+          "start": 0.0,
+          "end": 0.26
+        },
+        {
+          "word": "máy",
+          "start": 0.26,
+          "end": 0.52
+        },
+        {
+          "word": "xẻ",
+          "start": 0.52,
+          "end": 0.66
+        },
+        {
+          "word": "có",
+          "start": 0.66,
+          "end": 0.78
+        },
+        {
+          "word": "thể",
+          "start": 0.78,
+          "end": 0.92
+        },
+        {
+          "word": "xẻ",
+          "start": 0.92,
+          "end": 1.1
+        },
+        {
+          "word": "vì",
+          "start": 1.1,
+          "end": 1.24
+        },
+        {
+          "word": "bình",
+          "start": 1.24,
+          "end": 1.38
+        },
+        {
+          "word": "định",
+          "start": 1.38,
+          "end": 1.54
+        },
+        {
+          "word": "giá",
+          "start": 1.54,
+          "end": 1.76
+        },
+        {
+          "word": "xài",
+          "start": 1.76,
+          "end": 2.04
+        },
+        {
+          "word": "cũng",
+          "start": 2.04,
+          "end": 2.4
+        },
+        {
+          "word": "có",
+          "start": 2.4,
+          "end": 2.6
+        },
+        {
+          "word": "thể",
+          "start": 2.6,
+          "end": 2.72
+        },
+        {
+          "word": "xẻ",
+          "start": 2.72,
+          "end": 2.96
+        },
+        {
+          "word": "vì",
+          "start": 2.96,
+          "end": 3.14
+        },
+        {
+          "word": "đăng",
+          "start": 3.14,
+          "end": 3.34
+        },
+        {
+          "word": "chết",
+          "start": 3.34,
+          "end": 3.54
+        },
+        {
+          "word": "dẫn.",
+          "start": 3.54,
+          "end": 3.7
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "phase": "LESSON",
+      "display": "Khác biệt không nằm ở cái giá, mà ở sức khoẻ doanh nghiệp.",
+      "tts": "Khác biệt không nằm ở cái giá, mà ở sức khoẻ doanh nghiệp.",
+      "main_idea": "khác biệt ở sức khoẻ DN",
+      "enum_items": null,
+      "pause_after_ms": 300,
+      "speed": 1.0,
+      "duration_s": 2.952,
+      "word_timestamps": [
+        {
+          "word": "các",
+          "start": 0.0,
+          "end": 0.2
+        },
+        {
+          "word": "biệt",
+          "start": 0.2,
+          "end": 0.4
+        },
+        {
+          "word": "không",
+          "start": 0.4,
+          "end": 0.52
+        },
+        {
+          "word": "nằm",
+          "start": 0.52,
+          "end": 0.8
+        },
+        {
+          "word": "ở",
+          "start": 0.8,
+          "end": 0.8
+        },
+        {
+          "word": "cái",
+          "start": 0.8,
+          "end": 0.94
+        },
+        {
+          "word": "sã,",
+          "start": 0.94,
+          "end": 1.18
+        },
+        {
+          "word": "mà",
+          "start": 1.42,
+          "end": 1.6
+        },
+        {
+          "word": "ở",
+          "start": 1.6,
+          "end": 1.74
+        },
+        {
+          "word": "sức",
+          "start": 1.74,
+          "end": 1.94
+        },
+        {
+          "word": "quẻ",
+          "start": 1.94,
+          "end": 2.12
+        },
+        {
+          "word": "soanh",
+          "start": 2.12,
+          "end": 2.38
+        },
+        {
+          "word": "nhập.",
+          "start": 2.38,
+          "end": 2.48
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "phase": "LESSON",
+      "display": "Lợi nhuận có thật không, nợ có đang nuốt công ty, giá đang đắt hay rẻ so với giá trị thật.",
+      "tts": "Lợi nhuận có thật không, nợ có đang nuốt công ty, giá đang đắt hay rẻ so với giá trị thật.",
+      "main_idea": "lợi nhuận, nợ, định giá",
+      "enum_items": [
+        "lợi nhuận",
+        "nợ",
+        "giá so với giá trị thật"
+      ],
+      "pause_after_ms": 650,
+      "speed": 1.0,
+      "duration_s": 4.656,
+      "word_timestamps": [
+        {
+          "word": "Lời",
+          "start": 0.0,
+          "end": 0.26
+        },
+        {
+          "word": "nhận",
+          "start": 0.26,
+          "end": 0.46
+        },
+        {
+          "word": "có",
+          "start": 0.46,
+          "end": 0.62
+        },
+        {
+          "word": "thật",
+          "start": 0.62,
+          "end": 0.78
+        },
+        {
+          "word": "kông,",
+          "start": 0.78,
+          "end": 0.92
+        },
+        {
+          "word": "nợ",
+          "start": 1.34,
+          "end": 1.42
+        },
+        {
+          "word": "có",
+          "start": 1.42,
+          "end": 1.6
+        },
+        {
+          "word": "đăng",
+          "start": 1.6,
+          "end": 1.74
+        },
+        {
+          "word": "lút",
+          "start": 1.74,
+          "end": 1.86
+        },
+        {
+          "word": "cùng",
+          "start": 1.86,
+          "end": 2.0
+        },
+        {
+          "word": "tì,",
+          "start": 2.0,
+          "end": 2.16
+        },
+        {
+          "word": "giá",
+          "start": 2.54,
+          "end": 2.68
+        },
+        {
+          "word": "đăng",
+          "start": 2.68,
+          "end": 2.82
+        },
+        {
+          "word": "gắt",
+          "start": 2.82,
+          "end": 2.98
+        },
+        {
+          "word": "hai",
+          "start": 2.98,
+          "end": 3.16
+        },
+        {
+          "word": "dẻ",
+          "start": 3.16,
+          "end": 3.4
+        },
+        {
+          "word": "sau",
+          "start": 3.4,
+          "end": 3.62
+        },
+        {
+          "word": "vây",
+          "start": 3.62,
+          "end": 3.76
+        },
+        {
+          "word": "giá",
+          "start": 3.76,
+          "end": 3.88
+        },
+        {
+          "word": "chí",
+          "start": 3.88,
+          "end": 4.04
+        },
+        {
+          "word": "thật.",
+          "start": 4.04,
+          "end": 4.2
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "phase": "CTA",
+      "display": "Trước khi xuống tiền, hãy mở danh mục ra và tự hỏi: mình giữ mã này vì nó tốt, hay chỉ vì nó rẻ?",
+      "tts": "Trước khi xuống tiền, hãy mở danh mục ra và tự hỏi: mình giữ mã này vì nó tốt, hay chỉ vì nó rẻ?",
+      "main_idea": "tốt hay chỉ vì rẻ?",
+      "enum_items": null,
+      "pause_after_ms": 0,
+      "speed": 1.0,
+      "duration_s": 5.4,
+      "word_timestamps": [
+        {
+          "word": "trước",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "word": "khi",
+          "start": 0.22,
+          "end": 0.36
+        },
+        {
+          "word": "xuống",
+          "start": 0.36,
+          "end": 0.64
+        },
+        {
+          "word": "tình,",
+          "start": 0.64,
+          "end": 0.84
+        },
+        {
+          "word": "hãy",
+          "start": 1.18,
+          "end": 1.26
+        },
+        {
+          "word": "mở",
+          "start": 1.26,
+          "end": 1.42
+        },
+        {
+          "word": "xanh",
+          "start": 1.42,
+          "end": 1.6
+        },
+        {
+          "word": "uc",
+          "start": 1.6,
+          "end": 1.74
+        },
+        {
+          "word": "ra",
+          "start": 1.74,
+          "end": 1.86
+        },
+        {
+          "word": "và",
+          "start": 1.86,
+          "end": 2.14
+        },
+        {
+          "word": "từ",
+          "start": 2.14,
+          "end": 2.28
+        },
+        {
+          "word": "hỏi",
+          "start": 2.28,
+          "end": 2.52
+        },
+        {
+          "word": "mình",
+          "start": 2.52,
+          "end": 2.8
+        },
+        {
+          "word": "giữ",
+          "start": 2.8,
+          "end": 3.08
+        },
+        {
+          "word": "mắt",
+          "start": 3.08,
+          "end": 3.22
+        },
+        {
+          "word": "lại",
+          "start": 3.22,
+          "end": 3.34
+        },
+        {
+          "word": "vì",
+          "start": 3.34,
+          "end": 3.48
+        },
+        {
+          "word": "nó",
+          "start": 3.48,
+          "end": 3.6
+        },
+        {
+          "word": "tốt,",
+          "start": 3.6,
+          "end": 3.82
+        },
+        {
+          "word": "hay",
+          "start": 4.12,
+          "end": 4.2
+        },
+        {
+          "word": "chỉ",
+          "start": 4.2,
+          "end": 4.36
+        },
+        {
+          "word": "vì",
+          "start": 4.36,
+          "end": 4.5
+        },
+        {
+          "word": "nó",
+          "start": 4.5,
+          "end": 4.66
+        },
+        {
+          "word": "dẻ.",
+          "start": 4.66,
+          "end": 4.92
+        }
+      ]
+    }
+  ]
+}

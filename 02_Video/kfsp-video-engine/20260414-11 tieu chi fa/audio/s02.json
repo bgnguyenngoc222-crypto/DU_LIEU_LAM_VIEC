@@ -1,0 +1,156 @@
+{
+  "id": "s02",
+  "duration_s": 6.21,
+  "word_timestamps": [
+    {
+      "word": "Nếu",
+      "start": 0.05,
+      "end": 0.15
+    },
+    {
+      "word": "bạn",
+      "start": 0.15,
+      "end": 0.27
+    },
+    {
+      "word": "cũng",
+      "start": 0.27,
+      "end": 0.49
+    },
+    {
+      "word": "đang",
+      "start": 0.49,
+      "end": 0.61
+    },
+    {
+      "word": "tró",
+      "start": 0.61,
+      "end": 0.85
+    },
+    {
+      "word": "án",
+      "start": 0.85,
+      "end": 0.99
+    },
+    {
+      "word": "thì",
+      "start": 0.99,
+      "end": 1.09
+    },
+    {
+      "word": "video",
+      "start": 1.09,
+      "end": 1.33
+    },
+    {
+      "word": "này",
+      "start": 1.33,
+      "end": 1.51
+    },
+    {
+      "word": "cho",
+      "start": 1.51,
+      "end": 1.67
+    },
+    {
+      "word": "bạn",
+      "start": 1.67,
+      "end": 1.85
+    },
+    {
+      "word": "đó,",
+      "start": 1.85,
+      "end": 2.01
+    },
+    {
+      "word": "mình",
+      "start": 2.69,
+      "end": 2.95
+    },
+    {
+      "word": "sẽ",
+      "start": 2.95,
+      "end": 3.21
+    },
+    {
+      "word": "giúp",
+      "start": 3.21,
+      "end": 3.33
+    },
+    {
+      "word": "bạn",
+      "start": 3.33,
+      "end": 3.53
+    },
+    {
+      "word": "vượt",
+      "start": 3.53,
+      "end": 3.77
+    },
+    {
+      "word": "qua",
+      "start": 3.77,
+      "end": 3.91
+    },
+    {
+      "word": "dài",
+      "start": 3.91,
+      "end": 4.11
+    },
+    {
+      "word": "đoạn",
+      "start": 4.11,
+      "end": 4.23
+    },
+    {
+      "word": "lạc",
+      "start": 4.23,
+      "end": 4.47
+    },
+    {
+      "word": "lối",
+      "start": 4.47,
+      "end": 4.65
+    },
+    {
+      "word": "đầu",
+      "start": 4.65,
+      "end": 4.73
+    },
+    {
+      "word": "tiên",
+      "start": 4.73,
+      "end": 5.05
+    },
+    {
+      "word": "khi",
+      "start": 5.05,
+      "end": 5.23
+    },
+    {
+      "word": "học",
+      "start": 5.23,
+      "end": 5.35
+    },
+    {
+      "word": "phân",
+      "start": 5.35,
+      "end": 5.53
+    },
+    {
+      "word": "tích",
+      "start": 5.53,
+      "end": 5.75
+    },
+    {
+      "word": "F",
+      "start": 5.75,
+      "end": 5.91
+    },
+    {
+      "word": ".A.",
+      "start": 5.91,
+      "end": 6.13
+    }
+  ]
+}

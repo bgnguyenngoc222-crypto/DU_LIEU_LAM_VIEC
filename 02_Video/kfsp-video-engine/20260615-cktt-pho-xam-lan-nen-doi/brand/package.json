@@ -1,0 +1,2 @@
+{ "name": "pho-xam-lan-brand", "version": "1.0.0",
+  "scripts": { "studio": "npx remotion studio --port=3026", "render": "npx remotion render Main out/final.mp4" } }

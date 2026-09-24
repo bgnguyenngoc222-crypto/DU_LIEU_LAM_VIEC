@@ -1,0 +1,10 @@
+📝 Input length: 846 chars
+🎤 Voice: hn_male_minhquan_yt-stable
+⏱  Speed rate: 1.0
+⏳ Submitting to Vbee...
+✅ Request ID: 90c8aa19-db5b-495a-8dcf-79328dae84ba
+   [1] status=IN_PROGRESS progress=0%
+   [2] status=SUCCESS progress=100%
+🎧 Audio URL: https://vbee.vn/s/90c8aa19-db5b-495a-8dcf-79328dae84ba/37e49d07-92be-49bb-a4eb-9e8139c0c30e
+⬇️  Downloading...
+✅ Saved: voice-drafts/draft_3_minhquan.mp3 (762285 bytes, 47.616000s)

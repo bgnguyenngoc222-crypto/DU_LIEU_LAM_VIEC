@@ -1,0 +1,65 @@
+{
+ "duration_s": 3.552,
+ "words": [
+  {
+   "word": "Lực",
+   "start": 0.38,
+   "end": 0.64
+  },
+  {
+   "word": "đã",
+   "start": 0.64,
+   "end": 0.8
+  },
+  {
+   "word": "rõ",
+   "start": 0.8,
+   "end": 0.98
+  },
+  {
+   "word": "ràng",
+   "start": 0.98,
+   "end": 1.18
+  },
+  {
+   "word": "hơn",
+   "start": 1.18,
+   "end": 1.44
+  },
+  {
+   "word": "và",
+   "start": 1.44,
+   "end": 1.6
+  },
+  {
+   "word": "đang",
+   "start": 1.6,
+   "end": 1.72
+  },
+  {
+   "word": "chuổi,",
+   "start": 1.72,
+   "end": 2.02
+  },
+  {
+   "word": "đây",
+   "start": 2.44,
+   "end": 2.64
+  },
+  {
+   "word": "là",
+   "start": 2.64,
+   "end": 2.78
+  },
+  {
+   "word": "vùng",
+   "start": 2.78,
+   "end": 2.94
+  },
+  {
+   "word": "giữa.",
+   "start": 2.94,
+   "end": 3.2
+  }
+ ]
+}

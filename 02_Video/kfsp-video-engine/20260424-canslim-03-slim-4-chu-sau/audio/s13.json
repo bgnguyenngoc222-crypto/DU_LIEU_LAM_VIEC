@@ -1,0 +1,71 @@
+{
+  "id": "s13",
+  "duration_s": 3.918,
+  "word_timestamps": [
+    {
+      "word": "Cổ",
+      "start": 0.0,
+      "end": 0.24
+    },
+    {
+      "word": "phíu",
+      "start": 0.24,
+      "end": 0.5
+    },
+    {
+      "word": "này",
+      "start": 0.5,
+      "end": 0.68
+    },
+    {
+      "word": "đang",
+      "start": 0.68,
+      "end": 0.92
+    },
+    {
+      "word": "dẫn",
+      "start": 0.92,
+      "end": 1.18
+    },
+    {
+      "word": "đổ",
+      "start": 1.18,
+      "end": 1.38
+    },
+    {
+      "word": "ngành",
+      "start": 1.38,
+      "end": 1.66
+    },
+    {
+      "word": "hay",
+      "start": 1.66,
+      "end": 2.2
+    },
+    {
+      "word": "đang",
+      "start": 2.2,
+      "end": 2.36
+    },
+    {
+      "word": "lây",
+      "start": 2.36,
+      "end": 2.62
+    },
+    {
+      "word": "theo",
+      "start": 2.62,
+      "end": 2.78
+    },
+    {
+      "word": "người",
+      "start": 2.78,
+      "end": 2.98
+    },
+    {
+      "word": "khác?",
+      "start": 2.98,
+      "end": 3.24
+    }
+  ]
+}

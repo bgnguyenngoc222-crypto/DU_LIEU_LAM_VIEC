@@ -1,0 +1,74 @@
+[s01 | pause_before=0 | pause_after=400 | speed=0.85]
+Nếu bạn vẫn đang phân tích thị trường bằng cách mở biểu đồ Vê Nờ Index, hãy dừng ngay.
+
+[s02 | pause_before=0 | pause_after=600 | speed=0.85]
+Đây là cách những N Đ T lâu năm làm. Đơn giản hơn bạn nghĩ, chỉ ba câu hỏi mỗi ngày.
+
+[s03 | pause_before=0 | pause_after=700 | speed=0.85]
+Vì khi chỉ dựa vào Vê Nờ Index, bạn dễ rơi vào cái bẫy mang tên Xanh vỏ Đỏ lòng. Index xanh, nhưng tài khoản vẫn giảm dần, mà mình không hay.
+
+[s04 | pause_before=0 | pause_after=400 | speed=0.85]
+Hãy thành thật với nhau: Index chỉ đại diện cho vốn hoá thị trường một cách có trọng số.
+
+[s05 | pause_before=0 | pause_after=400 | speed=0.85]
+Trong khi thị trường được cấu thành từ rất nhiều cổ phiếu bên trong, và sự vận động của các cổ phiếu ấy mới tạo nên thị trường thật.
+
+[s06 | pause_before=0 | pause_after=700 | speed=0.85]
+Và ba câu hỏi sau đây giúp bạn nhìn rõ hơn sự vận động ấy.
+
+[s07 | pause_before=0 | pause_after=300 | speed=0.85]
+Một: Tương quan số mã tăng giảm đang thế nào?
+
+[s08 | pause_before=0 | pause_after=400 | speed=0.85]
+Khi trả lời câu hỏi này, bạn sẽ biết thị trường và Index có chuyển động đồng pha hay không. Đây cũng chính là cách bạn nhận diện sớm hiện tượng Xanh vỏ Đỏ lòng.
+
+[s09 | pause_before=0 | pause_after=400 | speed=0.85]
+Bạn chỉ cần mở bản đồ nhiệt, hoặc bảng thống kê số mã tăng giảm trên KFS B. Nhìn mảng màu, hoặc đếm thẳng số mã tăng giảm: đỏ nhiều hơn hay xanh nhiều hơn?
+
+[s10 | pause_before=0 | pause_after=400 | speed=0.85]
+Đơn giản như đứa trẻ nhìn. Đừng áp đặt suy nghĩ cá nhân.
+
+[s11 | pause_before=0 | pause_after=700 | speed=0.85]
+Bản đồ nhiệt KFS B xem được một, năm, hai mươi phiên, đủ thấy dòng tiền lan toả thật, hay chỉ tập trung vài mã.
+
+[s12 | pause_before=0 | pause_after=300 | speed=0.85]
+Hai: Xu hướng có đồng thuận giữa cổ phiếu và Index không?
+
+[s13 | pause_before=0 | pause_after=400 | speed=0.85]
+Uy-li-am Ô Nin có một nguyên lý: trong một xu hướng rõ rệt, bảy mươi lăm phần trăm cổ phiếu sẽ đi theo.
+
+[s14 | pause_before=0 | pause_after=400 | speed=0.85]
+Vì vậy khi Index tăng, bạn cần check xem chuyển động đó có sự ủng hộ của số đông cổ phiếu, hay chỉ một vài mã đơn lẻ, trong khi phần lớn còn lại đang suy yếu dần.
+
+[s15 | pause_before=0 | pause_after=400 | speed=0.85]
+Chỉ cần mở biểu đồ phần trăm cổ phiếu trên các đường Em A. Nếu biểu đồ này giảm dần trong khi Index cứ tiếp tục lên, đó là dấu hiệu có gì đó bất thường. Hãy cẩn thận.
+
+[s16 | pause_before=0 | pause_after=700 | speed=0.85]
+Nhớ nha: Xu hướng của Index cần có sự ủng hộ của số đông cổ phiếu, mới có thể hi vọng bền vững.
+
+[s17 | pause_before=0 | pause_after=300 | speed=0.85]
+Ba: Dòng tiền đang tập trung ở đâu trên thị trường?
+
+[s18 | pause_before=0 | pause_after=400 | speed=0.85]
+Đây là câu hỏi quan trọng, vì chúng ta không chỉ muốn biết trạng thái thị trường, mà còn cần biết thị trường đang hoạt động tích cực ở nơi nào.
+
+[s19 | pause_before=0 | pause_after=500 | speed=0.85]
+Hãy nhớ điều này: dòng tiền đi đến đâu, nơi đó trở nên thịnh vượng.
+
+[s20 | pause_before=0 | pause_after=400 | speed=0.85]
+Bạn chỉ cần mở biểu đồ R R G, hoặc Bảng Nỗ lực Kết quả trên KFS B.
+
+[s21 | pause_before=0 | pause_after=400 | speed=0.85]
+Trên R R G, hãy tập trung vào những nhóm ngành đang di chuyển nhanh hướng lên và sang phải.
+
+[s22 | pause_before=0 | pause_after=700 | speed=0.85]
+Trên Bảng Nỗ lực Kết quả, hãy chú ý đến những ngành có Nỗ Lực và Kết Quả cùng tăng.
+
+[s23 | pause_before=0 | pause_after=400 | speed=0.85]
+Sau ba câu hỏi, nếu mình không đi cùng hướng Index, và cũng không phải nơi dòng tiền tới, hãy chủ động phòng thủ.
+
+[s24 | pause_before=0 | pause_after=500 | speed=0.85]
+Nâng tỷ lệ tiền mặt lên. Đây không phải là rút khỏi thị trường, mà là sẵn sàng cho những cơ hội tiếp theo.
+
+[s25 | pause_before=0 | pause_after=0 | speed=0.85]
+Tải KFS B ngay, để bắt đầu phân tích thị trường theo cách đầy đủ hơn.

@@ -1,0 +1,41 @@
+{
+  "id": "s26",
+  "duration_s": 2.717,
+  "word_timestamps": [
+    {
+      "word": "Theo",
+      "start": 0.0,
+      "end": 0.16
+    },
+    {
+      "word": "dõi",
+      "start": 0.16,
+      "end": 0.46
+    },
+    {
+      "word": "kinh,",
+      "start": 0.46,
+      "end": 0.7
+    },
+    {
+      "word": "đừng",
+      "start": 1.1,
+      "end": 1.26
+    },
+    {
+      "word": "bỏ",
+      "start": 1.26,
+      "end": 1.46
+    },
+    {
+      "word": "lưỡi",
+      "start": 1.46,
+      "end": 1.72
+    },
+    {
+      "word": "nhà.",
+      "start": 1.72,
+      "end": 1.86
+    }
+  ]
+}

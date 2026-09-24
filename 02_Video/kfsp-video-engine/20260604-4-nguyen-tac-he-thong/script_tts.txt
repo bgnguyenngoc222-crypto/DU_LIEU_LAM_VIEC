@@ -1,0 +1,44 @@
+[s01 | pause_before=0 | pause_after=350 | speed=0.9]
+Có một người từng ngồi hàng đêm trong sòng bạc Lát Vê Gát, không phải để chơi.
+
+[s02 | pause_before=0 | pause_after=450 | speed=0.9]
+Người đó là Ét Guất Thóp, người đi qua hai mươi năm đầu tư mà không một quý thua lỗ.
+
+[s03 | pause_before=0 | pause_after=500 | speed=0.9]
+Ông không có mã thần kỳ. Ông có bốn nguyên tắc.
+
+[s04 | pause_before=0 | pause_after=200 | speed=0.9]
+Nguyên tắc một, luôn hoài nghi: không tin điều gì khi chưa tự kiểm chứng.
+
+[s05 | pause_before=0 | pause_after=500 | speed=0.9]
+Người ta bảo sòng bạc bất khả bại, ông dựng mô hình rồi chứng minh đám đông đã sai.
+
+[s06 | pause_before=0 | pause_after=200 | speed=0.9]
+Nguyên tắc hai, ưu tiên sinh tồn: còn ở lại cuộc chơi đã, rồi mới nghĩ đến lãi.
+
+[s07 | pause_before=0 | pause_after=500 | speed=0.9]
+Ông không bao giờ đặt tất tay, vì một lần thua sạch là xóa hết tất cả.
+
+[s08 | pause_before=0 | pause_after=200 | speed=0.9]
+Nguyên tắc ba, phải có lợi thế: chỉ vào lệnh khi phần thắng nghiêng về mình.
+
+[s09 | pause_before=0 | pause_after=500 | speed=0.9]
+Khi chưa thấy lợi thế, ông kiên nhẫn đứng ngoài, có khi nhiều năm.
+
+[s10 | pause_before=0 | pause_after=200 | speed=0.9]
+Nguyên tắc bốn, hướng về tự do: đích đến không phải con số trong tài khoản.
+
+[s11 | pause_before=0 | pause_after=500 | speed=0.9]
+Mà là sự bình yên khi mỗi quyết định đều là của chính mình.
+
+[s12 | pause_before=0 | pause_after=450 | speed=0.9]
+Thị trường không thưởng cho lòng tham, nó thưởng cho người có hệ thống và kỷ luật.
+
+[s13 | pause_before=0 | pause_after=300 | speed=0.9]
+Ở Ca Ép Ét Bê, bạn tự lọc cổ phiếu, tự đặt cảnh báo, tự ghi nhật ký giao dịch.
+
+[s14 | pause_before=0 | pause_after=500 | speed=0.9]
+Để mỗi quyết định mua bán là của bạn, bằng phương pháp, không phải theo phím hàng.
+
+[s15 | pause_before=0 | pause_after=0 | speed=0.9]
+Còn bạn, đang đầu tư bằng cảm xúc, hay bằng một hệ thống?

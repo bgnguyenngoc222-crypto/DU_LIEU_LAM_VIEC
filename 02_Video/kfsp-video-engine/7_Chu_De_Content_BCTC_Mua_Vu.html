@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7 Chủ Đề Content Mùa BCTC — KFSP Marketing</title>
+<style>
+  :root {
+    --primary: #7B3AEC;
+    --primary-light: #9B6AF0;
+    --primary-bg: #F3EEFF;
+    --stock-up: #0DBE55;
+    --stock-down: #FF3B30;
+    --stock-ref: #ECC800;
+    --text: #1A1A2E;
+    --text-secondary: #6B7280;
+    --surface: #F9FAFB;
+    --border: #E5E7EB;
+    --card-shadow: 0 4px 24px rgba(123, 58, 236, 0.08);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: linear-gradient(135deg, #F8F6FF 0%, #FFF 50%, #F0EDFF 100%);
+    color: var(--text);
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+
+  .header {
+    background: linear-gradient(135deg, var(--primary) 0%, #5B1FCC 100%);
+    color: white;
+    padding: 48px 24px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 0; right: 0;
+    height: 80px;
+    background: linear-gradient(135deg, #F8F6FF 0%, #FFF 50%, #F0EDFF 100%);
+    border-radius: 50% 50% 0 0;
+  }
+  .header h1 { font-size: 26px; font-weight: 800; margin-bottom: 6px; }
+  .header .sub { font-size: 15px; opacity: 0.85; margin-bottom: 14px; }
+  .core-message {
+    background: rgba(255,255,255,0.15);
+    padding: 14px 20px;
+    border-radius: 12px;
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 720px;
+    margin: 0 auto;
+    backdrop-filter: blur(4px);
+    text-align: left;
+  }
+  .core-message .label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    opacity: 0.7;
+    margin-bottom: 4px;
+  }
+  .core-message .msg { font-weight: 600; }
+  .core-message .tagline {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    font-size: 13px;
+    opacity: 0.8;
+    font-style: italic;
+  }
+
+  .container { max-width: 920px; margin: 0 auto; padding: 20px 16px 60px; }
+
+  .journey-bar {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 16px 0 8px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .journey-bar::-webkit-scrollbar { display: none; }
+  .journey-step {
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 11px;
+    color: var(--text-secondary);
+    font-weight: 600;
+  }
+  .journey-step .num {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    background: var(--border);
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 12px;
+    margin: 0 auto 4px;
+    transition: all 0.2s;
+  }
+  .journey-step.active .num { background: var(--primary); color: white; }
+  .journey-step.buy .num { background: #DBEAFE; color: #1E40AF; }
+  .journey-step.both .num { background: #FEF3C7; color: #92400E; }
+  .journey-step.hold .num { background: #FCE7F3; color: #BE185D; }
+  .journey-arrow { color: var(--border); font-size: 16px; flex-shrink: 0; }
+
+  .nav-pills {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 12px 0 20px;
+    scrollbar-width: none;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to bottom, rgba(248,246,255,1) 80%, rgba(248,246,255,0));
+    z-index: 10;
+  }
+  .nav-pills::-webkit-scrollbar { display: none; }
+  .nav-pill {
+    flex-shrink: 0;
+    padding: 8px 16px;
+    border-radius: 24px;
+    border: 2px solid var(--border);
+    background: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    transition: all 0.25s;
+    white-space: nowrap;
+  }
+  .nav-pill:hover { border-color: var(--primary-light); color: var(--primary); }
+  .nav-pill.active { background: var(--primary); color: white; border-color: var(--primary); }
+
+  .topic-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 24px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    display: none;
+  }
+  .topic-card.active { display: block; animation: fadeIn 0.35s ease; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+
+  .topic-header {
+    padding: 28px 28px 20px;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+  }
+  .topic-number {
+    position: absolute;
+    top: 16px; right: 24px;
+    font-size: 64px;
+    font-weight: 900;
+    color: var(--primary);
+    opacity: 0.08;
+    line-height: 1;
+  }
+  .topic-tags { display: flex; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; }
+  .topic-feature-tag {
+    display: inline-block;
+    background: var(--primary-bg);
+    color: var(--primary);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .topic-pillar-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .pillar-buy { background: #DBEAFE; color: #1E40AF; }
+  .pillar-hold { background: #FCE7F3; color: #BE185D; }
+  .pillar-both { background: #FEF3C7; color: #92400E; }
+  .topic-title {
+    font-size: 21px;
+    font-weight: 800;
+    color: var(--text);
+    line-height: 1.35;
+    max-width: 85%;
+  }
+
+  .topic-body { padding: 0 28px 28px; }
+
+  .section {
+    margin-top: 24px;
+    padding: 20px;
+    border-radius: 14px;
+    position: relative;
+  }
+  .section-label {
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .section-label .icon { font-size: 16px; }
+  .section p { font-size: 15px; line-height: 1.75; }
+
+  .section.problem {
+    background: linear-gradient(135deg, #FFF5F5 0%, #FEF2F2 100%);
+    border-left: 4px solid var(--stock-down);
+  }
+  .section.problem .section-label { color: var(--stock-down); }
+
+  .section.feature {
+    background: linear-gradient(135deg, #F0F9FF 0%, #EFF6FF 100%);
+    border-left: 4px solid #3B82F6;
+  }
+  .section.feature .section-label { color: #2563EB; }
+
+  .section.solution {
+    background: linear-gradient(135deg, #F0FFF4 0%, #ECFDF5 100%);
+    border-left: 4px solid var(--stock-up);
+  }
+  .section.solution .section-label { color: var(--stock-up); }
+
+  .section.value {
+    background: linear-gradient(135deg, #FFFBEB 0%, #FEF9C3 100%);
+    border-left: 4px solid var(--stock-ref);
+  }
+  .section.value .section-label { color: #B45309; }
+
+  .section.emotion {
+    background: linear-gradient(135deg, #FAF5FF 0%, #F3E8FF 100%);
+    border-left: 4px solid var(--primary);
+  }
+  .section.emotion .section-label { color: var(--primary); }
+
+  .section.hook {
+    background: linear-gradient(135deg, #1A1A2E 0%, #2D1B69 100%);
+    color: white;
+    border-left: 4px solid var(--primary-light);
+    margin-top: 28px;
+  }
+  .section.hook .section-label { color: var(--primary-light); }
+  .section.hook p { color: rgba(255,255,255,0.92); }
+  .hook-script { font-size: 17px; font-weight: 600; font-style: italic; line-height: 1.8; }
+
+  .closing-box {
+    margin-top: 20px;
+    padding: 18px 20px;
+    background: linear-gradient(135deg, #1E293B 0%, #334155 100%);
+    border-radius: 12px;
+    color: white;
+    border-left: 4px solid var(--stock-ref);
+  }
+  .closing-box .section-label { color: var(--stock-ref); }
+  .closing-box p { color: rgba(255,255,255,0.9); font-size: 14px; line-height: 1.75; }
+  .closing-box strong { color: white; }
+
+  .cta-box {
+    margin-top: 16px;
+    padding: 16px 20px;
+    background: linear-gradient(135deg, var(--primary) 0%, #5B1FCC 100%);
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+  }
+  .cta-box p { font-size: 15px; font-weight: 700; color: white !important; }
+
+  .value-list { list-style: none; padding: 0; }
+  .value-list li {
+    padding: 6px 0;
+    font-size: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .value-list li::before {
+    content: '✓';
+    color: var(--stock-up);
+    font-weight: 800;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .emotion-list { list-style: none; padding: 0; }
+  .emotion-list li { padding: 4px 0; font-size: 15px; }
+
+  .show-all-btn {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    background: white;
+    border: 2px dashed var(--primary);
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--primary);
+    cursor: pointer;
+    margin-top: 16px;
+    transition: all 0.2s;
+  }
+  .show-all-btn:hover { background: var(--primary-bg); }
+
+  .footer {
+    text-align: center;
+    padding: 32px 16px;
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+
+  @media (max-width: 600px) {
+    .topic-title { font-size: 18px; max-width: 100%; }
+    .topic-header, .topic-body { padding-left: 18px; padding-right: 18px; }
+    .section { padding: 16px; }
+    .topic-number { display: none; }
+    .journey-bar { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>7 Chủ Đề Content — Mùa BCTC</h1>
+  <div class="sub">Series nội dung FA: từ báo cáo tài chính đến quyết định đầu tư</div>
+  <div class="core-message">
+    <div class="label">Thông điệp xuyên suốt</div>
+    <div class="msg">Thứ bạn cần không phải BCTC mới nhất — mà là câu trả lời: Giữ tiếp hay bán? Mua mới thì mua mã nào?</div>
+    <div class="tagline">Tagline: "BCTC không phải để đọc — mà để ra quyết định."</div>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- Journey bar -->
+<div class="journey-bar">
+  <div class="journey-step buy"><div class="num">1</div>Ngập BCTC</div>
+  <span class="journey-arrow">→</span>
+  <div class="journey-step buy"><div class="num">2</div>Sàng lọc</div>
+  <span class="journey-arrow">→</span>
+  <div class="journey-step buy"><div class="num">3</div>So kè</div>
+  <span class="journey-arrow">→</span>
+  <div class="journey-step both"><div class="num">4</div>Soi nhanh</div>
+  <span class="journey-arrow">→</span>
+  <div class="journey-step hold"><div class="num">5</div>Danh mục</div>
+  <span class="journey-arrow">→</span>
+  <div class="journey-step hold"><div class="num">6</div>Rủi ro</div>
+  <span class="journey-arrow">→</span>
+  <div class="journey-step both"><div class="num">7</div>NĐT bận</div>
+</div>
+
+<div class="nav-pills">
+  <div class="nav-pill active" onclick="showTopic(0)">1. Còn đang đọc</div>
+  <div class="nav-pill" onclick="showTopic(1)">2. Tin bằng điểm số</div>
+  <div class="nav-pill" onclick="showTopic(2)">3. Dồn tiền đâu</div>
+  <div class="nav-pill" onclick="showTopic(3)">4. Đọc bằng biểu đồ</div>
+  <div class="nav-pill" onclick="showTopic(4)">5. Giữ bằng niềm tin</div>
+  <div class="nav-pill" onclick="showTopic(5)">6. Hỏi AI một câu</div>
+  <div class="nav-pill" onclick="showTopic(6)">7. Tranh thủ vài phút</div>
+</div>
+
+<!-- ==================== BÀI 1 ==================== -->
+<div class="topic-card active" id="topic-0">
+  <div class="topic-header">
+    <span class="topic-number">01</span>
+    <div class="topic-tags">
+      <span class="topic-feature-tag">Bộ lọc FA Growth</span>
+      <span class="topic-pillar-tag pillar-buy">Mua mới mã nào?</span>
+    </div>
+    <h2 class="topic-title">BCTC ra cùng lúc — bạn còn đang đọc, người ta đã hành động</h2>
+  </div>
+  <div class="topic-body">
+    <div class="section problem">
+      <div class="section-label"><span class="icon">🔴</span> VẤN ĐỀ</div>
+      <p>Hàng trăm BCTC xả ra cùng lúc. Thị trường có hơn 1.600 mã nhưng <strong>80% đang suy thoái hoặc dậm chân tại chỗ</strong>. NĐT không có công cụ lọc nhanh, cứ mở từng file gốc, rà từng dòng số, nhập lại vào Excel — loạn não, quá tải. Cú đau nhất: <strong>tốn hàng giờ hì hục mà vẫn đang soi "hàng rác"</strong>, trong khi siêu cổ phiếu tốt đã chạy mất tiêu.</p>
+    </div>
+
+    <div class="section feature">
+      <div class="section-label"><span class="icon">⚙️</span> TÍNH NĂNG KFSP</div>
+      <p><strong>Bộ lọc FA Growth</strong> — Tự động quét bộ 3 tiêu chí: EPS tăng trưởng + Doanh thu tăng trưởng + LNST tăng trưởng trên toàn bộ 1.600+ mã chỉ trong <strong>30 giây</strong>. Kết quả: danh sách ngắn gọn chỉ những mã có nền tảng tăng trưởng thực sự.</p>
+    </div>
+
+    <div class="section solution">
+      <div class="section-label"><span class="icon">🟢</span> KFSP GIẢI QUYẾT GÌ</div>
+      <p>Thay vì phân tích 1.600 mã → <strong>chỉ cần xem 50–100 mã đã qua sàng lọc</strong>. Bộ lọc loại bỏ 80% "rác" ngay từ bước đầu tiên. NĐT tiết kiệm 90% thời gian tìm kiếm và tập trung 100% năng lượng vào những mã xứng đáng.</p>
+    </div>
+
+    <div class="section value">
+      <div class="section-label"><span class="icon">🎁</span> KHÁCH HÀNG NHẬN ĐƯỢC GÌ</div>
+      <ul class="value-list">
+        <li>Quét toàn sàn 1.600+ mã theo 3 tiêu chí FA Growth trong 30 giây</li>
+        <li>Danh sách shortlist — chỉ mã có nền tảng tăng trưởng thật</li>
+        <li>Tiết kiệm 90% thời gian tìm kiếm cổ phiếu</li>
+        <li>Không bao giờ lãng phí thời gian soi "hàng rác" nữa</li>
+      </ul>
+    </div>
+
+    <div class="section emotion">
+      <div class="section-label"><span class="icon">💜</span> KHÁCH HÀNG CẢM NHẬN GÌ</div>
+      <ul class="emotion-list">
+        <li>😫 <strong>Trước:</strong> Ngập ngụa, kiệt sức — "1.600 mã, biết bắt đầu từ đâu?" — cảm giác lạc trong rừng</li>
+        <li>🔍 <strong>Sau:</strong> Tập trung, nhanh gọn — "chỉ cần xem 50 mã đã lọc, mọi thứ sáng rõ" — cảm giác có radar riêng trên chiến trường</li>
+      </ul>
+    </div>
+
+    <div class="section hook">
+      <div class="section-label"><span class="icon">🎬</span> HOOK ĐẦU VIDEO / BÀI VIẾT</div>
+      <p class="hook-script">"Hơn 1.600 mã vừa ra BCTC. Bạn định đọc hết? Hay để tôi chỉ bạn cách lọc còn 50 mã đáng xem — trong 30 giây?"</p>
+    </div>
+
+    <div class="closing-box">
+      <div class="section-label"><span class="icon">🔁</span> CLOSING MESSAGE</div>
+      <p>Nhưng hãy nhớ: <strong>lọc được mã tăng trưởng mới chỉ là bước đầu</strong>. Ra quyết định mua hay không còn cần thị trường chung đang ở đâu, xu hướng ngành thuận hay nghịch, sức mạnh tương đối của cổ phiếu, tín hiệu tiềm năng hay nguy cơ... Tất cả phải ăn khớp. <strong>Follow KFSP</strong> — mỗi tuần một mảnh ghép, cho đến khi bạn ra quyết định có hệ thống.</p>
+    </div>
+
+    <div class="cta-box">
+      <p>📲 Tải KFSP ngay để sở hữu bộ lọc FA Growth — tập trung vào cổ phiếu tốt nhất nhịp tới!</p>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== BÀI 2 ==================== -->
+<div class="topic-card" id="topic-1">
+  <div class="topic-header">
+    <span class="topic-number">02</span>
+    <div class="topic-tags">
+      <span class="topic-feature-tag">CANSLIM Score</span>
+      <span class="topic-pillar-tag pillar-buy">Mua mới mã nào?</span>
+    </div>
+    <h2 class="topic-title">Mã nào cũng khoe lãi tăng — bạn tin bằng mắt, người ta tin bằng điểm số</h2>
+  </div>
+  <div class="topic-body">
+    <div class="section problem">
+      <div class="section-label"><span class="icon">🔴</span> VẤN ĐỀ</div>
+      <p>Đứng trước "biển" BCTC đổ bộ, NĐT rơi vào trạng thái chênh vênh. Đọc mỏi mắt nhưng rốt cuộc <strong>vẫn không biết mã nào thực sự hội tụ đủ yếu tố bứt phá</strong> thành siêu cổ phiếu ở nhịp tới. Đầu tư tù mù như "mò kim đáy bể" vì thiếu bộ tiêu chuẩn gắt gao để dẫn đường.</p>
+    </div>
+
+    <div class="section feature">
+      <div class="section-label"><span class="icon">⚙️</span> TÍNH NĂNG KFSP</div>
+      <p><strong>Biểu đồ CANSLIM</strong> — Bộ "la bàn quét tự động" theo 7 tiêu chí tăng trưởng kinh điển của William O'Neil. Hệ thống chấm tích <span style="color: var(--stock-up); font-weight: 700;">xanh ✓</span> / <span style="color: var(--stock-down); font-weight: 700;">đỏ ✗</span> cho từng tiêu chí. Nhìn 1 phát — mã nào là "siêu cổ tương lai", mã nào là "hàng lởm".</p>
+    </div>
+
+    <div class="section solution">
+      <div class="section-label"><span class="icon">🟢</span> KFSP GIẢI QUYẾT GÌ</div>
+      <p>Thay thế hoàn toàn quy trình <em>"đọc hết BCTC → tự chấm điểm trong đầu"</em> bằng một hệ thống tiêu chuẩn <strong>đã được kiểm chứng hàng thập kỷ</strong> trên thị trường quốc tế. NĐT có ngay "kim chỉ nam" định lượng — không còn đầu tư bằng cảm tính.</p>
+    </div>
+
+    <div class="section value">
+      <div class="section-label"><span class="icon">🎁</span> KHÁCH HÀNG NHẬN ĐƯỢC GÌ</div>
+      <ul class="value-list">
+        <li>Bộ tiêu chuẩn CANSLIM — phương pháp đã tạo ra hàng trăm siêu cổ toàn cầu</li>
+        <li>Kết quả chấm điểm tức thì, không cần tự tính tay</li>
+        <li>Lọc nhanh danh sách ưu tiên: tập trung vào mã "xanh đủ 7" thay vì dàn trải</li>
+        <li>Tự tin hơn khi ra quyết định vì có căn cứ rõ ràng</li>
+      </ul>
+    </div>
+
+    <div class="section emotion">
+      <div class="section-label"><span class="icon">💜</span> KHÁCH HÀNG CẢM NHẬN GÌ</div>
+      <ul class="emotion-list">
+        <li>😵 <strong>Trước:</strong> Hoang mang, thiếu chủ kiến — "biết đọc BCTC nhưng không biết kết luận thế nào"</li>
+        <li>🎯 <strong>Sau:</strong> Rõ ràng, dứt khoát — "tôi biết chính xác mình đang mua gì và tại sao" — cảm giác được trao "vũ khí bí mật"</li>
+      </ul>
+    </div>
+
+    <div class="section hook">
+      <div class="section-label"><span class="icon">🎬</span> HOOK ĐẦU VIDEO / BÀI VIẾT</div>
+      <p class="hook-script">"Mã nào cũng khoe lãi tăng. Nhưng tôi chấm điểm 7 tiêu chí, chỉ 12% mã đạt chuẩn 'siêu cổ'. 88% còn lại? Đang diễn."</p>
+    </div>
+
+    <div class="closing-box">
+      <div class="section-label"><span class="icon">🔁</span> CLOSING MESSAGE</div>
+      <p>CANSLIM cho bạn biết mã nào <strong>đủ chuẩn bứt phá</strong>. Nhưng đừng quên: công ty tốt ≠ thời điểm tốt. Còn cần xem thị trường chung đang ở đâu, ngành đang thuận hay nghịch, sức mạnh giá có xác nhận chưa, tín hiệu kỹ thuật có đồng thuận không... <strong>Follow KFSP</strong> — mỗi bài viết thêm một lớp phân tích, mỗi tuần bạn ra quyết định chuẩn hơn.</p>
+    </div>
+
+    <div class="cta-box">
+      <p>📲 Cơ hội không dành cho người chậm chân. Tải app KFSP ngay để sở hữu bộ chấm điểm siêu cổ!</p>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== BÀI 3 ==================== -->
+<div class="topic-card" id="topic-2">
+  <div class="topic-header">
+    <span class="topic-number">03</span>
+    <div class="topic-tags">
+      <span class="topic-feature-tag">Tab So sánh</span>
+      <span class="topic-pillar-tag pillar-buy">Mua mới mã nào?</span>
+    </div>
+    <h2 class="topic-title">Bạn thích cả 5 mã — người ta đã biết dồn tiền vào đâu</h2>
+  </div>
+  <div class="topic-body">
+    <div class="section problem">
+      <div class="section-label"><span class="icon">🔴</span> VẤN ĐỀ</div>
+      <p>Hì hục cày BCTC, NĐT đãi cát tìm được list mã "vàng" tiềm năng. Nhưng sự thật phũ phàng: <strong>Vốn có hạn, không thể múc hết!</strong> Bắt buộc phải dồn tiền cho mã "đầu đàn" mạnh nhất. Việc chắp vá BCTC tự so sánh lại vô cùng mất sức — dẫn đến bối rối, lưỡng lự, và rất dễ <strong>lỡ tay mua nhầm con yếu</strong> trong cùng một dòng sóng.</p>
+    </div>
+
+    <div class="section feature">
+      <div class="section-label"><span class="icon">⚙️</span> TÍNH NĂNG KFSP</div>
+      <p><strong>Tab So sánh (Comparison)</strong> — Chỉ 1 click ném ngay 2–5 mã lên bàn cân. Hệ thống tự động đẩy biểu đồ cột so kè trực diện: P/E, Biên lợi nhuận, ROE, EPS... Sự vượt trội hiện ra tức thì — con nào là Thủ lĩnh, con nào là tôm tép.</p>
+    </div>
+
+    <div class="section solution">
+      <div class="section-label"><span class="icon">🟢</span> KFSP GIẢI QUYẾT GÌ</div>
+      <p>Xoá bỏ hoàn toàn bước <em>"mở 5 file Excel → copy paste → căn hàng so sánh"</em>. Thay bằng: chọn mã → <strong>30 giây có ngay bảng so kè trực quan</strong>. NĐT biết chính xác phải dồn tiền vào "con đầu đàn" nào — không đoán mò, không phân tán vốn.</p>
+    </div>
+
+    <div class="section value">
+      <div class="section-label"><span class="icon">🎁</span> KHÁCH HÀNG NHẬN ĐƯỢC GÌ</div>
+      <ul class="value-list">
+        <li>So sánh cùng lúc 2–5 mã trên mọi chỉ số FA quan trọng</li>
+        <li>Biểu đồ cột trực quan — không cần giấy nháp hay Excel</li>
+        <li>Xác định nhanh mã "thủ lĩnh" trong mỗi ngành/nhóm</li>
+        <li>Phân bổ vốn chính xác hơn, giảm rủi ro mua nhầm "hàng yếu"</li>
+      </ul>
+    </div>
+
+    <div class="section emotion">
+      <div class="section-label"><span class="icon">💜</span> KHÁCH HÀNG CẢM NHẬN GÌ</div>
+      <ul class="emotion-list">
+        <li>😰 <strong>Trước:</strong> Lưỡng lự, bối rối — "mã nào cũng đẹp, không biết chọn ai" — nỗi sợ dồn tiền sai chỗ</li>
+        <li>💪 <strong>Sau:</strong> Dứt khoát, sáng suốt — "nhìn chart so sánh là biết ngay con nào xứng đáng" — cảm giác đầu tư như một chuyên gia quỹ</li>
+      </ul>
+    </div>
+
+    <div class="section hook">
+      <div class="section-label"><span class="icon">🎬</span> HOOK ĐẦU VIDEO / BÀI VIẾT</div>
+      <p class="hook-script">"Bạn lọc ra 5 mã vàng. Tài khoản chỉ đủ mua 2. Chọn sai 1 con — mất 30% lợi nhuận cả đợt sóng. Vậy chọn thế nào?"</p>
+    </div>
+
+    <div class="closing-box">
+      <div class="section-label"><span class="icon">🔁</span> CLOSING MESSAGE</div>
+      <p>So sánh giúp bạn tìm <strong>"con đầu đàn"</strong>. Nhưng đừng quên hỏi: thị trường chung có đang ủng hộ nhóm này không? Xu hướng ngành đang thuận hay nghịch? Có tín hiệu kỹ thuật xác nhận chưa? BCTC chỉ là 1 mảnh ghép. <strong>Follow KFSP</strong> để có đủ bức tranh trước khi xuống tiền.</p>
+    </div>
+
+    <div class="cta-box">
+      <p>📲 Dồn vốn đúng chỗ, bùng nổ lợi nhuận! Tải App KFSP ngay để tìm ra cổ phiếu dẫn đầu thị trường.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== BÀI 4 ==================== -->
+<div class="topic-card" id="topic-3">
+  <div class="topic-header">
+    <span class="topic-number">04</span>
+    <div class="topic-tags">
+      <span class="topic-feature-tag">Biểu đồ Tài chính</span>
+      <span class="topic-pillar-tag pillar-both">Giữ/Bán & Mua mới</span>
+    </div>
+    <h2 class="topic-title">Bạn đọc BCTC bằng chữ — người ta đọc bằng biểu đồ</h2>
+  </div>
+  <div class="topic-body">
+    <div class="section problem">
+      <div class="section-label"><span class="icon">🔴</span> VẤN ĐỀ</div>
+      <p>Mỗi file BCTC chứa hàng chục trang số liệu dày đặc. NĐT mở ra, ngập trong bảng biểu — <strong>không biết nên tập trung vào đâu</strong>. Đọc hết thì tốn hàng giờ, đọc lướt thì sợ bỏ sót. Kết quả: hoặc tốn quá nhiều thời gian cho 1 mã, hoặc phân tích hời hợt rồi quyết định bằng cảm tính.</p>
+    </div>
+
+    <div class="section feature">
+      <div class="section-label"><span class="icon">⚙️</span> TÍNH NĂNG KFSP</div>
+      <p><strong>Tab Biểu đồ Tài chính</strong> — Hệ thống tự tổng hợp dữ liệu <strong>10 quý liên tiếp</strong> và biến đống số khô khan thành biểu đồ nến/cột trực quan. Chỉ cần 3 giây nhìn biểu đồ dốc lên hay dốc xuống là biết ngay sức khoẻ tài chính doanh nghiệp.</p>
+    </div>
+
+    <div class="section solution">
+      <div class="section-label"><span class="icon">🟢</span> KFSP GIẢI QUYẾT GÌ</div>
+      <p>Biến 47 trang BCTC thành <strong>1 biểu đồ kể chuyện</strong>. Dùng cho cả 2 quyết định: mã mới → biểu đồ dốc lên = đáng nghiên cứu thêm. Mã đang cầm → biểu đồ dốc xuống = cần xem xét lại. <strong>3 giây thay cho 2 tiếng.</strong></p>
+    </div>
+
+    <div class="section value">
+      <div class="section-label"><span class="icon">🎁</span> KHÁCH HÀNG NHẬN ĐƯỢC GÌ</div>
+      <ul class="value-list">
+        <li>Dữ liệu 10 quý được trực quan hoá tự động — không cần Excel</li>
+        <li>Phát hiện xu hướng tăng trưởng/suy thoái chỉ bằng 1 cái nhìn</li>
+        <li>Áp dụng cho cả mã mới lẫn mã đang giữ trong danh mục</li>
+        <li>Tiết kiệm hàng giờ phân tích mỗi mùa BCTC</li>
+      </ul>
+    </div>
+
+    <div class="section emotion">
+      <div class="section-label"><span class="icon">💜</span> KHÁCH HÀNG CẢM NHẬN GÌ</div>
+      <ul class="emotion-list">
+        <li>😵‍💫 <strong>Trước:</strong> Choáng ngợp, mệt mỏi — "mở BCTC ra không biết bắt đầu từ đâu"</li>
+        <li>😌 <strong>Sau:</strong> Nhẹ nhõm, nắm bắt nhanh — "nhìn chart 3 giây là hiểu, thay vì đọc 47 trang" — cảm giác hack được thời gian</li>
+      </ul>
+    </div>
+
+    <div class="section hook">
+      <div class="section-label"><span class="icon">🎬</span> HOOK ĐẦU VIDEO / BÀI VIẾT</div>
+      <p class="hook-script">"Mở BCTC ra: 47 trang, 200 dòng số. Nhưng thực ra bạn chỉ cần nhìn đúng 1 thứ — mất 3 giây — là biết mã này nên mua hay nên bỏ."</p>
+    </div>
+
+    <div class="closing-box">
+      <div class="section-label"><span class="icon">🔁</span> CLOSING MESSAGE</div>
+      <p>Biểu đồ tài chính cho bạn biết <strong>doanh nghiệp khoẻ hay yếu</strong>. Nhưng mua lúc nào, bán lúc nào — cần thêm thị trường chung, xu hướng ngành, sức mạnh tương đối, tín hiệu giá. <strong>Follow KFSP</strong> — mỗi bài viết thêm một lớp, mỗi tuần bạn ra quyết định chuẩn hơn.</p>
+    </div>
+
+    <div class="cta-box">
+      <p>📲 Tải ngay App KFSP để soi chart tài chính — 3 giây thay cho 2 tiếng!</p>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== BÀI 5 ==================== -->
+<div class="topic-card" id="topic-4">
+  <div class="topic-header">
+    <span class="topic-number">05</span>
+    <div class="topic-tags">
+      <span class="topic-feature-tag">4M & CANSLIM (góc giữ/bán)</span>
+      <span class="topic-pillar-tag pillar-hold">Giữ tiếp hay bán?</span>
+    </div>
+    <h2 class="topic-title">Bạn giữ cổ phiếu bằng niềm tin — người ta giữ bằng điểm số</h2>
+  </div>
+  <div class="topic-body">
+    <div class="section problem">
+      <div class="section-label"><span class="icon">🔴</span> VẤN ĐỀ</div>
+      <p>BCTC mới vừa ra. NĐT đang cầm cổ phiếu nhìn vào: lãi tăng → yên tâm giữ. Nhưng <strong>"lãi tăng" không có nghĩa là "nên giữ"</strong>. Khi không có thang đo chuẩn mực để đối chiếu, mọi thông số đều trở nên mù mờ. Kết quả: giữ quá lâu "công ty rác" ẩn sau vỏ bọc hào nhoáng, hoặc bán sớm siêu cổ đang bứt phá.</p>
+    </div>
+
+    <div class="section feature">
+      <div class="section-label"><span class="icon">⚙️</span> TÍNH NĂNG KFSP</div>
+      <p><strong>Hệ thống chấm điểm 4M & CANSLIM</strong> — "Thước đo sinh tử" cho cổ phiếu đang cầm. Ốp mọi số liệu phức tạp vào barem điểm số gắt gao chỉ trong <strong>4 giây</strong>. Biết ngay mã đang giữ <strong>bao nhiêu điểm trên 100</strong> — đủ cơ sở để quyết định giữ tiếp hay chốt lời/cắt lỗ.</p>
+    </div>
+
+    <div class="section solution">
+      <div class="section-label"><span class="icon">🟢</span> KFSP GIẢI QUYẾT GÌ</div>
+      <p>Trao cho NĐT <strong>căn cứ định lượng để đánh giá danh mục</strong>. Không còn giữ cổ phiếu bằng "linh cảm" hay "hy vọng". Trên 80 điểm = yên tâm giữ. Dưới 40 điểm = cần xem xét lại nghiêm túc. Đơn giản, dứt khoát, không tranh cãi.</p>
+    </div>
+
+    <div class="section value">
+      <div class="section-label"><span class="icon">🎁</span> KHÁCH HÀNG NHẬN ĐƯỢC GÌ</div>
+      <ul class="value-list">
+        <li>Điểm số 4M + CANSLIM cho mọi mã đang giữ — "barem" chuẩn quốc tế</li>
+        <li>Phân hạng danh mục tức thì: A (giữ chắc), B (theo dõi), C (xem xét bán)</li>
+        <li>Loại bỏ cảm tính — quyết định giữ/bán dựa trên con số</li>
+        <li>Phát hiện sớm mã "xuống cấp" trước khi quá muộn</li>
+      </ul>
+    </div>
+
+    <div class="section emotion">
+      <div class="section-label"><span class="icon">💜</span> KHÁCH HÀNG CẢM NHẬN GÌ</div>
+      <ul class="emotion-list">
+        <li>😟 <strong>Trước:</strong> Bất an, do dự — "BCTC vừa ra, mã mình giữ ổn thật không? Hay chỉ là mình tự an ủi?"</li>
+        <li>🏆 <strong>Sau:</strong> Chắc chắn, chuyên nghiệp — "82 điểm — mình giữ đúng rồi" hoặc "35 điểm — cần hành động ngay" — cảm giác kiểm soát danh mục</li>
+      </ul>
+    </div>
+
+    <div class="section hook">
+      <div class="section-label"><span class="icon">🎬</span> HOOK ĐẦU VIDEO / BÀI VIẾT</div>
+      <p class="hook-script">"Mã bạn đang cầm — bao nhiêu điểm trên thang 100? Nếu bạn không trả lời được, bạn đang giữ cổ phiếu bằng niềm tin, không phải bằng dữ liệu."</p>
+    </div>
+
+    <div class="closing-box">
+      <div class="section-label"><span class="icon">🔁</span> CLOSING MESSAGE</div>
+      <p>Chấm điểm cho bạn biết <strong>mã nào đáng giữ, mã nào nên xem lại</strong>. Nhưng quyết định cuối cùng còn phụ thuộc: thị trường chung có ủng hộ không, ngành đang thuận hay nghịch, có tín hiệu nguy cơ nào đang hình thành... <strong>Follow KFSP</strong> — để mỗi quyết định giữ hay bán đều có hệ thống, không có cảm tính.</p>
+    </div>
+
+    <div class="cta-box">
+      <p>📲 Đừng giữ cổ phiếu bằng niềm tin! Tải App KFSP để chấm điểm danh mục ngay hôm nay.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== BÀI 6 ==================== -->
+<div class="topic-card" id="topic-5">
+  <div class="topic-header">
+    <span class="topic-number">06</span>
+    <div class="topic-tags">
+      <span class="topic-feature-tag">Chatbot AI</span>
+      <span class="topic-pillar-tag pillar-hold">Giữ tiếp hay bán?</span>
+    </div>
+    <h2 class="topic-title">Bạn đọc lướt rồi yên tâm — người ta hỏi AI một câu, phát hiện ra bom</h2>
+  </div>
+  <div class="topic-body">
+    <div class="section problem">
+      <div class="section-label"><span class="icon">🔴</span> VẤN ĐỀ</div>
+      <p>BCTC của mã đang cầm vừa ra — lãi tăng 30%, ai cũng mừng. Nhưng ẩn sâu trong hàng trăm chỉ số chằng chịt là những <strong>rủi ro chết người</strong>: nợ ngắn hạn phình to, dòng tiền kinh doanh âm, lãi đến từ thanh lý tài sản... NĐT "đọc lướt qua loa" phần lợi nhuận để an ủi bản thân. Sự hời hợt này không khác gì <strong>ôm bom nổ chậm</strong>.</p>
+    </div>
+
+    <div class="section feature">
+      <div class="section-label"><span class="icon">⚙️</span> TÍNH NĂNG KFSP</div>
+      <p><strong>Chatbot AI</strong> — "Kế toán trưởng" cá nhân ngay trong app. Gặp chỉ số lạ? Gõ hỏi trực tiếp: <em>"Nợ xấu của VCB đang có ý nghĩa gì?"</em> hay <em>"Lợi nhuận Q1 FPT có bền vững không?"</em>. AI tự động truy xuất dữ liệu, giải nghĩa "tiếng Tây" thành "tiếng Ta" trong <strong>30 giây</strong>.</p>
+    </div>
+
+    <div class="section solution">
+      <div class="section-label"><span class="icon">🟢</span> KFSP GIẢI QUYẾT GÌ</div>
+      <p>Biến NĐT từ người "đọc lướt, đoán mò" thành người <strong>hỏi đúng câu, hiểu đúng số</strong>. Đặc biệt quan trọng cho mã đang cầm — AI giúp phát hiện rủi ro ẩn trước khi nó "nổ". Không cần bằng tài chính, chỉ cần gõ câu hỏi bằng tiếng Việt.</p>
+    </div>
+
+    <div class="section value">
+      <div class="section-label"><span class="icon">🎁</span> KHÁCH HÀNG NHẬN ĐƯỢC GÌ</div>
+      <ul class="value-list">
+        <li>Trợ lý AI giải nghĩa mọi chỉ số BCTC bằng ngôn ngữ dễ hiểu</li>
+        <li>Phát hiện rủi ro ẩn: nợ ngắn hạn, dòng tiền âm, lãi bất thường</li>
+        <li>Hỏi đáp không giới hạn — như có chuyên gia tài chính riêng 24/7</li>
+        <li>Bảo vệ danh mục: biết khi nào cần hành động trước khi quá muộn</li>
+      </ul>
+    </div>
+
+    <div class="section emotion">
+      <div class="section-label"><span class="icon">💜</span> KHÁCH HÀNG CẢM NHẬN GÌ</div>
+      <ul class="emotion-list">
+        <li>😟 <strong>Trước:</strong> Bất an, tự ti — "mình không đủ giỏi để hiểu BCTC, lỡ đang ôm bom mà không biết?"</li>
+        <li>🛡️ <strong>Sau:</strong> An tâm, được bảo vệ — "có AI canh gác, rủi ro ẩn nào cũng bị phát hiện" — cảm giác như thuê được cố vấn riêng</li>
+      </ul>
+    </div>
+
+    <div class="section hook">
+      <div class="section-label"><span class="icon">🎬</span> HOOK ĐẦU VIDEO / BÀI VIẾT</div>
+      <p class="hook-script">"Cổ phiếu đang cầm vừa ra BCTC, lãi tăng 30%. Bạn mừng. Nhưng ẩn trong dòng 47 là khoản nợ gấp 3 lần vốn chủ. Bạn có thấy không?"</p>
+    </div>
+
+    <div class="closing-box">
+      <div class="section-label"><span class="icon">🔁</span> CLOSING MESSAGE</div>
+      <p>AI giúp bạn phát hiện <strong>rủi ro ẩn trong BCTC</strong>. Nhưng quyết định giữ hay bán còn cần xem: thị trường chung đang thuận hay nghịch, dòng tiền ngành chảy vào hay chảy ra, sức mạnh giá cổ phiếu so với thị trường... Đừng để sự thiếu sót giết chết tiền của bạn. <strong>Follow KFSP</strong> — để có đủ thông tin trước mọi quyết định.</p>
+    </div>
+
+    <div class="cta-box">
+      <p>📲 Đừng để sự hời hợt giết chết tiền của bạn. Tải KFSP để kích hoạt AI giải mã BCTC ngay!</p>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== BÀI 7 ==================== -->
+<div class="topic-card" id="topic-6">
+  <div class="topic-header">
+    <span class="topic-number">07</span>
+    <div class="topic-tags">
+      <span class="topic-feature-tag">Bộ lọc + Biểu đồ TC</span>
+      <span class="topic-pillar-tag pillar-both">Giữ/Bán & Mua mới</span>
+    </div>
+    <h2 class="topic-title">Bạn chờ rảnh để đọc BCTC — người ta tranh thủ vài phút để tìm cổ phiếu tiềm năng</h2>
+  </div>
+  <div class="topic-body">
+    <div class="section problem">
+      <div class="section-label"><span class="icon">🔴</span> VẤN ĐỀ</div>
+      <p>Hầu hết NĐT đều có công việc chính bề bộn (dân văn phòng, kinh doanh, bác sĩ...). Quỹ thời gian eo hẹp — <strong>làm sao vắt kiệt sức dành hàng giờ lật BCTC</strong> như dân tài chính chuyên nghiệp? Không phân tích thì sợ mua nhầm, mà tự phân tích thì lực bất tòng tâm. Kẹt cứng giữa "muốn đầu tư có cơ sở" và "không có thời gian".</p>
+    </div>
+
+    <div class="section feature">
+      <div class="section-label"><span class="icon">⚙️</span> TÍNH NĂNG KFSP</div>
+      <p><strong>Combo Bộ lọc FA Growth + Biểu đồ Tài chính</strong> — Bước 1: Bộ lọc quét 1.600 mã trong 30 giây → shortlist. Bước 2: Biểu đồ 10 quý soi nhanh từng mã trong 3 giây. <strong>Tổng cộng: 5 phút</strong> hoàn thành cả việc tìm mã mới lẫn kiểm tra mã đang cầm.</p>
+    </div>
+
+    <div class="section solution">
+      <div class="section-label"><span class="icon">🟢</span> KFSP GIẢI QUYẾT GÌ</div>
+      <p>Giải phóng NĐT bận rộn khỏi "nghĩa vụ" đọc BCTC thủ công. Biến phân tích tài chính từ <em>"nhiệm vụ bất khả thi cho người bận"</em> thành <strong>"5 phút nghỉ trưa — xong cả 2 quyết định"</strong>: mã mới nào đáng mua + mã đang cầm có nên giữ.</p>
+    </div>
+
+    <div class="section value">
+      <div class="section-label"><span class="icon">🎁</span> KHÁCH HÀNG NHẬN ĐƯỢC GÌ</div>
+      <ul class="value-list">
+        <li>Hoàn thành phân tích FA trong 5 phút — phù hợp người bận rộn</li>
+        <li>Giao diện mobile-first: soi chart ngay lúc nghỉ trưa, đi tàu, chờ họp</li>
+        <li>Trả lời cả 2 câu hỏi: "Giữ hay bán?" và "Mua mã nào?"</li>
+        <li>Đầu tư có cơ sở dù chỉ có 5 phút rảnh mỗi ngày</li>
+      </ul>
+    </div>
+
+    <div class="section emotion">
+      <div class="section-label"><span class="icon">💜</span> KHÁCH HÀNG CẢM NHẬN GÌ</div>
+      <ul class="emotion-list">
+        <li>😩 <strong>Trước:</strong> Bất lực, tội lỗi — "mình bận quá, đầu tư kiểu may rủi vì không có thời gian nghiên cứu"</li>
+        <li>😎 <strong>Sau:</strong> Thoải mái, thông minh — "5 phút nghỉ trưa là đủ, mình đầu tư có cơ sở mà không hy sinh thời gian" — cảm giác hack được thời gian</li>
+      </ul>
+    </div>
+
+    <div class="section hook">
+      <div class="section-label"><span class="icon">🎬</span> HOOK ĐẦU VIDEO / BÀI VIẾT</div>
+      <p class="hook-script">"12 giờ trưa, 5 phút nghỉ. Người A lướt Facebook. Người B mở app, lọc 50 mã, soi chart 3 mã — xong. Cuối quý, một người lãi, một người lỗ. Bạn muốn là ai?"</p>
+    </div>
+
+    <div class="closing-box">
+      <div class="section-label"><span class="icon">🔁</span> CLOSING MESSAGE</div>
+      <p>5 phút cho bạn <strong>nền tảng FA</strong>. Nhưng ra quyết định mua/bán không chỉ là doanh thu tăng hay giảm, tăng trưởng mạnh hay yếu. Còn rất nhiều yếu tố: thị trường chung, xu hướng ngành, sức mạnh tương đối, tín hiệu tiềm năng hay nguy cơ... <strong>Follow KFSP</strong> — để mỗi tuần bạn có thêm một mảnh ghép, và ra quyết định đầu tư một cách có hệ thống.</p>
+    </div>
+
+    <div class="cta-box">
+      <p>📲 Dân văn phòng đâu — lên App Store tải KFSP ngay! 5 phút mỗi ngày, đủ để đầu tư thông minh.</p>
+    </div>
+  </div>
+</div>
+
+<button class="show-all-btn" onclick="toggleAll()">📋 Xem tất cả 7 chủ đề cùng lúc</button>
+
+</div>
+
+<div class="footer">
+  KFSP Marketing — 7 Chủ đề Content Mùa BCTC v2 | Tạo: 13/04/2026<br>
+  Thông điệp lõi: "BCTC không phải để đọc — mà để ra quyết định."
+</div>
+
+<script>
+let showAll = false;
+
+function showTopic(index) {
+  if (showAll) return;
+  document.querySelectorAll('.topic-card').forEach((c, i) => c.classList.toggle('active', i === index));
+  document.querySelectorAll('.nav-pill').forEach((p, i) => p.classList.toggle('active', i === index));
+  // Update journey bar
+  document.querySelectorAll('.journey-step').forEach((s, i) => s.classList.toggle('active', i === index));
+}
+
+function toggleAll() {
+  showAll = !showAll;
+  const btn = document.querySelector('.show-all-btn');
+  if (showAll) {
+    document.querySelectorAll('.topic-card').forEach(c => c.classList.add('active'));
+    document.querySelectorAll('.nav-pill').forEach(p => p.classList.add('active'));
+    btn.textContent = '🔼 Thu gọn — xem từng chủ đề';
+  } else {
+    document.querySelectorAll('.topic-card').forEach((c, i) => c.classList.toggle('active', i === 0));
+    document.querySelectorAll('.nav-pill').forEach((p, i) => p.classList.toggle('active', i === 0));
+    btn.textContent = '📋 Xem tất cả 7 chủ đề cùng lúc';
+  }
+}
+</script>
+
+</body>
+</html>

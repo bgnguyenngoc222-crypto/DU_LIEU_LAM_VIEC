@@ -1,0 +1,3823 @@
+{
+  "videoId": "20260503-3-cau-hoi-thi-truong",
+  "title": "Dừng nhìn chart VN-Index. NĐT lâu năm phân tích thị trường thế nào",
+  "framework": "Hook → Painpoint → Bridge → 3 Câu hỏi → CTA",
+  "format": "long-form-vertical",
+  "targetDurationSec": 140,
+  "tone": "anh bạn trader đồng cảm",
+  "sentences": [
+    {
+      "id": "s01",
+      "phase": "HOOK",
+      "display": "Nếu bạn vẫn đang phân tích thị trường bằng cách mở chart VN-Index — hãy dừng ngay.",
+      "tts": "Nếu bạn vẫn đang phân tích thị trường bằng cách mở biểu đồ Vê Nờ Index, hãy dừng ngay.",
+      "main_idea": "dừng nhìn chart Index",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 400,
+      "speed": 0.85,
+      "duration_s": 3.78,
+      "word_timestamps": [
+        {
+          "word": "Nếu",
+          "start": 0.0,
+          "end": 0.12
+        },
+        {
+          "word": "bạn",
+          "start": 0.12,
+          "end": 0.26
+        },
+        {
+          "word": "vẫn",
+          "start": 0.26,
+          "end": 0.42
+        },
+        {
+          "word": "đang",
+          "start": 0.42,
+          "end": 0.54
+        },
+        {
+          "word": "phân",
+          "start": 0.54,
+          "end": 0.72
+        },
+        {
+          "word": "tích",
+          "start": 0.72,
+          "end": 0.84
+        },
+        {
+          "word": "thị",
+          "start": 0.84,
+          "end": 0.98
+        },
+        {
+          "word": "trường",
+          "start": 0.98,
+          "end": 1.24
+        },
+        {
+          "word": "bằng",
+          "start": 1.24,
+          "end": 1.52
+        },
+        {
+          "word": "cách",
+          "start": 1.52,
+          "end": 1.66
+        },
+        {
+          "word": "mở",
+          "start": 1.66,
+          "end": 1.88
+        },
+        {
+          "word": "trạc",
+          "start": 1.88,
+          "end": 2.16
+        },
+        {
+          "word": "Vinnyndex",
+          "start": 2.16,
+          "end": 2.54
+        },
+        {
+          "word": "lên",
+          "start": 2.54,
+          "end": 2.76
+        },
+        {
+          "word": "thì",
+          "start": 2.76,
+          "end": 3.34
+        },
+        {
+          "word": "hãy",
+          "start": 3.34,
+          "end": 3.44
+        },
+        {
+          "word": "dừng",
+          "start": 3.44,
+          "end": 3.6
+        },
+        {
+          "word": "ngay.",
+          "start": 3.6,
+          "end": 3.78
+        }
+      ],
+      "abs_start_s": 0.0,
+      "abs_end_s": 3.78
+    },
+    {
+      "id": "s02",
+      "phase": "HOOK",
+      "display": "Đây là cách những NĐT lâu năm làm. Đơn giản hơn bạn nghĩ — chỉ 3 câu hỏi mỗi ngày.",
+      "tts": "Đây là cách những N Đ T lâu năm làm. Đơn giản hơn bạn nghĩ, chỉ ba câu hỏi mỗi ngày.",
+      "main_idea": "NĐT lâu năm làm 3 câu hỏi",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 600,
+      "speed": 0.85,
+      "duration_s": 3.74,
+      "word_timestamps": [
+        {
+          "word": "Đây",
+          "start": 0.0,
+          "end": 0.14
+        },
+        {
+          "word": "là",
+          "start": 0.14,
+          "end": 0.24
+        },
+        {
+          "word": "cách",
+          "start": 0.24,
+          "end": 0.34
+        },
+        {
+          "word": "những",
+          "start": 0.34,
+          "end": 0.54
+        },
+        {
+          "word": "nhà",
+          "start": 0.54,
+          "end": 0.66
+        },
+        {
+          "word": "đầu",
+          "start": 0.66,
+          "end": 0.76
+        },
+        {
+          "word": "tư",
+          "start": 0.76,
+          "end": 0.84
+        },
+        {
+          "word": "lâu",
+          "start": 0.84,
+          "end": 0.98
+        },
+        {
+          "word": "năm",
+          "start": 0.98,
+          "end": 1.12
+        },
+        {
+          "word": "làm",
+          "start": 1.12,
+          "end": 1.32
+        },
+        {
+          "word": "đơn",
+          "start": 1.32,
+          "end": 1.8
+        },
+        {
+          "word": "giản",
+          "start": 1.8,
+          "end": 1.94
+        },
+        {
+          "word": "hơn",
+          "start": 1.94,
+          "end": 2.08
+        },
+        {
+          "word": "bạn",
+          "start": 2.08,
+          "end": 2.2
+        },
+        {
+          "word": "nghĩ",
+          "start": 2.2,
+          "end": 2.42
+        },
+        {
+          "word": "chỉ",
+          "start": 2.42,
+          "end": 2.9
+        },
+        {
+          "word": "với",
+          "start": 2.9,
+          "end": 3.0
+        },
+        {
+          "word": "ba",
+          "start": 3.0,
+          "end": 3.16
+        },
+        {
+          "word": "câu",
+          "start": 3.16,
+          "end": 3.3
+        },
+        {
+          "word": "hỏi",
+          "start": 3.3,
+          "end": 3.44
+        },
+        {
+          "word": "mỗi",
+          "start": 3.44,
+          "end": 3.56
+        },
+        {
+          "word": "ngày.",
+          "start": 3.56,
+          "end": 3.74
+        }
+      ],
+      "abs_start_s": 4.64,
+      "abs_end_s": 8.38
+    },
+    {
+      "id": "s03",
+      "phase": "PAINPOINT",
+      "display": "Vì khi chỉ dựa vào VN-Index, bạn dễ rơi vào cái bẫy mang tên Xanh vỏ Đỏ lòng — Index xanh, nhưng tài khoản vẫn giảm dần mà mình không hay.",
+      "tts": "Vì khi chỉ dựa vào Vê Nờ Index, bạn dễ rơi vào cái bẫy mang tên Xanh vỏ Đỏ lòng. Index xanh, nhưng tài khoản vẫn giảm dần, mà mình không hay.",
+      "main_idea": "bẫy Xanh vỏ Đỏ lòng",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 700,
+      "speed": 0.85,
+      "duration_s": 7.1,
+      "word_timestamps": [
+        {
+          "word": "Vì",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "khi",
+          "start": 0.32,
+          "end": 0.48
+        },
+        {
+          "word": "chỉ",
+          "start": 0.48,
+          "end": 0.74
+        },
+        {
+          "word": "dựa",
+          "start": 0.74,
+          "end": 0.96
+        },
+        {
+          "word": "vào",
+          "start": 0.96,
+          "end": 1.04
+        },
+        {
+          "word": "mỗi",
+          "start": 1.04,
+          "end": 1.22
+        },
+        {
+          "word": "Vinnyndex,",
+          "start": 1.22,
+          "end": 1.78
+        },
+        {
+          "word": "anh",
+          "start": 2.12,
+          "end": 2.2
+        },
+        {
+          "word": "sẽ",
+          "start": 2.2,
+          "end": 2.3
+        },
+        {
+          "word": "rơi",
+          "start": 2.3,
+          "end": 2.48
+        },
+        {
+          "word": "vào",
+          "start": 2.48,
+          "end": 2.6
+        },
+        {
+          "word": "một",
+          "start": 2.6,
+          "end": 2.74
+        },
+        {
+          "word": "cái",
+          "start": 2.74,
+          "end": 2.84
+        },
+        {
+          "word": "bẫy",
+          "start": 2.84,
+          "end": 3.04
+        },
+        {
+          "word": "đó",
+          "start": 3.04,
+          "end": 3.2
+        },
+        {
+          "word": "là",
+          "start": 3.2,
+          "end": 3.32
+        },
+        {
+          "word": "xanh",
+          "start": 3.32,
+          "end": 3.5
+        },
+        {
+          "word": "phò",
+          "start": 3.5,
+          "end": 3.68
+        },
+        {
+          "word": "đó",
+          "start": 3.68,
+          "end": 3.82
+        },
+        {
+          "word": "lọng,",
+          "start": 3.82,
+          "end": 4.42
+        },
+        {
+          "word": "index",
+          "start": 4.42,
+          "end": 4.64
+        },
+        {
+          "word": "xanh,",
+          "start": 4.64,
+          "end": 4.86
+        },
+        {
+          "word": "những",
+          "start": 5.2,
+          "end": 5.28
+        },
+        {
+          "word": "tài",
+          "start": 5.28,
+          "end": 5.42
+        },
+        {
+          "word": "khoản",
+          "start": 5.42,
+          "end": 5.6
+        },
+        {
+          "word": "của",
+          "start": 5.6,
+          "end": 5.7
+        },
+        {
+          "word": "bạn",
+          "start": 5.7,
+          "end": 5.82
+        },
+        {
+          "word": "vẫn",
+          "start": 5.82,
+          "end": 5.98
+        },
+        {
+          "word": "giảm",
+          "start": 5.98,
+          "end": 6.22
+        },
+        {
+          "word": "dần",
+          "start": 6.22,
+          "end": 6.38
+        },
+        {
+          "word": "mà",
+          "start": 6.38,
+          "end": 6.68
+        },
+        {
+          "word": "mình",
+          "start": 6.68,
+          "end": 6.8
+        },
+        {
+          "word": "không",
+          "start": 6.8,
+          "end": 6.92
+        },
+        {
+          "word": "hay.",
+          "start": 6.92,
+          "end": 7.1
+        }
+      ],
+      "abs_start_s": 9.18,
+      "abs_end_s": 16.28
+    },
+    {
+      "id": "s04",
+      "phase": "BRIDGE",
+      "display": "Hãy thành thật với nhau: Index chỉ đại diện cho vốn hoá thị trường một cách có trọng số.",
+      "tts": "Hãy thành thật với nhau: Index chỉ đại diện cho vốn hoá thị trường một cách có trọng số.",
+      "main_idea": "Index = vốn hoá có trọng số",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 400,
+      "speed": 0.85,
+      "duration_s": 3.68,
+      "word_timestamps": [
+        {
+          "word": "Hãy",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "thình",
+          "start": 0.32,
+          "end": 0.44
+        },
+        {
+          "word": "thật",
+          "start": 0.44,
+          "end": 0.54
+        },
+        {
+          "word": "với",
+          "start": 0.54,
+          "end": 0.68
+        },
+        {
+          "word": "nhau,",
+          "start": 0.68,
+          "end": 0.84
+        },
+        {
+          "word": "index",
+          "start": 1.24,
+          "end": 1.42
+        },
+        {
+          "word": "chỉ",
+          "start": 1.42,
+          "end": 1.84
+        },
+        {
+          "word": "đáy",
+          "start": 1.84,
+          "end": 1.96
+        },
+        {
+          "word": "diện",
+          "start": 1.96,
+          "end": 2.12
+        },
+        {
+          "word": "trong",
+          "start": 2.12,
+          "end": 2.24
+        },
+        {
+          "word": "vốn",
+          "start": 2.24,
+          "end": 2.38
+        },
+        {
+          "word": "hóa",
+          "start": 2.38,
+          "end": 2.56
+        },
+        {
+          "word": "thị",
+          "start": 2.56,
+          "end": 2.7
+        },
+        {
+          "word": "trường",
+          "start": 2.7,
+          "end": 2.92
+        },
+        {
+          "word": "một",
+          "start": 2.92,
+          "end": 3.1
+        },
+        {
+          "word": "cách",
+          "start": 3.1,
+          "end": 3.22
+        },
+        {
+          "word": "có",
+          "start": 3.22,
+          "end": 3.36
+        },
+        {
+          "word": "trọng",
+          "start": 3.36,
+          "end": 3.54
+        },
+        {
+          "word": "số.",
+          "start": 3.54,
+          "end": 3.68
+        }
+      ],
+      "abs_start_s": 17.2,
+      "abs_end_s": 20.88
+    },
+    {
+      "id": "s05",
+      "phase": "BRIDGE",
+      "display": "Trong khi thị trường được cấu thành từ rất nhiều cổ phiếu bên trong — và sự vận động của các cổ phiếu ấy mới tạo nên thị trường thật.",
+      "tts": "Trong khi thị trường được cấu thành từ rất nhiều cổ phiếu bên trong, và sự vận động của các cổ phiếu ấy mới tạo nên thị trường thật.",
+      "main_idea": "thị trường = vận động cổ phiếu",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 400,
+      "speed": 0.85,
+      "duration_s": 5.28,
+      "word_timestamps": [
+        {
+          "word": "Trong",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "khi",
+          "start": 0.32,
+          "end": 0.46
+        },
+        {
+          "word": "thị",
+          "start": 0.46,
+          "end": 0.66
+        },
+        {
+          "word": "trường",
+          "start": 0.66,
+          "end": 0.9
+        },
+        {
+          "word": "được",
+          "start": 0.9,
+          "end": 1.32
+        },
+        {
+          "word": "cố",
+          "start": 1.32,
+          "end": 1.46
+        },
+        {
+          "word": "thành",
+          "start": 1.46,
+          "end": 1.64
+        },
+        {
+          "word": "từ",
+          "start": 1.64,
+          "end": 1.78
+        },
+        {
+          "word": "rất",
+          "start": 1.78,
+          "end": 1.88
+        },
+        {
+          "word": "nhiều",
+          "start": 1.88,
+          "end": 2.06
+        },
+        {
+          "word": "của",
+          "start": 2.06,
+          "end": 2.18
+        },
+        {
+          "word": "phía",
+          "start": 2.18,
+          "end": 2.3
+        },
+        {
+          "word": "bên",
+          "start": 2.3,
+          "end": 2.44
+        },
+        {
+          "word": "trao",
+          "start": 2.44,
+          "end": 2.96
+        },
+        {
+          "word": "và",
+          "start": 2.96,
+          "end": 3.14
+        },
+        {
+          "word": "sự",
+          "start": 3.14,
+          "end": 3.26
+        },
+        {
+          "word": "vận",
+          "start": 3.26,
+          "end": 3.4
+        },
+        {
+          "word": "động",
+          "start": 3.4,
+          "end": 3.56
+        },
+        {
+          "word": "của",
+          "start": 3.56,
+          "end": 3.74
+        },
+        {
+          "word": "các",
+          "start": 3.74,
+          "end": 3.86
+        },
+        {
+          "word": "phía",
+          "start": 3.86,
+          "end": 4.08
+        },
+        {
+          "word": "bẫy",
+          "start": 4.08,
+          "end": 4.32
+        },
+        {
+          "word": "mới",
+          "start": 4.32,
+          "end": 4.56
+        },
+        {
+          "word": "tạo",
+          "start": 4.56,
+          "end": 4.68
+        },
+        {
+          "word": "nên",
+          "start": 4.68,
+          "end": 4.8
+        },
+        {
+          "word": "thị",
+          "start": 4.8,
+          "end": 4.92
+        },
+        {
+          "word": "trường",
+          "start": 4.92,
+          "end": 5.08
+        },
+        {
+          "word": "thật.",
+          "start": 5.08,
+          "end": 5.28
+        }
+      ],
+      "abs_start_s": 21.58,
+      "abs_end_s": 26.86
+    },
+    {
+      "id": "s06",
+      "phase": "BRIDGE",
+      "display": "Và 3 câu hỏi sau đây giúp bạn nhìn rõ hơn sự vận động ấy.",
+      "tts": "Và ba câu hỏi sau đây giúp bạn nhìn rõ hơn sự vận động ấy.",
+      "main_idea": "3 câu hỏi mở ra sự vận động",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 700,
+      "speed": 0.85,
+      "duration_s": 2.8,
+      "word_timestamps": [
+        {
+          "word": "Và",
+          "start": 0.0,
+          "end": 0.3
+        },
+        {
+          "word": "ba",
+          "start": 0.3,
+          "end": 0.44
+        },
+        {
+          "word": "câu",
+          "start": 0.44,
+          "end": 0.58
+        },
+        {
+          "word": "hỏi",
+          "start": 0.58,
+          "end": 0.7
+        },
+        {
+          "word": "sau",
+          "start": 0.7,
+          "end": 0.84
+        },
+        {
+          "word": "đây",
+          "start": 0.84,
+          "end": 1.02
+        },
+        {
+          "word": "sẽ",
+          "start": 1.02,
+          "end": 1.38
+        },
+        {
+          "word": "giúp",
+          "start": 1.38,
+          "end": 1.48
+        },
+        {
+          "word": "bạn",
+          "start": 1.48,
+          "end": 1.64
+        },
+        {
+          "word": "nhìn",
+          "start": 1.64,
+          "end": 1.8
+        },
+        {
+          "word": "rõ",
+          "start": 1.8,
+          "end": 1.94
+        },
+        {
+          "word": "hơn",
+          "start": 1.94,
+          "end": 2.18
+        },
+        {
+          "word": "sự",
+          "start": 2.18,
+          "end": 2.42
+        },
+        {
+          "word": "vận",
+          "start": 2.42,
+          "end": 2.54
+        },
+        {
+          "word": "động",
+          "start": 2.54,
+          "end": 2.68
+        },
+        {
+          "word": "ấy.",
+          "start": 2.68,
+          "end": 2.8
+        }
+      ],
+      "abs_start_s": 27.68,
+      "abs_end_s": 30.48
+    },
+    {
+      "id": "s07",
+      "phase": "Q1",
+      "display": "Một: Tương quan số mã tăng giảm đang thế nào?",
+      "tts": "Một: Tương quan số mã tăng giảm đang thế nào?",
+      "main_idea": "Q1 — tương quan tăng giảm",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 300,
+      "speed": 0.85,
+      "duration_s": 3.62,
+      "word_timestamps": [
+        {
+          "word": "Câu",
+          "start": 0.0,
+          "end": 0.3
+        },
+        {
+          "word": "hỏi",
+          "start": 0.3,
+          "end": 0.42
+        },
+        {
+          "word": "thứ",
+          "start": 0.42,
+          "end": 0.52
+        },
+        {
+          "word": "nhất,",
+          "start": 0.52,
+          "end": 0.68
+        },
+        {
+          "word": "tương",
+          "start": 1.32,
+          "end": 1.42
+        },
+        {
+          "word": "quan",
+          "start": 1.42,
+          "end": 1.62
+        },
+        {
+          "word": "giữa",
+          "start": 1.62,
+          "end": 1.82
+        },
+        {
+          "word": "số",
+          "start": 1.82,
+          "end": 1.92
+        },
+        {
+          "word": "mã",
+          "start": 1.92,
+          "end": 2.06
+        },
+        {
+          "word": "tăng",
+          "start": 2.06,
+          "end": 2.24
+        },
+        {
+          "word": "và",
+          "start": 2.24,
+          "end": 2.56
+        },
+        {
+          "word": "giảm",
+          "start": 2.56,
+          "end": 2.88
+        },
+        {
+          "word": "đang",
+          "start": 2.88,
+          "end": 3.18
+        },
+        {
+          "word": "như",
+          "start": 3.18,
+          "end": 3.34
+        },
+        {
+          "word": "thế",
+          "start": 3.34,
+          "end": 3.44
+        },
+        {
+          "word": "nào?",
+          "start": 3.44,
+          "end": 3.62
+        }
+      ],
+      "abs_start_s": 31.44,
+      "abs_end_s": 35.06
+    },
+    {
+      "id": "s08",
+      "phase": "Q1",
+      "display": "Khi trả lời câu hỏi này, bạn sẽ biết thị trường và Index có chuyển động đồng pha hay không. Đây cũng chính là cách bạn nhận diện sớm hiện tượng Xanh vỏ Đỏ lòng.",
+      "tts": "Khi trả lời câu hỏi này, bạn sẽ biết thị trường và Index có chuyển động đồng pha hay không. Đây cũng chính là cách bạn nhận diện sớm hiện tượng Xanh vỏ Đỏ lòng.",
+      "main_idea": "đồng pha = phát hiện sớm",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 400,
+      "speed": 0.85,
+      "duration_s": 6.94,
+      "word_timestamps": [
+        {
+          "word": "Khi",
+          "start": 0.0,
+          "end": 0.3
+        },
+        {
+          "word": "trả",
+          "start": 0.3,
+          "end": 0.42
+        },
+        {
+          "word": "lời",
+          "start": 0.42,
+          "end": 0.52
+        },
+        {
+          "word": "câu",
+          "start": 0.52,
+          "end": 0.66
+        },
+        {
+          "word": "hỏi",
+          "start": 0.66,
+          "end": 0.8
+        },
+        {
+          "word": "này,",
+          "start": 0.8,
+          "end": 0.96
+        },
+        {
+          "word": "bạn",
+          "start": 1.24,
+          "end": 1.36
+        },
+        {
+          "word": "sẽ",
+          "start": 1.36,
+          "end": 1.48
+        },
+        {
+          "word": "biết",
+          "start": 1.48,
+          "end": 1.58
+        },
+        {
+          "word": "được",
+          "start": 1.58,
+          "end": 1.7
+        },
+        {
+          "word": "tị",
+          "start": 1.7,
+          "end": 1.82
+        },
+        {
+          "word": "trường",
+          "start": 1.82,
+          "end": 2.08
+        },
+        {
+          "word": "và",
+          "start": 2.08,
+          "end": 2.24
+        },
+        {
+          "word": "index",
+          "start": 2.24,
+          "end": 2.42
+        },
+        {
+          "word": "có",
+          "start": 2.42,
+          "end": 2.92
+        },
+        {
+          "word": "đồng",
+          "start": 2.92,
+          "end": 3.06
+        },
+        {
+          "word": "pha",
+          "start": 3.06,
+          "end": 3.28
+        },
+        {
+          "word": "với",
+          "start": 3.28,
+          "end": 3.42
+        },
+        {
+          "word": "nhau",
+          "start": 3.42,
+          "end": 3.56
+        },
+        {
+          "word": "hay",
+          "start": 3.56,
+          "end": 3.68
+        },
+        {
+          "word": "không?",
+          "start": 3.68,
+          "end": 3.84
+        },
+        {
+          "word": "Và",
+          "start": 4.32,
+          "end": 4.42
+        },
+        {
+          "word": "đây",
+          "start": 4.42,
+          "end": 4.5
+        },
+        {
+          "word": "cũng",
+          "start": 4.5,
+          "end": 4.6
+        },
+        {
+          "word": "là",
+          "start": 4.6,
+          "end": 4.72
+        },
+        {
+          "word": "cách",
+          "start": 4.72,
+          "end": 4.84
+        },
+        {
+          "word": "bận",
+          "start": 4.84,
+          "end": 5.0
+        },
+        {
+          "word": "nhận",
+          "start": 5.0,
+          "end": 5.12
+        },
+        {
+          "word": "diện",
+          "start": 5.12,
+          "end": 5.28
+        },
+        {
+          "word": "sớm",
+          "start": 5.28,
+          "end": 5.52
+        },
+        {
+          "word": "nhất",
+          "start": 5.52,
+          "end": 5.64
+        },
+        {
+          "word": "hiện",
+          "start": 5.64,
+          "end": 5.8
+        },
+        {
+          "word": "tượng",
+          "start": 5.8,
+          "end": 6.02
+        },
+        {
+          "word": "xanh",
+          "start": 6.02,
+          "end": 6.36
+        },
+        {
+          "word": "vào",
+          "start": 6.36,
+          "end": 6.5
+        },
+        {
+          "word": "đó",
+          "start": 6.5,
+          "end": 6.64
+        },
+        {
+          "word": "lọng.",
+          "start": 6.64,
+          "end": 6.94
+        }
+      ],
+      "abs_start_s": 36.1,
+      "abs_end_s": 43.04
+    },
+    {
+      "id": "s09",
+      "phase": "Q1",
+      "display": "Bạn chỉ cần mở bản đồ nhiệt hoặc bảng thống kê số mã tăng giảm trên KFSP — nhìn mảng màu, hoặc đếm thẳng số mã tăng / giảm: đỏ nhiều hơn hay xanh nhiều hơn?",
+      "tts": "Bạn chỉ cần mở bản đồ nhiệt, hoặc bảng thống kê số mã tăng giảm trên KFS B. Nhìn mảng màu, hoặc đếm thẳng số mã tăng giảm: đỏ nhiều hơn hay xanh nhiều hơn?",
+      "main_idea": "mở bản đồ nhiệt + thống kê",
+      "enum_items": [
+        "bản đồ nhiệt",
+        "bảng thống kê"
+      ],
+      "pause_before_ms": 0,
+      "pause_after_ms": 400,
+      "speed": 0.85,
+      "duration_s": 6.8,
+      "word_timestamps": [
+        {
+          "word": "Bạn",
+          "start": 0.0,
+          "end": 0.16
+        },
+        {
+          "word": "chỉ",
+          "start": 0.16,
+          "end": 0.32
+        },
+        {
+          "word": "cần",
+          "start": 0.32,
+          "end": 0.42
+        },
+        {
+          "word": "nhìn",
+          "start": 0.42,
+          "end": 0.58
+        },
+        {
+          "word": "vào",
+          "start": 0.58,
+          "end": 0.7
+        },
+        {
+          "word": "mạng",
+          "start": 0.7,
+          "end": 0.88
+        },
+        {
+          "word": "màu",
+          "start": 0.88,
+          "end": 1.1
+        },
+        {
+          "word": "trên",
+          "start": 1.1,
+          "end": 1.28
+        },
+        {
+          "word": "bàn",
+          "start": 1.28,
+          "end": 1.46
+        },
+        {
+          "word": "đôi",
+          "start": 1.46,
+          "end": 1.54
+        },
+        {
+          "word": "nhiệt",
+          "start": 1.54,
+          "end": 1.76
+        },
+        {
+          "word": "hoặc",
+          "start": 1.76,
+          "end": 2.36
+        },
+        {
+          "word": "liếm",
+          "start": 2.36,
+          "end": 2.46
+        },
+        {
+          "word": "thẳng",
+          "start": 2.46,
+          "end": 2.68
+        },
+        {
+          "word": "số",
+          "start": 2.68,
+          "end": 2.82
+        },
+        {
+          "word": "mã",
+          "start": 2.82,
+          "end": 2.94
+        },
+        {
+          "word": "tăng",
+          "start": 2.94,
+          "end": 3.06
+        },
+        {
+          "word": "giảm",
+          "start": 3.06,
+          "end": 3.38
+        },
+        {
+          "word": "trên",
+          "start": 3.38,
+          "end": 3.5
+        },
+        {
+          "word": "tổng",
+          "start": 3.5,
+          "end": 3.68
+        },
+        {
+          "word": "khoan",
+          "start": 3.68,
+          "end": 3.8
+        },
+        {
+          "word": "thị",
+          "start": 3.8,
+          "end": 3.92
+        },
+        {
+          "word": "trường",
+          "start": 3.92,
+          "end": 4.14
+        },
+        {
+          "word": "KRSP.",
+          "start": 4.14,
+          "end": 4.68
+        },
+        {
+          "word": "Đỏ",
+          "start": 5.32,
+          "end": 5.6
+        },
+        {
+          "word": "nhiều",
+          "start": 5.6,
+          "end": 5.74
+        },
+        {
+          "word": "hơn",
+          "start": 5.74,
+          "end": 6.04
+        },
+        {
+          "word": "hay",
+          "start": 6.04,
+          "end": 6.22
+        },
+        {
+          "word": "xanh",
+          "start": 6.22,
+          "end": 6.34
+        },
+        {
+          "word": "nhiều",
+          "start": 6.34,
+          "end": 6.5
+        },
+        {
+          "word": "hơn.",
+          "start": 6.5,
+          "end": 6.8
+        }
+      ],
+      "abs_start_s": 43.44,
+      "abs_end_s": 50.24,
+      "enum_beats": [
+        {
+          "item": "bản đồ nhiệt",
+          "anchor_word": "bàn (whisper)",
+          "rel_start_s": 1.28,
+          "frame_30fps": 38
+        },
+        {
+          "item": "bảng thống kê",
+          "anchor_word": "liếm/đếm (whisper)",
+          "rel_start_s": 2.36,
+          "frame_30fps": 71
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "phase": "Q1",
+      "display": "Đơn giản như đứa trẻ nhìn. Đừng áp đặt suy nghĩ cá nhân.",
+      "tts": "Đơn giản như đứa trẻ nhìn. Đừng áp đặt suy nghĩ cá nhân.",
+      "main_idea": "đơn giản như đứa trẻ nhìn",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 400,
+      "speed": 0.85,
+      "duration_s": 2.66,
+      "word_timestamps": [
+        {
+          "word": "Hãy",
+          "start": 0.0,
+          "end": 0.12
+        },
+        {
+          "word": "cứ",
+          "start": 0.12,
+          "end": 0.24
+        },
+        {
+          "word": "nhìn",
+          "start": 0.24,
+          "end": 0.38
+        },
+        {
+          "word": "đơn",
+          "start": 0.38,
+          "end": 0.52
+        },
+        {
+          "word": "giản",
+          "start": 0.52,
+          "end": 0.72
+        },
+        {
+          "word": "như",
+          "start": 0.72,
+          "end": 0.86
+        },
+        {
+          "word": "một",
+          "start": 0.86,
+          "end": 0.98
+        },
+        {
+          "word": "đứa",
+          "start": 0.98,
+          "end": 1.12
+        },
+        {
+          "word": "trẻ",
+          "start": 1.12,
+          "end": 1.3
+        },
+        {
+          "word": "để",
+          "start": 1.3,
+          "end": 1.6
+        },
+        {
+          "word": "các",
+          "start": 1.6,
+          "end": 1.7
+        },
+        {
+          "word": "bạn",
+          "start": 1.7,
+          "end": 1.8
+        },
+        {
+          "word": "xương",
+          "start": 1.8,
+          "end": 1.92
+        },
+        {
+          "word": "nghĩ",
+          "start": 1.92,
+          "end": 2.04
+        },
+        {
+          "word": "ca",
+          "start": 2.04,
+          "end": 2.16
+        },
+        {
+          "word": "nhân",
+          "start": 2.16,
+          "end": 2.24
+        },
+        {
+          "word": "của",
+          "start": 2.24,
+          "end": 2.36
+        },
+        {
+          "word": "mình",
+          "start": 2.36,
+          "end": 2.5
+        },
+        {
+          "word": "vào.",
+          "start": 2.5,
+          "end": 2.66
+        }
+      ],
+      "abs_start_s": 50.82,
+      "abs_end_s": 53.48
+    },
+    {
+      "id": "s11",
+      "phase": "Q1",
+      "display": "Bản đồ nhiệt KFSP xem được 1, 5, 20 phiên — đủ thấy dòng tiền lan toả thật, hay chỉ tập trung vài mã.",
+      "tts": "Bản đồ nhiệt KFS B xem được một, năm, hai mươi phiên, đủ thấy dòng tiền lan toả thật, hay chỉ tập trung vài mã.",
+      "main_idea": "1-5-20 phiên = lan toả thật",
+      "enum_items": [
+        "1 phiên",
+        "5 phiên",
+        "20 phiên"
+      ],
+      "pause_before_ms": 0,
+      "pause_after_ms": 700,
+      "speed": 0.85,
+      "duration_s": 7.74,
+      "word_timestamps": [
+        {
+          "word": "Bạn",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "đôi",
+          "start": 0.32,
+          "end": 0.42
+        },
+        {
+          "word": "nhiệt",
+          "start": 0.42,
+          "end": 0.58
+        },
+        {
+          "word": "KRSP",
+          "start": 0.58,
+          "end": 1.04
+        },
+        {
+          "word": "sẽ",
+          "start": 1.04,
+          "end": 1.32
+        },
+        {
+          "word": "hỗ",
+          "start": 1.32,
+          "end": 1.44
+        },
+        {
+          "word": "trợ",
+          "start": 1.44,
+          "end": 1.58
+        },
+        {
+          "word": "bạn",
+          "start": 1.58,
+          "end": 1.72
+        },
+        {
+          "word": "xin",
+          "start": 1.72,
+          "end": 1.86
+        },
+        {
+          "word": "được",
+          "start": 1.86,
+          "end": 1.98
+        },
+        {
+          "word": "cả",
+          "start": 1.98,
+          "end": 2.08
+        },
+        {
+          "word": "một",
+          "start": 2.08,
+          "end": 2.24
+        },
+        {
+          "word": "phim,",
+          "start": 2.24,
+          "end": 2.46
+        },
+        {
+          "word": "5",
+          "start": 2.68,
+          "end": 2.78
+        },
+        {
+          "word": "phim",
+          "start": 2.78,
+          "end": 3.0
+        },
+        {
+          "word": "và",
+          "start": 3.0,
+          "end": 3.2
+        },
+        {
+          "word": "20",
+          "start": 3.2,
+          "end": 3.4
+        },
+        {
+          "word": "phim.",
+          "start": 3.4,
+          "end": 3.68
+        },
+        {
+          "word": "Đủ",
+          "start": 4.32,
+          "end": 4.64
+        },
+        {
+          "word": "để",
+          "start": 4.64,
+          "end": 4.8
+        },
+        {
+          "word": "cho",
+          "start": 4.8,
+          "end": 4.9
+        },
+        {
+          "word": "bạn",
+          "start": 4.9,
+          "end": 5.04
+        },
+        {
+          "word": "thấy,",
+          "start": 5.04,
+          "end": 5.22
+        },
+        {
+          "word": "trong",
+          "start": 5.5,
+          "end": 5.6
+        },
+        {
+          "word": "tiên",
+          "start": 5.6,
+          "end": 5.74
+        },
+        {
+          "word": "lang",
+          "start": 5.74,
+          "end": 5.88
+        },
+        {
+          "word": "tỏa",
+          "start": 5.88,
+          "end": 6.06
+        },
+        {
+          "word": "thật,",
+          "start": 6.06,
+          "end": 6.24
+        },
+        {
+          "word": "hãy",
+          "start": 6.54,
+          "end": 6.7
+        },
+        {
+          "word": "chỉ",
+          "start": 6.7,
+          "end": 6.8
+        },
+        {
+          "word": "tập",
+          "start": 6.8,
+          "end": 6.88
+        },
+        {
+          "word": "trung",
+          "start": 6.88,
+          "end": 6.98
+        },
+        {
+          "word": "một",
+          "start": 6.98,
+          "end": 7.12
+        },
+        {
+          "word": "vài",
+          "start": 7.12,
+          "end": 7.3
+        },
+        {
+          "word": "mã",
+          "start": 7.3,
+          "end": 7.4
+        },
+        {
+          "word": "gần",
+          "start": 7.4,
+          "end": 7.56
+        },
+        {
+          "word": "đây.",
+          "start": 7.56,
+          "end": 7.74
+        }
+      ],
+      "abs_start_s": 54.28,
+      "abs_end_s": 62.02,
+      "enum_beats": [
+        {
+          "item": "1 phiên",
+          "anchor_word": "một (whisper)",
+          "rel_start_s": 2.08,
+          "frame_30fps": 62
+        },
+        {
+          "item": "5 phiên",
+          "anchor_word": "5",
+          "rel_start_s": 2.68,
+          "frame_30fps": 80
+        },
+        {
+          "item": "20 phiên",
+          "anchor_word": "20",
+          "rel_start_s": 3.2,
+          "frame_30fps": 96
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "phase": "Q2",
+      "display": "Hai: Xu hướng có đồng thuận giữa cổ phiếu và Index không?",
+      "tts": "Hai: Xu hướng có đồng thuận giữa cổ phiếu và Index không?",
+      "main_idea": "Q2 — đồng thuận xu hướng",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 300,
+      "speed": 0.85,
+      "duration_s": 3.52,
+      "word_timestamps": [
+        {
+          "word": "Câu",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "hỏi",
+          "start": 0.32,
+          "end": 0.46
+        },
+        {
+          "word": "thứ",
+          "start": 0.46,
+          "end": 0.56
+        },
+        {
+          "word": "hai,",
+          "start": 0.56,
+          "end": 0.76
+        },
+        {
+          "word": "tất",
+          "start": 1.1,
+          "end": 1.1
+        },
+        {
+          "word": "là",
+          "start": 1.1,
+          "end": 1.22
+        },
+        {
+          "word": "su",
+          "start": 1.22,
+          "end": 1.34
+        },
+        {
+          "word": "hướng",
+          "start": 1.34,
+          "end": 1.46
+        },
+        {
+          "word": "có",
+          "start": 1.46,
+          "end": 1.76
+        },
+        {
+          "word": "đồng",
+          "start": 1.76,
+          "end": 1.94
+        },
+        {
+          "word": "thuận",
+          "start": 1.94,
+          "end": 2.18
+        },
+        {
+          "word": "giữa",
+          "start": 2.18,
+          "end": 2.44
+        },
+        {
+          "word": "cổ",
+          "start": 2.44,
+          "end": 2.58
+        },
+        {
+          "word": "phí",
+          "start": 2.58,
+          "end": 2.72
+        },
+        {
+          "word": "ổ",
+          "start": 2.72,
+          "end": 2.84
+        },
+        {
+          "word": "và",
+          "start": 2.84,
+          "end": 2.98
+        },
+        {
+          "word": "index",
+          "start": 2.98,
+          "end": 3.22
+        },
+        {
+          "word": "hay",
+          "start": 3.22,
+          "end": 3.34
+        },
+        {
+          "word": "không?",
+          "start": 3.34,
+          "end": 3.52
+        }
+      ],
+      "abs_start_s": 63.36,
+      "abs_end_s": 66.88
+    },
+    {
+      "id": "s13",
+      "phase": "Q2",
+      "display": "William O'Neil có một nguyên lý — trong một xu hướng rõ rệt, 75% cổ phiếu sẽ đi theo.",
+      "tts": "Uy-li-am Ô Nin có một nguyên lý: trong một xu hướng rõ rệt, bảy mươi lăm phần trăm cổ phiếu sẽ đi theo.",
+      "main_idea": "O'Neil — 75% theo xu hướng",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 400,
+      "speed": 0.85,
+      "duration_s": 5.84,
+      "word_timestamps": [
+        {
+          "word": "Ví",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "liên",
+          "start": 0.32,
+          "end": 0.38
+        },
+        {
+          "word": "muốn",
+          "start": 0.38,
+          "end": 0.52
+        },
+        {
+          "word": "nếu",
+          "start": 0.52,
+          "end": 0.64
+        },
+        {
+          "word": "có",
+          "start": 0.64,
+          "end": 0.76
+        },
+        {
+          "word": "một",
+          "start": 0.76,
+          "end": 0.84
+        },
+        {
+          "word": "phát",
+          "start": 0.84,
+          "end": 0.98
+        },
+        {
+          "word": "biểu",
+          "start": 0.98,
+          "end": 1.12
+        },
+        {
+          "word": "như",
+          "start": 1.12,
+          "end": 1.26
+        },
+        {
+          "word": "sau,",
+          "start": 1.26,
+          "end": 1.44
+        },
+        {
+          "word": "tất",
+          "start": 2.0,
+          "end": 2.08
+        },
+        {
+          "word": "là",
+          "start": 2.08,
+          "end": 2.24
+        },
+        {
+          "word": "trong",
+          "start": 2.24,
+          "end": 2.42
+        },
+        {
+          "word": "một",
+          "start": 2.42,
+          "end": 2.54
+        },
+        {
+          "word": "tị",
+          "start": 2.54,
+          "end": 2.66
+        },
+        {
+          "word": "trường",
+          "start": 2.66,
+          "end": 2.86
+        },
+        {
+          "word": "có",
+          "start": 2.86,
+          "end": 2.98
+        },
+        {
+          "word": "su",
+          "start": 2.98,
+          "end": 3.12
+        },
+        {
+          "word": "hướng",
+          "start": 3.12,
+          "end": 3.24
+        },
+        {
+          "word": "rõ",
+          "start": 3.24,
+          "end": 3.4
+        },
+        {
+          "word": "rệt,",
+          "start": 3.4,
+          "end": 3.56
+        },
+        {
+          "word": "75",
+          "start": 4.0,
+          "end": 4.26
+        },
+        {
+          "word": "%",
+          "start": 4.26,
+          "end": 4.62
+        },
+        {
+          "word": "của",
+          "start": 4.62,
+          "end": 4.82
+        },
+        {
+          "word": "phí",
+          "start": 4.82,
+          "end": 4.98
+        },
+        {
+          "word": "ổ",
+          "start": 4.98,
+          "end": 5.08
+        },
+        {
+          "word": "sẽ",
+          "start": 5.08,
+          "end": 5.32
+        },
+        {
+          "word": "đi",
+          "start": 5.32,
+          "end": 5.42
+        },
+        {
+          "word": "theo",
+          "start": 5.42,
+          "end": 5.52
+        },
+        {
+          "word": "hướng",
+          "start": 5.52,
+          "end": 5.68
+        },
+        {
+          "word": "đỏ.",
+          "start": 5.68,
+          "end": 5.84
+        }
+      ],
+      "abs_start_s": 67.72,
+      "abs_end_s": 73.56
+    },
+    {
+      "id": "s14",
+      "phase": "Q2",
+      "display": "Vì vậy khi Index tăng, bạn cần check xem chuyển động đó có sự ủng hộ của số đông cổ phiếu, hay chỉ một vài mã đơn lẻ — trong khi phần lớn còn lại đang suy yếu dần.",
+      "tts": "Vì vậy khi Index tăng, bạn cần check xem chuyển động đó có sự ủng hộ của số đông cổ phiếu, hay chỉ một vài mã đơn lẻ, trong khi phần lớn còn lại đang suy yếu dần.",
+      "main_idea": "kiểm tra số đông ủng hộ",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 400,
+      "speed": 0.85,
+      "duration_s": 9.92,
+      "word_timestamps": [
+        {
+          "word": "Vì",
+          "start": 0.0,
+          "end": 0.26
+        },
+        {
+          "word": "vậy,",
+          "start": 0.26,
+          "end": 0.4
+        },
+        {
+          "word": "khi",
+          "start": 0.76,
+          "end": 0.92
+        },
+        {
+          "word": "vi",
+          "start": 0.92,
+          "end": 1.12
+        },
+        {
+          "word": "nên",
+          "start": 1.12,
+          "end": 1.24
+        },
+        {
+          "word": "đách",
+          "start": 1.24,
+          "end": 1.42
+        },
+        {
+          "word": "tăng,",
+          "start": 1.42,
+          "end": 1.6
+        },
+        {
+          "word": "bạn",
+          "start": 2.04,
+          "end": 2.14
+        },
+        {
+          "word": "cần",
+          "start": 2.14,
+          "end": 2.34
+        },
+        {
+          "word": "kiểm",
+          "start": 2.34,
+          "end": 2.5
+        },
+        {
+          "word": "tra",
+          "start": 2.5,
+          "end": 2.68
+        },
+        {
+          "word": "xem",
+          "start": 2.68,
+          "end": 2.88
+        },
+        {
+          "word": "chuyến",
+          "start": 2.88,
+          "end": 3.32
+        },
+        {
+          "word": "động",
+          "start": 3.32,
+          "end": 3.46
+        },
+        {
+          "word": "đó",
+          "start": 3.46,
+          "end": 3.64
+        },
+        {
+          "word": "có",
+          "start": 3.64,
+          "end": 3.84
+        },
+        {
+          "word": "sự",
+          "start": 3.84,
+          "end": 4.0
+        },
+        {
+          "word": "ủng",
+          "start": 4.0,
+          "end": 4.14
+        },
+        {
+          "word": "hộ",
+          "start": 4.14,
+          "end": 4.3
+        },
+        {
+          "word": "của",
+          "start": 4.3,
+          "end": 4.5
+        },
+        {
+          "word": "đa",
+          "start": 4.5,
+          "end": 4.64
+        },
+        {
+          "word": "số",
+          "start": 4.64,
+          "end": 4.82
+        },
+        {
+          "word": "cổ",
+          "start": 4.82,
+          "end": 5.02
+        },
+        {
+          "word": "phí",
+          "start": 5.02,
+          "end": 5.1
+        },
+        {
+          "word": "ổ",
+          "start": 5.1,
+          "end": 5.16
+        },
+        {
+          "word": "hay",
+          "start": 5.16,
+          "end": 5.28
+        },
+        {
+          "word": "không?",
+          "start": 5.28,
+          "end": 5.44
+        },
+        {
+          "word": "Hay",
+          "start": 6.02,
+          "end": 6.34
+        },
+        {
+          "word": "chỉ",
+          "start": 6.34,
+          "end": 6.54
+        },
+        {
+          "word": "là",
+          "start": 6.54,
+          "end": 6.64
+        },
+        {
+          "word": "một",
+          "start": 6.64,
+          "end": 6.76
+        },
+        {
+          "word": "số",
+          "start": 6.76,
+          "end": 6.92
+        },
+        {
+          "word": "cổ",
+          "start": 6.92,
+          "end": 7.08
+        },
+        {
+          "word": "phí",
+          "start": 7.08,
+          "end": 7.16
+        },
+        {
+          "word": "ổ",
+          "start": 7.16,
+          "end": 7.24
+        },
+        {
+          "word": "đơn",
+          "start": 7.24,
+          "end": 7.34
+        },
+        {
+          "word": "lẻ,",
+          "start": 7.34,
+          "end": 7.5
+        },
+        {
+          "word": "trong",
+          "start": 7.88,
+          "end": 8.08
+        },
+        {
+          "word": "khi",
+          "start": 8.08,
+          "end": 8.2
+        },
+        {
+          "word": "phần",
+          "start": 8.2,
+          "end": 8.36
+        },
+        {
+          "word": "lớn",
+          "start": 8.36,
+          "end": 8.56
+        },
+        {
+          "word": "các",
+          "start": 8.56,
+          "end": 8.72
+        },
+        {
+          "word": "cổ",
+          "start": 8.72,
+          "end": 8.88
+        },
+        {
+          "word": "phí",
+          "start": 8.88,
+          "end": 8.96
+        },
+        {
+          "word": "ổ",
+          "start": 8.96,
+          "end": 9.02
+        },
+        {
+          "word": "khác",
+          "start": 9.02,
+          "end": 9.18
+        },
+        {
+          "word": "thì",
+          "start": 9.18,
+          "end": 9.36
+        },
+        {
+          "word": "đang",
+          "start": 9.36,
+          "end": 9.44
+        },
+        {
+          "word": "suy",
+          "start": 9.44,
+          "end": 9.64
+        },
+        {
+          "word": "yếu",
+          "start": 9.64,
+          "end": 9.72
+        },
+        {
+          "word": "dần.",
+          "start": 9.72,
+          "end": 9.92
+        }
+      ],
+      "abs_start_s": 74.32,
+      "abs_end_s": 84.24
+    },
+    {
+      "id": "s15",
+      "phase": "Q2",
+      "display": "Chỉ cần mở biểu đồ % cổ phiếu trên các đường MA. Nếu biểu đồ này giảm dần trong khi Index cứ tiếp tục lên — đó là dấu hiệu có gì đó bất thường. Hãy cẩn thận.",
+      "tts": "Chỉ cần mở biểu đồ phần trăm cổ phiếu trên các đường Em A. Nếu biểu đồ này giảm dần trong khi Index cứ tiếp tục lên, đó là dấu hiệu có gì đó bất thường. Hãy cẩn thận.",
+      "main_idea": "biểu đồ % trên MA — cảnh báo",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 400,
+      "speed": 0.85,
+      "duration_s": 9.5,
+      "word_timestamps": [
+        {
+          "word": "Nếu",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "có",
+          "start": 0.32,
+          "end": 0.42
+        },
+        {
+          "word": "thông",
+          "start": 0.42,
+          "end": 0.56
+        },
+        {
+          "word": "tin",
+          "start": 0.56,
+          "end": 0.7
+        },
+        {
+          "word": "này,",
+          "start": 0.7,
+          "end": 0.86
+        },
+        {
+          "word": "bạn",
+          "start": 1.16,
+          "end": 1.24
+        },
+        {
+          "word": "chỉ",
+          "start": 1.24,
+          "end": 1.38
+        },
+        {
+          "word": "cần",
+          "start": 1.38,
+          "end": 1.48
+        },
+        {
+          "word": "mở",
+          "start": 1.48,
+          "end": 1.62
+        },
+        {
+          "word": "biểu",
+          "start": 1.62,
+          "end": 1.72
+        },
+        {
+          "word": "đồ",
+          "start": 1.72,
+          "end": 1.88
+        },
+        {
+          "word": "phân",
+          "start": 1.88,
+          "end": 2.06
+        },
+        {
+          "word": "trăm",
+          "start": 2.06,
+          "end": 2.28
+        },
+        {
+          "word": "cổ",
+          "start": 2.28,
+          "end": 2.46
+        },
+        {
+          "word": "phí",
+          "start": 2.46,
+          "end": 2.58
+        },
+        {
+          "word": "ổ",
+          "start": 2.58,
+          "end": 2.68
+        },
+        {
+          "word": "trên",
+          "start": 2.68,
+          "end": 2.88
+        },
+        {
+          "word": "các",
+          "start": 2.88,
+          "end": 3.0
+        },
+        {
+          "word": "đường",
+          "start": 3.0,
+          "end": 3.1
+        },
+        {
+          "word": "hề",
+          "start": 3.1,
+          "end": 3.18
+        },
+        {
+          "word": "mây.",
+          "start": 3.18,
+          "end": 3.32
+        },
+        {
+          "word": "Nếu",
+          "start": 3.88,
+          "end": 4.12
+        },
+        {
+          "word": "biểu",
+          "start": 4.12,
+          "end": 4.26
+        },
+        {
+          "word": "đồ",
+          "start": 4.26,
+          "end": 4.36
+        },
+        {
+          "word": "này",
+          "start": 4.36,
+          "end": 4.52
+        },
+        {
+          "word": "cứ",
+          "start": 4.52,
+          "end": 4.78
+        },
+        {
+          "word": "giảm",
+          "start": 4.78,
+          "end": 4.98
+        },
+        {
+          "word": "dần,",
+          "start": 4.98,
+          "end": 5.12
+        },
+        {
+          "word": "trong",
+          "start": 5.36,
+          "end": 5.46
+        },
+        {
+          "word": "khi",
+          "start": 5.46,
+          "end": 5.58
+        },
+        {
+          "word": "index",
+          "start": 5.58,
+          "end": 5.76
+        },
+        {
+          "word": "thì",
+          "start": 5.76,
+          "end": 6.0
+        },
+        {
+          "word": "cứ",
+          "start": 6.0,
+          "end": 6.1
+        },
+        {
+          "word": "tiếp",
+          "start": 6.1,
+          "end": 6.28
+        },
+        {
+          "word": "tục",
+          "start": 6.28,
+          "end": 6.36
+        },
+        {
+          "word": "tăng",
+          "start": 6.36,
+          "end": 6.52
+        },
+        {
+          "word": "lên.",
+          "start": 6.52,
+          "end": 6.68
+        },
+        {
+          "word": "Đây",
+          "start": 7.46,
+          "end": 7.62
+        },
+        {
+          "word": "là",
+          "start": 7.62,
+          "end": 7.76
+        },
+        {
+          "word": "dấu",
+          "start": 7.76,
+          "end": 7.9
+        },
+        {
+          "word": "hiệu",
+          "start": 7.9,
+          "end": 8.06
+        },
+        {
+          "word": "có",
+          "start": 8.06,
+          "end": 8.24
+        },
+        {
+          "word": "gì",
+          "start": 8.24,
+          "end": 8.34
+        },
+        {
+          "word": "đó",
+          "start": 8.34,
+          "end": 8.42
+        },
+        {
+          "word": "bất",
+          "start": 8.42,
+          "end": 8.5
+        },
+        {
+          "word": "thường,",
+          "start": 8.5,
+          "end": 8.7
+        },
+        {
+          "word": "hãy",
+          "start": 9.04,
+          "end": 9.22
+        },
+        {
+          "word": "cẩn",
+          "start": 9.22,
+          "end": 9.36
+        },
+        {
+          "word": "thận.",
+          "start": 9.36,
+          "end": 9.5
+        }
+      ],
+      "abs_start_s": 85.02,
+      "abs_end_s": 94.52
+    },
+    {
+      "id": "s16",
+      "phase": "Q2",
+      "display": "Nhớ nha: Xu hướng của Index cần có sự ủng hộ của số đông cổ phiếu, mới có thể hi vọng bền vững.",
+      "tts": "Nhớ nha: Xu hướng của Index cần có sự ủng hộ của số đông cổ phiếu, mới có thể hi vọng bền vững.",
+      "main_idea": "xu hướng cần số đông bền",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 700,
+      "speed": 0.85,
+      "duration_s": 3.14,
+      "word_timestamps": [
+        {
+          "word": "Nhờ",
+          "start": 0.0,
+          "end": 0.12
+        },
+        {
+          "word": "nhá,",
+          "start": 0.12,
+          "end": 0.28
+        },
+        {
+          "word": "dù",
+          "start": 0.68,
+          "end": 0.76
+        },
+        {
+          "word": "hướng",
+          "start": 0.76,
+          "end": 0.9
+        },
+        {
+          "word": "của",
+          "start": 0.9,
+          "end": 1.06
+        },
+        {
+          "word": "index",
+          "start": 1.06,
+          "end": 1.26
+        },
+        {
+          "word": "vẫn",
+          "start": 1.26,
+          "end": 1.58
+        },
+        {
+          "word": "có",
+          "start": 1.58,
+          "end": 1.7
+        },
+        {
+          "word": "sự",
+          "start": 1.7,
+          "end": 1.82
+        },
+        {
+          "word": "ủng",
+          "start": 1.82,
+          "end": 1.98
+        },
+        {
+          "word": "hộ",
+          "start": 1.98,
+          "end": 2.12
+        },
+        {
+          "word": "của",
+          "start": 2.12,
+          "end": 2.48
+        },
+        {
+          "word": "số",
+          "start": 2.48,
+          "end": 2.6
+        },
+        {
+          "word": "đồng",
+          "start": 2.6,
+          "end": 2.74
+        },
+        {
+          "word": "của",
+          "start": 2.74,
+          "end": 2.88
+        },
+        {
+          "word": "phí",
+          "start": 2.88,
+          "end": 3.04
+        },
+        {
+          "word": "ổ.",
+          "start": 3.04,
+          "end": 3.14
+        }
+      ],
+      "abs_start_s": 95.36,
+      "abs_end_s": 98.5
+    },
+    {
+      "id": "s17",
+      "phase": "Q3",
+      "display": "Ba: Dòng tiền đang tập trung ở đâu trên thị trường?",
+      "tts": "Ba: Dòng tiền đang tập trung ở đâu trên thị trường?",
+      "main_idea": "Q3 — dòng tiền ở đâu",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 300,
+      "speed": 0.85,
+      "duration_s": 3.2,
+      "word_timestamps": [
+        {
+          "word": "Câu",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "hỏi",
+          "start": 0.32,
+          "end": 0.54
+        },
+        {
+          "word": "thứ",
+          "start": 0.54,
+          "end": 0.66
+        },
+        {
+          "word": "ba,",
+          "start": 0.66,
+          "end": 0.8
+        },
+        {
+          "word": "tất",
+          "start": 1.22,
+          "end": 1.24
+        },
+        {
+          "word": "là",
+          "start": 1.24,
+          "end": 1.34
+        },
+        {
+          "word": "do",
+          "start": 1.34,
+          "end": 1.46
+        },
+        {
+          "word": "hướng",
+          "start": 1.46,
+          "end": 1.54
+        },
+        {
+          "word": "tiền",
+          "start": 1.54,
+          "end": 1.74
+        },
+        {
+          "word": "đang",
+          "start": 1.74,
+          "end": 2.0
+        },
+        {
+          "word": "tập",
+          "start": 2.0,
+          "end": 2.12
+        },
+        {
+          "word": "trung",
+          "start": 2.12,
+          "end": 2.32
+        },
+        {
+          "word": "vào",
+          "start": 2.32,
+          "end": 2.46
+        },
+        {
+          "word": "đồng",
+          "start": 2.46,
+          "end": 2.62
+        },
+        {
+          "word": "trên",
+          "start": 2.62,
+          "end": 2.86
+        },
+        {
+          "word": "thị",
+          "start": 2.86,
+          "end": 2.98
+        },
+        {
+          "word": "trường.",
+          "start": 2.98,
+          "end": 3.2
+        }
+      ],
+      "abs_start_s": 100.54,
+      "abs_end_s": 103.74
+    },
+    {
+      "id": "s18",
+      "phase": "Q3",
+      "display": "Đây là câu hỏi quan trọng — vì chúng ta không chỉ muốn biết trạng thái thị trường, mà còn cần biết thị trường đang hoạt động tích cực ở nơi nào.",
+      "tts": "Đây là câu hỏi quan trọng, vì chúng ta không chỉ muốn biết trạng thái thị trường, mà còn cần biết thị trường đang hoạt động tích cực ở nơi nào.",
+      "main_idea": "biết nơi hoạt động tích cực",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 500,
+      "speed": 0.85,
+      "duration_s": 6.12,
+      "word_timestamps": [
+        {
+          "word": "Đây",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "là",
+          "start": 0.32,
+          "end": 0.46
+        },
+        {
+          "word": "một",
+          "start": 0.46,
+          "end": 0.54
+        },
+        {
+          "word": "câu",
+          "start": 0.54,
+          "end": 0.66
+        },
+        {
+          "word": "hỏi",
+          "start": 0.66,
+          "end": 0.82
+        },
+        {
+          "word": "quan",
+          "start": 0.82,
+          "end": 0.96
+        },
+        {
+          "word": "trọng,",
+          "start": 0.96,
+          "end": 1.46
+        },
+        {
+          "word": "vì",
+          "start": 1.46,
+          "end": 1.58
+        },
+        {
+          "word": "chúng",
+          "start": 1.58,
+          "end": 1.68
+        },
+        {
+          "word": "ta",
+          "start": 1.68,
+          "end": 1.86
+        },
+        {
+          "word": "không",
+          "start": 1.86,
+          "end": 2.06
+        },
+        {
+          "word": "chỉ",
+          "start": 2.06,
+          "end": 2.22
+        },
+        {
+          "word": "muốn",
+          "start": 2.22,
+          "end": 2.3
+        },
+        {
+          "word": "biết",
+          "start": 2.3,
+          "end": 2.44
+        },
+        {
+          "word": "chặn",
+          "start": 2.44,
+          "end": 2.64
+        },
+        {
+          "word": "thai",
+          "start": 2.64,
+          "end": 2.82
+        },
+        {
+          "word": "của",
+          "start": 2.82,
+          "end": 2.92
+        },
+        {
+          "word": "địa",
+          "start": 2.92,
+          "end": 3.08
+        },
+        {
+          "word": "trường,",
+          "start": 3.08,
+          "end": 3.28
+        },
+        {
+          "word": "và",
+          "start": 3.78,
+          "end": 3.86
+        },
+        {
+          "word": "chúng",
+          "start": 3.86,
+          "end": 3.98
+        },
+        {
+          "word": "ta",
+          "start": 3.98,
+          "end": 4.12
+        },
+        {
+          "word": "còn",
+          "start": 4.12,
+          "end": 4.24
+        },
+        {
+          "word": "muốn",
+          "start": 4.24,
+          "end": 4.32
+        },
+        {
+          "word": "biết",
+          "start": 4.32,
+          "end": 4.48
+        },
+        {
+          "word": "được",
+          "start": 4.48,
+          "end": 4.62
+        },
+        {
+          "word": "địa",
+          "start": 4.62,
+          "end": 4.98
+        },
+        {
+          "word": "trường",
+          "start": 4.98,
+          "end": 5.14
+        },
+        {
+          "word": "đã",
+          "start": 5.14,
+          "end": 5.28
+        },
+        {
+          "word": "hoạt",
+          "start": 5.28,
+          "end": 5.4
+        },
+        {
+          "word": "động",
+          "start": 5.4,
+          "end": 5.5
+        },
+        {
+          "word": "kích",
+          "start": 5.5,
+          "end": 5.62
+        },
+        {
+          "word": "cực",
+          "start": 5.62,
+          "end": 5.74
+        },
+        {
+          "word": "ở",
+          "start": 5.74,
+          "end": 5.88
+        },
+        {
+          "word": "nơi",
+          "start": 5.88,
+          "end": 6.0
+        },
+        {
+          "word": "nào.",
+          "start": 6.0,
+          "end": 6.12
+        }
+      ],
+      "abs_start_s": 104.24,
+      "abs_end_s": 110.36
+    },
+    {
+      "id": "s19",
+      "phase": "Q3",
+      "display": "Hãy nhớ điều này: dòng tiền đi đến đâu, nơi đó trở nên thịnh vượng.",
+      "tts": "Hãy nhớ điều này: dòng tiền đi đến đâu, nơi đó trở nên thịnh vượng.",
+      "main_idea": "dòng tiền = thịnh vượng",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 500,
+      "speed": 0.85,
+      "duration_s": 3.56,
+      "word_timestamps": [
+        {
+          "word": "Hay",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "nhớ",
+          "start": 0.32,
+          "end": 0.44
+        },
+        {
+          "word": "điều",
+          "start": 0.44,
+          "end": 0.56
+        },
+        {
+          "word": "này,",
+          "start": 0.56,
+          "end": 0.7
+        },
+        {
+          "word": "dòng",
+          "start": 1.14,
+          "end": 1.3
+        },
+        {
+          "word": "tiền",
+          "start": 1.3,
+          "end": 1.5
+        },
+        {
+          "word": "đi",
+          "start": 1.5,
+          "end": 1.64
+        },
+        {
+          "word": "đến",
+          "start": 1.64,
+          "end": 1.76
+        },
+        {
+          "word": "đâu?",
+          "start": 1.76,
+          "end": 1.92
+        },
+        {
+          "word": "Thì",
+          "start": 2.5,
+          "end": 2.66
+        },
+        {
+          "word": "nơi",
+          "start": 2.66,
+          "end": 2.76
+        },
+        {
+          "word": "đó",
+          "start": 2.76,
+          "end": 2.92
+        },
+        {
+          "word": "trở",
+          "start": 2.92,
+          "end": 3.1
+        },
+        {
+          "word": "nên",
+          "start": 3.1,
+          "end": 3.2
+        },
+        {
+          "word": "tinh",
+          "start": 3.2,
+          "end": 3.36
+        },
+        {
+          "word": "phượng.",
+          "start": 3.36,
+          "end": 3.56
+        }
+      ],
+      "abs_start_s": 111.18,
+      "abs_end_s": 114.74
+    },
+    {
+      "id": "s20",
+      "phase": "Q3",
+      "display": "Bạn chỉ cần mở biểu đồ RRG hoặc Bảng Nỗ lực Kết quả trên KFSP.",
+      "tts": "Bạn chỉ cần mở biểu đồ R R G, hoặc Bảng Nỗ lực Kết quả trên KFS B.",
+      "main_idea": "mở RRG hoặc Nỗ lực Kết quả",
+      "enum_items": [
+        "RRG",
+        "Bảng Nỗ lực Kết quả"
+      ],
+      "pause_before_ms": 0,
+      "pause_after_ms": 400,
+      "speed": 0.85,
+      "duration_s": 3.34,
+      "word_timestamps": [
+        {
+          "word": "Chỉ",
+          "start": 0.0,
+          "end": 0.28
+        },
+        {
+          "word": "cần",
+          "start": 0.28,
+          "end": 0.4
+        },
+        {
+          "word": "mở",
+          "start": 0.4,
+          "end": 0.58
+        },
+        {
+          "word": "biểu",
+          "start": 0.58,
+          "end": 0.68
+        },
+        {
+          "word": "đồ",
+          "start": 0.68,
+          "end": 0.86
+        },
+        {
+          "word": "Rager",
+          "start": 0.86,
+          "end": 1.24
+        },
+        {
+          "word": "hoặc",
+          "start": 1.24,
+          "end": 1.74
+        },
+        {
+          "word": "bản",
+          "start": 1.74,
+          "end": 1.9
+        },
+        {
+          "word": "nỗ",
+          "start": 1.9,
+          "end": 2.1
+        },
+        {
+          "word": "lực",
+          "start": 2.1,
+          "end": 2.22
+        },
+        {
+          "word": "kết",
+          "start": 2.22,
+          "end": 2.34
+        },
+        {
+          "word": "quả",
+          "start": 2.34,
+          "end": 2.54
+        },
+        {
+          "word": "trên",
+          "start": 2.54,
+          "end": 2.74
+        },
+        {
+          "word": "KBSP.",
+          "start": 2.74,
+          "end": 3.34
+        }
+      ],
+      "abs_start_s": 115.52,
+      "abs_end_s": 118.86,
+      "enum_beats": [
+        {
+          "item": "RRG",
+          "anchor_word": "Rager (whisper)",
+          "rel_start_s": 0.86,
+          "frame_30fps": 26
+        },
+        {
+          "item": "Bảng Nỗ lực Kết quả",
+          "anchor_word": "bản (whisper)",
+          "rel_start_s": 1.74,
+          "frame_30fps": 52
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "phase": "Q3",
+      "display": "Trên RRG, hãy tập trung vào những nhóm ngành đang di chuyển nhanh hướng lên và sang phải.",
+      "tts": "Trên R R G, hãy tập trung vào những nhóm ngành đang di chuyển nhanh hướng lên và sang phải.",
+      "main_idea": "RRG: lên trên và sang phải",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 400,
+      "speed": 0.85,
+      "duration_s": 4.54,
+      "word_timestamps": [
+        {
+          "word": "Trên",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "word": "Rager,",
+          "start": 0.22,
+          "end": 0.58
+        },
+        {
+          "word": "hãy",
+          "start": 1.02,
+          "end": 1.12
+        },
+        {
+          "word": "tập",
+          "start": 1.12,
+          "end": 1.22
+        },
+        {
+          "word": "trung",
+          "start": 1.22,
+          "end": 1.42
+        },
+        {
+          "word": "vào",
+          "start": 1.42,
+          "end": 1.54
+        },
+        {
+          "word": "những",
+          "start": 1.54,
+          "end": 1.64
+        },
+        {
+          "word": "nhóm",
+          "start": 1.64,
+          "end": 1.82
+        },
+        {
+          "word": "ảnh",
+          "start": 1.82,
+          "end": 2.02
+        },
+        {
+          "word": "đang",
+          "start": 2.02,
+          "end": 2.2
+        },
+        {
+          "word": "di",
+          "start": 2.2,
+          "end": 2.34
+        },
+        {
+          "word": "chuyển",
+          "start": 2.34,
+          "end": 2.52
+        },
+        {
+          "word": "nhanh",
+          "start": 2.52,
+          "end": 2.72
+        },
+        {
+          "word": "hướng",
+          "start": 2.72,
+          "end": 2.86
+        },
+        {
+          "word": "lên",
+          "start": 2.86,
+          "end": 2.98
+        },
+        {
+          "word": "và",
+          "start": 2.98,
+          "end": 3.16
+        },
+        {
+          "word": "sang",
+          "start": 3.16,
+          "end": 3.26
+        },
+        {
+          "word": "phải",
+          "start": 3.26,
+          "end": 3.5
+        },
+        {
+          "word": "đến",
+          "start": 3.5,
+          "end": 3.94
+        },
+        {
+          "word": "với",
+          "start": 3.94,
+          "end": 4.06
+        },
+        {
+          "word": "phùng",
+          "start": 4.06,
+          "end": 4.2
+        },
+        {
+          "word": "dẫn",
+          "start": 4.2,
+          "end": 4.36
+        },
+        {
+          "word": "dắt.",
+          "start": 4.36,
+          "end": 4.54
+        }
+      ],
+      "abs_start_s": 119.44,
+      "abs_end_s": 123.98
+    },
+    {
+      "id": "s22",
+      "phase": "Q3",
+      "display": "Trên Bảng Nỗ lực Kết quả, hãy chú ý đến những Ngành có Nỗ Lực và Kết Quả cùng tăng.",
+      "tts": "Trên Bảng Nỗ lực Kết quả, hãy chú ý đến những ngành có Nỗ Lực và Kết Quả cùng tăng.",
+      "main_idea": "NLKQ: Nỗ Lực + Kết Quả cùng tăng",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 700,
+      "speed": 0.85,
+      "duration_s": 3.42,
+      "word_timestamps": [
+        {
+          "word": "Và",
+          "start": 0.0,
+          "end": 0.2
+        },
+        {
+          "word": "trên",
+          "start": 0.2,
+          "end": 0.32
+        },
+        {
+          "word": "bản",
+          "start": 0.32,
+          "end": 0.46
+        },
+        {
+          "word": "nỗ",
+          "start": 0.46,
+          "end": 0.64
+        },
+        {
+          "word": "lực",
+          "start": 0.64,
+          "end": 0.72
+        },
+        {
+          "word": "kết",
+          "start": 0.72,
+          "end": 0.86
+        },
+        {
+          "word": "quả,",
+          "start": 0.86,
+          "end": 1.08
+        },
+        {
+          "word": "hãy",
+          "start": 1.44,
+          "end": 1.52
+        },
+        {
+          "word": "chú",
+          "start": 1.52,
+          "end": 1.64
+        },
+        {
+          "word": "ý",
+          "start": 1.64,
+          "end": 1.72
+        },
+        {
+          "word": "đến",
+          "start": 1.72,
+          "end": 1.86
+        },
+        {
+          "word": "những",
+          "start": 1.86,
+          "end": 1.96
+        },
+        {
+          "word": "ngành",
+          "start": 1.96,
+          "end": 2.14
+        },
+        {
+          "word": "có",
+          "start": 2.14,
+          "end": 2.36
+        },
+        {
+          "word": "nỗ",
+          "start": 2.36,
+          "end": 2.52
+        },
+        {
+          "word": "lực",
+          "start": 2.52,
+          "end": 2.66
+        },
+        {
+          "word": "và",
+          "start": 2.66,
+          "end": 2.8
+        },
+        {
+          "word": "kết",
+          "start": 2.8,
+          "end": 2.94
+        },
+        {
+          "word": "quả",
+          "start": 2.94,
+          "end": 3.08
+        },
+        {
+          "word": "cùng",
+          "start": 3.08,
+          "end": 3.24
+        },
+        {
+          "word": "tăng.",
+          "start": 3.24,
+          "end": 3.42
+        }
+      ],
+      "abs_start_s": 124.64,
+      "abs_end_s": 128.06
+    },
+    {
+      "id": "s23",
+      "phase": "CTA",
+      "display": "Sau 3 câu hỏi, nếu mình không đi cùng hướng Index, và cũng không phải nơi dòng tiền tới — hãy chủ động phòng thủ.",
+      "tts": "Sau ba câu hỏi, nếu mình không đi cùng hướng Index, và cũng không phải nơi dòng tiền tới, hãy chủ động phòng thủ.",
+      "main_idea": "không cùng index → phòng thủ",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 400,
+      "speed": 0.85,
+      "duration_s": 7.26,
+      "word_timestamps": [
+        {
+          "word": "Sau",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "khi",
+          "start": 0.32,
+          "end": 0.46
+        },
+        {
+          "word": "trả",
+          "start": 0.46,
+          "end": 0.62
+        },
+        {
+          "word": "lời",
+          "start": 0.62,
+          "end": 0.72
+        },
+        {
+          "word": "3",
+          "start": 0.72,
+          "end": 0.88
+        },
+        {
+          "word": "câu",
+          "start": 0.88,
+          "end": 1.0
+        },
+        {
+          "word": "hỏi",
+          "start": 1.0,
+          "end": 1.16
+        },
+        {
+          "word": "trên,",
+          "start": 1.16,
+          "end": 1.32
+        },
+        {
+          "word": "nếu",
+          "start": 1.78,
+          "end": 1.86
+        },
+        {
+          "word": "bạn",
+          "start": 1.86,
+          "end": 2.04
+        },
+        {
+          "word": "thấy",
+          "start": 2.04,
+          "end": 2.2
+        },
+        {
+          "word": "mình",
+          "start": 2.2,
+          "end": 2.38
+        },
+        {
+          "word": "đang",
+          "start": 2.38,
+          "end": 2.56
+        },
+        {
+          "word": "không",
+          "start": 2.56,
+          "end": 2.74
+        },
+        {
+          "word": "đi",
+          "start": 2.74,
+          "end": 2.88
+        },
+        {
+          "word": "cùng",
+          "start": 2.88,
+          "end": 3.0
+        },
+        {
+          "word": "hướng",
+          "start": 3.0,
+          "end": 3.2
+        },
+        {
+          "word": "viên",
+          "start": 3.2,
+          "end": 3.44
+        },
+        {
+          "word": "đất,",
+          "start": 3.44,
+          "end": 3.6
+        },
+        {
+          "word": "và",
+          "start": 3.98,
+          "end": 4.18
+        },
+        {
+          "word": "cũng",
+          "start": 4.18,
+          "end": 4.3
+        },
+        {
+          "word": "không",
+          "start": 4.3,
+          "end": 4.46
+        },
+        {
+          "word": "phải",
+          "start": 4.46,
+          "end": 4.58
+        },
+        {
+          "word": "là",
+          "start": 4.58,
+          "end": 4.66
+        },
+        {
+          "word": "nơi",
+          "start": 4.66,
+          "end": 4.9
+        },
+        {
+          "word": "mà",
+          "start": 4.9,
+          "end": 5.12
+        },
+        {
+          "word": "dòng",
+          "start": 5.12,
+          "end": 5.22
+        },
+        {
+          "word": "tiền",
+          "start": 5.22,
+          "end": 5.4
+        },
+        {
+          "word": "đang",
+          "start": 5.4,
+          "end": 5.52
+        },
+        {
+          "word": "hướng",
+          "start": 5.52,
+          "end": 5.66
+        },
+        {
+          "word": "tới,",
+          "start": 5.66,
+          "end": 5.86
+        },
+        {
+          "word": "thì",
+          "start": 6.48,
+          "end": 6.6
+        },
+        {
+          "word": "hãy",
+          "start": 6.6,
+          "end": 6.7
+        },
+        {
+          "word": "chú",
+          "start": 6.7,
+          "end": 6.84
+        },
+        {
+          "word": "động",
+          "start": 6.84,
+          "end": 6.96
+        },
+        {
+          "word": "thay",
+          "start": 6.96,
+          "end": 7.12
+        },
+        {
+          "word": "đổi.",
+          "start": 7.12,
+          "end": 7.26
+        }
+      ],
+      "abs_start_s": 129.0,
+      "abs_end_s": 136.26
+    },
+    {
+      "id": "s24",
+      "phase": "CTA",
+      "display": "Nâng tỷ lệ tiền mặt lên. Đây không phải là rút khỏi thị trường — mà là sẵn sàng cho những cơ hội tiếp theo.",
+      "tts": "Nâng tỷ lệ tiền mặt lên. Đây không phải là rút khỏi thị trường, mà là sẵn sàng cho những cơ hội tiếp theo.",
+      "main_idea": "nâng tiền mặt = sẵn sàng",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 500,
+      "speed": 0.85,
+      "duration_s": 7.94,
+      "word_timestamps": [
+        {
+          "word": "Bạn",
+          "start": 0.0,
+          "end": 0.1
+        },
+        {
+          "word": "có",
+          "start": 0.1,
+          "end": 0.18
+        },
+        {
+          "word": "thể",
+          "start": 0.18,
+          "end": 0.28
+        },
+        {
+          "word": "chuyển",
+          "start": 0.28,
+          "end": 0.46
+        },
+        {
+          "word": "hướng",
+          "start": 0.46,
+          "end": 0.56
+        },
+        {
+          "word": "đồ",
+          "start": 0.56,
+          "end": 0.68
+        },
+        {
+          "word": "tư",
+          "start": 0.68,
+          "end": 0.84
+        },
+        {
+          "word": "đến",
+          "start": 0.84,
+          "end": 1.12
+        },
+        {
+          "word": "nơi",
+          "start": 1.12,
+          "end": 1.3
+        },
+        {
+          "word": "mà",
+          "start": 1.3,
+          "end": 1.44
+        },
+        {
+          "word": "dòng",
+          "start": 1.44,
+          "end": 1.54
+        },
+        {
+          "word": "tiền",
+          "start": 1.54,
+          "end": 1.72
+        },
+        {
+          "word": "đang",
+          "start": 1.72,
+          "end": 1.84
+        },
+        {
+          "word": "tụ",
+          "start": 1.84,
+          "end": 1.98
+        },
+        {
+          "word": "lạ,",
+          "start": 1.98,
+          "end": 2.14
+        },
+        {
+          "word": "hoặc",
+          "start": 2.58,
+          "end": 2.78
+        },
+        {
+          "word": "cũng",
+          "start": 2.78,
+          "end": 2.86
+        },
+        {
+          "word": "có",
+          "start": 2.86,
+          "end": 2.98
+        },
+        {
+          "word": "thể",
+          "start": 2.98,
+          "end": 3.12
+        },
+        {
+          "word": "lăn",
+          "start": 3.12,
+          "end": 3.38
+        },
+        {
+          "word": "nâng",
+          "start": 3.38,
+          "end": 3.5
+        },
+        {
+          "word": "từ",
+          "start": 3.5,
+          "end": 3.58
+        },
+        {
+          "word": "mặt",
+          "start": 3.58,
+          "end": 3.72
+        },
+        {
+          "word": "lên.",
+          "start": 3.72,
+          "end": 3.88
+        },
+        {
+          "word": "Đây",
+          "start": 4.44,
+          "end": 4.54
+        },
+        {
+          "word": "không",
+          "start": 4.54,
+          "end": 4.68
+        },
+        {
+          "word": "phải",
+          "start": 4.68,
+          "end": 4.86
+        },
+        {
+          "word": "là",
+          "start": 4.86,
+          "end": 4.96
+        },
+        {
+          "word": "bạn",
+          "start": 4.96,
+          "end": 5.1
+        },
+        {
+          "word": "giúp",
+          "start": 5.1,
+          "end": 5.24
+        },
+        {
+          "word": "lưu",
+          "start": 5.24,
+          "end": 5.38
+        },
+        {
+          "word": "của",
+          "start": 5.38,
+          "end": 5.48
+        },
+        {
+          "word": "thị",
+          "start": 5.48,
+          "end": 5.6
+        },
+        {
+          "word": "trường,",
+          "start": 5.6,
+          "end": 5.86
+        },
+        {
+          "word": "và",
+          "start": 6.12,
+          "end": 6.22
+        },
+        {
+          "word": "là",
+          "start": 6.22,
+          "end": 6.32
+        },
+        {
+          "word": "bạn",
+          "start": 6.32,
+          "end": 6.5
+        },
+        {
+          "word": "đang",
+          "start": 6.5,
+          "end": 6.6
+        },
+        {
+          "word": "sẵn",
+          "start": 6.6,
+          "end": 6.84
+        },
+        {
+          "word": "sàng",
+          "start": 6.84,
+          "end": 7.02
+        },
+        {
+          "word": "ở",
+          "start": 7.02,
+          "end": 7.3
+        },
+        {
+          "word": "những",
+          "start": 7.3,
+          "end": 7.38
+        },
+        {
+          "word": "cơ",
+          "start": 7.38,
+          "end": 7.54
+        },
+        {
+          "word": "hội",
+          "start": 7.54,
+          "end": 7.62
+        },
+        {
+          "word": "tiếp",
+          "start": 7.62,
+          "end": 7.74
+        },
+        {
+          "word": "theo.",
+          "start": 7.74,
+          "end": 7.94
+        }
+      ],
+      "abs_start_s": 137.08,
+      "abs_end_s": 145.02
+    },
+    {
+      "id": "s25",
+      "phase": "CTA",
+      "display": "Tải KFSP ngay — và bắt đầu phân tích thị trường theo cách đầy đủ hơn.",
+      "tts": "Tải KFS B ngay, để bắt đầu phân tích thị trường theo cách đầy đủ hơn.",
+      "main_idea": "tải KFSP",
+      "enum_items": null,
+      "pause_before_ms": 0,
+      "pause_after_ms": 0,
+      "speed": 0.85,
+      "duration_s": 3.38,
+      "word_timestamps": [
+        {
+          "word": "Tại",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "KBSP",
+          "start": 0.32,
+          "end": 0.64
+        },
+        {
+          "word": "này,",
+          "start": 0.64,
+          "end": 0.78
+        },
+        {
+          "word": "hãy",
+          "start": 0.94,
+          "end": 1.18
+        },
+        {
+          "word": "bắt",
+          "start": 1.18,
+          "end": 1.34
+        },
+        {
+          "word": "đầu",
+          "start": 1.34,
+          "end": 1.5
+        },
+        {
+          "word": "phân",
+          "start": 1.5,
+          "end": 1.66
+        },
+        {
+          "word": "tích",
+          "start": 1.66,
+          "end": 1.8
+        },
+        {
+          "word": "thị",
+          "start": 1.8,
+          "end": 1.94
+        },
+        {
+          "word": "trường",
+          "start": 1.94,
+          "end": 2.2
+        },
+        {
+          "word": "theo",
+          "start": 2.2,
+          "end": 2.54
+        },
+        {
+          "word": "một",
+          "start": 2.54,
+          "end": 2.64
+        },
+        {
+          "word": "cách",
+          "start": 2.64,
+          "end": 2.82
+        },
+        {
+          "word": "đầy",
+          "start": 2.82,
+          "end": 3.14
+        },
+        {
+          "word": "đồ",
+          "start": 3.14,
+          "end": 3.26
+        },
+        {
+          "word": "nhất.",
+          "start": 3.26,
+          "end": 3.38
+        }
+      ],
+      "abs_start_s": 145.94,
+      "abs_end_s": 149.32
+    }
+  ],
+  "totals": {
+    "duration_s_actual_sum": 128.82,
+    "duration_with_pauses_actual_s": 140.12,
+    "voice_self_audio_s": 149.32
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "remotion-kfsp-tamsoat",
+  "version": "1.0.0",
+  "description": "Video Tầm Soát Cơ Hội KFSP — Bộ lọc cổ phiếu tăng trưởng",
+  "scripts": {
+    "studio": "npx remotion studio",
+    "render": "npx remotion render TamSoat --output=output/tamsoat.mp4",
+    "render:gif": "npx remotion render TamSoat --codec=gif --output=output/tamsoat.gif",
+    "build": "npx remotion bundle",
+    "upgrade": "npx remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/google-fonts": "4.0.448",
+    "@remotion/lottie": "^4.0.448",
+    "@remotion/player": "4.0.448",
+    "@remotion/tailwind": "^4.0.448",
+    "@remotion/transitions": "4.0.448",
+    "@tailwindcss/postcss": "^4.2.2",
+    "lottie-web": "^5.13.0",
+    "postcss": "^8.5.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.448",
+    "remotion-animated": "^2.2.0",
+    "tailwindcss": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.5"
+  }
+}

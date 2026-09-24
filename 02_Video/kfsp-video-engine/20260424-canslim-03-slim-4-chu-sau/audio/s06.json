@@ -1,0 +1,56 @@
+{
+  "id": "s06",
+  "duration_s": 4.441,
+  "word_timestamps": [
+    {
+      "word": "Còn",
+      "start": 0.0,
+      "end": 0.2
+    },
+    {
+      "word": "Sơ",
+      "start": 0.2,
+      "end": 0.52
+    },
+    {
+      "word": "Lim,",
+      "start": 0.52,
+      "end": 0.74
+    },
+    {
+      "word": "bốn",
+      "start": 1.04,
+      "end": 1.36
+    },
+    {
+      "word": "chữ",
+      "start": 1.36,
+      "end": 1.6
+    },
+    {
+      "word": "cuối",
+      "start": 1.6,
+      "end": 1.96
+    },
+    {
+      "word": "chính",
+      "start": 1.96,
+      "end": 2.52
+    },
+    {
+      "word": "là",
+      "start": 2.52,
+      "end": 2.9
+    },
+    {
+      "word": "hiện",
+      "start": 2.9,
+      "end": 3.46
+    },
+    {
+      "word": "tại.",
+      "start": 3.46,
+      "end": 3.72
+    }
+  ]
+}

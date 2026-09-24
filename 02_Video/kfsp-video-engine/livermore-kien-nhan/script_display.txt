@@ -1,0 +1,17 @@
+Kiên nhẫn là tiền — bài học đắt giá từ Jesse Livermore.
+
+Jesse Livermore từng nói một câu mà bất kỳ nhà đầu tư nào cũng nên ghi nhớ: "Tiền không được tạo ra bằng việc suy nghĩ. Tiền được tạo ra bằng việc ngồi xuống và chờ đợi."
+
+Một câu nói sâu sắc nhưng cũng dễ bị hiểu nhầm. Bởi phần lớn nhà đầu tư mới gia nhập thị trường thường nghĩ rằng: càng nhìn bảng điện nhiều, càng mua bán nhiều, càng phân tích nhiều mã cổ phiếu thì càng tiến gần đến lợi nhuận. Họ nhầm lẫn giữa chăm chỉ và giao dịch liên tục, nhầm giữa bận rộn và hiệu quả.
+
+Sự thật là thị trường không trả tiền cho sự bận rộn. Thị trường chỉ trả tiền cho những quyết định đúng thời điểm. Một nhà đầu tư giàu kinh nghiệm hiểu rằng tiền mặt cũng là một vị thế. Đứng ngoài thị trường không có nghĩa là bỏ lỡ cơ hội. Đôi khi, đó là cách khôn ngoan nhất để bảo toàn sức mạnh, giữ sự tỉnh táo và chờ đến lúc lợi thế thật sự nghiêng về phía mình.
+
+Với Livermore, một cơ hội đáng để xuống tiền không xuất hiện chỉ vì cổ phiếu vừa giảm sâu, tin tức có vẻ tích cực, hay đơn giản vì cảm giác "mua được rồi". Cơ hội thật sự chỉ xuất hiện khi nhiều yếu tố cùng hội tụ: thị trường chung ủng hộ, nhóm ngành dẫn dắt đang thu hút dòng tiền, cổ phiếu hành động mạnh mẽ, và điểm Pivotal xuất hiện rõ ràng. Khi đó, nhà đầu tư mới nên hành động bằng kế hoạch đã được chuẩn bị từ trước, không phải bằng cảm xúc của khoảnh khắc.
+
+Sự kiên nhẫn này không phải là thụ động, mà là kiên nhẫn có chuẩn bị. Bạn quan sát thị trường mỗi ngày, theo dõi nhóm ngành dẫn dắt, ghi lại hành động giá, chờ tín hiệu xác nhận, và giữ tiền cho đúng thời điểm. Phần lớn sai lầm của nhà đầu tư đến từ việc muốn thị trường phải trao cơ hội mỗi ngày. Nhưng những thương vụ lớn không đến thường xuyên. Chúng cần thời gian để hình thành, phát triển và xác nhận.
+
+Vấn đề là một nhà đầu tư cá nhân, đặc biệt khi mới gia nhập thị trường, rất khó để theo dõi đồng thời tất cả những yếu tố ấy mỗi ngày mà vẫn giữ được sự tỉnh táo. Bạn không có thời gian để ngồi cả ngày trước bảng điện, không có công cụ chuyên nghiệp để quét nhóm ngành dẫn dắt, và càng không có kinh nghiệm nhận diện điểm Pivotal một cách hệ thống. Và chính khoảng trống đó là nơi cảm xúc len vào, biến những quyết định lẽ ra phải lý trí thành những cú nhấp chuột theo trào lưu.
+
+Đó là lý do KFSP được xây dựng. Một ứng dụng dành cho nhà đầu tư cá nhân muốn đi con đường đơn giản, vững vàng và lâu dài, không phải con đường mua bán liên tục theo cảm xúc đám đông. Trong KFSP, bạn có Bản đồ nhiệt để nhìn một cái biết thị trường chung đang ủng hộ hay không, có Bộ lọc theo nhóm ngành để thấy dòng tiền đang chảy về đâu, có Bảng giá và phân tích kỹ thuật để theo dõi cổ phiếu nào đang hành động mạnh, và có Cảnh báo điểm Pivotal để bạn không bỏ lỡ khoảnh khắc xác suất nghiêng về phía mình. Mỗi tính năng trong app được thiết kế để giúp bạn rèn luyện đúng thứ Livermore đã dạy hơn một thế kỷ trước: kiên nhẫn có chuẩn bị.
+
+Bởi vì cuối cùng, một nhà đầu tư vững vàng không phải là người mua bán nhiều nhất. Mà là người biết chờ đúng lúc, và khi cơ hội thật sự đến, hành động bằng một kế hoạch đã được chuẩn bị sẵn.

@@ -1,0 +1,36 @@
+{
+  "id": "s18",
+  "duration_s": 2.717,
+  "word_timestamps": [
+    {
+      "word": "Mở,",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "word": "xuống",
+      "start": 0.78,
+      "end": 1.1
+    },
+    {
+      "word": "hướng",
+      "start": 1.1,
+      "end": 1.28
+    },
+    {
+      "word": "thị",
+      "start": 1.28,
+      "end": 1.44
+    },
+    {
+      "word": "trường",
+      "start": 1.44,
+      "end": 1.74
+    },
+    {
+      "word": "Trung.",
+      "start": 1.74,
+      "end": 1.98
+    }
+  ]
+}

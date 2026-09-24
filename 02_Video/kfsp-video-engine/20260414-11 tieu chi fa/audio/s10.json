@@ -1,0 +1,41 @@
+{
+  "id": "s10",
+  "duration_s": 1.81,
+  "word_timestamps": [
+    {
+      "word": "và",
+      "start": 0.05,
+      "end": 0.45
+    },
+    {
+      "word": "đó",
+      "start": 0.45,
+      "end": 0.69
+    },
+    {
+      "word": "là",
+      "start": 0.69,
+      "end": 0.87
+    },
+    {
+      "word": "cái",
+      "start": 0.87,
+      "end": 1.05
+    },
+    {
+      "word": "cung",
+      "start": 1.05,
+      "end": 1.19
+    },
+    {
+      "word": "phù",
+      "start": 1.19,
+      "end": 1.43
+    },
+    {
+      "word": "lạm.",
+      "start": 1.43,
+      "end": 1.73
+    }
+  ]
+}

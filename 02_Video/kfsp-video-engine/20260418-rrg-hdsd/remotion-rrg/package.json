@@ -1,0 +1,27 @@
+{
+  "name": "remotion-kfsp-rrg",
+  "version": "1.0.0",
+  "description": "Video HDSD Biểu đồ RRG — KFSP",
+  "scripts": {
+    "studio": "npx remotion studio",
+    "build": "npx remotion bundle",
+    "render:all": "npx remotion render VideoRRG --output=../final.mp4",
+    "render:scene0": "npx remotion render Scene0 --output=../clips/scene0.mp4",
+    "render:scene1": "npx remotion render Scene1 --output=../clips/scene1.mp4",
+    "render:scene2": "npx remotion render Scene2 --output=../clips/scene2.mp4",
+    "render:scene3": "npx remotion render Scene3 --output=../clips/scene3.mp4",
+    "render:scene4": "npx remotion render Scene4 --output=../clips/scene4.mp4",
+    "render:scene5": "npx remotion render Scene5 --output=../clips/scene5.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/google-fonts": "4.0.448",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.448"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.5"
+  }
+}

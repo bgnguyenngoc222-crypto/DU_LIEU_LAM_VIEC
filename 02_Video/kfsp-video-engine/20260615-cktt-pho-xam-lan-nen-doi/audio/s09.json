@@ -1,0 +1,65 @@
+{
+ "duration_s": 3.336,
+ "words": [
+  {
+   "word": "cùng",
+   "start": 0.35,
+   "end": 0.53
+  },
+  {
+   "word": "một",
+   "start": 0.53,
+   "end": 0.75
+  },
+  {
+   "word": "dấu",
+   "start": 0.75,
+   "end": 0.91
+  },
+  {
+   "word": "hiệu,",
+   "start": 0.91,
+   "end": 1.15
+  },
+  {
+   "word": "nhưng",
+   "start": 1.51,
+   "end": 1.67
+  },
+  {
+   "word": "khác",
+   "start": 1.67,
+   "end": 1.91
+  },
+  {
+   "word": "mức",
+   "start": 1.91,
+   "end": 2.09
+  },
+  {
+   "word": "độ",
+   "start": 2.09,
+   "end": 2.27
+  },
+  {
+   "word": "là",
+   "start": 2.27,
+   "end": 2.45
+  },
+  {
+   "word": "khác",
+   "start": 2.45,
+   "end": 2.61
+  },
+  {
+   "word": "hành",
+   "start": 2.61,
+   "end": 2.77
+  },
+  {
+   "word": "động.",
+   "start": 2.77,
+   "end": 2.93
+  }
+ ]
+}

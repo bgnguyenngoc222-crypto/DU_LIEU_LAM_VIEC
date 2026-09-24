@@ -1,0 +1,91 @@
+{
+  "id": "s03",
+  "text": "Dân chuyên không mua đại, họ chờ giá rơi vào một trong bốn mẫu hình quen thuộc.",
+  "words": [
+    {
+      "word": "Dân",
+      "start": 0.0,
+      "end": 0.18
+    },
+    {
+      "word": "chuyên",
+      "start": 0.18,
+      "end": 0.4
+    },
+    {
+      "word": "không",
+      "start": 0.4,
+      "end": 0.52
+    },
+    {
+      "word": "mua",
+      "start": 0.52,
+      "end": 0.74
+    },
+    {
+      "word": "đại,",
+      "start": 0.74,
+      "end": 0.92
+    },
+    {
+      "word": "họ",
+      "start": 1.18,
+      "end": 1.28
+    },
+    {
+      "word": "chờ",
+      "start": 1.28,
+      "end": 1.54
+    },
+    {
+      "word": "giá",
+      "start": 1.54,
+      "end": 1.78
+    },
+    {
+      "word": "rơi",
+      "start": 1.78,
+      "end": 1.98
+    },
+    {
+      "word": "vào",
+      "start": 1.98,
+      "end": 2.08
+    },
+    {
+      "word": "một",
+      "start": 2.08,
+      "end": 2.22
+    },
+    {
+      "word": "trong",
+      "start": 2.22,
+      "end": 2.4
+    },
+    {
+      "word": "bốn",
+      "start": 2.4,
+      "end": 2.66
+    },
+    {
+      "word": "mẫu",
+      "start": 2.66,
+      "end": 2.86
+    },
+    {
+      "word": "hình",
+      "start": 2.86,
+      "end": 3.0
+    },
+    {
+      "word": "quen",
+      "start": 3.0,
+      "end": 3.2
+    },
+    {
+      "word": "thuộc.",
+      "start": 3.2,
+      "end": 3.4
+    }
+  ]
+}

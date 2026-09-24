@@ -1,0 +1,126 @@
+{
+  "videoId": "20260604-4-nguyen-tac-he-thong",
+  "total_s": 68.73,
+  "sentences": [
+    {
+      "id": "s01",
+      "display": "Có một người từng ngồi hàng đêm trong sòng bạc Lát Vê Gát, không phải để chơi.",
+      "start_s": 0.0,
+      "end_s": 4.248,
+      "dur_s": 4.248,
+      "pause_after_ms": 350
+    },
+    {
+      "id": "s02",
+      "display": "Người đó là Ét Guất Thóp, người đi qua hai mươi năm đầu tư mà không một quý thua lỗ.",
+      "start_s": 4.598,
+      "end_s": 9.278,
+      "dur_s": 4.68,
+      "pause_after_ms": 450
+    },
+    {
+      "id": "s03",
+      "display": "Ông không có mã thần kỳ. Ông có bốn nguyên tắc.",
+      "start_s": 9.728,
+      "end_s": 12.872,
+      "dur_s": 3.144,
+      "pause_after_ms": 500
+    },
+    {
+      "id": "s04",
+      "display": "Nguyên tắc một, luôn hoài nghi: không tin điều gì khi chưa tự kiểm chứng.",
+      "start_s": 13.372,
+      "end_s": 17.428,
+      "dur_s": 4.056,
+      "pause_after_ms": 200
+    },
+    {
+      "id": "s05",
+      "display": "Người ta bảo sòng bạc bất khả bại, ông dựng mô hình rồi chứng minh đám đông đã sai.",
+      "start_s": 17.628,
+      "end_s": 22.596,
+      "dur_s": 4.968,
+      "pause_after_ms": 500
+    },
+    {
+      "id": "s06",
+      "display": "Nguyên tắc hai, ưu tiên sinh tồn: còn ở lại cuộc chơi đã, rồi mới nghĩ đến lãi.",
+      "start_s": 23.096,
+      "end_s": 28.136,
+      "dur_s": 5.04,
+      "pause_after_ms": 200
+    },
+    {
+      "id": "s07",
+      "display": "Ông không bao giờ đặt tất tay, vì một lần thua sạch là xóa hết tất cả.",
+      "start_s": 28.336,
+      "end_s": 32.704,
+      "dur_s": 4.368,
+      "pause_after_ms": 500
+    },
+    {
+      "id": "s08",
+      "display": "Nguyên tắc ba, phải có lợi thế: chỉ vào lệnh khi phần thắng nghiêng về mình.",
+      "start_s": 33.204,
+      "end_s": 37.404,
+      "dur_s": 4.2,
+      "pause_after_ms": 200
+    },
+    {
+      "id": "s09",
+      "display": "Khi chưa thấy lợi thế, ông kiên nhẫn đứng ngoài, có khi nhiều năm.",
+      "start_s": 37.604,
+      "end_s": 41.54,
+      "dur_s": 3.936,
+      "pause_after_ms": 500
+    },
+    {
+      "id": "s10",
+      "display": "Nguyên tắc bốn, hướng về tự do: đích đến không phải con số trong tài khoản.",
+      "start_s": 42.04,
+      "end_s": 46.408,
+      "dur_s": 4.368,
+      "pause_after_ms": 200
+    },
+    {
+      "id": "s11",
+      "display": "Mà là sự bình yên khi mỗi quyết định đều là của chính mình.",
+      "start_s": 46.608,
+      "end_s": 49.968,
+      "dur_s": 3.36,
+      "pause_after_ms": 500
+    },
+    {
+      "id": "s12",
+      "display": "Thị trường không thưởng cho lòng tham, nó thưởng cho người có hệ thống và kỷ luật.",
+      "start_s": 50.468,
+      "end_s": 54.668,
+      "dur_s": 4.2,
+      "pause_after_ms": 450
+    },
+    {
+      "id": "s13",
+      "display": "Ở Ca Ép Ét Bê, bạn tự lọc cổ phiếu, tự đặt cảnh báo, tự ghi nhật ký giao dịch.",
+      "start_s": 55.118,
+      "end_s": 60.374,
+      "dur_s": 5.256,
+      "pause_after_ms": 300
+    },
+    {
+      "id": "s14",
+      "display": "Để mỗi quyết định mua bán là của bạn, bằng phương pháp, không phải theo phím hàng.",
+      "start_s": 60.674,
+      "end_s": 65.018,
+      "dur_s": 4.344,
+      "pause_after_ms": 500
+    },
+    {
+      "id": "s15",
+      "display": "Còn bạn, đang đầu tư bằng cảm xúc, hay bằng một hệ thống?",
+      "start_s": 65.518,
+      "end_s": 69.07,
+      "dur_s": 3.552,
+      "pause_after_ms": 0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+📝 Input length: 846 chars
+🎤 Voice: hn_male_thanhlong_talk_48k-fhg
+⏱  Speed rate: 1.0
+⏳ Submitting to Vbee...
+✅ Request ID: 47941c11-31ff-4298-a3b2-1051d75ec59a
+   [1] status=IN_PROGRESS progress=0%
+   [2] status=IN_PROGRESS progress=0%
+   [3] status=IN_PROGRESS progress=0%
+   [4] status=IN_PROGRESS progress=0%
+   [5] status=IN_PROGRESS progress=0%
+   [6] status=IN_PROGRESS progress=0%
+   [7] status=IN_PROGRESS progress=0%
+   [8] status=IN_PROGRESS progress=0%
+   [9] status=SUCCESS progress=100%
+🎧 Audio URL: https://vbee.vn/s/47941c11-31ff-4298-a3b2-1051d75ec59a/a62bbe47-2c58-4cd3-ab65-55c60037c97f
+⬇️  Downloading...
+✅ Saved: voice-drafts/draft_4_thanhlong.mp3 (885696 bytes, 55.327347s)

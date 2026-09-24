@@ -1,0 +1,171 @@
+{
+  "id": "s03",
+  "duration_s": 8.55,
+  "word_timestamps": [
+    {
+      "word": "Có",
+      "start": 0.05,
+      "end": 0.21
+    },
+    {
+      "word": "phải",
+      "start": 0.21,
+      "end": 0.33
+    },
+    {
+      "word": "bạn",
+      "start": 0.33,
+      "end": 0.57
+    },
+    {
+      "word": "đang",
+      "start": 0.57,
+      "end": 0.71
+    },
+    {
+      "word": "mở",
+      "start": 0.71,
+      "end": 0.91
+    },
+    {
+      "word": "áp",
+      "start": 0.91,
+      "end": 1.13
+    },
+    {
+      "word": "đọc",
+      "start": 1.13,
+      "end": 1.29
+    },
+    {
+      "word": "tin,",
+      "start": 1.29,
+      "end": 1.45
+    },
+    {
+      "word": "thấy",
+      "start": 1.93,
+      "end": 2.03
+    },
+    {
+      "word": "P,",
+      "start": 2.03,
+      "end": 2.21
+    },
+    {
+      "word": "trên",
+      "start": 2.41,
+      "end": 2.45
+    },
+    {
+      "word": "E",
+      "start": 2.45,
+      "end": 2.61
+    },
+    {
+      "word": "có",
+      "start": 2.61,
+      "end": 2.79
+    },
+    {
+      "word": "vẻ",
+      "start": 2.79,
+      "end": 2.97
+    },
+    {
+      "word": "dẻ,",
+      "start": 2.97,
+      "end": 3.21
+    },
+    {
+      "word": "dở",
+      "start": 3.61,
+      "end": 3.79
+    },
+    {
+      "word": "OE",
+      "start": 3.79,
+      "end": 4.03
+    },
+    {
+      "word": "hơi",
+      "start": 4.03,
+      "end": 4.25
+    },
+    {
+      "word": "cao,",
+      "start": 4.25,
+      "end": 4.57
+    },
+    {
+      "word": "biên",
+      "start": 4.95,
+      "end": 5.23
+    },
+    {
+      "word": "lựa",
+      "start": 5.23,
+      "end": 5.43
+    },
+    {
+      "word": "nhoận",
+      "start": 5.43,
+      "end": 5.61
+    },
+    {
+      "word": "có",
+      "start": 5.61,
+      "end": 5.81
+    },
+    {
+      "word": "sự",
+      "start": 5.81,
+      "end": 5.97
+    },
+    {
+      "word": "cải",
+      "start": 5.97,
+      "end": 6.17
+    },
+    {
+      "word": "thiện",
+      "start": 6.17,
+      "end": 6.37
+    },
+    {
+      "word": "nghe",
+      "start": 6.37,
+      "end": 6.59
+    },
+    {
+      "word": "của",
+      "start": 6.59,
+      "end": 6.71
+    },
+    {
+      "word": "OK,",
+      "start": 6.71,
+      "end": 7.05
+    },
+    {
+      "word": "cũng",
+      "start": 7.71,
+      "end": 7.77
+    },
+    {
+      "word": "hơi",
+      "start": 7.77,
+      "end": 7.99
+    },
+    {
+      "word": "hiểu",
+      "start": 7.99,
+      "end": 8.33
+    },
+    {
+      "word": "được,",
+      "start": 8.33,
+      "end": 8.47
+    }
+  ]
+}

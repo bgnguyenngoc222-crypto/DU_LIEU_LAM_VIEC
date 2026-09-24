@@ -1,0 +1,2134 @@
+{
+ "videoId": "20260613-cktt-5-mau-nen-dao-chieu-day",
+ "framework": "3Qs",
+ "voice": "minhquan",
+ "speed": 1.0,
+ "channel": "chung-khoan-trong-tam-tay",
+ "brand_status": "nobrand",
+ "builds": {
+  "nobrand": [
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08",
+   "s09",
+   "s10",
+   "s11",
+   "s12",
+   "s13",
+   "s14",
+   "s15"
+  ]
+ },
+ "sentences": [
+  {
+   "id": "s01",
+   "build": "nobrand",
+   "phase": "HOOK",
+   "display": "Ông bà mình ngày xưa đâu có dự báo thời tiết, vậy mà nhìn chuồn chuồn bay thấp là biết trời sắp mưa.",
+   "tts": "Ông bà mình ngày xưa đâu có dự báo thời tiết, vậy mà nhìn chuồn chuồn bay thấp là biết trời sắp mưa.",
+   "main_idea": "chuồn chuồn báo mưa",
+   "enum_items": null,
+   "pause_after_ms": 350,
+   "speed": 1.0,
+   "duration_s": 5.52,
+   "word_timestamps": [
+    {
+     "word": "Ông",
+     "start": 0.0,
+     "end": 0.16
+    },
+    {
+     "word": "bà",
+     "start": 0.16,
+     "end": 0.3
+    },
+    {
+     "word": "mình",
+     "start": 0.3,
+     "end": 0.42
+    },
+    {
+     "word": "ngày",
+     "start": 0.42,
+     "end": 0.6
+    },
+    {
+     "word": "xưa",
+     "start": 0.6,
+     "end": 0.84
+    },
+    {
+     "word": "đâu",
+     "start": 0.84,
+     "end": 1.04
+    },
+    {
+     "word": "có",
+     "start": 1.04,
+     "end": 1.2
+    },
+    {
+     "word": "dự",
+     "start": 1.2,
+     "end": 1.34
+    },
+    {
+     "word": "báo",
+     "start": 1.34,
+     "end": 1.58
+    },
+    {
+     "word": "thời",
+     "start": 1.58,
+     "end": 1.76
+    },
+    {
+     "word": "tiết,",
+     "start": 1.76,
+     "end": 2.0
+    },
+    {
+     "word": "vậy",
+     "start": 2.36,
+     "end": 2.54
+    },
+    {
+     "word": "mà",
+     "start": 2.54,
+     "end": 2.72
+    },
+    {
+     "word": "nhìn",
+     "start": 2.72,
+     "end": 2.92
+    },
+    {
+     "word": "chuồn",
+     "start": 2.92,
+     "end": 3.16
+    },
+    {
+     "word": "chuồn",
+     "start": 3.16,
+     "end": 3.4
+    },
+    {
+     "word": "bay",
+     "start": 3.4,
+     "end": 3.58
+    },
+    {
+     "word": "thấp",
+     "start": 3.58,
+     "end": 3.78
+    },
+    {
+     "word": "là",
+     "start": 3.78,
+     "end": 4.08
+    },
+    {
+     "word": "biết",
+     "start": 4.08,
+     "end": 4.2
+    },
+    {
+     "word": "trời",
+     "start": 4.2,
+     "end": 4.46
+    },
+    {
+     "word": "sắp",
+     "start": 4.46,
+     "end": 4.66
+    },
+    {
+     "word": "mưa.",
+     "start": 4.66,
+     "end": 4.88
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "build": "nobrand",
+   "phase": "HOOK",
+   "display": "Còn thấy ráng mỡ gà vàng óng phía chân trời thì dặn nhau, có nhà thì giữ, vì bão sắp về.",
+   "tts": "Còn thấy ráng mỡ gà vàng óng phía chân trời thì dặn nhau, có nhà thì giữ, vì bão sắp về.",
+   "main_idea": "ráng mỡ gà báo bão",
+   "enum_items": null,
+   "pause_after_ms": 600,
+   "speed": 1.0,
+   "duration_s": 5.976,
+   "word_timestamps": [
+    {
+     "word": "Tòn",
+     "start": 0.62,
+     "end": 0.86
+    },
+    {
+     "word": "thời",
+     "start": 0.86,
+     "end": 1.0
+    },
+    {
+     "word": "gian",
+     "start": 1.0,
+     "end": 1.22
+    },
+    {
+     "word": "mỡ",
+     "start": 1.22,
+     "end": 1.44
+    },
+    {
+     "word": "gà",
+     "start": 1.44,
+     "end": 1.62
+    },
+    {
+     "word": "vàng",
+     "start": 1.62,
+     "end": 1.86
+    },
+    {
+     "word": "ống",
+     "start": 1.86,
+     "end": 1.98
+    },
+    {
+     "word": "phía",
+     "start": 1.98,
+     "end": 2.14
+    },
+    {
+     "word": "chân",
+     "start": 2.14,
+     "end": 2.3
+    },
+    {
+     "word": "trời",
+     "start": 2.3,
+     "end": 2.58
+    },
+    {
+     "word": "thì",
+     "start": 2.58,
+     "end": 2.7
+    },
+    {
+     "word": "dặn",
+     "start": 2.7,
+     "end": 2.9
+    },
+    {
+     "word": "nhau,",
+     "start": 2.9,
+     "end": 3.08
+    },
+    {
+     "word": "có",
+     "start": 3.52,
+     "end": 3.58
+    },
+    {
+     "word": "nhà",
+     "start": 3.58,
+     "end": 3.78
+    },
+    {
+     "word": "thì",
+     "start": 3.78,
+     "end": 3.96
+    },
+    {
+     "word": "giữ,",
+     "start": 3.96,
+     "end": 4.16
+    },
+    {
+     "word": "vì",
+     "start": 4.56,
+     "end": 4.72
+    },
+    {
+     "word": "bão",
+     "start": 4.72,
+     "end": 4.9
+    },
+    {
+     "word": "sắp",
+     "start": 4.9,
+     "end": 5.06
+    },
+    {
+     "word": "về.",
+     "start": 5.06,
+     "end": 5.3
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "build": "nobrand",
+   "phase": "BRIDGE",
+   "display": "Cái hay là ông bà không hề đoán mò, mỗi dấu hiệu trên trời ứng với một điều sắp xảy ra, đọc đúng điềm là chuẩn bị kịp.",
+   "tts": "Cái hay là ông bà không hề đoán mò, mỗi dấu hiệu trên trời ứng với một điều sắp xảy ra, đọc đúng điềm là chuẩn bị kịp.",
+   "main_idea": "đọc điềm không đoán mò",
+   "enum_items": null,
+   "pause_after_ms": 400,
+   "speed": 1.0,
+   "duration_s": 7.272,
+   "word_timestamps": [
+    {
+     "word": "Cái",
+     "start": 0.68,
+     "end": 0.8
+    },
+    {
+     "word": "hay",
+     "start": 0.8,
+     "end": 0.94
+    },
+    {
+     "word": "là",
+     "start": 0.94,
+     "end": 1.1
+    },
+    {
+     "word": "ông",
+     "start": 1.1,
+     "end": 1.2
+    },
+    {
+     "word": "bà",
+     "start": 1.2,
+     "end": 1.4
+    },
+    {
+     "word": "không",
+     "start": 1.4,
+     "end": 1.56
+    },
+    {
+     "word": "hề",
+     "start": 1.56,
+     "end": 1.74
+    },
+    {
+     "word": "đoán",
+     "start": 1.74,
+     "end": 1.9
+    },
+    {
+     "word": "mỏ,",
+     "start": 1.9,
+     "end": 2.12
+    },
+    {
+     "word": "mỗi",
+     "start": 2.6,
+     "end": 2.72
+    },
+    {
+     "word": "dấu",
+     "start": 2.72,
+     "end": 2.88
+    },
+    {
+     "word": "hiệu",
+     "start": 2.88,
+     "end": 3.08
+    },
+    {
+     "word": "trên",
+     "start": 3.08,
+     "end": 3.26
+    },
+    {
+     "word": "trời",
+     "start": 3.26,
+     "end": 3.5
+    },
+    {
+     "word": "ứng",
+     "start": 3.5,
+     "end": 3.7
+    },
+    {
+     "word": "với",
+     "start": 3.7,
+     "end": 3.92
+    },
+    {
+     "word": "một",
+     "start": 3.92,
+     "end": 4.04
+    },
+    {
+     "word": "điều",
+     "start": 4.04,
+     "end": 4.22
+    },
+    {
+     "word": "sắp",
+     "start": 4.22,
+     "end": 4.48
+    },
+    {
+     "word": "xảy",
+     "start": 4.48,
+     "end": 4.7
+    },
+    {
+     "word": "ra,",
+     "start": 4.7,
+     "end": 4.86
+    },
+    {
+     "word": "đọc",
+     "start": 5.34,
+     "end": 5.48
+    },
+    {
+     "word": "đúng",
+     "start": 5.48,
+     "end": 5.64
+    },
+    {
+     "word": "điểm",
+     "start": 5.64,
+     "end": 5.9
+    },
+    {
+     "word": "là",
+     "start": 5.9,
+     "end": 6.06
+    },
+    {
+     "word": "chuẩn",
+     "start": 6.06,
+     "end": 6.2
+    },
+    {
+     "word": "bị",
+     "start": 6.2,
+     "end": 6.36
+    },
+    {
+     "word": "kịp.",
+     "start": 6.36,
+     "end": 6.64
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "build": "nobrand",
+   "phase": "BRIDGE",
+   "display": "Thị trường cũng nói chuyện với mình y như vậy, qua những cây nến.",
+   "tts": "Thị trường cũng nói chuyện với mình y như vậy, qua những cây nến.",
+   "main_idea": "thị trường cũng có điềm",
+   "enum_items": null,
+   "pause_after_ms": 400,
+   "speed": 1.0,
+   "duration_s": 4.2,
+   "word_timestamps": [
+    {
+     "word": "Thị",
+     "start": 0.64,
+     "end": 0.76
+    },
+    {
+     "word": "trường",
+     "start": 0.76,
+     "end": 1.0
+    },
+    {
+     "word": "cũng",
+     "start": 1.0,
+     "end": 1.16
+    },
+    {
+     "word": "nói",
+     "start": 1.16,
+     "end": 1.34
+    },
+    {
+     "word": "chuyện",
+     "start": 1.34,
+     "end": 1.58
+    },
+    {
+     "word": "với",
+     "start": 1.58,
+     "end": 1.7
+    },
+    {
+     "word": "mình",
+     "start": 1.7,
+     "end": 1.88
+    },
+    {
+     "word": "y",
+     "start": 1.88,
+     "end": 2.12
+    },
+    {
+     "word": "như",
+     "start": 2.12,
+     "end": 2.24
+    },
+    {
+     "word": "vậy,",
+     "start": 2.24,
+     "end": 2.4
+    },
+    {
+     "word": "quả",
+     "start": 2.82,
+     "end": 2.96
+    },
+    {
+     "word": "những",
+     "start": 2.96,
+     "end": 3.08
+    },
+    {
+     "word": "cây",
+     "start": 3.08,
+     "end": 3.26
+    },
+    {
+     "word": "nến.",
+     "start": 3.26,
+     "end": 3.5
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "build": "nobrand",
+   "phase": "BRIDGE",
+   "display": "Có điềm báo sắp giảm để mình giữ của, và có điềm báo đáy đã gần kề, lúc bên mua âm thầm quay lại.",
+   "tts": "Có điềm báo sắp giảm để mình giữ của, và có điềm báo đáy đã gần kề, lúc bên mua âm thầm quay lại.",
+   "main_idea": "điềm hai chiều giảm và đáy",
+   "enum_items": null,
+   "pause_after_ms": 400,
+   "speed": 1.0,
+   "duration_s": 6.48,
+   "word_timestamps": [
+    {
+     "word": "Có",
+     "start": 0.69,
+     "end": 0.79
+    },
+    {
+     "word": "điểm",
+     "start": 0.79,
+     "end": 0.97
+    },
+    {
+     "word": "báo",
+     "start": 0.97,
+     "end": 1.17
+    },
+    {
+     "word": "sắp",
+     "start": 1.17,
+     "end": 1.37
+    },
+    {
+     "word": "giảm",
+     "start": 1.37,
+     "end": 1.69
+    },
+    {
+     "word": "để",
+     "start": 1.69,
+     "end": 1.81
+    },
+    {
+     "word": "mình",
+     "start": 1.81,
+     "end": 1.95
+    },
+    {
+     "word": "giữ",
+     "start": 1.95,
+     "end": 2.21
+    },
+    {
+     "word": "của",
+     "start": 2.21,
+     "end": 2.37
+    },
+    {
+     "word": "và",
+     "start": 2.37,
+     "end": 2.87
+    },
+    {
+     "word": "có",
+     "start": 2.87,
+     "end": 3.03
+    },
+    {
+     "word": "điểm",
+     "start": 3.03,
+     "end": 3.21
+    },
+    {
+     "word": "báo",
+     "start": 3.21,
+     "end": 3.41
+    },
+    {
+     "word": "đáy",
+     "start": 3.41,
+     "end": 3.63
+    },
+    {
+     "word": "đã",
+     "start": 3.63,
+     "end": 3.79
+    },
+    {
+     "word": "gần",
+     "start": 3.79,
+     "end": 3.95
+    },
+    {
+     "word": "kề,",
+     "start": 3.95,
+     "end": 4.25
+    },
+    {
+     "word": "lúc",
+     "start": 4.73,
+     "end": 4.81
+    },
+    {
+     "word": "bên",
+     "start": 4.81,
+     "end": 5.01
+    },
+    {
+     "word": "mua",
+     "start": 5.01,
+     "end": 5.27
+    },
+    {
+     "word": "âm",
+     "start": 5.27,
+     "end": 5.37
+    },
+    {
+     "word": "thầm",
+     "start": 5.37,
+     "end": 5.57
+    },
+    {
+     "word": "quay",
+     "start": 5.57,
+     "end": 5.75
+    },
+    {
+     "word": "lại.",
+     "start": 5.75,
+     "end": 5.91
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "build": "nobrand",
+   "phase": "BRIDGE",
+   "display": "Hôm nay mình nói về nhóm thứ hai, năm mẫu nến báo hiệu đảo chiều ngay tại đáy.",
+   "tts": "Hôm nay mình nói về nhóm thứ hai, năm mẫu nến báo hiệu đảo chiều ngay tại đáy.",
+   "main_idea": "năm mẫu nến đáy",
+   "enum_items": null,
+   "pause_after_ms": 600,
+   "speed": 1.0,
+   "duration_s": 5.256,
+   "word_timestamps": [
+    {
+     "word": "Hôm",
+     "start": 0.57,
+     "end": 0.89
+    },
+    {
+     "word": "nay",
+     "start": 0.89,
+     "end": 1.07
+    },
+    {
+     "word": "mình",
+     "start": 1.07,
+     "end": 1.23
+    },
+    {
+     "word": "nói",
+     "start": 1.23,
+     "end": 1.41
+    },
+    {
+     "word": "về",
+     "start": 1.41,
+     "end": 1.57
+    },
+    {
+     "word": "nhóm",
+     "start": 1.57,
+     "end": 1.73
+    },
+    {
+     "word": "thứ",
+     "start": 1.73,
+     "end": 1.89
+    },
+    {
+     "word": "2,",
+     "start": 1.89,
+     "end": 2.11
+    },
+    {
+     "word": "5",
+     "start": 2.51,
+     "end": 2.69
+    },
+    {
+     "word": "mẫu",
+     "start": 2.69,
+     "end": 2.93
+    },
+    {
+     "word": "nến",
+     "start": 2.93,
+     "end": 3.11
+    },
+    {
+     "word": "báo",
+     "start": 3.11,
+     "end": 3.29
+    },
+    {
+     "word": "hiệu",
+     "start": 3.29,
+     "end": 3.51
+    },
+    {
+     "word": "đảo",
+     "start": 3.51,
+     "end": 3.77
+    },
+    {
+     "word": "chiều",
+     "start": 3.77,
+     "end": 4.07
+    },
+    {
+     "word": "ngay",
+     "start": 4.07,
+     "end": 4.27
+    },
+    {
+     "word": "tại",
+     "start": 4.27,
+     "end": 4.37
+    },
+    {
+     "word": "đáy.",
+     "start": 4.37,
+     "end": 4.63
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "build": "nobrand",
+   "phase": "HOW",
+   "display": "Một, nến búa: giá tiếp diễn giảm, bị dìm xuống rất sâu rồi bất ngờ kéo ngược lên, để lại bóng dưới dài, cho thấy lực cầu hỗ trợ quyết liệt ở phía dưới.",
+   "tts": "Một, nến búa: giá tiếp diễn giảm, bị dìm xuống rất sâu rồi bất ngờ kéo ngược lên, để lại bóng dưới dài, cho thấy lực cầu hỗ trợ quyết liệt ở phía dưới.",
+   "main_idea": "nến búa lực cầu phản công",
+   "enum_items": null,
+   "pause_after_ms": 400,
+   "speed": 1.0,
+   "duration_s": 9.672,
+   "word_timestamps": [
+    {
+     "word": "1",
+     "start": 0.63,
+     "end": 0.83
+    },
+    {
+     "word": "nến",
+     "start": 0.83,
+     "end": 1.33
+    },
+    {
+     "word": "búa",
+     "start": 1.33,
+     "end": 1.57
+    },
+    {
+     "word": "giá",
+     "start": 1.57,
+     "end": 1.99
+    },
+    {
+     "word": "tiếp",
+     "start": 1.99,
+     "end": 2.15
+    },
+    {
+     "word": "diễn",
+     "start": 2.15,
+     "end": 2.43
+    },
+    {
+     "word": "giảm",
+     "start": 2.43,
+     "end": 2.71
+    },
+    {
+     "word": "bị",
+     "start": 2.71,
+     "end": 3.23
+    },
+    {
+     "word": "dìm",
+     "start": 3.23,
+     "end": 3.49
+    },
+    {
+     "word": "xuống",
+     "start": 3.49,
+     "end": 3.69
+    },
+    {
+     "word": "rất",
+     "start": 3.69,
+     "end": 3.83
+    },
+    {
+     "word": "sâu",
+     "start": 3.83,
+     "end": 4.07
+    },
+    {
+     "word": "rồi,",
+     "start": 4.07,
+     "end": 4.27
+    },
+    {
+     "word": "bất",
+     "start": 4.47,
+     "end": 4.57
+    },
+    {
+     "word": "ngờ",
+     "start": 4.57,
+     "end": 4.77
+    },
+    {
+     "word": "kéo",
+     "start": 4.77,
+     "end": 4.97
+    },
+    {
+     "word": "ngược",
+     "start": 4.97,
+     "end": 5.19
+    },
+    {
+     "word": "lên,",
+     "start": 5.19,
+     "end": 5.41
+    },
+    {
+     "word": "để",
+     "start": 5.89,
+     "end": 5.97
+    },
+    {
+     "word": "lại",
+     "start": 5.97,
+     "end": 6.13
+    },
+    {
+     "word": "bóng",
+     "start": 6.13,
+     "end": 6.33
+    },
+    {
+     "word": "dưới",
+     "start": 6.33,
+     "end": 6.49
+    },
+    {
+     "word": "dài,",
+     "start": 6.49,
+     "end": 6.77
+    },
+    {
+     "word": "cho",
+     "start": 7.15,
+     "end": 7.27
+    },
+    {
+     "word": "thấy",
+     "start": 7.27,
+     "end": 7.45
+    },
+    {
+     "word": "lực",
+     "start": 7.45,
+     "end": 7.59
+    },
+    {
+     "word": "cầu",
+     "start": 7.59,
+     "end": 7.79
+    },
+    {
+     "word": "hỗ",
+     "start": 7.79,
+     "end": 7.99
+    },
+    {
+     "word": "trợ",
+     "start": 7.99,
+     "end": 8.19
+    },
+    {
+     "word": "quy",
+     "start": 8.19,
+     "end": 8.35
+    },
+    {
+     "word": "liệt",
+     "start": 8.35,
+     "end": 8.53
+    },
+    {
+     "word": "ở",
+     "start": 8.53,
+     "end": 8.65
+    },
+    {
+     "word": "phía",
+     "start": 8.65,
+     "end": 8.75
+    },
+    {
+     "word": "dưới.",
+     "start": 8.75,
+     "end": 9.01
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "build": "nobrand",
+   "phase": "HOW",
+   "display": "Hai, nhấn chìm tăng: một cây xanh tăng mạnh từ dưới vượt hẳn lên trên, nuốt trọn cây nến đỏ liền trước.",
+   "tts": "Hai, nhấn chìm tăng: một cây xanh tăng mạnh từ dưới vượt hẳn lên trên, nuốt trọn cây nến đỏ liền trước.",
+   "main_idea": "nhấn chìm tăng nuốt cây đỏ",
+   "enum_items": null,
+   "pause_after_ms": 400,
+   "speed": 1.0,
+   "duration_s": 6.312,
+   "word_timestamps": [
+    {
+     "word": "2",
+     "start": 0.67,
+     "end": 0.85
+    },
+    {
+     "word": "nhấn",
+     "start": 0.85,
+     "end": 1.03
+    },
+    {
+     "word": "trìm",
+     "start": 1.03,
+     "end": 1.29
+    },
+    {
+     "word": "tăng,",
+     "start": 1.29,
+     "end": 1.47
+    },
+    {
+     "word": "1",
+     "start": 1.75,
+     "end": 1.87
+    },
+    {
+     "word": "cây",
+     "start": 1.87,
+     "end": 2.03
+    },
+    {
+     "word": "xanh",
+     "start": 2.03,
+     "end": 2.23
+    },
+    {
+     "word": "tăng",
+     "start": 2.23,
+     "end": 2.41
+    },
+    {
+     "word": "mạnh",
+     "start": 2.41,
+     "end": 2.63
+    },
+    {
+     "word": "từ",
+     "start": 2.63,
+     "end": 2.83
+    },
+    {
+     "word": "dưới",
+     "start": 2.83,
+     "end": 3.11
+    },
+    {
+     "word": "vượt",
+     "start": 3.11,
+     "end": 3.35
+    },
+    {
+     "word": "hẳn",
+     "start": 3.35,
+     "end": 3.53
+    },
+    {
+     "word": "lên",
+     "start": 3.53,
+     "end": 3.67
+    },
+    {
+     "word": "trên,",
+     "start": 3.67,
+     "end": 3.91
+    },
+    {
+     "word": "nuốt",
+     "start": 4.39,
+     "end": 4.51
+    },
+    {
+     "word": "chọn",
+     "start": 4.51,
+     "end": 4.73
+    },
+    {
+     "word": "cây",
+     "start": 4.73,
+     "end": 4.93
+    },
+    {
+     "word": "nến",
+     "start": 4.93,
+     "end": 5.11
+    },
+    {
+     "word": "đỏ",
+     "start": 5.11,
+     "end": 5.33
+    },
+    {
+     "word": "liền",
+     "start": 5.33,
+     "end": 5.49
+    },
+    {
+     "word": "trước.",
+     "start": 5.49,
+     "end": 5.71
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "build": "nobrand",
+   "phase": "HOW",
+   "display": "Ba, sao mai: gần giống nến búa, nhưng cây nến tín hiệu có thân ngắn và nằm hơi tách biệt với nến giảm trước, cho thấy phe mua đã xác lập một sự cân bằng để chặn đà giảm.",
+   "tts": "Ba, sao mai: gần giống nến búa, nhưng cây nến tín hiệu có thân ngắn và nằm hơi tách biệt với nến giảm trước, cho thấy phe mua đã xác lập một sự cân bằng để chặn đà giảm.",
+   "main_idea": "sao mai cân bằng chặn đà",
+   "enum_items": null,
+   "pause_after_ms": 400,
+   "speed": 1.0,
+   "duration_s": 9.768,
+   "word_timestamps": [
+    {
+     "word": "Và",
+     "start": 0.6,
+     "end": 0.88
+    },
+    {
+     "word": "sau",
+     "start": 0.88,
+     "end": 1.04
+    },
+    {
+     "word": "mình,",
+     "start": 1.04,
+     "end": 1.24
+    },
+    {
+     "word": "gần",
+     "start": 1.58,
+     "end": 1.68
+    },
+    {
+     "word": "giống",
+     "start": 1.68,
+     "end": 1.9
+    },
+    {
+     "word": "nến",
+     "start": 1.9,
+     "end": 2.04
+    },
+    {
+     "word": "búa,",
+     "start": 2.04,
+     "end": 2.26
+    },
+    {
+     "word": "nhưng",
+     "start": 2.76,
+     "end": 2.84
+    },
+    {
+     "word": "cây",
+     "start": 2.84,
+     "end": 3.04
+    },
+    {
+     "word": "nến",
+     "start": 3.04,
+     "end": 3.22
+    },
+    {
+     "word": "tín",
+     "start": 3.22,
+     "end": 3.4
+    },
+    {
+     "word": "hiệu",
+     "start": 3.4,
+     "end": 3.62
+    },
+    {
+     "word": "có",
+     "start": 3.62,
+     "end": 3.76
+    },
+    {
+     "word": "thân",
+     "start": 3.76,
+     "end": 3.92
+    },
+    {
+     "word": "ngắn",
+     "start": 3.92,
+     "end": 4.12
+    },
+    {
+     "word": "và",
+     "start": 4.12,
+     "end": 4.4
+    },
+    {
+     "word": "nằm",
+     "start": 4.4,
+     "end": 4.6
+    },
+    {
+     "word": "hơi",
+     "start": 4.6,
+     "end": 4.76
+    },
+    {
+     "word": "tách",
+     "start": 4.76,
+     "end": 4.94
+    },
+    {
+     "word": "biệt",
+     "start": 4.94,
+     "end": 5.14
+    },
+    {
+     "word": "với",
+     "start": 5.14,
+     "end": 5.3
+    },
+    {
+     "word": "nến",
+     "start": 5.3,
+     "end": 5.44
+    },
+    {
+     "word": "giảm",
+     "start": 5.44,
+     "end": 5.66
+    },
+    {
+     "word": "trước,",
+     "start": 5.66,
+     "end": 5.84
+    },
+    {
+     "word": "cho",
+     "start": 5.84,
+     "end": 6.34
+    },
+    {
+     "word": "thấy",
+     "start": 6.34,
+     "end": 6.54
+    },
+    {
+     "word": "phê",
+     "start": 6.54,
+     "end": 6.74
+    },
+    {
+     "word": "mua",
+     "start": 6.74,
+     "end": 6.98
+    },
+    {
+     "word": "đã",
+     "start": 6.98,
+     "end": 7.12
+    },
+    {
+     "word": "xác",
+     "start": 7.12,
+     "end": 7.26
+    },
+    {
+     "word": "lập",
+     "start": 7.26,
+     "end": 7.42
+    },
+    {
+     "word": "1",
+     "start": 7.42,
+     "end": 7.62
+    },
+    {
+     "word": "sự",
+     "start": 7.62,
+     "end": 7.78
+    },
+    {
+     "word": "cân",
+     "start": 7.78,
+     "end": 7.98
+    },
+    {
+     "word": "bằng",
+     "start": 7.98,
+     "end": 8.2
+    },
+    {
+     "word": "để",
+     "start": 8.2,
+     "end": 8.42
+    },
+    {
+     "word": "chặt",
+     "start": 8.42,
+     "end": 8.64
+    },
+    {
+     "word": "đà",
+     "start": 8.64,
+     "end": 8.82
+    },
+    {
+     "word": "giảm.",
+     "start": 8.82,
+     "end": 9.38
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "build": "nobrand",
+   "phase": "HOW",
+   "display": "Bốn, doji chuồn chuồn, cái tên hợp ghê vì giống hệt chuồn chuồn báo mưa lúc nãy: thân nến mỏng, hai phe gần như bất phân thắng bại, nhưng phe bán đã đánh mất thành quả ép giá trước đó.",
+   "tts": "Bốn, Đô Di chuồn chuồn, cái tên hợp ghê vì giống hệt chuồn chuồn báo mưa lúc nãy: thân nến mỏng, hai phe gần như bất phân thắng bại, nhưng phe bán đã đánh mất thành quả ép giá trước đó.",
+   "main_idea": "doji chuồn chuồn callback",
+   "enum_items": null,
+   "pause_after_ms": 400,
+   "speed": 1.0,
+   "duration_s": 9.936,
+   "word_timestamps": [
+    {
+     "word": "4",
+     "start": 0.39,
+     "end": 0.75
+    },
+    {
+     "word": "đô",
+     "start": 0.75,
+     "end": 0.89
+    },
+    {
+     "word": "di",
+     "start": 0.89,
+     "end": 1.03
+    },
+    {
+     "word": "chuồn",
+     "start": 1.03,
+     "end": 1.27
+    },
+    {
+     "word": "chuồn,",
+     "start": 1.27,
+     "end": 1.55
+    },
+    {
+     "word": "cái",
+     "start": 1.97,
+     "end": 2.03
+    },
+    {
+     "word": "tên",
+     "start": 2.03,
+     "end": 2.21
+    },
+    {
+     "word": "hợp",
+     "start": 2.21,
+     "end": 2.41
+    },
+    {
+     "word": "ghê",
+     "start": 2.41,
+     "end": 2.61
+    },
+    {
+     "word": "vì",
+     "start": 2.61,
+     "end": 2.83
+    },
+    {
+     "word": "giống",
+     "start": 2.83,
+     "end": 3.03
+    },
+    {
+     "word": "hệt",
+     "start": 3.03,
+     "end": 3.21
+    },
+    {
+     "word": "chuồn",
+     "start": 3.21,
+     "end": 3.43
+    },
+    {
+     "word": "chuồn",
+     "start": 3.43,
+     "end": 3.63
+    },
+    {
+     "word": "báo",
+     "start": 3.63,
+     "end": 3.79
+    },
+    {
+     "word": "mưa",
+     "start": 3.79,
+     "end": 4.01
+    },
+    {
+     "word": "lúc",
+     "start": 4.01,
+     "end": 4.17
+    },
+    {
+     "word": "nãy",
+     "start": 4.17,
+     "end": 4.39
+    },
+    {
+     "word": "thân",
+     "start": 4.39,
+     "end": 4.75
+    },
+    {
+     "word": "nến",
+     "start": 4.75,
+     "end": 4.89
+    },
+    {
+     "word": "mỏng,",
+     "start": 4.89,
+     "end": 5.17
+    },
+    {
+     "word": "hai",
+     "start": 5.49,
+     "end": 5.65
+    },
+    {
+     "word": "phê",
+     "start": 5.65,
+     "end": 5.81
+    },
+    {
+     "word": "gần",
+     "start": 5.81,
+     "end": 5.99
+    },
+    {
+     "word": "như",
+     "start": 5.99,
+     "end": 6.17
+    },
+    {
+     "word": "bất",
+     "start": 6.17,
+     "end": 6.31
+    },
+    {
+     "word": "phân",
+     "start": 6.31,
+     "end": 6.47
+    },
+    {
+     "word": "tháng",
+     "start": 6.47,
+     "end": 6.61
+    },
+    {
+     "word": "bại,",
+     "start": 6.61,
+     "end": 6.85
+    },
+    {
+     "word": "nhưng",
+     "start": 7.17,
+     "end": 7.37
+    },
+    {
+     "word": "phê",
+     "start": 7.37,
+     "end": 7.59
+    },
+    {
+     "word": "bán",
+     "start": 7.59,
+     "end": 7.77
+    },
+    {
+     "word": "đã",
+     "start": 7.77,
+     "end": 7.93
+    },
+    {
+     "word": "đánh",
+     "start": 7.93,
+     "end": 8.09
+    },
+    {
+     "word": "mất",
+     "start": 8.09,
+     "end": 8.27
+    },
+    {
+     "word": "thành",
+     "start": 8.27,
+     "end": 8.39
+    },
+    {
+     "word": "quả",
+     "start": 8.39,
+     "end": 8.59
+    },
+    {
+     "word": "ép",
+     "start": 8.59,
+     "end": 8.75
+    },
+    {
+     "word": "giá",
+     "start": 8.75,
+     "end": 8.93
+    },
+    {
+     "word": "trước",
+     "start": 8.93,
+     "end": 9.07
+    },
+    {
+     "word": "đó.",
+     "start": 9.07,
+     "end": 9.29
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "build": "nobrand",
+   "phase": "HOW",
+   "display": "Năm, nến xuyên thấu: một cây nến xanh từ dưới đấm xuyên sâu vào thân nến đỏ dài trước đó, tuy chưa phủ hết nhưng cho thấy một sự phản công rõ rệt.",
+   "tts": "Năm, nến xuyên thấu: một cây nến xanh từ dưới đấm xuyên sâu vào thân nến đỏ dài trước đó, tuy chưa phủ hết nhưng cho thấy một sự phản công rõ rệt.",
+   "main_idea": "xuyên thấu phản công",
+   "enum_items": null,
+   "pause_after_ms": 600,
+   "speed": 1.0,
+   "duration_s": 8.568,
+   "word_timestamps": [
+    {
+     "word": "5",
+     "start": 0.63,
+     "end": 0.87
+    },
+    {
+     "word": "nến",
+     "start": 0.87,
+     "end": 1.09
+    },
+    {
+     "word": "xuyên",
+     "start": 1.09,
+     "end": 1.31
+    },
+    {
+     "word": "thấu,",
+     "start": 1.31,
+     "end": 1.55
+    },
+    {
+     "word": "1",
+     "start": 1.91,
+     "end": 1.99
+    },
+    {
+     "word": "cây",
+     "start": 1.99,
+     "end": 2.13
+    },
+    {
+     "word": "nến",
+     "start": 2.13,
+     "end": 2.33
+    },
+    {
+     "word": "xanh",
+     "start": 2.33,
+     "end": 2.57
+    },
+    {
+     "word": "từ",
+     "start": 2.57,
+     "end": 2.79
+    },
+    {
+     "word": "dưới",
+     "start": 2.79,
+     "end": 3.03
+    },
+    {
+     "word": "đấm",
+     "start": 3.03,
+     "end": 3.19
+    },
+    {
+     "word": "xuyên",
+     "start": 3.19,
+     "end": 3.43
+    },
+    {
+     "word": "sâu",
+     "start": 3.43,
+     "end": 3.65
+    },
+    {
+     "word": "vào",
+     "start": 3.65,
+     "end": 3.79
+    },
+    {
+     "word": "thân",
+     "start": 3.79,
+     "end": 3.97
+    },
+    {
+     "word": "nến",
+     "start": 3.97,
+     "end": 4.15
+    },
+    {
+     "word": "đỏ",
+     "start": 4.15,
+     "end": 4.39
+    },
+    {
+     "word": "dài",
+     "start": 4.39,
+     "end": 4.63
+    },
+    {
+     "word": "trước",
+     "start": 4.63,
+     "end": 4.79
+    },
+    {
+     "word": "đó,",
+     "start": 4.79,
+     "end": 5.07
+    },
+    {
+     "word": "tùy",
+     "start": 5.47,
+     "end": 5.65
+    },
+    {
+     "word": "chưa",
+     "start": 5.65,
+     "end": 5.79
+    },
+    {
+     "word": "phủ",
+     "start": 5.79,
+     "end": 6.03
+    },
+    {
+     "word": "hết",
+     "start": 6.03,
+     "end": 6.27
+    },
+    {
+     "word": "nhưng",
+     "start": 6.27,
+     "end": 6.51
+    },
+    {
+     "word": "cho",
+     "start": 6.51,
+     "end": 6.67
+    },
+    {
+     "word": "thấy",
+     "start": 6.67,
+     "end": 6.87
+    },
+    {
+     "word": "1",
+     "start": 6.87,
+     "end": 7.01
+    },
+    {
+     "word": "sự",
+     "start": 7.01,
+     "end": 7.19
+    },
+    {
+     "word": "phản",
+     "start": 7.19,
+     "end": 7.41
+    },
+    {
+     "word": "công",
+     "start": 7.41,
+     "end": 7.57
+    },
+    {
+     "word": "rõ",
+     "start": 7.57,
+     "end": 7.79
+    },
+    {
+     "word": "rệt.",
+     "start": 7.79,
+     "end": 7.99
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "build": "nobrand",
+   "phase": "WHY",
+   "display": "Nhưng nhớ, một cây nến đẹp chưa phải là lệnh mua.",
+   "tts": "Nhưng nhớ, một cây nến đẹp chưa phải là lệnh mua.",
+   "main_idea": "nến đẹp chưa phải mua",
+   "enum_items": null,
+   "pause_after_ms": 350,
+   "speed": 1.0,
+   "duration_s": 3.792,
+   "word_timestamps": [
+    {
+     "word": "Nhưng",
+     "start": 0.6,
+     "end": 0.9
+    },
+    {
+     "word": "nhớ,",
+     "start": 0.9,
+     "end": 1.14
+    },
+    {
+     "word": "1",
+     "start": 1.58,
+     "end": 1.72
+    },
+    {
+     "word": "cây",
+     "start": 1.72,
+     "end": 1.9
+    },
+    {
+     "word": "nến",
+     "start": 1.9,
+     "end": 2.1
+    },
+    {
+     "word": "đẹp",
+     "start": 2.1,
+     "end": 2.36
+    },
+    {
+     "word": "chưa",
+     "start": 2.36,
+     "end": 2.52
+    },
+    {
+     "word": "phải",
+     "start": 2.52,
+     "end": 2.74
+    },
+    {
+     "word": "là",
+     "start": 2.74,
+     "end": 2.84
+    },
+    {
+     "word": "lệnh",
+     "start": 2.84,
+     "end": 3.0
+    },
+    {
+     "word": "mua.",
+     "start": 3.0,
+     "end": 3.22
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "build": "nobrand",
+   "phase": "WHY",
+   "display": "Giống như một con chuồn chuồn chưa chắc thành mưa, vị trí quan trọng hơn hình dạng, và hãy chờ thêm một cây xác nhận trước khi vào.",
+   "tts": "Giống như một con chuồn chuồn chưa chắc thành mưa, vị trí quan trọng hơn hình dạng, và hãy chờ thêm một cây xác nhận trước khi vào.",
+   "main_idea": "chờ cây xác nhận",
+   "enum_items": null,
+   "pause_after_ms": 600,
+   "speed": 1.0,
+   "duration_s": 7.32,
+   "word_timestamps": [
+    {
+     "word": "Lúc",
+     "start": 0.55,
+     "end": 0.95
+    },
+    {
+     "word": "như",
+     "start": 0.95,
+     "end": 1.13
+    },
+    {
+     "word": "1",
+     "start": 1.13,
+     "end": 1.27
+    },
+    {
+     "word": "con",
+     "start": 1.27,
+     "end": 1.39
+    },
+    {
+     "word": "chuồn",
+     "start": 1.39,
+     "end": 1.63
+    },
+    {
+     "word": "chuồn",
+     "start": 1.63,
+     "end": 1.91
+    },
+    {
+     "word": "chưa",
+     "start": 1.91,
+     "end": 2.09
+    },
+    {
+     "word": "chắc",
+     "start": 2.09,
+     "end": 2.29
+    },
+    {
+     "word": "thành",
+     "start": 2.29,
+     "end": 2.41
+    },
+    {
+     "word": "mưa,",
+     "start": 2.41,
+     "end": 2.67
+    },
+    {
+     "word": "vị",
+     "start": 3.15,
+     "end": 3.23
+    },
+    {
+     "word": "trí",
+     "start": 3.23,
+     "end": 3.43
+    },
+    {
+     "word": "quan",
+     "start": 3.43,
+     "end": 3.59
+    },
+    {
+     "word": "trọng",
+     "start": 3.59,
+     "end": 3.85
+    },
+    {
+     "word": "hơn",
+     "start": 3.85,
+     "end": 3.99
+    },
+    {
+     "word": "hình",
+     "start": 3.99,
+     "end": 4.13
+    },
+    {
+     "word": "dạng",
+     "start": 4.13,
+     "end": 4.75
+    },
+    {
+     "word": "và",
+     "start": 4.75,
+     "end": 4.89
+    },
+    {
+     "word": "hãy",
+     "start": 4.89,
+     "end": 5.03
+    },
+    {
+     "word": "trở",
+     "start": 5.03,
+     "end": 5.25
+    },
+    {
+     "word": "thêm",
+     "start": 5.25,
+     "end": 5.47
+    },
+    {
+     "word": "1",
+     "start": 5.47,
+     "end": 5.63
+    },
+    {
+     "word": "cây",
+     "start": 5.63,
+     "end": 5.81
+    },
+    {
+     "word": "xác",
+     "start": 5.81,
+     "end": 6.01
+    },
+    {
+     "word": "nhận",
+     "start": 6.01,
+     "end": 6.21
+    },
+    {
+     "word": "trước",
+     "start": 6.21,
+     "end": 6.39
+    },
+    {
+     "word": "khi",
+     "start": 6.39,
+     "end": 6.57
+    },
+    {
+     "word": "vào.",
+     "start": 6.57,
+     "end": 6.77
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "build": "nobrand",
+   "phase": "CTA",
+   "display": "Mở biểu đồ một mã bạn đang theo dõi trên KFSP, soi cây nến gần nhất xem có phải một trong năm mẫu này không.",
+   "tts": "Mở biểu đồ một mã bạn đang theo dõi trên Ca Ép Ét Bê, soi cây nến gần nhất xem có phải một trong năm mẫu này không.",
+   "main_idea": "mở biểu đồ tự soi",
+   "enum_items": null,
+   "pause_after_ms": 300,
+   "speed": 1.0,
+   "duration_s": 6.84,
+   "word_timestamps": [
+    {
+     "word": "Mở",
+     "start": 0.57,
+     "end": 0.97
+    },
+    {
+     "word": "biểu",
+     "start": 0.97,
+     "end": 1.09
+    },
+    {
+     "word": "đồ",
+     "start": 1.09,
+     "end": 1.29
+    },
+    {
+     "word": "1",
+     "start": 1.29,
+     "end": 1.43
+    },
+    {
+     "word": "mã,",
+     "start": 1.43,
+     "end": 1.65
+    },
+    {
+     "word": "bạn",
+     "start": 2.11,
+     "end": 2.11
+    },
+    {
+     "word": "đang",
+     "start": 2.11,
+     "end": 2.29
+    },
+    {
+     "word": "theo",
+     "start": 2.29,
+     "end": 2.43
+    },
+    {
+     "word": "dõi",
+     "start": 2.43,
+     "end": 2.71
+    },
+    {
+     "word": "trên",
+     "start": 2.71,
+     "end": 2.85
+    },
+    {
+     "word": "kế",
+     "start": 2.85,
+     "end": 3.07
+    },
+    {
+     "word": "bis,",
+     "start": 3.07,
+     "end": 3.41
+    },
+    {
+     "word": "xôi",
+     "start": 3.71,
+     "end": 3.89
+    },
+    {
+     "word": "cây",
+     "start": 3.89,
+     "end": 4.09
+    },
+    {
+     "word": "nến",
+     "start": 4.09,
+     "end": 4.31
+    },
+    {
+     "word": "gần",
+     "start": 4.31,
+     "end": 4.47
+    },
+    {
+     "word": "nhất",
+     "start": 4.47,
+     "end": 4.69
+    },
+    {
+     "word": "xem",
+     "start": 4.69,
+     "end": 4.93
+    },
+    {
+     "word": "có",
+     "start": 4.93,
+     "end": 5.09
+    },
+    {
+     "word": "phải",
+     "start": 5.09,
+     "end": 5.23
+    },
+    {
+     "word": "1",
+     "start": 5.23,
+     "end": 5.43
+    },
+    {
+     "word": "trong",
+     "start": 5.43,
+     "end": 5.57
+    },
+    {
+     "word": "5",
+     "start": 5.57,
+     "end": 5.75
+    },
+    {
+     "word": "mẫu",
+     "start": 5.75,
+     "end": 5.91
+    },
+    {
+     "word": "này",
+     "start": 5.91,
+     "end": 6.03
+    },
+    {
+     "word": "không?",
+     "start": 6.03,
+     "end": 6.21
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "build": "nobrand",
+   "phase": "CTA",
+   "display": "Follow để xem tiếp cách đọc điềm của thị trường, mỗi ngày một chút cho chắc nha.",
+   "tts": "Phô Lâu để xem tiếp cách đọc điềm của thị trường, mỗi ngày một chút cho chắc nha.",
+   "main_idea": "follow xem tiếp",
+   "enum_items": null,
+   "pause_after_ms": 0,
+   "speed": 1.0,
+   "duration_s": 5.28,
+   "word_timestamps": [
+    {
+     "word": "Follow",
+     "start": 0.63,
+     "end": 0.95
+    },
+    {
+     "word": "để",
+     "start": 0.95,
+     "end": 1.27
+    },
+    {
+     "word": "xem",
+     "start": 1.27,
+     "end": 1.51
+    },
+    {
+     "word": "tiếp",
+     "start": 1.51,
+     "end": 1.71
+    },
+    {
+     "word": "cách",
+     "start": 1.71,
+     "end": 1.91
+    },
+    {
+     "word": "độc",
+     "start": 1.91,
+     "end": 2.17
+    },
+    {
+     "word": "điểm",
+     "start": 2.17,
+     "end": 2.39
+    },
+    {
+     "word": "của",
+     "start": 2.39,
+     "end": 2.51
+    },
+    {
+     "word": "thị",
+     "start": 2.51,
+     "end": 2.65
+    },
+    {
+     "word": "trường",
+     "start": 2.65,
+     "end": 2.93
+    },
+    {
+     "word": "mỗi",
+     "start": 2.93,
+     "end": 3.51
+    },
+    {
+     "word": "ngày",
+     "start": 3.51,
+     "end": 3.71
+    },
+    {
+     "word": "1",
+     "start": 3.71,
+     "end": 3.87
+    },
+    {
+     "word": "chút",
+     "start": 3.87,
+     "end": 4.03
+    },
+    {
+     "word": "cho",
+     "start": 4.03,
+     "end": 4.15
+    },
+    {
+     "word": "chắc",
+     "start": 4.15,
+     "end": 4.33
+    },
+    {
+     "word": "nha.",
+     "start": 4.33,
+     "end": 4.49
+    }
+   ]
+  }
+ ]
+}

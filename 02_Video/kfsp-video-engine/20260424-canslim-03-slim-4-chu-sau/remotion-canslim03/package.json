@@ -1,0 +1,23 @@
+{
+  "name": "remotion-canslim03",
+  "version": "1.0.0",
+  "description": "CANSLIM #03 — SLIM = HIỆN TẠI (sentence-driven preview)",
+  "scripts": {
+    "studio": "npx remotion studio --port 3030",
+    "render:all": "for s in s01 s02 s03 s04 s05 s06 s07 s08 s09 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27; do npx remotion render Sentence-$s --output ../clips/$s.mp4 || break; done",
+    "build": "npx remotion bundle"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/google-fonts": "4.0.448",
+    "@remotion/player": "4.0.448",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.448",
+    "remotion-animated": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.5"
+  }
+}

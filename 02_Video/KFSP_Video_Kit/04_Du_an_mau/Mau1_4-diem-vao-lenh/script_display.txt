@@ -1,0 +1,13 @@
+s01  Bạn mua cổ phiếu xong là nó quay đầu, vừa bán xong thì nó tăng?
+s02  Vấn đề thường không phải con cổ phiếu, mà là bạn vào lệnh sai thời điểm.
+s03  Dân chuyên không mua đại, họ chờ giá rơi vào một trong bốn mẫu hình quen thuộc.
+s04  Một, phá vỡ: giá nén đi ngang lâu rồi bật mạnh qua vùng cản.
+s05  Đừng đuổi mà chờ nó kiểm tra lại rồi mới vào.
+s06  Hai, thuận xu hướng: giá đang lên, nghỉ một nhịp rồi đi tiếp.
+s07  Cứ chọn cổ phiếu khoẻ mà theo.
+s08  Ba, đảo chiều: giá hết hơi tạo hai đỉnh hoặc hai đáy.
+s09  Cái này khó nên chờ xác nhận rõ rồi hẵng vào.
+s10  Bốn, dấu chân dòng tiền lớn: có những vùng giá tổ chức lớn để lại dấu, giá quay về đó hay bật.
+s11  Chờ phản ứng, đừng mua giữa đường.
+s12  Nhận ra mẫu hình là một chuyện, chờ đúng điểm vào mới là thứ quyết định.
+s13  Follow để xem tiếp cách đọc điểm vào, còn muốn app tự lọc cổ phiếu khoẻ và nhắc bạn khi giá tới vùng thì có KFSP.

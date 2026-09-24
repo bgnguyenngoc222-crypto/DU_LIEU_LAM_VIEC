@@ -1,0 +1,75 @@
+{
+ "duration_s": 4.2,
+ "words": [
+  {
+   "word": "Thị",
+   "start": 0.64,
+   "end": 0.76
+  },
+  {
+   "word": "trường",
+   "start": 0.76,
+   "end": 1.0
+  },
+  {
+   "word": "cũng",
+   "start": 1.0,
+   "end": 1.16
+  },
+  {
+   "word": "nói",
+   "start": 1.16,
+   "end": 1.34
+  },
+  {
+   "word": "chuyện",
+   "start": 1.34,
+   "end": 1.58
+  },
+  {
+   "word": "với",
+   "start": 1.58,
+   "end": 1.7
+  },
+  {
+   "word": "mình",
+   "start": 1.7,
+   "end": 1.88
+  },
+  {
+   "word": "y",
+   "start": 1.88,
+   "end": 2.12
+  },
+  {
+   "word": "như",
+   "start": 2.12,
+   "end": 2.24
+  },
+  {
+   "word": "vậy,",
+   "start": 2.24,
+   "end": 2.4
+  },
+  {
+   "word": "quả",
+   "start": 2.82,
+   "end": 2.96
+  },
+  {
+   "word": "những",
+   "start": 2.96,
+   "end": 3.08
+  },
+  {
+   "word": "cây",
+   "start": 3.08,
+   "end": 3.26
+  },
+  {
+   "word": "nến.",
+   "start": 3.26,
+   "end": 3.5
+  }
+ ]
+}

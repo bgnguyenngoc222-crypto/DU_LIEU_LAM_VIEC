@@ -1,0 +1,66 @@
+{
+  "id": "s14",
+  "duration_s": 2.47,
+  "word_timestamps": [
+    {
+      "word": "Bấm",
+      "start": 0.05,
+      "end": 0.41
+    },
+    {
+      "word": "vào",
+      "start": 0.41,
+      "end": 0.53
+    },
+    {
+      "word": "các",
+      "start": 0.53,
+      "end": 0.71
+    },
+    {
+      "word": "tương",
+      "start": 0.71,
+      "end": 0.87
+    },
+    {
+      "word": "tích",
+      "start": 0.87,
+      "end": 0.99
+    },
+    {
+      "word": "để",
+      "start": 0.99,
+      "end": 1.15
+    },
+    {
+      "word": "xem",
+      "start": 1.15,
+      "end": 1.35
+    },
+    {
+      "word": "điểm",
+      "start": 1.35,
+      "end": 1.59
+    },
+    {
+      "word": "số",
+      "start": 1.59,
+      "end": 1.73
+    },
+    {
+      "word": "tình",
+      "start": 1.73,
+      "end": 1.99
+    },
+    {
+      "word": "khía",
+      "start": 1.99,
+      "end": 2.17
+    },
+    {
+      "word": "cạnh.",
+      "start": 2.17,
+      "end": 2.39
+    }
+  ]
+}

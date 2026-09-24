@@ -1,0 +1,10 @@
+<div
+                            style="background-color: #FDF2F8; border-radius: 20px; padding: 24px 20px; border: 1px solid #FBCFE8; box-shadow: 0 10px 25px rgba(219,39,119,0.05); font-family: 'Open Sans', Arial, sans-serif;">
+                            <p
+                              style="margin: 0; font-size: 13px; color: #111827; line-height: 1.6; text-align: center;">
+                              Bạn đã gieo hạt và chăm chút cái cây của mình qua giai đoạn tích lũy. Đừng nhổ nó lên ngay
+                              trước khi tán lá đủ rộng để che bóng mát, hãy để nó lớn lên và kết trái ngọt cho bạn qua
+                              từng mùa sóng của thị trường.
+                            </p>
+                          <img src="https://cdn.jsdelivr.net/gh/kfspteam/email-assets@main/2026_09_08_nhac_nho_10_ngay/app_list_ai_muaban.jpg" style="display: block; width: 100%; max-width: 260px; height: auto; border-radius: 8px; margin: 20px auto 0 auto;" alt="Danh sách các mã đang theo dõi và trạng thái lãi lỗ" />
+                          </div>

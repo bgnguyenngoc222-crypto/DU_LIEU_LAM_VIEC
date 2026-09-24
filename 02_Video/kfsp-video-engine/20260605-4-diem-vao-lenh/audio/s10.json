@@ -1,0 +1,121 @@
+{
+  "id": "s10",
+  "text": "Bốn nước dấu chân dòng tiền lớn có những vùng giá tổ chức lớn để lại dấu, giá quay về đó hay bật.",
+  "words": [
+    {
+      "word": "Bốn",
+      "start": 0.0,
+      "end": 0.18
+    },
+    {
+      "word": "nước",
+      "start": 0.18,
+      "end": 0.3
+    },
+    {
+      "word": "dấu",
+      "start": 0.3,
+      "end": 0.44
+    },
+    {
+      "word": "chân",
+      "start": 0.44,
+      "end": 0.66
+    },
+    {
+      "word": "dòng",
+      "start": 0.66,
+      "end": 0.86
+    },
+    {
+      "word": "tiền",
+      "start": 0.86,
+      "end": 1.08
+    },
+    {
+      "word": "lớn",
+      "start": 1.08,
+      "end": 1.38
+    },
+    {
+      "word": "có",
+      "start": 1.38,
+      "end": 1.66
+    },
+    {
+      "word": "những",
+      "start": 1.66,
+      "end": 1.82
+    },
+    {
+      "word": "vùng",
+      "start": 1.82,
+      "end": 2.06
+    },
+    {
+      "word": "giá",
+      "start": 2.06,
+      "end": 2.32
+    },
+    {
+      "word": "tổ",
+      "start": 2.32,
+      "end": 2.5
+    },
+    {
+      "word": "chức",
+      "start": 2.5,
+      "end": 2.7
+    },
+    {
+      "word": "lớn",
+      "start": 2.7,
+      "end": 2.96
+    },
+    {
+      "word": "để",
+      "start": 2.96,
+      "end": 3.06
+    },
+    {
+      "word": "lại",
+      "start": 3.06,
+      "end": 3.26
+    },
+    {
+      "word": "dấu,",
+      "start": 3.26,
+      "end": 3.54
+    },
+    {
+      "word": "giá",
+      "start": 3.88,
+      "end": 4.02
+    },
+    {
+      "word": "quay",
+      "start": 4.02,
+      "end": 4.26
+    },
+    {
+      "word": "về",
+      "start": 4.26,
+      "end": 4.4
+    },
+    {
+      "word": "đó",
+      "start": 4.4,
+      "end": 4.56
+    },
+    {
+      "word": "hay",
+      "start": 4.56,
+      "end": 4.72
+    },
+    {
+      "word": "bật.",
+      "start": 4.72,
+      "end": 4.9
+    }
+  ]
+}

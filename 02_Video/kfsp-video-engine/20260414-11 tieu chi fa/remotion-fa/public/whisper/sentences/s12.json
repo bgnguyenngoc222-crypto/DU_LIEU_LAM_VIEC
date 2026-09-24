@@ -1,0 +1,76 @@
+{
+  "id": "s12",
+  "duration_s": 3.37,
+  "word_timestamps": [
+    {
+      "word": "Bấm",
+      "start": 0.05,
+      "end": 0.31
+    },
+    {
+      "word": "thẳng",
+      "start": 0.31,
+      "end": 0.59
+    },
+    {
+      "word": "vào",
+      "start": 0.59,
+      "end": 0.73
+    },
+    {
+      "word": "tình",
+      "start": 0.73,
+      "end": 0.97
+    },
+    {
+      "word": "điểm",
+      "start": 0.97,
+      "end": 1.17
+    },
+    {
+      "word": "trên",
+      "start": 1.17,
+      "end": 1.29
+    },
+    {
+      "word": "gia",
+      "start": 1.29,
+      "end": 1.53
+    },
+    {
+      "word": "đa,",
+      "start": 1.53,
+      "end": 1.77
+    },
+    {
+      "word": "áp",
+      "start": 2.23,
+      "end": 2.37
+    },
+    {
+      "word": "hiện",
+      "start": 2.37,
+      "end": 2.51
+    },
+    {
+      "word": "luôn",
+      "start": 2.51,
+      "end": 2.61
+    },
+    {
+      "word": "điểm",
+      "start": 2.61,
+      "end": 2.89
+    },
+    {
+      "word": "thành",
+      "start": 2.89,
+      "end": 3.03
+    },
+    {
+      "word": "phần.",
+      "start": 3.03,
+      "end": 3.29
+    }
+  ]
+}

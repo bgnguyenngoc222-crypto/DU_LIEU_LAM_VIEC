@@ -1,0 +1,41 @@
+{
+  "id": "s07",
+  "text": "Cứ chọn cổ phiếu khỏe mà theo.",
+  "words": [
+    {
+      "word": "Cứ",
+      "start": 0.0,
+      "end": 0.12
+    },
+    {
+      "word": "chọn",
+      "start": 0.12,
+      "end": 0.36
+    },
+    {
+      "word": "cổ",
+      "start": 0.36,
+      "end": 0.56
+    },
+    {
+      "word": "phiếu",
+      "start": 0.56,
+      "end": 0.76
+    },
+    {
+      "word": "khỏe",
+      "start": 0.76,
+      "end": 1.06
+    },
+    {
+      "word": "mà",
+      "start": 1.06,
+      "end": 1.22
+    },
+    {
+      "word": "theo.",
+      "start": 1.22,
+      "end": 1.4
+    }
+  ]
+}

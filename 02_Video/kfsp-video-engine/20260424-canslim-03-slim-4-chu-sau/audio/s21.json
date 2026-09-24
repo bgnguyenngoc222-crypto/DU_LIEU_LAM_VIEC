@@ -1,0 +1,71 @@
+{
+  "id": "s21",
+  "duration_s": 4.336,
+  "word_timestamps": [
+    {
+      "word": "Đó",
+      "start": 0.0,
+      "end": 0.18
+    },
+    {
+      "word": "là",
+      "start": 0.18,
+      "end": 0.32
+    },
+    {
+      "word": "lý",
+      "start": 0.32,
+      "end": 0.52
+    },
+    {
+      "word": "do,",
+      "start": 0.52,
+      "end": 0.76
+    },
+    {
+      "word": "ôn",
+      "start": 1.22,
+      "end": 1.54
+    },
+    {
+      "word": "đình",
+      "start": 1.54,
+      "end": 1.66
+    },
+    {
+      "word": "bỏng,",
+      "start": 1.66,
+      "end": 2.26
+    },
+    {
+      "word": "mời",
+      "start": 2.26,
+      "end": 2.5
+    },
+    {
+      "word": "là",
+      "start": 2.5,
+      "end": 2.66
+    },
+    {
+      "word": "chữ",
+      "start": 2.66,
+      "end": 2.92
+    },
+    {
+      "word": "quan",
+      "start": 2.92,
+      "end": 3.08
+    },
+    {
+      "word": "trọng",
+      "start": 3.08,
+      "end": 3.44
+    },
+    {
+      "word": "nhất.",
+      "start": 3.44,
+      "end": 3.56
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[s01 | pause_after=300 | speed=1.0]
+Bạn mua cổ phiếu xong là nó quay đầu, vừa bán xong thì nó tăng?
+
+[s02 | pause_after=700 | speed=1.0]
+Vấn đề thường không phải con cổ phiếu, mà là bạn vào lệnh sai thời điểm.
+
+[s03 | pause_after=600 | speed=1.0]
+Dân chuyên không mua đại, họ chờ giá rơi vào một trong bốn mẫu hình quen thuộc.
+
+[s04 | pause_after=200 | speed=1.0]
+Một, phá vỡ: giá nén đi ngang lâu, rồi bật mạnh qua vùng cản.
+
+[s05 | pause_after=400 | speed=1.0]
+Đừng đuổi, mà chờ nó kiểm tra lại rồi mới vào.
+
+[s06 | pause_after=200 | speed=1.0]
+Hai, thuận xu hướng: giá đang lên, nghỉ một nhịp rồi đi tiếp.
+
+[s07 | pause_after=400 | speed=1.0]
+Cứ chọn cổ phiếu khoẻ mà theo.
+
+[s08 | pause_after=200 | speed=1.0]
+Ba, đảo chiều: giá hết hơi, tạo hai đỉnh hoặc hai đáy.
+
+[s09 | pause_after=400 | speed=1.0]
+Cái này khó, nên chờ xác nhận rõ rồi hẵng vào.
+
+[s10 | pause_after=200 | speed=1.0]
+Bốn, dấu chân dòng tiền lớn: có những vùng giá tổ chức lớn để lại dấu, giá quay về đó hay bật.
+
+[s11 | pause_after=600 | speed=1.0]
+Chờ phản ứng, đừng mua giữa đường.
+
+[s12 | pause_after=400 | speed=1.0]
+Nhận ra mẫu hình là một chuyện, chờ đúng điểm vào mới là thứ quyết định.
+
+[s13 | pause_after=0 | speed=1.0]
+Phô Lâu để xem tiếp cách đọc điểm vào, còn muốn áp tự lọc cổ phiếu khoẻ và nhắc bạn khi giá tới vùng, thì có Ca Ép Ét Bê.

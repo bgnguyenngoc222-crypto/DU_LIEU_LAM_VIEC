@@ -1,0 +1,47 @@
+# Mục lục ý tưởng của ngoc
+
+> Mới nhất trên cùng. Chỉ bạn ghi vào file này. Không ghi vào `INDEX.md` chung.
+
+**Dãy mã của tôi:** `IF-2026-ngoc-###`. File tiếp theo lấy số lớn nhất trong bảng dưới cộng một. Bắt đầu từ `001`.
+
+| ID | Nguồn | Fit | Ý chính (ngắn) | Angles | Đã đẻ ra | Status | File |
+|---|---|:-:|---|:-:|---|---|---|
+| IF-2026-ngoc-036 | Người phán xử cho linh cảm cá nhân | 4/4 | Đừng đặt lệnh theo linh cảm, cần công cụ khách quan làm "người phán xử" để cross-check. | 1 | Chưa | draft | [IF-2026-ngoc-036](IF-2026-ngoc-036-nguoi-phan-xu.md) |
+| IF-2026-ngoc-035 | Kho kiến thức không dùng được | 4/4 | Tích lũy lý thuyết huyền thoại không giúp ích nếu không biết dùng đúng lúc. Lợi thế thật ở hệ thống giúp hành động. | 1 | Fanpage 1 bài (published) | published | [IF-2026-ngoc-035](IF-2026-ngoc-035-kho-kien-thuc-khong-dung-duoc.md) |
+| IF-2026-ngoc-034 | Góc độ vận hành: Xóa sổ sự lắt nhắt | 4/4 | Thị trường không trả tiền cho sự bận rộn mù quáng, cần dùng radar thay vì cày cuốc. | 1 | Chưa | draft | [IF-2026-ngoc-034](IF-2026-ngoc-034-xoa-so-lat-nhat.md) |
+| IF-2026-ngoc-033 | Nhá hàng danh sách "Chờ xác nhận" | 4/4 | Nhá hàng teaser danh sách mã đang nằm trong trạng thái Chờ xác nhận để kích thích tò mò. | 1 | Fanpage 1 bài (draft) | draft | [IF-2026-ngoc-033](IF-2026-ngoc-033-teaser-cho-xac-nhan.md) |
+| IF-2026-ngoc-032 | Nghịch lý đám đông - Chuẩn bị khi thị trường ảm đạm | 4/4 | Khi phần lớn NĐT chán nản rời bỏ bảng điện, bạn trang bị vũ khí để trở thành số ít sống sót. | 1 | Fanpage 1 bài (draft) | draft | [IF-2026-ngoc-032](IF-2026-ngoc-032-nghich-ly-dam-dong.md) |
+| IF-2026-ngoc-031 | Social Proof - Đãi cát tìm vàng | 4/4 | Review lại danh mục mã "vàng trong cát" mà KFSP lọc được để chứng minh sức mạnh của radar. | 1 | Fanpage 1 bài (draft) | draft | [IF-2026-ngoc-031](IF-2026-ngoc-031-social-proof-vang-trong-cat.md) |
+| IF-2026-ngoc-030 | Hội chứng FOMO nửa vời | 4/4 | Hội chứng FOMO nửa vời khiến NĐT tê liệt. Cơ Hội Tiềm Năng giải mã để vượt qua vòng lặp. | 1 | Fanpage 1 bài (draft) | draft | [IF-2026-ngoc-030](IF-2026-ngoc-030-fomo-nua-voi.md) |
+| IF-2026-ngoc-029 | Bài toán 19k/ngày thuê trợ lý AI | 4/4 | 19k/ngày là tiền lương thuê AI cày cuốc 24/7 để lọc mã, giúp bạn rảnh rang buổi tối. | 1 | Fanpage 1 bài (draft) | draft | [IF-2026-ngoc-029](IF-2026-ngoc-029-bai-toan-19k-ngay.md) |
+| IF-2026-ngoc-028 | Sự nguy hiểm của những lời tư vấn đầu tư miễn phí | 4/4 | Bám víu vào những lời tư vấn miễn phí là cách nhanh nhất để cháy tài khoản giữa lúc thị trường khó nhằn. | 1 | Fanpage 1 bài (draft) | draft | [IF-2026-ngoc-028](IF-2026-ngoc-028-loi-tu-van-dau-tu-mien-phi.md) |
+| IF-2026-ngoc-027 | Sinh nhật: Đầu tư thảnh thơi nhờ kịch bản sẵn | 4/4 | Đầu tư thảnh thơi đến từ việc có sẵn kịch bản (Cơ Hội Tiềm Năng) chứ không phải canh bảng. | 1 | Fanpage 1 bài (published) | published | Chưa tạo |
+| IF-2026-ngoc-026 | Sinh nhật: Giữ lỗ không phải kiên nhẫn | 4/4 | Cắt lỗ là giải phóng vốn để tìm cơ hội mới thông qua radar KFSP. | 1 | Fanpage 1 bài (published), Video (published) | published | Chưa tạo |
+| IF-2026-ngoc-025 | Sinh nhật: Nghịch lý thị trường nhiễu loạn | 4/4 | Thị trường nguy hiểm vì nhiễu loạn, cần radar AI để cô lập tín hiệu và đo lường khoảng cách điểm nổ. | 1 | Fanpage 1 bài (published) | published | Chưa tạo |
+| IF-2026-ngoc-024 | Sinh nhật: Thực chiến 1 mã đi ngược bão | 4/4 | Radar AI khách quan tóm gọn mầm sống đi ngược bão mà mắt thường dễ bỏ sót. | 1 | Fanpage 1 bài (published) | published | [IF-2026-ngoc-024](IF-2026-ngoc-024-thuc-chien-co-hoi-di-nguoc-bao.md) |
+| IF-2026-ngoc-023 | Sinh nhật: Cơ hội hay cạm bẫy? (14k/ngày) | 4/4 | Bỏ 14k/ngày "thuê" AI là khoản bảo hiểm sinh tồn rẻ nhất so với việc mất tiền oan. | 1 | Fanpage 1 bài (published), Video (in_progress) | published | [IF-2026-ngoc-023](IF-2026-ngoc-023-bai-toan-14k-ngay.md) |
+| IF-2026-ngoc-022 | Content Fanpage: Tiếc chi phí công cụ | 4/4 | Tiếc tiền mua radar khách quan nhưng dễ dãi phím hàng; Cơ Hội Tiềm Năng của KFSP giúp bạn tiết kiệm thời gian lọc. | 1 | Fanpage 1 bài (published), Video (published) | published | [IF-2026-ngoc-022](IF-2026-ngoc-022-tiec-chi-phi-cong-cu.md) |
+| IF-2026-ngoc-021 | Chuỗi Teasing Sinh nhật (26-27/08) | 4/4 | Kỷ luật đắt giá hơn cảm xúc, 14k/ngày cứu bạn khỏi khoản lỗ chục triệu. | 4 | Fanpage 4 bài (draft) | draft | [IF-2026-ngoc-021](IF-2026-ngoc-021-teasing-sinh-nhat.md) |
+| IF-2026-ngoc-020 | Tự quét thủ công 1.700 mã — chi phí ẩn | 4/4 | Tự quét tay không phải kỷ luật mà là chi phí ẩn; kỷ luật thật là ủy thác đúng chỗ. | 1 | Fanpage 1 bài (draft) | draft | [IF-2026-ngoc-020](IF-2026-ngoc-020-tu-quet-thu-cong-ton-kem.md) |
+| IF-2026-ngoc-019 | Mẫu hình chờ xác nhận — kế hoạch trước khi thị trường gật đầu | 4/4 | Cơ hội thực sự nằm ở danh sách Chờ xác nhận, trước khi đám đông kéo chú ý. | 1 | Fanpage 1 bài (draft) | draft | [IF-2026-ngoc-019](IF-2026-ngoc-019-mau-hinh-cho-xac-nhan.md) |
+| IF-2026-ngoc-018 | Hé lộ dữ liệu tiềm năng VNM | 4/4 | Dùng bộ chỉ số chuyên sâu để phát hiện biên LN mở rộng của VNM. | 1 | Fanpage 1 bài (draft) | draft | [IF-2026-ngoc-018](IF-2026-ngoc-018-case-study-vnm.md) |
+| IF-2026-ngoc-017 | TA trong Downtrend | 4/4 | Dùng TA đo đạc trong downtrend vô ích, để Cơ hội tiềm năng lọc mã ngược dòng. | 1 | Fanpage 1 bài (draft) | draft | [IF-2026-ngoc-017](IF-2026-ngoc-017-ta-trong-downtrend.md) |
+| IF-2026-ngoc-016 | 3 Dạng phân tích cơ bản | 4/4 | Cần kết hợp FA (sức khỏe), TA (điểm mua) và Tâm lý (đám đông) để tránh mua hớ. | 1 | Fanpage 1 bài (draft) | draft | [IF-2026-ngoc-016](IF-2026-ngoc-016-3-dang-phan-tich.md) |
+| IF-2026-ngoc-015 | Nến đảo chiều khi giá tăng dốc | 4/4 | Khi giá tăng nóng, nến đảo chiều cảnh báo lực bán đang xả hàng chốt lời. | 1 | Chưa | draft | [IF-2026-ngoc-015](IF-2026-ngoc-015-nen-dao-chieu.md) |
+| IF-2026-ngoc-014 | Ý tưởng: Xác định biên an toàn | 4/4 | Mua cổ phiếu giá rẻ dễ dính bẫy nợ vay, cần dùng KFSP đánh giá biên an toàn. | 1 | Fanpage 1 bài (published) | published | [IF-2026-ngoc-014](IF-2026-ngoc-014-bien-an-toan.md) |
+| IF-2026-ngoc-013 | Sếp chốt: Sự mỏng manh của các ngưỡng hỗ trợ | 4/4 | Dùng chấm điểm 4M & CANSLIM thay vì dò đáy khi thị trường gãy hỗ trợ | 1 | Fanpage 1 bài (published) | published | [IF-2026-ngoc-013](IF-2026-ngoc-013-mong-manh-ho-tro.md) |
+| IF-2026-ngoc-012 | Thắc mắc khách hàng: Chờ xác nhận và Cách break -2,5% | 4/4 | Trạng thái Chờ xác nhận và Cách break là bản đồ trạng thái giúp theo dõi mốc bứt phá tự động | 1 | Fanpage 1 bài (draft) | draft | [IF-2026-ngoc-012](IF-2026-ngoc-012-cho-xac-nhan-cach-break.md) |
+| IF-2026-ngoc-011 | Stanley Druckenmiller: Bồn chồn vì đám đông khoe lãi | 4/4 | Bài học từ Stanley Druckenmiller về sự kiêu hãnh và rủi ro mua đuổi. Chờ xác nhận mẫu hình thay vì mua đuổi. | 1 | Fanpage 1 bài (published) | published | Chưa tạo |
+| IF-2026-ngoc-010 | Jesse Livermore: Tại sao liên tục trả lại tiền cho thị trường? | 4/4 | Bài học vô kỷ luật từ Jesse Livermore và bộ 3 công cụ (IBD, 4M, Quản lý giao dịch) làm mỏ neo kỷ luật. | 1 | Fanpage 1 bài (published), Video (in_progress) | published | Chưa tạo |
+| IF-2026-ngoc-009 | Warren Buffett: Hành động theo cảm xúc, sự trả giá hàng trăm tỷ | 4/4 | Bài học bốc đồng của Buffett và tính năng Cơ Hội Tiềm Năng làm điểm tựa khách quan miễn nhiễm cảm xúc. | 1 | Fanpage 1 bài (published) | published | Chưa tạo |
+| IF-2026-ngoc-008 | "Cơ hội thật" khác thứ trông giống cơ hội | 4/4 | Lợi thế thật gồm 3 dấu hiệu: tới sớm, kiểm được, kịp lên kế hoạch; KFSP rút ngắn quãng đường rà soát | 1 | Fanpage 1 bài (published) | published | [IF-2026-ngoc-008](IF-2026-ngoc-008-co-hoi-that-de-lai-loi-the.md) |
+| IF-2026-ngoc-007 | William O'Neil: Bí quyết "Đãi cát tìm vàng" | 4/4 | Dấu chân mẫu hình tích lũy và chuyển giao việc lọc tay cho công nghệ AI Cơ Hội Tiềm Năng | 1 | Fanpage 1 bài (published) | published | [IF-2026-ngoc-007](IF-2026-ngoc-007-william-oneil-dai-cat-tim-vang.md) |
+| IF-2026-ngoc-006 | Albert Einstein: Trong trung tâm của khó khăn luôn ẩn giấu cơ hội | 4/4 | Cơ hội lớn ẩn mình trong khó khăn, cần công cụ định lượng & mẫu hình đảo chiều thay vì liều lĩnh | 1 | Fanpage 1 bài (published) | published | [IF-2026-ngoc-006](IF-2026-ngoc-006-einstein-kho-khan-co-hoi.md) |
+| IF-2026-ngoc-005 | Teasing tính năng mới "Cơ Hội Tiềm Năng" | 4/4 | Kể từ ngày mai không cần tự tay lọc 1.700 mã, hãy để KFSP tự động hóa quét mẫu hình & AI giao dịch | 1 | Fanpage 1 bài (in_review) | in_review | [IF-2026-ngoc-005](IF-2026-ngoc-005-teasing-co-hoi-tiem-nang.md) |
+| IF-2026-ngoc-004 | Triết lý Warren Buffett: Tham lam khi người khác sợ hãi | 4/4 | "Tham lam khi người khác sợ hãi" dựa trên năng lực định giá và lọc mã chiết khấu an toàn | 1 | Fanpage 1 bài (published) | published | [IF-2026-ngoc-004](IF-2026-ngoc-004-warren-buffett-so-hai-tham-lam.md) |
+| IF-2026-ngoc-003 | Triết lý John Templeton về sự bi quan | 4/4 | Thị trường bi quan là lúc lọc cổ phiếu có sức mạnh tương đối RS tốt hơn thị trường | 1 | Fanpage 1 bài, Infographic 1 bài (published) | published | [IF-2026-ngoc-003](IF-2026-ngoc-003-john-templeton-bi-quan.md) |
+| IF-2026-ngoc-001 | F0 20 tuổi hỏi mua mã nào tích sản 10 năm | 4/4 | Không có mã tăng đều nhất 10 năm; lợi thế ở bộ tiêu chí tự chọn và tầm soát định kỳ | 1 | Fanpage 1 bài (in_production) | in_production | [IF-2026-ngoc-001](IF-2026-ngoc-001-tich-san-10-nam.md) |
+
+---
+
+**Nhắc:** `git pull` trước khi bắt đầu buổi làm việc, để thấy idea đồng nghiệp vừa thêm và không làm trùng chủ đề.

@@ -1,0 +1,56 @@
+{
+  "id": "s27",
+  "duration_s": 3.997,
+  "word_timestamps": [
+    {
+      "word": "tại",
+      "start": 0.0,
+      "end": 0.18
+    },
+    {
+      "word": "ca",
+      "start": 0.18,
+      "end": 0.36
+    },
+    {
+      "word": "MSP",
+      "start": 0.36,
+      "end": 1.02
+    },
+    {
+      "word": "này,",
+      "start": 1.02,
+      "end": 1.24
+    },
+    {
+      "word": "lọc",
+      "start": 1.62,
+      "end": 2.14
+    },
+    {
+      "word": "của",
+      "start": 2.14,
+      "end": 2.26
+    },
+    {
+      "word": "phiếu",
+      "start": 2.26,
+      "end": 2.56
+    },
+    {
+      "word": "theo",
+      "start": 2.56,
+      "end": 2.7
+    },
+    {
+      "word": "Khan",
+      "start": 2.7,
+      "end": 2.96
+    },
+    {
+      "word": "Slim.",
+      "start": 2.96,
+      "end": 3.24
+    }
+  ]
+}

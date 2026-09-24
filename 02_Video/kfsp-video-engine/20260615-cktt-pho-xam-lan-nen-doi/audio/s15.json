@@ -1,0 +1,95 @@
+{
+ "duration_s": 4.488,
+ "words": [
+  {
+   "word": "Mình",
+   "start": 0.3,
+   "end": 0.64
+  },
+  {
+   "word": "cùng",
+   "start": 0.64,
+   "end": 0.82
+  },
+  {
+   "word": "nhìn",
+   "start": 0.82,
+   "end": 1.04
+  },
+  {
+   "word": "vào",
+   "start": 1.04,
+   "end": 1.18
+  },
+  {
+   "word": "bốn",
+   "start": 1.18,
+   "end": 1.34
+  },
+  {
+   "word": "mẫu",
+   "start": 1.34,
+   "end": 1.52
+  },
+  {
+   "word": "hình,",
+   "start": 1.52,
+   "end": 1.72
+  },
+  {
+   "word": "đại",
+   "start": 2.2,
+   "end": 2.3
+  },
+  {
+   "word": "diện",
+   "start": 2.3,
+   "end": 2.56
+  },
+  {
+   "word": "cho",
+   "start": 2.56,
+   "end": 2.7
+  },
+  {
+   "word": "bốn",
+   "start": 2.7,
+   "end": 2.92
+  },
+  {
+   "word": "mức",
+   "start": 2.92,
+   "end": 3.06
+  },
+  {
+   "word": "xâm",
+   "start": 3.06,
+   "end": 3.24
+  },
+  {
+   "word": "lấn",
+   "start": 3.24,
+   "end": 3.44
+  },
+  {
+   "word": "từ",
+   "start": 3.44,
+   "end": 3.62
+  },
+  {
+   "word": "nhẹ",
+   "start": 3.62,
+   "end": 3.86
+  },
+  {
+   "word": "tới",
+   "start": 3.86,
+   "end": 4.04
+  },
+  {
+   "word": "mạnh.",
+   "start": 4.04,
+   "end": 4.2
+  }
+ ]
+}

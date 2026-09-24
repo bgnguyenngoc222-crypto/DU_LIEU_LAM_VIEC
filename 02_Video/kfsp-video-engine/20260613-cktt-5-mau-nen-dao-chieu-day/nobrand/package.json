@@ -1,0 +1,8 @@
+{
+  "name": "remotion-5-mau-nen",
+  "version": "1.0.0",
+  "scripts": {
+    "studio": "npx remotion studio --port=3021",
+    "render": "npx remotion render Main out/final.mp4"
+  }
+}

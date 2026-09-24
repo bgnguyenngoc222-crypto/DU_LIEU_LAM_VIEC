@@ -1,0 +1,44 @@
+[s01 | pause_before=0 | pause_after=400 | speed=0.9]
+Làm video bằng cốt đang có hai trường phái, dân làm nội dung nên biết.
+
+[s02 | pause_before=0 | pause_after=300 | speed=0.9]
+Trường phái một là Ri-mâu-sần: bạn viết Ri-ác, máy dựng thành video.
+
+[s03 | pause_before=0 | pause_after=500 | speed=0.9]
+Đây cũng là thứ Ca Ép Ét Bê đang dùng cho video kể chuyện.
+
+[s04 | pause_before=0 | pause_after=300 | speed=0.9]
+Trường phái hai là Hai-pơ Frêm, mới ra của Hây Gen.
+
+[s05 | pause_before=0 | pause_after=500 | speed=0.9]
+Bạn chỉ cần viết Hát Tê Em Lờ thuần, máy ren-đơ thành video.
+
+[s06 | pause_before=0 | pause_after=300 | speed=0.9]
+Khác nhau cốt lõi nằm ở chỗ: bạn viết bằng gì.
+
+[s07 | pause_before=0 | pause_after=300 | speed=0.9]
+Ri-mâu-sần viết Ri-ác, rất mạnh nhưng cần dân lập trình.
+
+[s08 | pause_before=0 | pause_after=300 | speed=0.9]
+Hai-pơ Frêm viết Hát Tê Em Lờ, mà Ây Ai thì viết Hát Tê Em Lờ cực chuẩn.
+
+[s09 | pause_before=0 | pause_after=500 | speed=0.9]
+Nên để Ây Ai tự dựng video, Hai-pơ Frêm nhanh và ít sai hơn.
+
+[s10 | pause_before=0 | pause_after=300 | speed=0.9]
+Vậy hai cái này có kết hợp được không? Có chứ.
+
+[s11 | pause_before=0 | pause_after=500 | speed=0.9]
+Cả hai đều xuất ra video chuẩn, ghép lại với nhau được.
+
+[s12 | pause_before=0 | pause_after=250 | speed=0.9]
+Ca Ép Ét Bê đi hai đường ray: Ri-mâu-sần cho video công phu.
+
+[s13 | pause_before=0 | pause_after=400 | speed=0.9]
+Còn Hai-pơ Frêm cho cạc đồ hoạ làm nhanh hàng loạt.
+
+[s14 | pause_before=0 | pause_after=500 | speed=0.9]
+Một bộ công cụ, hai thế mạnh, không phải chọn một bỏ một.
+
+[s15 | pause_before=0 | pause_after=0 | speed=0.9]
+Và video bạn đang xem, do chính Hai-pơ Frêm cộng giọng mình dựng ra.

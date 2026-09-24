@@ -1,0 +1,13 @@
+📝 Input length: 846 chars
+🎤 Voice: n_hanam_male_kfspthanh20260411135755079_education_vc
+⏱  Speed rate: 0.9
+⏳ Submitting to Vbee...
+✅ Request ID: 21d13d85-87d0-4403-9a29-71e4c04c1886
+   [1] status=IN_PROGRESS progress=0%
+   [2] status=IN_PROGRESS progress=0%
+   [3] status=IN_PROGRESS progress=0%
+   [4] status=IN_PROGRESS progress=0%
+   [5] status=SUCCESS progress=100%
+🎧 Audio URL: https://vbee.vn/s/21d13d85-87d0-4403-9a29-71e4c04c1886/41346072-c3ad-4689-b370-301298577ec1
+⬇️  Downloading...
+✅ Saved: voice-drafts/draft_1_thanh.mp3 (663981 bytes, 41.472000s)

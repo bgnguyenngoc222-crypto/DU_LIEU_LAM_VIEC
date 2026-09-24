@@ -1,0 +1,80 @@
+{
+ "duration_s": 3.792,
+ "words": [
+  {
+   "word": "Không",
+   "start": 0.36,
+   "end": 0.54
+  },
+  {
+   "word": "hề",
+   "start": 0.54,
+   "end": 0.76
+  },
+  {
+   "word": "có",
+   "start": 0.76,
+   "end": 0.88
+  },
+  {
+   "word": "công",
+   "start": 0.88,
+   "end": 1.02
+  },
+  {
+   "word": "nghệ,",
+   "start": 1.02,
+   "end": 1.28
+  },
+  {
+   "word": "chỉ",
+   "start": 1.68,
+   "end": 1.82
+  },
+  {
+   "word": "có",
+   "start": 1.82,
+   "end": 2.0
+  },
+  {
+   "word": "những",
+   "start": 2.0,
+   "end": 2.14
+  },
+  {
+   "word": "bài",
+   "start": 2.14,
+   "end": 2.3
+  },
+  {
+   "word": "học",
+   "start": 2.3,
+   "end": 2.44
+  },
+  {
+   "word": "đúc",
+   "start": 2.44,
+   "end": 2.66
+  },
+  {
+   "word": "kết",
+   "start": 2.66,
+   "end": 2.86
+  },
+  {
+   "word": "từ",
+   "start": 2.86,
+   "end": 3.04
+  },
+  {
+   "word": "tổn",
+   "start": 3.04,
+   "end": 3.28
+  },
+  {
+   "word": "thất,",
+   "start": 3.28,
+   "end": 3.44
+  }
+ ]
+}

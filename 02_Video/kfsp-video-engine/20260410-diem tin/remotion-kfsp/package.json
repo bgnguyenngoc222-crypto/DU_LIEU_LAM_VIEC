@@ -1,0 +1,26 @@
+{
+  "name": "remotion-kfsp-diemtin",
+  "version": "1.0.0",
+  "description": "Video Điểm Tin KFSP — Automated market news video with Remotion",
+  "scripts": {
+    "studio": "npx remotion studio",
+    "render": "npx remotion render DiemTin",
+    "render:today": "npx remotion render DiemTin --props=./data/today.json --output=output/today.mp4",
+    "build": "npx remotion bundle",
+    "upgrade": "npx remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/player": "4.0.448",
+    "@remotion/transitions": "4.0.448",
+    "@remotion/tailwind": "4.0.448",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.448"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.5",
+    "tailwindcss": "^3.4.0"
+  }
+}

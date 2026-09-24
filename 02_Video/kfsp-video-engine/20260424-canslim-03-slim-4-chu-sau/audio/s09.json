@@ -1,0 +1,26 @@
+{
+  "id": "s09",
+  "duration_s": 2.116,
+  "word_timestamps": [
+    {
+      "word": "Sợ,",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "word": "cung",
+      "start": 0.82,
+      "end": 0.98
+    },
+    {
+      "word": "vật",
+      "start": 0.98,
+      "end": 1.16
+    },
+    {
+      "word": "cầu.",
+      "start": 1.16,
+      "end": 1.42
+    }
+  ]
+}

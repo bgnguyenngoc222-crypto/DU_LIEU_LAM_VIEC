@@ -1,0 +1,214 @@
+# Hướng dẫn tạo link theo dõi KFSP
+
+Dành cho nhân viên Marketing, Sale và CS. Ngày cập nhật 28/08/2026.
+
+Mọi link KFSP gửi ra ngoài (bài fanpage, tiểu sử TikTok, tin nhắn Zalo, thư điện tử, mã QR) đều phải đi qua địa chỉ `link.kfsp.vn`. Người dùng bấm vào link, hệ thống ghi một dòng vào Google Sheet rồi chuyển tiếp sang địa chỉ đích trong chưa tới một giây. Link không đi qua `link.kfsp.vn` thì không có cách nào biết bài nào, kênh nào mang lại lượt bấm.
+
+Toàn bộ số liệu và cách gọi trong bản này đã gọi thử thật ngày 28/08/2026, kết quả ghi ở mục 8.
+
+---
+
+## 1. Hai dạng link đang chạy được
+
+| Dạng | Khuôn địa chỉ | Dùng khi |
+|---|---|---|
+| Link ngắn | `https://link.kfsp.vn/webhook/s?slug=TEN-NGAN` | Bài fanpage, tiểu sử TikTok, tin nhắn Zalo, mã QR. Phải khai trước một dòng trong Google Sheet |
+| Link dài | `https://link.kfsp.vn/webhook/email-click?src=NGUON&c=CHIENDICH&plan=CTA&r=DIACHIDICH` | Thư điện tử, nút bấm trên trang web, hoặc khi cần link ngay mà chưa kịp khai Sheet |
+
+Chỉ hai khuôn trên là dùng được. Khuôn `https://link.kfsp.vn/p/TEN-NGAN` từng ghi trong tài liệu cũ hiện mở ra báo mã 404, không được dùng.
+
+Cả hai dạng cùng ghi vào một Google Sheet, xem báo cáo ở cùng một chỗ.
+
+---
+
+## 2. Đoạn dán cho AI
+
+Nhân viên nhờ AI ghép link thì chép nguyên khối dưới đây dán vào ô chat trước, rồi mới nêu yêu cầu. Khối này giữ đủ luật để AI ghép ra link chạy được, không tự bịa khuôn khác.
+
+```
+LUẬT GHÉP LINK THEO DÕI KFSP, bản 28/08/2026. Chỉ được dùng đúng hai khuôn sau.
+
+Khuôn 1, link ngắn:
+https://link.kfsp.vn/webhook/s?slug={slug}
+- {slug} chỉ gồm chữ thường không dấu, chữ số và dấu gạch ngang, tối đa 20 ký tự.
+- Phân biệt chữ hoa chữ thường. Viết hoa một chữ là link về trang chủ kfsp.vn, mất lượt theo dõi.
+- Chỉ dùng {slug} đã có sẵn một dòng trong Google Sheet short_link_map. Chưa có dòng đó thì
+  KHÔNG được ghép link, phải báo người dùng thêm dòng vào Sheet trước.
+
+Khuôn 2, link dài:
+https://link.kfsp.vn/webhook/email-click?src={src}&c={c}&plan={plan}&r={r}
+- Đủ bốn phần src, c, plan, r. Thiếu một phần là số liệu ghi sai.
+- {r} là địa chỉ đích, BẮT BUỘC mã hoá phần trăm toàn bộ, kể cả dấu :  /  ?  #  &  @
+  Ví dụ đúng: https%3A%2F%2Fkfsp.vn%2Fhome%2F%23mua
+  Ví dụ sai:  https://kfsp.vn/home/#mua   (đã kiểm: người dùng bị đưa về https://kfsp.vn/home/, mất phần #mua)
+- {plan} chỉ được lấy trong danh sách: cta_buy, cta_appstore, cta_gplay, cta_fanpage,
+  cta_tiktok, cta_telegram, pro_5y, pro_2y, pro_1y, pro_6m, pro_3m.
+- {src} theo khuôn kênh: email_{ten}_{bienthe} | fb_post_{nhan} | tiktok_{nhan} |
+  zalo_oa_{nhan} | tg_{nhan} | yt_{nhan} | inapp_push_{nhan} | inapp_banner_{nhan}.
+- {c} theo khuôn {nam}_{thang}_{tenngan} hoặc {tenchiendich}_{phienban}. Không thuộc chiến dịch
+  nào thì ghi evergreen.
+
+Sáu địa chỉ đích chuẩn, dùng nguyên bản đã mã hoá:
+cta_buy       https%3A%2F%2Fkfsp.vn%2Fhome%2F%23mua
+cta_appstore  https%3A%2F%2Fapps.apple.com%2Fvn%2Fapp%2Fkfsp%2Fid1591341763%3Fl%3Dvi
+cta_gplay     https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.kungfustockspro
+cta_fanpage   https%3A%2F%2Fwww.facebook.com%2Fkfsp.official
+cta_tiktok    https%3A%2F%2Fwww.tiktok.com%2F%40kfsp.vn
+cta_telegram  https%3A%2F%2Ft.me%2FKFSPTEAM
+
+CẤM: khuôn https://link.kfsp.vn/p/{slug} (mở ra báo mã 404). Cấm tự nghĩ tên miền khác,
+tự thêm tham số ngoài danh sách trên, tự đặt giá trị plan hay src ngoài danh sách trên.
+Thiếu thông tin để điền một phần thì hỏi lại người dùng, không tự đoán.
+
+In ra kết quả gồm: link hoàn chỉnh trên một dòng, kèm bảng liệt kê từng giá trị src, c, plan, r
+đã dùng, để người dùng đối chiếu trước khi đăng.
+```
+
+---
+
+## 3. Tạo link ngắn, ba bước
+
+**Bước 1.** Mở Google Sheet theo dõi: https://docs.google.com/spreadsheets/d/1OgjPuvtUcAmX0jPLdxBNE8TB544tMzAuHyk1ZqWgLDI — chọn tab `short_link_map`.
+
+**Bước 2.** Thêm một dòng mới, điền đủ 8 cột:
+
+| Cột | Điền gì | Ví dụ |
+|---|---|---|
+| `slug` | Tên ngắn của link, chữ thường không dấu, nối bằng dấu gạch ngang, tối đa 20 ký tự. Kéo cột xuống kiểm tra chưa ai đặt trùng tên này | `mtdt-ios` |
+| `src` | Kênh đăng, theo bảng ở mục 5 | `tiktok_mtdt` |
+| `c` | Tên chiến dịch, theo bảng ở mục 5 | `mtdt_boloc` |
+| `plan` | Người dùng bấm để làm gì, theo bảng ở mục 5 | `cta_appstore` |
+| `r` | Địa chỉ đích, dán nguyên bản, cột này không cần mã hoá | `https://apps.apple.com/vn/app/kfsp/id1591341763?l=vi` |
+| `note` | Ghi chú bài đăng, để sau này tra lại | `Bio TikTok kênh Trong tầm tay` |
+| `created_by` | Tên bạn | `linh` |
+| `created_at` | Ngày tạo, dạng năm-tháng-ngày | `2026-08-28` |
+
+**Bước 3.** Ghép link để dán vào bài:
+
+```
+https://link.kfsp.vn/webhook/s?slug=mtdt-ios
+```
+
+Đổi phần sau dấu bằng thành `slug` bạn vừa đặt, giữ nguyên chữ thường. Kiểm tra theo mục 7 trước khi đăng.
+
+---
+
+## 4. Tạo link dài
+
+Ghép theo khuôn sau, bốn phần bắt buộc:
+
+```
+https://link.kfsp.vn/webhook/email-click?src=NGUON&c=CHIENDICH&plan=CTA&r=DIACHIDICH
+```
+
+Phần `r` phải lấy từ cột bên phải của bảng mục 6, là bản đã mã hoá sẵn. Địa chỉ đích ngoài sáu cái đó thì nhờ đội kỹ thuật mã hoá giúp, hoặc chạy lệnh:
+
+```bash
+python3 -c "from urllib.parse import quote; print(quote('https://dia-chi-cua-ban', safe=''))"
+```
+
+Ví dụ đầy đủ, bài fanpage của chiến dịch giữ chân khách tháng 5, dẫn sang TikTok:
+
+```
+https://link.kfsp.vn/webhook/email-click?src=fb_post_retention_may&c=2026_05_retention&plan=cta_tiktok&r=https%3A%2F%2Fwww.tiktok.com%2F%40kfsp.vn
+```
+
+---
+
+## 5. Ba giá trị phải đặt đúng
+
+### `src` — đăng ở kênh nào
+
+| Kênh | Khuôn tên | Ví dụ |
+|---|---|---|
+| Thư điện tử | `email_{tên}_{biến thể}` | `email_c2_light` |
+| Trang Facebook | `fb_post_{nhãn}` | `fb_post_c2hero` |
+| TikTok | `tiktok_{nhãn}` | `tiktok_mtdt` |
+| Zalo OA | `zalo_oa_{nhãn}` | `zalo_oa_c2_announce` |
+| Telegram | `tg_{nhãn}` | `tg_c2_announce` |
+| YouTube | `yt_{nhãn}` | `yt_c2_demo` |
+| Thông báo đẩy trong app | `inapp_push_{nhãn}` | `inapp_push_c2` |
+| Biểu ngữ trong app | `inapp_banner_{nhãn}` | `inapp_banner_c2_hero` |
+
+### `c` — thuộc chiến dịch nào
+
+Đặt theo `{năm}_{tháng}_{tên ngắn}` hoặc `{tên chiến dịch}_{phiên bản}`. Ví dụ `2026_05_retention`, `dailediepdive_v2`, `mtdt_boloc`. Link chạy quanh năm không thuộc chiến dịch nào thì ghi `evergreen`.
+
+### `plan` — người dùng bấm để làm gì
+
+| Người dùng bấm để | Ghi |
+|---|---|
+| Sang trang mua gói trên web | `cta_buy` |
+| Tải app trên iPhone | `cta_appstore` |
+| Tải app trên Android | `cta_gplay` |
+| Sang trang Facebook | `cta_fanpage` |
+| Sang TikTok | `cta_tiktok` |
+| Sang Telegram | `cta_telegram` |
+| Đăng ký gói, dùng trong thư điện tử bán gói | `pro_5y` `pro_2y` `pro_1y` `pro_6m` `pro_3m` |
+
+---
+
+## 6. Sáu địa chỉ đích chuẩn
+
+| `plan` | Bản nguyên, điền vào cột `r` của Sheet | Bản đã mã hoá, dùng cho link dài |
+|---|---|---|
+| `cta_buy` | `https://kfsp.vn/home/#mua` | `https%3A%2F%2Fkfsp.vn%2Fhome%2F%23mua` |
+| `cta_appstore` | `https://apps.apple.com/vn/app/kfsp/id1591341763?l=vi` | `https%3A%2F%2Fapps.apple.com%2Fvn%2Fapp%2Fkfsp%2Fid1591341763%3Fl%3Dvi` |
+| `cta_gplay` | `https://play.google.com/store/apps/details?id=com.kungfustockspro` | `https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.kungfustockspro` |
+| `cta_fanpage` | `https://www.facebook.com/kfsp.official` | `https%3A%2F%2Fwww.facebook.com%2Fkfsp.official` |
+| `cta_tiktok` | `https://www.tiktok.com/@kfsp.vn` | `https%3A%2F%2Fwww.tiktok.com%2F%40kfsp.vn` |
+| `cta_telegram` | `https://t.me/KFSPTEAM` | `https%3A%2F%2Ft.me%2FKFSPTEAM` |
+
+---
+
+## 7. Ba bước kiểm trước khi đăng
+
+1. Mở link trong cửa sổ ẩn danh của trình duyệt.
+2. Trang phải nhảy sang đúng địa chỉ đích, đúng cả phần sau dấu thăng nếu có. Nếu về trang chủ `kfsp.vn` nghĩa là `slug` sai hoặc chưa lưu Sheet.
+3. Mở tab `email_tracking_log` trong cùng Google Sheet, dòng cuối phải là lượt bấm vừa rồi, đúng `source`, `campaign`, `plan` bạn đã đặt.
+
+Ba điều trên đúng cả ba thì mới dán link vào bài.
+
+---
+
+## 8. Bốn cách ghép sai, kết quả đã gọi thử ngày 28/08/2026
+
+| Ghép sai kiểu | Gọi thử | Kết quả thật |
+|---|---|---|
+| Dùng khuôn `/p/` | `https://link.kfsp.vn/p/pivot-ios` | Mã 404, người dùng thấy trang báo lỗi |
+| Viết hoa `slug` | `...?slug=PIVOT-IOS` | Chuyển về `https://kfsp.vn/`, không tới App Store |
+| Thiếu `slug` | `...webhook/s` không kèm `slug` | Chuyển về `https://kfsp.vn/` |
+| Không mã hoá `r` có dấu thăng | `...&r=https://kfsp.vn/home/#mua` | Chuyển tới `https://kfsp.vn/home/`, mất phần `#mua`, người dùng không tới khối mua gói |
+
+Ghép đúng thì `https://link.kfsp.vn/webhook/s?slug=pivot-ios` chuyển tới `https://apps.apple.com/vn/app/kfsp/id1591341763?l=vi`, và bản mã hoá của `cta_buy` chuyển tới đúng `https://kfsp.vn/home/#mua`.
+
+---
+
+## 9. Xem số liệu
+
+Google Sheet `email_tracking_log`, 8 cột: `timestamp`, `event`, `email`, `user_id`, `campaign`, `source`, `plan`, `user_agent`.
+
+Cột `event` cho biết lượt bấm đến từ đâu: `email_click` là link dài, `short_click` là link ngắn.
+
+| Muốn biết | Lọc theo |
+|---|---|
+| Kênh nào nhiều lượt bấm nhất | Nhóm theo `source`, đếm số dòng |
+| Chiến dịch nào nhiều lượt bấm nhất | Nhóm theo `campaign`, đếm số dòng |
+| Nút nào được bấm nhiều nhất | Nhóm theo `plan`, đếm số dòng |
+| Kết quả của một chiến dịch | Lọc `campaign` bằng tên chiến dịch, rồi nhóm theo `source` |
+
+---
+
+## 10. Bốn điều không được làm
+
+1. Không dán địa chỉ App Store, Google Play, Facebook, TikTok, Telegram thẳng vào bài. Mọi link đều đi qua `link.kfsp.vn`.
+2. Không đặt `slug` trùng dòng đã có trong Sheet `short_link_map`. Trùng thì lượt bấm bị ghi nhầm sang bài của người khác.
+3. Không tự đặt tên `src` hay `plan` ngoài bảng ở mục 5. Cần giá trị mới thì báo Thanh thêm vào bảng trước.
+4. Không xoá hay sửa dòng người khác đã tạo trong Sheet `short_link_map`. Link đã đăng ra ngoài sẽ mất đường tới địa chỉ đích.
+
+---
+
+## 11. Tài liệu liên quan
+
+- Quy ước đầy đủ về đặt tên và báo cáo: `/Users/nguyenthanhcllhp/Library/CloudStorage/OneDrive-Personal/Work/KFSP/02_Kinh_Doanh/Marketing/UTM_Tracking_Registry.md`
+- Cách hệ thống link ngắn hoạt động, dành cho đội kỹ thuật: `/Users/nguyenthanhcllhp/Library/CloudStorage/OneDrive-Personal/Work/KFSP/03_Tech_Automation/Short_Link_Service/README.md`

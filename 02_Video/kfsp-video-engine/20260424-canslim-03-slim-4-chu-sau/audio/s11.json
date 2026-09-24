@@ -1,0 +1,151 @@
+{
+  "id": "s11",
+  "duration_s": 8.411,
+  "word_timestamps": [
+    {
+      "word": "Và",
+      "start": 0.0,
+      "end": 0.24
+    },
+    {
+      "word": "khi",
+      "start": 0.24,
+      "end": 0.52
+    },
+    {
+      "word": "giá",
+      "start": 0.52,
+      "end": 0.74
+    },
+    {
+      "word": "bất",
+      "start": 0.74,
+      "end": 0.88
+    },
+    {
+      "word": "phá,",
+      "start": 0.88,
+      "end": 1.26
+    },
+    {
+      "word": "vốn",
+      "start": 1.82,
+      "end": 1.94
+    },
+    {
+      "word": "lung",
+      "start": 1.94,
+      "end": 2.08
+    },
+    {
+      "word": "phải",
+      "start": 2.08,
+      "end": 2.24
+    },
+    {
+      "word": "tăng",
+      "start": 2.24,
+      "end": 2.48
+    },
+    {
+      "word": "đột",
+      "start": 2.48,
+      "end": 2.66
+    },
+    {
+      "word": "biến,",
+      "start": 2.66,
+      "end": 2.94
+    },
+    {
+      "word": "chứng",
+      "start": 3.38,
+      "end": 3.52
+    },
+    {
+      "word": "tỏ",
+      "start": 3.52,
+      "end": 3.78
+    },
+    {
+      "word": "ròng",
+      "start": 3.78,
+      "end": 4.04
+    },
+    {
+      "word": "tiền",
+      "start": 4.04,
+      "end": 4.3
+    },
+    {
+      "word": "thật",
+      "start": 4.3,
+      "end": 4.5
+    },
+    {
+      "word": "đang",
+      "start": 4.5,
+      "end": 4.68
+    },
+    {
+      "word": "lệch",
+      "start": 4.68,
+      "end": 4.96
+    },
+    {
+      "word": "sang",
+      "start": 4.96,
+      "end": 5.12
+    },
+    {
+      "word": "phía",
+      "start": 5.12,
+      "end": 5.34
+    },
+    {
+      "word": "mua,",
+      "start": 5.34,
+      "end": 5.66
+    },
+    {
+      "word": "không",
+      "start": 5.96,
+      "end": 6.16
+    },
+    {
+      "word": "phải",
+      "start": 6.16,
+      "end": 6.38
+    },
+    {
+      "word": "vài",
+      "start": 6.38,
+      "end": 6.68
+    },
+    {
+      "word": "cây",
+      "start": 6.68,
+      "end": 6.82
+    },
+    {
+      "word": "nến",
+      "start": 6.82,
+      "end": 7.02
+    },
+    {
+      "word": "đẹp",
+      "start": 7.02,
+      "end": 7.24
+    },
+    {
+      "word": "ngẫu",
+      "start": 7.24,
+      "end": 7.5
+    },
+    {
+      "word": "nhìn.",
+      "start": 7.5,
+      "end": 7.72
+    }
+  ]
+}

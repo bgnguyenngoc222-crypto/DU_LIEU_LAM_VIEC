@@ -1,0 +1,76 @@
+{
+  "id": "s07",
+  "duration_s": 4.049,
+  "word_timestamps": [
+    {
+      "word": "là",
+      "start": 0.0,
+      "end": 0.2
+    },
+    {
+      "word": "món",
+      "start": 0.2,
+      "end": 0.38
+    },
+    {
+      "word": "quà",
+      "start": 0.38,
+      "end": 0.74
+    },
+    {
+      "word": "mà",
+      "start": 0.74,
+      "end": 0.9
+    },
+    {
+      "word": "thị",
+      "start": 0.9,
+      "end": 1.08
+    },
+    {
+      "word": "trưởng",
+      "start": 1.08,
+      "end": 1.4
+    },
+    {
+      "word": "đang",
+      "start": 1.4,
+      "end": 1.62
+    },
+    {
+      "word": "đặt",
+      "start": 1.62,
+      "end": 1.84
+    },
+    {
+      "word": "trước",
+      "start": 1.84,
+      "end": 2.0
+    },
+    {
+      "word": "mặt",
+      "start": 2.0,
+      "end": 2.2
+    },
+    {
+      "word": "bạn",
+      "start": 2.2,
+      "end": 2.44
+    },
+    {
+      "word": "ngày",
+      "start": 2.44,
+      "end": 2.96
+    },
+    {
+      "word": "lúc",
+      "start": 2.96,
+      "end": 3.18
+    },
+    {
+      "word": "này.",
+      "start": 3.18,
+      "end": 3.36
+    }
+  ]
+}

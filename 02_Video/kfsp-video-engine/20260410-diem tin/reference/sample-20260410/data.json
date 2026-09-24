@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "date": "10/04/2026",
+    "title": "ĐIỂM TIN THỊ TRƯỜNG",
+    "headline": "VN-INDEX GIỮ NHỊP TĂNG, DÒNG TIỀN XOAY VÒNG"
+  },
+  "voiceover": "audio/voiceover.mp3",
+  "bgm": "music/news-loop-01.mp3",
+
+  "scenes": [
+    {
+      "id": "opening",
+      "durationInSeconds": 9,
+      "label": "KFSP MARKET UPDATE",
+      "heading": "ĐIỂM TIN\nTHỊ TRƯỜNG",
+      "content": { "type": "title", "date": "10/04/2026" }
+    },
+    {
+      "id": "market-overview",
+      "durationInSeconds": 21,
+      "label": "THỊ TRƯỜNG & CHỈ SỐ",
+      "heading": "VN-Index giữ nhịp tăng",
+      "headingColor": "#34d399",
+      "body": "Bật nhanh đầu phiên, giữ sắc xanh đến cuối ngày",
+      "screenshot": "images/2026-04-10/01_market_overview.png",
+      "content": {
+        "type": "cards",
+        "items": [
+          { "label": "VN-INDEX", "value": "+0,77%", "color": "#34d399", "sublabel": "1.750 điểm" },
+          { "label": "HNX", "value": "+0,37%", "color": "#34d399", "sublabel": "Bám nhịp" },
+          { "label": "UPCoM", "value": "Chậm nhịp", "color": "#f5c542", "sublabel": "Sức mua yếu" }
+        ]
+      }
+    },
+    {
+      "id": "breadth",
+      "durationInSeconds": 17,
+      "label": "ĐỘ RỘNG THỊ TRƯỜNG",
+      "heading": "Phe mua giữ thế cân bằng",
+      "body": "Nghiêng nhẹ về phía mua, chưa phải tổng tiến công",
+      "screenshot": "images/2026-04-10/02_breadth_chart.png",
+      "content": {
+        "type": "cards",
+        "items": [
+          { "icon": "▲", "label": "Tăng", "value": "164", "color": "#34d399" },
+          { "icon": "●", "label": "Đứng", "value": "65", "color": "#f5c542" },
+          { "icon": "▼", "label": "Giảm", "value": "144", "color": "#f87171" }
+        ]
+      }
+    },
+    {
+      "id": "wyckoff",
+      "durationInSeconds": 12,
+      "label": "NỖ LỰC & KẾT QUẢ",
+      "heading": "Lăng kính Wyckoff",
+      "body": "Săn đúng nơi có hấp thụ cung tốt nhất",
+      "screenshot": "images/2026-04-10/03_wyckoff_effort.png",
+      "content": {
+        "type": "list",
+        "items": [
+          { "name": "Ngân hàng", "tag": "Xác nhận", "tagColor": "#34d399", "value": "Dẫn nhịp" },
+          { "name": "Dầu khí", "tag": "Xác nhận", "tagColor": "#34d399", "value": "Quay lại" },
+          { "name": "BĐS", "tag": "Chờ", "tagColor": "#f5c542", "value": "Chưa tròn vai" }
+        ]
+      }
+    },
+    {
+      "id": "sector-bank",
+      "durationInSeconds": 12,
+      "label": "NGÀNH NỔI BẬT",
+      "heading": "Ngân hàng",
+      "headingColor": "#34d399",
+      "body": "Chiếc neo của chỉ số, gánh trụ phiên xanh",
+      "screenshot": "images/2026-04-10/04_heatmap_banking.png",
+      "content": {
+        "type": "list",
+        "items": [
+          { "rank": 1, "name": "TCB", "tag": "Trụ chính", "tagColor": "#34d399" },
+          { "rank": 2, "name": "LPB", "tag": "Tích lũy", "tagColor": "#6cb4ee" },
+          { "rank": 3, "name": "MSB", "tag": "Sức hút", "tagColor": "#6cb4ee" },
+          { "rank": 4, "name": "VCB", "tag": "Gánh trụ", "tagColor": "#34d399" }
+        ]
+      }
+    },
+    {
+      "id": "sector-oil",
+      "durationInSeconds": 11,
+      "label": "NGÀNH NỔI BẬT",
+      "heading": "Dầu khí",
+      "headingColor": "#34d399",
+      "body": "Dòng tiền quay lại dứt khoát sau lặng sóng",
+      "screenshot": "images/2026-04-10/05_heatmap_oil.png",
+      "content": {
+        "type": "list",
+        "items": [
+          { "rank": 1, "name": "BSR", "value": "Hấp thụ cung tốt", "color": "#34d399" },
+          { "rank": 2, "name": "GAS", "value": "Năng lượng trở lại", "color": "#34d399" }
+        ]
+      }
+    },
+    {
+      "id": "sector-bds",
+      "durationInSeconds": 12,
+      "label": "NGÀNH ĐANG CHỜ",
+      "heading": "Bất động sản",
+      "headingColor": "#f5c542",
+      "body": "Giá nhích lên nhưng thanh khoản hạ nhiệt — cần thêm xác nhận",
+      "screenshot": "images/2026-04-10/06_heatmap_bds.png",
+      "content": {
+        "type": "list",
+        "items": [
+          { "rank": 1, "name": "VIC", "tag": "Giữ mặt bằng", "tagColor": "#f5c542", "value": "Chờ xác nhận" }
+        ]
+      }
+    },
+    {
+      "id": "sector-perf",
+      "durationInSeconds": 12,
+      "label": "BỨC TRANH HIỆU SUẤT",
+      "heading": "Ai dẫn, ai chậm?",
+      "content": {
+        "type": "list",
+        "items": [
+          { "name": "Ngân hàng", "tag": "Dẫn nhịp", "tagColor": "#34d399", "color": "#34d399" },
+          { "name": "Dầu khí", "tag": "Dẫn nhịp", "tagColor": "#34d399", "color": "#34d399" },
+          { "name": "Phân bón", "tag": "Dẫn nhịp", "tagColor": "#34d399", "color": "#34d399" },
+          { "name": "Chứng khoán", "tag": "Chậm bước", "tagColor": "#f87171", "color": "#f87171" },
+          { "name": "Thép", "tag": "Chậm bước", "tagColor": "#f87171", "color": "#f87171" },
+          { "name": "Công nghệ", "tag": "Chậm bước", "tagColor": "#f87171", "color": "#f87171" }
+        ]
+      }
+    },
+    {
+      "id": "phan-bon",
+      "durationInSeconds": 12,
+      "label": "PHÂN BÓN",
+      "heading": "Dòng tiền chiếu đèn\nnhóm mid-cap",
+      "headingColor": "#34d399",
+      "body": "Thị trường sẵn sàng trả giá cao hơn cho câu chuyện cải thiện nền tảng",
+      "content": {
+        "type": "quote",
+        "text": "Lực mua không chỉ kéo giá mà còn tạo cảm giác sẵn sàng trả giá cao hơn"
+      }
+    },
+    {
+      "id": "heatmap",
+      "durationInSeconds": 13,
+      "label": "BẢN ĐỒ NHIỆT",
+      "heading": "Dòng tiền chọn lọc",
+      "body": "Sắc xanh lan đều, sức mạnh tập trung quanh trụ lớn",
+      "content": {
+        "type": "quote",
+        "text": "Ưu tiên nơi có thanh khoản, có câu chuyện và có khả năng dẫn nhịp"
+      }
+    },
+    {
+      "id": "stock-highlights",
+      "durationInSeconds": 15,
+      "label": "CỔ PHIẾU NỔI BẬT",
+      "heading": "Tâm điểm dòng tiền",
+      "content": {
+        "type": "list",
+        "items": [
+          { "rank": 1, "name": "VIC", "value": "Lực kéo chỉ số", "color": "#34d399", "tag": "Dẫn dắt", "tagColor": "#34d399" },
+          { "rank": 2, "name": "TCB", "value": "Giữ chủ động", "color": "#34d399" },
+          { "rank": 3, "name": "BSR", "value": "Dòng tiền mạnh", "color": "#34d399" },
+          { "rank": 4, "name": "LPB", "value": "Rời vùng tích lũy", "color": "#6cb4ee", "tag": "Chú ý", "tagColor": "#6cb4ee" },
+          { "rank": 5, "name": "STB", "value": "Sức hút mới", "color": "#6cb4ee", "tag": "Chú ý", "tagColor": "#6cb4ee" }
+        ]
+      }
+    },
+    {
+      "id": "rrg",
+      "durationInSeconds": 16,
+      "label": "RS / RRG ANALYSIS",
+      "heading": "Bản đồ RRG",
+      "body": "Nhóm dẫn dắt vs nhóm chờ tín hiệu",
+      "screenshot": "images/2026-04-10/07_rrg_chart_1.jpg",
+      "content": {
+        "type": "grid",
+        "items": [
+          { "icon": "🟢", "title": "BĐS, Hàng không", "subtitle": "Leading — Dẫn dắt" },
+          { "icon": "🔵", "title": "Công nghệ, Hóa chất", "subtitle": "Improving — Phục hồi sớm" },
+          { "icon": "🟡", "title": "Dầu khí, Ngân hàng", "subtitle": "Lagging — Vùng chờ" },
+          { "icon": "🟢", "title": "Viễn thông, DV Công ích", "subtitle": "Leading — Dẫn dắt" }
+        ]
+      }
+    },
+    {
+      "id": "filter-cta",
+      "durationInSeconds": 14,
+      "label": "BỘ LỌC CỔ PHIẾU",
+      "heading": "Săn cổ phiếu đúng nhịp",
+      "body": "RS mạnh, nền tích lũy rõ, thanh khoản đột biến",
+      "content": {
+        "type": "cta",
+        "buttonText": "TẢI KFSP NGAY",
+        "features": ["RS Analysis", "Wyckoff", "CANSLIM", "Bản đồ nhiệt"]
+      }
+    },
+    {
+      "id": "closing",
+      "durationInSeconds": 4,
+      "label": "KFSP",
+      "heading": "Xin chào và\nhẹn gặp lại",
+      "content": { "type": "title", "date": "kfsp.vn" }
+    }
+  ],
+
+  "subtitles": [
+    { "start": 0, "end": 89, "text": "ĐIỂM TIN THỊ TRƯỜNG 10/04/2026", "keywords": [{ "word": "10/04/2026", "color": "yellow" }] },
+    { "start": 121, "end": 250, "text": "VN-Index giữ nhịp tăng, dòng tiền xoay vòng", "keywords": [{ "word": "VN-Index", "color": "green" }, { "word": "giữ nhịp tăng", "color": "green" }] },
+    { "start": 279, "end": 338, "text": "Chào mừng đến với bản tin KFSP", "keywords": [{ "word": "KFSP", "color": "yellow" }] },
+    { "start": 338, "end": 478, "text": "Thị trường mở ra với lực kéo chủ động, khép lại nhịp tăng nhẹ" },
+    { "start": 478, "end": 559, "text": "Bên bán vẫn nhiều lần thử ép giá về cuối phiên", "keywords": [{ "word": "ép giá", "color": "red" }] },
+    { "start": 588, "end": 740, "text": "VN-Index bật nhanh đầu phiên, giữ sắc xanh đến cuối ngày", "keywords": [{ "word": "VN-Index", "color": "green" }, { "word": "sắc xanh", "color": "green" }] },
+    { "start": 740, "end": 855, "text": "Dòng tiền chưa muốn rời sân khấu" },
+    { "start": 873, "end": 1030, "text": "HNX bám nhịp tích cực, UPCoM hơi chậm nhịp", "keywords": [{ "word": "HNX", "color": "green" }, { "word": "UPCoM", "color": "yellow" }] },
+    { "start": 1057, "end": 1188, "text": "Độ rộng nghiêng nhẹ về phía mua, chưa phải tổng tiến công" },
+    { "start": 1201, "end": 1382, "text": "Phe mua giữ thế cân bằng, phe bán chưa giành lại quyền chủ động", "keywords": [{ "word": "cân bằng", "color": "yellow" }] },
+    { "start": 1410, "end": 1548, "text": "Lăng kính Wyckoff — nỗ lực có kết quả khác nhau", "keywords": [{ "word": "Wyckoff", "color": "yellow" }] },
+    { "start": 1548, "end": 1667, "text": "Có nhóm được dòng tiền xác nhận, có vài ngành bật lên rồi hụt hơi" },
+    { "start": 1667, "end": 1758, "text": "Săn đúng nơi có hấp thụ cung tốt nhất" },
+    { "start": 1783, "end": 1941, "text": "Ngân hàng — chiếc neo của chỉ số", "keywords": [{ "word": "Ngân hàng", "color": "green" }] },
+    { "start": 1956, "end": 2105, "text": "TCB, LPB, MSB, VCB gánh trụ phiên xanh", "keywords": [{ "word": "TCB", "color": "green" }, { "word": "LPB", "color": "green" }, { "word": "MSB", "color": "green" }, { "word": "VCB", "color": "green" }] },
+    { "start": 2133, "end": 2263, "text": "Dầu khí — dòng tiền quay lại dứt khoát", "keywords": [{ "word": "Dầu khí", "color": "green" }] },
+    { "start": 2278, "end": 2437, "text": "BSR và GAS hấp thụ cung tốt hơn", "keywords": [{ "word": "BSR", "color": "green" }, { "word": "GAS", "color": "green" }] },
+    { "start": 2463, "end": 2642, "text": "BĐS có nhịp kéo nhưng chưa tròn vai — thanh khoản hạ nhiệt", "keywords": [{ "word": "BĐS", "color": "yellow" }, { "word": "hạ nhiệt", "color": "red" }] },
+    { "start": 2642, "end": 2811, "text": "VIC đang cố giữ mặt bằng, cần thêm xác nhận", "keywords": [{ "word": "VIC", "color": "yellow" }] },
+    { "start": 2838, "end": 2980, "text": "Ngân hàng, Dầu khí, Phân bón — phe dẫn nhịp", "keywords": [{ "word": "dẫn nhịp", "color": "green" }] },
+    { "start": 2980, "end": 3163, "text": "Chứng khoán, Thép, Công nghệ — chậm bước", "keywords": [{ "word": "chậm bước", "color": "red" }] },
+    { "start": 3190, "end": 3332, "text": "Phân bón — dòng tiền chiếu đèn rõ nhất nhóm mid-cap", "keywords": [{ "word": "Phân bón", "color": "green" }, { "word": "mid-cap", "color": "yellow" }] },
+    { "start": 3345, "end": 3518, "text": "Thị trường sẵn sàng trả giá cao hơn cho cải thiện nền tảng" },
+    { "start": 3544, "end": 3703, "text": "Sắc xanh lan đều, sức mạnh tập trung quanh trụ lớn", "keywords": [{ "word": "sắc xanh", "color": "green" }] },
+    { "start": 3703, "end": 3927, "text": "Dòng tiền chọn lọc — ưu tiên thanh khoản, câu chuyện, dẫn nhịp" },
+    { "start": 3951, "end": 4181, "text": "VIC lực kéo chỉ số — TCB, BSR giữ chủ động", "keywords": [{ "word": "VIC", "color": "green" }, { "word": "TCB", "color": "green" }, { "word": "BSR", "color": "green" }] },
+    { "start": 4193, "end": 4360, "text": "LPB và STB — sức hút từ vùng tích lũy", "keywords": [{ "word": "LPB", "color": "blue" }, { "word": "STB", "color": "blue" }] },
+    { "start": 4387, "end": 4547, "text": "RRG: BĐS, Hàng không, Viễn thông — dẫn dắt", "keywords": [{ "word": "RRG", "color": "yellow" }, { "word": "dẫn dắt", "color": "green" }] },
+    { "start": 4547, "end": 4843, "text": "Dầu khí, Ngân hàng — vùng chờ | Công nghệ, Hóa chất — phục hồi sớm", "keywords": [{ "word": "vùng chờ", "color": "yellow" }, { "word": "phục hồi", "color": "blue" }] },
+    { "start": 4872, "end": 5075, "text": "Bộ lọc: RS mạnh, tích lũy rõ, thanh khoản đột biến", "keywords": [{ "word": "RS", "color": "yellow" }, { "word": "đột biến", "color": "green" }] },
+    { "start": 5075, "end": 5273, "text": "STB, LPB, VIC, BSR — đáng theo dõi", "keywords": [{ "word": "STB", "color": "green" }, { "word": "LPB", "color": "green" }, { "word": "VIC", "color": "green" }, { "word": "BSR", "color": "green" }] },
+    { "start": 5296, "end": 5385, "text": "Truy cập KFSP — dòng tiền thông minh!", "keywords": [{ "word": "KFSP", "color": "yellow" }] },
+    { "start": 5385, "end": 5400, "text": "Xin chào và hẹn gặp lại" }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "s09",
+  "duration_s": 4.99,
+  "word_timestamps": [
+    {
+      "word": "Dống",
+      "start": 0.05,
+      "end": 0.41
+    },
+    {
+      "word": "hồi",
+      "start": 0.41,
+      "end": 0.67
+    },
+    {
+      "word": "cao",
+      "start": 0.67,
+      "end": 0.85
+    },
+    {
+      "word": "một",
+      "start": 0.85,
+      "end": 0.93
+    },
+    {
+      "word": "học",
+      "start": 0.93,
+      "end": 1.07
+    },
+    {
+      "word": "quý",
+      "start": 1.07,
+      "end": 1.29
+    },
+    {
+      "word": "tắc",
+      "start": 1.29,
+      "end": 1.43
+    },
+    {
+      "word": "tâm",
+      "start": 1.43,
+      "end": 1.63
+    },
+    {
+      "word": "xuất",
+      "start": 1.63,
+      "end": 1.89
+    },
+    {
+      "word": "vậy",
+      "start": 1.89,
+      "end": 1.99
+    },
+    {
+      "word": "đó,",
+      "start": 1.99,
+      "end": 2.27
+    },
+    {
+      "word": "trong",
+      "start": 2.73,
+      "end": 2.79
+    },
+    {
+      "word": "nhật",
+      "start": 2.79,
+      "end": 3.01
+    },
+    {
+      "word": "quý",
+      "start": 3.01,
+      "end": 3.17
+    },
+    {
+      "word": "tắc",
+      "start": 3.17,
+      "end": 3.27
+    },
+    {
+      "word": "trước,",
+      "start": 3.27,
+      "end": 3.53
+    },
+    {
+      "word": "hiểu",
+      "start": 3.95,
+      "end": 4.09
+    },
+    {
+      "word": "gốc",
+      "start": 4.09,
+      "end": 4.25
+    },
+    {
+      "word": "công",
+      "start": 4.25,
+      "end": 4.45
+    },
+    {
+      "word": "thức",
+      "start": 4.45,
+      "end": 4.69
+    },
+    {
+      "word": "sâu,",
+      "start": 4.69,
+      "end": 4.91
+    }
+  ]
+}

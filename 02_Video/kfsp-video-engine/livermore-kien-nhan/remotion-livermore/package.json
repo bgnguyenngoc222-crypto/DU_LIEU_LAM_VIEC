@@ -1,0 +1,26 @@
+{
+  "name": "remotion-livermore",
+  "version": "1.0.0",
+  "description": "Livermore — Kiên nhẫn là tiền",
+  "scripts": {
+    "studio": "npx remotion studio --port=3013",
+    "render": "npx remotion render",
+    "upgrade": "npx remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/google-fonts": "4.0.448",
+    "@remotion/lottie": "^4.0.448",
+    "@remotion/player": "4.0.448",
+    "@remotion/transitions": "4.0.448",
+    "lottie-web": "^5.13.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.448",
+    "remotion-animated": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "remotion-canslim-02",
+  "version": "1.0.0",
+  "description": "CANSLIM #02 — CAN: 3 chữ đầu",
+  "scripts": {
+    "studio": "npx remotion studio --port 3032",
+    "build": "npx remotion bundle",
+    "render:full": "npx remotion render Full --output=../fullpreview.mp4 --concurrency=2",
+    "render:sentence": "npx remotion render"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.448",
+    "@remotion/google-fonts": "4.0.448",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.448"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.5"
+  }
+}

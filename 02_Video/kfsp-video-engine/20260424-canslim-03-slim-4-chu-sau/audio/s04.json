@@ -1,0 +1,26 @@
+{
+  "id": "s04",
+  "duration_s": 1.75,
+  "word_timestamps": [
+    {
+      "word": "Cán",
+      "start": 0.0,
+      "end": 0.26
+    },
+    {
+      "word": "slim",
+      "start": 0.26,
+      "end": 0.54
+    },
+    {
+      "word": "cũng",
+      "start": 0.54,
+      "end": 0.8
+    },
+    {
+      "word": "vậy.",
+      "start": 0.8,
+      "end": 1.0
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "s03",
+  "duration_s": 5.564,
+  "word_timestamps": [
+    {
+      "word": "present",
+      "start": 0.0,
+      "end": 0.38
+    },
+    {
+      "word": "tới",
+      "start": 0.38,
+      "end": 0.62
+    },
+    {
+      "word": "trong",
+      "start": 0.62,
+      "end": 0.78
+    },
+    {
+      "word": "tiếng",
+      "start": 0.78,
+      "end": 1.06
+    },
+    {
+      "word": "Anh",
+      "start": 1.06,
+      "end": 1.24
+    },
+    {
+      "word": "vừa",
+      "start": 1.24,
+      "end": 2.0
+    },
+    {
+      "word": "có",
+      "start": 2.0,
+      "end": 2.12
+    },
+    {
+      "word": "nghĩa",
+      "start": 2.12,
+      "end": 2.48
+    },
+    {
+      "word": "là",
+      "start": 2.48,
+      "end": 2.6
+    },
+    {
+      "word": "món",
+      "start": 2.6,
+      "end": 2.84
+    },
+    {
+      "word": "quà,",
+      "start": 2.84,
+      "end": 3.24
+    },
+    {
+      "word": "vừa",
+      "start": 3.64,
+      "end": 3.88
+    },
+    {
+      "word": "có",
+      "start": 3.88,
+      "end": 3.98
+    },
+    {
+      "word": "nghĩa",
+      "start": 3.98,
+      "end": 4.32
+    },
+    {
+      "word": "là",
+      "start": 4.32,
+      "end": 4.42
+    },
+    {
+      "word": "hiện",
+      "start": 4.42,
+      "end": 4.6
+    },
+    {
+      "word": "tại.",
+      "start": 4.6,
+      "end": 4.84
+    }
+  ]
+}

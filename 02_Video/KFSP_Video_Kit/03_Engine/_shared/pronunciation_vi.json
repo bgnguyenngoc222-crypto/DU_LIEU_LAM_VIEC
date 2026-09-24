@@ -1,0 +1,425 @@
+{
+  "_meta": {
+    "description": "Bảng phiên âm tiếng Việt cho TTS — dùng chung tất cả video KFSP",
+    "usage": "Script ĐỌC (TTS) dùng cột 'read'. Script HIỂN THỊ (subtitle) giữ nguyên gốc.",
+    "rule": "Nếu từ chưa có trong bảng → PHẢI hỏi Thanh trước khi gen audio.",
+    "updated": "2026-04-06",
+    "updated_by": "Thanh"
+  },
+  "stock_indices": {
+    "VN-Index": {
+      "read": "Vi En In Đếch",
+      "alt": []
+    },
+    "HNX-Index": {
+      "read": "Hắt nờ Ích In Đếch",
+      "alt": [
+        "Sàn Hà Nội"
+      ]
+    },
+    "UPCOM-Index": {
+      "read": "Ấp Com In Đếch",
+      "alt": [
+        "Sàn Ấp com"
+      ]
+    },
+    "VN30": {
+      "read": "Vi En ba mươi",
+      "alt": [
+        "Vê nờ ba mươi"
+      ]
+    }
+  },
+  "stock_tickers": {
+    "LPB": {
+      "read": "Lờ Pê Bê",
+      "alt": [
+        "Lờ Pê Banh"
+      ]
+    },
+    "VIC": {
+      "read": "Víc",
+      "alt": [
+        "Vê i xê"
+      ]
+    },
+    "VCB": {
+      "read": "Vê Xê Bê",
+      "alt": [
+        "Việt com banh"
+      ]
+    },
+    "BID": {
+      "read": "Bê I Đê",
+      "alt": [
+        "Bi đi vi banh"
+      ]
+    },
+    "TCB": {
+      "read": "Tê Xê Bê",
+      "alt": [
+        "Tếch com banh"
+      ]
+    },
+    "MBB": {
+      "read": "Mờ bê bê",
+      "alt": [
+        "Mờ bê banh",
+        "Ngân hàng Quân đội"
+      ]
+    },
+    "HDB": {
+      "read": "Hắt Đê Bê",
+      "alt": [
+        "Hắt đê banh"
+      ]
+    },
+    "FPT": {
+      "read": "Ép Pê Tê",
+      "alt": []
+    },
+    "GEX": {
+      "read": "Ghếch",
+      "alt": [
+        "Gờ E Ích"
+      ]
+    },
+    "VNM": {
+      "read": "Vê Nờ Mờ",
+      "alt": [
+        "Vi na miu"
+      ]
+    },
+    "MSN": {
+      "read": "Mờ ét nờ",
+      "alt": [
+        "Ma san"
+      ]
+    },
+    "VHM": {
+      "read": "Vê Hát Mờ",
+      "alt": [
+        "Vin hôm"
+      ]
+    },
+    "GEE": {
+      "read": "Ghi",
+      "alt": [
+        "Gờ e e"
+      ]
+    },
+    "VJC": {
+      "read": "Vê Di Xê",
+      "alt": [
+        "Việt chét"
+      ]
+    },
+    "STB": {
+      "read": "Ét Tê Bê",
+      "alt": [
+        "Sa com banh"
+      ]
+    },
+    "HPG": {
+      "read": "Hắt Pê Gờ",
+      "alt": [
+        "Hoà Phát"
+      ]
+    },
+    "ACB": {
+      "read": "A Xê Bê",
+      "alt": []
+    },
+    "VPB": {
+      "read": "Vê Pê Bê",
+      "alt": []
+    },
+    "MWG": {
+      "read": "Em Đúp Giê",
+      "alt": []
+    },
+    "HCM": {
+      "read": "Hắt Xê Mờ",
+      "alt": []
+    },
+    "DGC": {
+      "read": "Đê Giê Xê",
+      "alt": []
+    },
+    "NVL": {
+      "read": "En Vê Eo",
+      "alt": []
+    },
+    "GMD": {
+      "read": "Gờ Mờ Đê",
+      "alt": []
+    },
+    "BSR": {
+      "read": "Bê Ét Rờ",
+      "alt": []
+    },
+    "GAS": {
+      "read": "Gát",
+      "alt": []
+    },
+    "MSB": {
+      "read": "Mờ Ét Bê",
+      "alt": []
+    }
+  },
+  "proper_nouns": {
+    "Jesse Livermore": {
+      "read": "Chét xi Li vơ mo",
+      "alt": []
+    },
+    "Livermore": {
+      "read": "Li vơ mo",
+      "alt": []
+    },
+    "Steve Nison": {
+      "read": "Stíp Ni-xân",
+      "alt": [
+        "Sờ-típ Ni-xân"
+      ]
+    },
+    "Nison": {
+      "read": "Ni-xân",
+      "alt": []
+    },
+    "Thái Phạm": {
+      "read": "Thái Phạm",
+      "alt": []
+    },
+    "Edward Thorp": {
+      "read": "Ét Guất Thóp",
+      "tts_trick": "Ét Guất Thóp",
+      "tts_note": "Thanh chốt 2026-06-04. Tên đọc trong thoại; hiển thị subtitle giữ 'Edward Thorp'.",
+      "alt": []
+    },
+    "Las Vegas": {
+      "read": "Lát Vê Gát",
+      "tts_trick": "Lát Vê Gát",
+      "alt": []
+    },
+    "Đỗ Phan Thu Hà": {
+      "read": "Đỗ Phan Thu Hà",
+      "alt": []
+    },
+    "Warren Buffett": {
+      "read": "Goa Ren Búp Phét",
+      "tts_trick": "Goa Ren Búp Phét",
+      "tts_note": "Thanh chốt 2026-06-04 (video Cái bẫy giá rẻ). Hiển thị subtitle giữ 'Warren Buffett'.",
+      "alt": []
+    },
+    "Buffett": {
+      "read": "Búp Phét",
+      "tts_trick": "Búp Phét",
+      "alt": []
+    },
+    "Charlie Munger": {
+      "read": "Chác Li Mung Gơ",
+      "tts_trick": "Chác Li Mung Gơ",
+      "tts_note": "Thanh chốt 2026-06-04. Hiển thị subtitle giữ 'Charlie Munger'.",
+      "alt": []
+    },
+    "Munger": {
+      "read": "Mung Gơ",
+      "tts_trick": "Mung Gơ",
+      "alt": []
+    },
+    "Berkshire Hathaway": {
+      "read": "Bớc Sa Ha Tha Guây",
+      "tts_trick": "Bớc Sa Ha Tha Guây",
+      "tts_note": "Thanh chốt 2026-06-04. Hiển thị subtitle giữ 'Berkshire Hathaway'.",
+      "alt": []
+    },
+    "Berkshire": {
+      "read": "Bớc Sa",
+      "tts_trick": "Bớc Sa",
+      "alt": []
+    },
+    "See's Candies": {
+      "read": "Xi Ken Đi",
+      "tts_trick": "Xi Ken Đi",
+      "tts_note": "Thanh chốt 2026-06-04. Hiển thị subtitle giữ \"See's Candies\".",
+      "alt": []
+    }
+  },
+  "technical_terms": {
+    "MA10": {
+      "read": "Em ây mười",
+      "alt": [
+        "Mờ A mười"
+      ]
+    },
+    "MA20": {
+      "read": "Em ây hai mươi",
+      "alt": [
+        "Mờ A hai mươi"
+      ]
+    },
+    "MA50": {
+      "read": "Em ây năm mươi",
+      "alt": [
+        "Mờ A năm mươi"
+      ]
+    },
+    "Wyckoff": {
+      "read": "Uai cốp",
+      "alt": []
+    },
+    "RRG": {
+      "read": "Rờ rờ gờ",
+      "alt": []
+    },
+    "RS": {
+      "read": "Rờ Ét",
+      "alt": []
+    },
+    "KFSP": {
+      "read": "Ca ép ét pê",
+      "tts_trick": "Ca Ép Ét Bê",
+      "tts_note": "v2 trick (sau khi 'KFS B' thất bại): viết phiên âm Việt đầy đủ 4 âm tiết. 'Bê' thay 'Pê' để gần với âm Pê nhưng không bị nuốt.",
+      "alt": []
+    },
+    "FA": {
+      "read": "Ép ây",
+      "tts_trick": "Ép ây",
+      "tts_note": "v2 trick: 'Ép A' bị Vbee đọc 'F3' hoặc 'ế bà'. 'Ép ây' = phiên âm đầy đủ 2 âm tiết tiếng Việt cho F + A.",
+      "alt": []
+    },
+    "TA": {
+      "read": "Tê A",
+      "alt": []
+    },
+    "IBD": {
+      "read": "Ai Bi Đi",
+      "alt": []
+    },
+    "PE": {
+      "read": "Pê E",
+      "alt": []
+    },
+    "PB": {
+      "read": "Pê Bê",
+      "alt": []
+    },
+    "EPS": {
+      "read": "E Pê Ét",
+      "alt": []
+    },
+    "OCF": {
+      "read": "Ô Xê Ép",
+      "alt": []
+    },
+    "CANSLIM": {
+      "read": "Can xlim",
+      "alt": []
+    },
+    "mid-cap": {
+      "read": "mít cáp",
+      "alt": []
+    },
+    "UPCoM": {
+      "read": "Ấp Com",
+      "alt": []
+    },
+    "ROE": {
+      "read": "Rờ Ô E",
+      "tts_trick": "R-O-E",
+      "tts_note": "Viết dấu gạch nối để Vbee đọc từng chữ cái rõ rệt, khớp style 'P trên E'",
+      "alt": []
+    },
+    "EBITDA": {
+      "read": "Ê bít đa",
+      "tts_trick": "Ê bít đa",
+      "alt": []
+    },
+    "TTM": {
+      "read": "Tê Tê Mờ",
+      "tts_trick": "T-T-M",
+      "alt": []
+    },
+    "YoY": {
+      "read": "I Ô I",
+      "tts_trick": "I. Ô. I.",
+      "tts_note": "Y trong tiếng Việt đọc là 'i' (i dài), không phải 'quai' kiểu English",
+      "alt": [
+        "năm trên năm"
+      ]
+    },
+    "bio": {
+      "read": "bai-ô",
+      "tts_trick": "bai-ô",
+      "tts_note": "Gen Z Việt đọc 'bai-ô' trong context TikTok/Instagram bio",
+      "alt": []
+    },
+    "Follow": {
+      "read": "Phô Lâu",
+      "tts_trick": "Phô Lâu",
+      "tts_note": "Thanh chốt 2026-06-05 (video 4 điểm vào lệnh, kênh Một tay đầu tư). CTA 'Follow' bị Vbee đọc sai → phiên âm 'Phô Lâu'. Hiển thị subtitle giữ 'Follow'.",
+      "alt": [
+        "Theo dõi kênh"
+      ]
+    },
+    "RSI": {
+      "read": "R.S.I",
+      "tts_trick": "R.S.I",
+      "tts_note": "Thanh chốt 2026-06-08. Tạm dùng cách 1 (Latin có chấm, Vbee tự đánh vần). Đuôi I hơi nhanh nhưng chấp nhận. Dự phòng: rờ ét xì ai (R3). Subtitle giữ RSI.",
+      "alt": [
+        "rờ ét xì ai",
+        "Rờ Ếch Y"
+      ]
+    },
+    "MACD": {
+      "read": "MACD",
+      "tts_trick": "MACD",
+      "tts_note": "Thanh chốt 2026-06-08. Để Latin thô, Vbee tự đánh vần em-a-xê-đê chuẩn. KHÔNG phiên âm tay. Subtitle giữ MACD.",
+      "alt": [
+        "Mờ A Xê Đê",
+        "Mác Đê"
+      ]
+    },
+    "Watchlist": {
+      "read": "Goát lít",
+      "tts_trick": "Goát lít",
+      "tts_note": "Thanh chốt 2026-06-08. Tên tính năng KFSP. Hiển thị subtitle giữ Watchlist.",
+      "alt": [
+        "Oát lít"
+      ]
+    },
+    "W": {
+      "read": "Vê kép",
+      "tts_trick": "Vê kép",
+      "tts_note": "Dùng cho mô hình hai đáy chữ W. Hiển thị subtitle giữ W.",
+      "alt": []
+    },
+    "doji": {
+      "read": "Đô Di",
+      "tts_trick": "Đô Di",
+      "alt": [
+        "Đô-ji"
+      ],
+      "tts_note": "Thanh chốt 2026-06-13 (video 5 mẫu nến đảo chiều đáy). Mẫu nến Doji. Hiển thị subtitle giữ doji."
+    },
+    "neckline": {
+      "read": "nếch lai",
+      "tts_trick": "nếch lai",
+      "tts_note": "đường viền cổ (mô hình Hai đáy/Hai đỉnh). Subtitle hiển thị 'đường viền cổ'.",
+      "alt": []
+    }
+  },
+  "number_rules": {
+    "decimal_separator": "phẩy",
+    "thousand_separator": "nghìn",
+    "percent": "phần trăm",
+    "negative_prefix": "tuỳ bối cảnh: 'giảm' hoặc 'âm'",
+    "unit_suffix": "tuỳ bối cảnh: 'điểm', 'đồng', 'tỷ', 'triệu'",
+    "examples": {
+      "9,05": "chín phẩy không năm",
+      "0,54%": "không phẩy năm tư phần trăm",
+      "1.674,99": "một nghìn sáu trăm bảy mươi tư phẩy chín chín",
+      "-0,64%": "giảm không phẩy sáu tư phần trăm"
+    }
+  }
+}

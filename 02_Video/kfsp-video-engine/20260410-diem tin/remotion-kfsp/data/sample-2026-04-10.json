@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "date": "2026-04-10",
+    "title": "CẬP NHẬT THỊ TRƯỜNG"
+  },
+  "voiceover": "audio/voiceover.mp3",
+  "bgm": "music/news-loop-01.mp3",
+
+  "indices": {
+    "vni": { "value": 1750.00, "change": 13.32, "pct": 0.77 },
+    "hnx": { "value": 251.91, "change": 0.93, "pct": 0.37 },
+    "vn30": { "value": 1928.23, "change": 13.22, "pct": 0.69 }
+  },
+
+  "liquidity": {
+    "value_billion": 24000,
+    "change_pct": 5.2
+  },
+
+  "breadth": {
+    "advance": 164,
+    "decline": 144,
+    "unchanged": 65
+  },
+
+  "featured_sectors": [
+    {
+      "name": "Dầu khí",
+      "change_pct": 4.63,
+      "liquidity_change_pct": 104,
+      "sentiment": "positive",
+      "note": "Dòng tiền đổ mạnh, thanh khoản đột biến",
+      "stocks": [
+        { "ticker": "BSR", "change_pct": 7.0, "note": "Trần" },
+        { "ticker": "OIL", "change_pct": 7.04, "note": "Trần" },
+        { "ticker": "PVS", "change_pct": 3.6 },
+        { "ticker": "PVD", "change_pct": 4.63 }
+      ],
+      "heatmap_screenshot": "images/screenshots/sector_detail_oil.jpg"
+    },
+    {
+      "name": "Phân bón",
+      "change_pct": 2.71,
+      "liquidity_change_pct": 119,
+      "sentiment": "positive",
+      "note": "Khối lượng bùng nổ, DCM và DPM dẫn dắt",
+      "stocks": [
+        { "ticker": "DCM", "change_pct": 3.5, "note": "Đạm Cà Mau" },
+        { "ticker": "DPM", "change_pct": 2.8, "note": "Đạm Phú Mỹ" }
+      ],
+      "heatmap_screenshot": "images/screenshots/sector_chart.jpg"
+    },
+    {
+      "name": "Ngân hàng",
+      "change_pct": 1.01,
+      "liquidity_change_pct": 42,
+      "sentiment": "positive",
+      "note": "Xương sống giữ nhịp chỉ số, đồng thuận giá và khối lượng",
+      "stocks": [
+        { "ticker": "TCB", "change_pct": 4.37 },
+        { "ticker": "MSB", "change_pct": 5.37 },
+        { "ticker": "VIB", "change_pct": 1.75 }
+      ],
+      "heatmap_screenshot": "images/screenshots/sector_detail_bank.jpg"
+    }
+  ],
+
+  "pressure_sectors": [
+    {
+      "name": "Thép",
+      "change_pct": -0.92,
+      "liquidity_change_pct": 33,
+      "sentiment": "negative",
+      "note": "Áp lực bán dồn lên HPG, thanh khoản tăng nhưng giá giảm",
+      "stocks": [
+        { "ticker": "HPG", "change_pct": -1.2, "note": "Áp lực" },
+        { "ticker": "HSG", "change_pct": -0.8 }
+      ],
+      "heatmap_screenshot": "images/screenshots/sector_detail_steel.jpg"
+    }
+  ],
+
+  "rrg_insights": [
+    {
+      "sector_or_ticker": "Dầu khí",
+      "quadrant": "improving",
+      "direction": "improving",
+      "note": "Đang chuyển từ Lagging → Improving"
+    },
+    {
+      "sector_or_ticker": "Ngân hàng",
+      "quadrant": "leading",
+      "direction": "stable",
+      "note": "Duy trì vùng Leading"
+    },
+    {
+      "sector_or_ticker": "BĐS",
+      "quadrant": "weakening",
+      "direction": "declining",
+      "note": "Đang suy yếu dần"
+    }
+  ],
+
+  "rs_data": [
+    { "sector": "Năng lượng", "color": "#3b82f6", "values": [55, 58, 62, 65, 60, 55, 49] },
+    { "sector": "Ngân hàng", "color": "#f97316", "values": [48, 50, 52, 55, 53, 50, 50] },
+    { "sector": "Phân bón", "color": "#eab308", "values": [45, 48, 50, 52, 54, 53, 51] },
+    { "sector": "Thép", "color": "#ef4444", "values": [60, 55, 50, 48, 50, 52, 51] },
+    { "sector": "BĐS", "color": "#ec4899", "values": [50, 48, 45, 42, 40, 42, 44] }
+  ],
+
+  "filter_highlights": [
+    {
+      "filter_name": "RS tăng mạnh",
+      "count": 12,
+      "top_picks": ["BSR", "TCB", "DCM"]
+    },
+    {
+      "filter_name": "TK đột biến",
+      "count": 8,
+      "top_picks": ["OIL", "PVS", "MSB"]
+    },
+    {
+      "filter_name": "CANSLIM",
+      "count": 5,
+      "top_picks": ["FPT", "MWG", "VNM"]
+    }
+  ],
+
+  "screenshots": {
+    "market_overview": "images/screenshots/market_overview.jpg",
+    "breadth_chart": "images/screenshots/breadth_chart.jpg",
+    "wyckoff_effort": "images/screenshots/sector_chart.jpg",
+    "rrg_chart": "images/screenshots/rrg_chart.jpg",
+    "filter_screen": "images/screenshots/market_full.jpg"
+  },
+
+  "subtitles": [
+    { "start": 0, "end": 66, "text": "ĐIỂM TIN THỊ TRƯỜNG 10/4/2026" },
+    { "start": 84, "end": 141, "text": "VN-INDEX ĐẠT MỐC 1.750 ĐIỂM", "keywords": [{ "word": "1.750", "color": "green" }] },
+    { "start": 150, "end": 240, "text": "TĂNG 13,32 ĐIỂM — 0,77%", "keywords": [{ "word": "0,77%", "color": "green" }] },
+    { "start": 250, "end": 340, "text": "THANH KHOẢN ĐẠT 24.000 TỶ ĐỒNG", "keywords": [{ "word": "24.000", "color": "yellow" }] },
+    { "start": 390, "end": 480, "text": "164 MÃ TĂNG SO VỚI 144 MÃ GIẢM", "keywords": [{ "word": "164", "color": "green" }, { "word": "144", "color": "red" }] },
+    { "start": 600, "end": 700, "text": "NỖ LỰC & KẾT QUẢ WYCKOFF TRÊN KFSP", "keywords": [{ "word": "WYCKOFF", "color": "yellow" }, { "word": "KFSP", "color": "yellow" }] },
+    { "start": 810, "end": 900, "text": "DẦU KHÍ TĂNG 4,63% — TK ĐỘT BIẾN 104%", "keywords": [{ "word": "4,63%", "color": "green" }, { "word": "104%", "color": "green" }] },
+    { "start": 910, "end": 990, "text": "BSR TĂNG TRẦN — PVS TĂNG MẠNH", "keywords": [{ "word": "BSR", "color": "green" }, { "word": "TĂNG TRẦN", "color": "green" }] },
+    { "start": 1050, "end": 1140, "text": "PHÂN BÓN TĂNG 2,71% — TK +119%", "keywords": [{ "word": "2,71%", "color": "green" }, { "word": "+119%", "color": "green" }] },
+    { "start": 1290, "end": 1380, "text": "NGÂN HÀNG +1,01% — XƯƠNG SỐNG CHỈ SỐ", "keywords": [{ "word": "NGÂN HÀNG", "color": "green" }] },
+    { "start": 1530, "end": 1620, "text": "THÉP GIẢM 0,92% — ÁP LỰC LÊN HPG", "keywords": [{ "word": "GIẢM", "color": "red" }, { "word": "HPG", "color": "red" }] },
+    { "start": 1770, "end": 1870, "text": "BIỂU ĐỒ RRG TRÊN KFSP", "keywords": [{ "word": "RRG", "color": "yellow" }, { "word": "KFSP", "color": "yellow" }] },
+    { "start": 1880, "end": 1960, "text": "DẦU KHÍ ĐANG CHUYỂN SANG IMPROVING", "keywords": [{ "word": "IMPROVING", "color": "green" }] },
+    { "start": 2070, "end": 2160, "text": "BỘ LỌC CỔ PHIẾU NỔI BẬT", "keywords": [{ "word": "BỘ LỌC", "color": "yellow" }] },
+    { "start": 2250, "end": 2340, "text": "TẢI KFSP — CẬP NHẬT DÒNG TIỀN", "keywords": [{ "word": "KFSP", "color": "yellow" }] },
+    { "start": 2400, "end": 2460, "text": "XIN CHÀO VÀ HẸN GẶP LẠI" }
+  ]
+}

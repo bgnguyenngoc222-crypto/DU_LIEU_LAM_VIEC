@@ -1,0 +1,75 @@
+{
+ "duration_s": 4.032,
+ "words": [
+  {
+   "word": "Tức",
+   "start": 0.37,
+   "end": 0.61
+  },
+  {
+   "word": "là",
+   "start": 0.61,
+   "end": 0.77
+  },
+  {
+   "word": "đã",
+   "start": 0.77,
+   "end": 0.93
+  },
+  {
+   "word": "có",
+   "start": 0.93,
+   "end": 1.05
+  },
+  {
+   "word": "lực",
+   "start": 1.05,
+   "end": 1.21
+  },
+  {
+   "word": "nữa,",
+   "start": 1.21,
+   "end": 1.45
+  },
+  {
+   "word": "đáy",
+   "start": 1.99,
+   "end": 2.15
+  },
+  {
+   "word": "đã",
+   "start": 2.15,
+   "end": 2.27
+  },
+  {
+   "word": "chắc,",
+   "start": 2.27,
+   "end": 2.47
+  },
+  {
+   "word": "đây",
+   "start": 2.89,
+   "end": 3.01
+  },
+  {
+   "word": "là",
+   "start": 3.01,
+   "end": 3.15
+  },
+  {
+   "word": "vùng",
+   "start": 3.15,
+   "end": 3.29
+  },
+  {
+   "word": "mạnh",
+   "start": 3.29,
+   "end": 3.47
+  },
+  {
+   "word": "nhất.",
+   "start": 3.47,
+   "end": 3.65
+  }
+ ]
+}

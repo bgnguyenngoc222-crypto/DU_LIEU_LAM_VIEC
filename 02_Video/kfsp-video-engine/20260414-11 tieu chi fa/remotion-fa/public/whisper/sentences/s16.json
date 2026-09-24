@@ -1,0 +1,36 @@
+{
+  "id": "s16",
+  "duration_s": 1.43,
+  "word_timestamps": [
+    {
+      "word": "linh",
+      "start": 0.05,
+      "end": 0.29
+    },
+    {
+      "word": "tải",
+      "start": 0.29,
+      "end": 0.63
+    },
+    {
+      "word": "ở",
+      "start": 0.63,
+      "end": 0.79
+    },
+    {
+      "word": "bài",
+      "start": 0.79,
+      "end": 0.95
+    },
+    {
+      "word": "ô",
+      "start": 0.95,
+      "end": 1.09
+    },
+    {
+      "word": "Nha.",
+      "start": 1.09,
+      "end": 1.35
+    }
+  ]
+}

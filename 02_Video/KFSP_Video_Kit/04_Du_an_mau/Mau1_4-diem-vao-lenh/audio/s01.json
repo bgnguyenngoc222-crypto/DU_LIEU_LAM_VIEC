@@ -1,0 +1,81 @@
+{
+  "id": "s01",
+  "text": "Vẫn mua cổ phiếu xong là nó quay đầu, vừa bán xong thì nó tăng.",
+  "words": [
+    {
+      "word": "Vẫn",
+      "start": 0.0,
+      "end": 0.14
+    },
+    {
+      "word": "mua",
+      "start": 0.14,
+      "end": 0.36
+    },
+    {
+      "word": "cổ",
+      "start": 0.36,
+      "end": 0.52
+    },
+    {
+      "word": "phiếu",
+      "start": 0.52,
+      "end": 0.74
+    },
+    {
+      "word": "xong",
+      "start": 0.74,
+      "end": 0.94
+    },
+    {
+      "word": "là",
+      "start": 0.94,
+      "end": 1.06
+    },
+    {
+      "word": "nó",
+      "start": 1.06,
+      "end": 1.16
+    },
+    {
+      "word": "quay",
+      "start": 1.16,
+      "end": 1.38
+    },
+    {
+      "word": "đầu,",
+      "start": 1.38,
+      "end": 1.5
+    },
+    {
+      "word": "vừa",
+      "start": 1.88,
+      "end": 2.02
+    },
+    {
+      "word": "bán",
+      "start": 2.02,
+      "end": 2.22
+    },
+    {
+      "word": "xong",
+      "start": 2.22,
+      "end": 2.46
+    },
+    {
+      "word": "thì",
+      "start": 2.46,
+      "end": 2.58
+    },
+    {
+      "word": "nó",
+      "start": 2.58,
+      "end": 2.68
+    },
+    {
+      "word": "tăng.",
+      "start": 2.68,
+      "end": 2.9
+    }
+  ]
+}

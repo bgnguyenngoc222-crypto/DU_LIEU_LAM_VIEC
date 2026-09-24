@@ -1,0 +1,253 @@
+{
+  "prompt_type": "image_generation",
+  "project": "KFSP Stock Investing Educational Infographic",
+  "reference_instruction": "Use the attached reference image as the strict visual style reference. Preserve the same visual design system, color palette, typography hierarchy, lighting, UI treatment, chart style and overall aesthetic. Do not copy the exact content or composition.",
+
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "aspect_ratio": "1:1",
+    "orientation": "square"
+  },
+
+  "subject": {
+    "industry": "stock market and investing",
+    "category": "technical analysis",
+    "purpose": "educational financial infographic",
+    "audience": "stock investors",
+    "visual_priority": "explain the financial concept visually and simply"
+  },
+
+  "content": {
+    "title": "TRONG PHẦN MẪU HÌNH: CÁCH BREAK X% NGHĨA LÀ GÌ VÀ CÁCH ĐỌC ĐÚNG?",
+    
+    "sections": [
+      {
+        "number": "03",
+        "title": "TRẠNG THÁI CHỜ XÁC NHẬN",
+        "description": "Mẫu hình đã hình thành nhưng giá hiện tại chưa vượt qua vùng break."
+      },
+      {
+        "number": "04",
+        "title": "CÁCH BREAK -2,5%",
+        "description": "Giá hiện tại đang nằm bên dưới và chỉ còn cách mốc bứt phá đúng 2,5% nữa.",
+        "highlight": "Khi giá tăng 2,5% và vượt mốc này, trạng thái tự động chuyển sang Thành công."
+      }
+    ],
+
+    "action": {
+      "title": "HÀNH ĐỘNG ĐỀ XUẤT",
+      "items": [
+        "Thêm mã vào Watchlist",
+        "Đặt Cảnh báo tại Vùng break để đón nhịp bứt phá"
+      ]
+    }
+  },
+
+  "chart": {
+    "enabled": true,
+    "type": "simple candlestick stock chart",
+    "purpose": "visually explain the concept",
+    
+    "pattern": "double bottom",
+    
+    "elements": [
+      "Đáy 1",
+      "Đỉnh giữa",
+      "Đáy 2",
+      "Vùng break",
+      "Giá hiện tại",
+      "Khoảng cách break -2,5%"
+    ],
+
+    "visual_logic": [
+      "Price falls to Đáy 1",
+      "Price rebounds to Đỉnh giữa",
+      "Price falls again to Đáy 2",
+      "Price rebounds but has not yet broken the Vùng break",
+      "Current price remains below the breakout level",
+      "Show a vertical arrow between current price and breakout level",
+      "Label the distance as Cách break -2,5%"
+    ],
+
+    "technical_levels": {
+      "breakout": "horizontal dashed violet line",
+      "support": "horizontal dashed subtle purple line",
+      "current_price": "clearly highlighted",
+      "distance": "vertical arrow with -2,5% label"
+    },
+
+    "candles": {
+      "style": "minimal clean candlesticks",
+      "bullish": "green",
+      "bearish": "red",
+      "density": "moderate",
+      "detail_level": "simple and educational"
+    }
+  },
+
+  "visual_style": {
+    "style_name": "Premium Fintech Dark Purple",
+    "aesthetic": [
+      "premium",
+      "modern",
+      "minimal",
+      "financial technology",
+      "professional",
+      "educational",
+      "high-tech"
+    ],
+
+    "background": {
+      "type": "dark purple gradient",
+      "colors": [
+        "#0D0620",
+        "#230C59"
+      ],
+      "texture": "subtle atmospheric texture",
+      "lighting": "soft violet ambient glow"
+    },
+
+    "color_palette": {
+      "primary": "#8B5CF6",
+      "secondary": "#6D28D9",
+      "deep_purple": "#230C59",
+      "background": "#0D0620",
+      "white": "#FFFFFF",
+      "light_text": "#E9E2FF",
+      "success": "#22D3A0",
+      "warning": "#FFD166",
+      "bearish": "#EF4444"
+    },
+
+    "glassmorphism": {
+      "enabled": true,
+      "card_color": "dark translucent purple",
+      "border": "thin luminous violet",
+      "corner_radius": "large rounded corners",
+      "shadow": "soft purple ambient shadow",
+      "opacity": "subtle transparency"
+    },
+
+    "neon_effect": {
+      "enabled": true,
+      "color": "#8B5CF6",
+      "intensity": "subtle and premium",
+      "avoid": "excessive cyberpunk glow"
+    }
+  },
+
+  "typography": {
+    "language": "Vietnamese",
+    "font_style": "modern geometric sans-serif",
+    "headline": {
+      "weight": "bold",
+      "case": "uppercase",
+      "color": "#FFFFFF"
+    },
+    "subheadline": {
+      "weight": "semibold",
+      "color": "#FFFFFF"
+    },
+    "body": {
+      "weight": "regular",
+      "color": "#E9E2FF"
+    },
+    "highlight": {
+      "color": "#8B5CF6",
+      "weight": "bold"
+    },
+    "priority": "maximum readability"
+  },
+
+  "layout": {
+    "structure": "vertical infographic",
+    "header": "large bold title at top",
+    "information_blocks": "two rounded glassmorphism cards",
+    "main_chart": "large central chart occupying the visual focus",
+    "action_section": "large rounded card at bottom",
+    "spacing": "generous",
+    "alignment": "clean and structured",
+    "balance": "text and chart balanced",
+    "density": "medium-low",
+    "negative_space": "generous"
+  },
+
+  "ui_elements": {
+    "cards": true,
+    "rounded_labels": true,
+    "glowing_borders": true,
+    "technical_annotations": true,
+    "arrows": true,
+    "dashed_lines": true,
+    "status_badges": true,
+    "watchlist_icon": true,
+    "alert_bell_icon": true
+  },
+
+  "visual_rules": [
+    "The stock chart must be the primary visual explanation.",
+    "The concept must be understandable without reading every paragraph.",
+    "Keep all text short and highly readable.",
+    "Use visual hierarchy to emphasize key numbers such as -2,5%.",
+    "Use purple as the dominant accent color.",
+    "Use white typography for maximum contrast.",
+    "Use green and red only for stock candlesticks and status indicators.",
+    "Keep the infographic premium and minimal.",
+    "Maintain consistent spacing and alignment.",
+    "Do not overcrowd the canvas."
+  ],
+
+  "negative_prompt": [
+    "photorealistic people",
+    "human characters",
+    "3D characters",
+    "stock photography",
+    "busy background",
+    "excessive decorations",
+    "complex trading terminal",
+    "overly realistic financial dashboard",
+    "too many charts",
+    "too many icons",
+    "random numbers",
+    "random text",
+    "unreadable typography",
+    "tiny text",
+    "oversaturated neon",
+    "cyberpunk aesthetic",
+    "gold luxury aesthetic",
+    "red dominant color",
+    "blue dominant color",
+    "cluttered composition",
+    "low contrast",
+    "watermark",
+    "logo distortion"
+  ],
+
+  "consistency_rules": {
+    "series_consistency": true,
+    "keep_same": [
+      "background style",
+      "purple color palette",
+      "typography hierarchy",
+      "glassmorphism cards",
+      "neon border treatment",
+      "candlestick style",
+      "chart annotation style",
+      "spacing system",
+      "lighting",
+      "visual density"
+    ],
+    "change_only": [
+      "title",
+      "educational content",
+      "chart pattern",
+      "technical indicators",
+      "numbers",
+      "labels",
+      "action recommendation"
+    ]
+  },
+
+  "final_instruction": "Create a premium 1080x1080 Vietnamese stock-investing infographic following the exact visual design system described above. Prioritize visual explanation, clean typography, simple technical-analysis charts and a sophisticated dark-purple fintech aesthetic. The final image should look like part of one consistent professional financial education series."
+}

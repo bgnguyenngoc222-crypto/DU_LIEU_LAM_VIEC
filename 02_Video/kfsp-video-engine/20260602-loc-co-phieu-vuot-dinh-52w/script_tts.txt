@@ -1,0 +1,26 @@
+[s01 | pause_before=0 | pause_after=300 | speed=0.95]
+Cổ phiếu vừa vượt đỉnh năm mươi hai tuần thường là mã khoẻ nhất sàn, dòng tiền lớn đang gom.
+
+[s02 | pause_before=0 | pause_after=500 | speed=0.95]
+Lọc ra hết trong ba mươi giây, để mình chỉ.
+
+[s03 | pause_before=0 | pause_after=200 | speed=0.95]
+Bước một: vô KFS B, mở mục Bộ lọc cổ phiếu.
+
+[s04 | pause_before=0 | pause_after=200 | speed=0.95]
+Bước hai: chọn tiêu chí Giá vượt đỉnh năm mươi hai tuần.
+
+[s05 | pause_before=0 | pause_after=200 | speed=0.95]
+Bước ba: thêm điều kiện thanh khoản trên năm tỷ một phiên, để loại mã rác.
+
+[s06 | pause_before=0 | pause_after=200 | speed=0.95]
+Bước bốn: bấm Lọc.
+
+[s07 | pause_before=0 | pause_after=400 | speed=0.95]
+Vậy là ra nguyên list mã vừa phá đỉnh, gọn gàng.
+
+[s08 | pause_before=0 | pause_after=300 | speed=0.95]
+Cực kỳ đơn giản đúng không.
+
+[s09 | pause_before=0 | pause_after=0 | speed=0.95]
+Follow để mình chỉ tiếp mấy bộ lọc ngon mỗi ngày nha.

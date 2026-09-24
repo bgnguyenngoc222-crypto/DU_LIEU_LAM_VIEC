@@ -1,0 +1,29 @@
+[s01 | pause_before=0 | pause_after=300 | speed=0.95]
+Index đỏ một phiên, bạn muốn bán hết? Khoan đã.
+
+[s02 | pause_before=0 | pause_after=500 | speed=0.95]
+Sti-vơ Ni-sần, người đưa nến Nhật ra thế giới, dạy một điều: một phiên không kể hết câu chuyện.
+
+[s03 | pause_before=0 | pause_after=300 | speed=0.95]
+Nhìn một ngày: vài trụ lớn đỏ đậm, kéo index lao dốc. Bạn hoảng.
+
+[s04 | pause_before=0 | pause_after=300 | speed=0.95]
+Nhưng lùi lại năm ngày: đỏ vẫn đó, mà vài nhóm đã lóe xanh.
+
+[s05 | pause_before=0 | pause_after=300 | speed=0.95]
+Lùi tiếp hai mươi ngày: nền đỏ rộng, nhưng Ngân hàng vẫn xanh, giữ trụ cả tháng.
+
+[s06 | pause_before=0 | pause_after=400 | speed=0.95]
+Đó là dòng tiền vận động bền, thứ một ngày không cho bạn thấy.
+
+[s07 | pause_before=0 | pause_after=200 | speed=0.95]
+Việc của bạn không phải đoán mai tăng hay mai giảm.
+
+[s08 | pause_before=0 | pause_after=300 | speed=0.95]
+Mà là tầm soát sức mạnh: nhóm nào đang khoẻ, dòng tiền chảy về đâu.
+
+[s09 | pause_before=0 | pause_after=400 | speed=0.95]
+Mở Bản đồ nhiệt KFS B, xem một ngày, năm ngày, hai mươi ngày, tự thấy.
+
+[s10 | pause_before=0 | pause_after=0 | speed=0.95]
+Follow để đọc thị trường đúng bối cảnh mỗi ngày nha.

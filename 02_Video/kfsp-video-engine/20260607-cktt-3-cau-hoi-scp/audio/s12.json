@@ -1,0 +1,107 @@
+[
+ {
+  "word": "và",
+  "start": 0.0,
+  "end": 0.1
+ },
+ {
+  "word": "phần",
+  "start": 0.1,
+  "end": 0.26
+ },
+ {
+  "word": "khỏe",
+  "start": 0.26,
+  "end": 0.56
+ },
+ {
+  "word": "nhất",
+  "start": 0.56,
+  "end": 0.78
+ },
+ {
+  "word": "là",
+  "start": 0.78,
+  "end": 0.96
+ },
+ {
+  "word": "một",
+  "start": 0.96,
+  "end": 1.08
+ },
+ {
+  "word": "cái",
+  "start": 1.08,
+  "end": 1.2
+ },
+ {
+  "word": "bộ",
+  "start": 1.2,
+  "end": 1.36
+ },
+ {
+  "word": "lọc",
+  "start": 1.36,
+  "end": 1.64
+ },
+ {
+  "word": "làm",
+  "start": 1.64,
+  "end": 1.82
+ },
+ {
+  "word": "thay",
+  "start": 1.82,
+  "end": 2.08
+ },
+ {
+  "word": "bạn",
+  "start": 2.08,
+  "end": 2.26
+ },
+ {
+  "word": "trong",
+  "start": 2.26,
+  "end": 2.44
+ },
+ {
+  "word": "vài",
+  "start": 2.44,
+  "end": 2.78
+ },
+ {
+  "word": "dây",
+  "start": 2.78,
+  "end": 2.98
+ },
+ {
+  "word": "như",
+  "start": 2.98,
+  "end": 3.1
+ },
+ {
+  "word": "cái",
+  "start": 3.1,
+  "end": 3.2
+ },
+ {
+  "word": "tay",
+  "start": 3.2,
+  "end": 3.44
+ },
+ {
+  "word": "nối",
+  "start": 3.44,
+  "end": 3.64
+ },
+ {
+  "word": "giải",
+  "start": 3.64,
+  "end": 3.9
+ },
+ {
+  "word": "vậy.",
+  "start": 3.9,
+  "end": 4.0
+ }
+]

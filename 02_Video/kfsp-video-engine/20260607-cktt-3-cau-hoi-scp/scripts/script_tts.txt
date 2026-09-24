@@ -1,0 +1,16 @@
+# s01-s11 chung 2 bản | s12+s13b = BRAND | s13n = NOBRAND
+
+[s01] Bạn có hay nhìn một cổ phiếu rồi tự hỏi, liệu nó có thành siêu cổ phiếu không?
+[s02] Thú thật, chuyện nó tăng tới đâu thì nằm ngoài tầm tay mình.
+[s03] Nhưng có một việc nằm gọn trong tầm tay: soi nó qua ba câu hỏi.
+[s04] Nghe thì to tát, thực ra chỉ là ba câu ai cũng tự hỏi được.
+[s05] Câu một: doanh nghiệp này có đang khoẻ thật không?
+[s06] Tức là lợi nhuận quý gần nhất đang tăng tốc, nhiều năm liền tăng đều, và có gì đó mới mẻ tạo đà.
+[s07] Câu hai: có dòng tiền lớn đứng sau lưng nó không?
+[s08] Nhìn vào khối lượng, những phiên tăng vọt là dấu chân của tổ chức, và nó thường là mã dẫn đầu ngành.
+[s09] Câu ba: con sóng chung có đang thuận không?
+[s10] Một cổ phiếu khoẻ tới mấy mà thị trường chung đang xuống thì vẫn đuối, nên mình chờ lúc sóng thuận.
+[s11] Ba câu hỏi này không đoán tương lai, nó chỉ giúp mình nhìn cho tỉnh trước khi xuống tiền.
+[s12 BRAND] Và phần khoẻ nhất là mấy thứ này, một cái bộ lọc làm thay bạn trong vài giây, như cánh tay nối dài vậy.
+[s13b BRAND] Theo dõi mình để mỗi ngày, chứng khoán gọn lại trong tầm tay bạn thêm một chút nha.
+[s13n NOBRAND] Theo dõi mình để mỗi ngày thêm một mẹo hay trong giao dịch, đưa chứng khoán về gần tầm tay bạn hơn nha.

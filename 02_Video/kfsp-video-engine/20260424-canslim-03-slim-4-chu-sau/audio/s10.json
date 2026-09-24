@@ -1,0 +1,141 @@
+{
+  "id": "s10",
+  "duration_s": 7.837,
+  "word_timestamps": [
+    {
+      "word": "Khối",
+      "start": 0.0,
+      "end": 0.22
+    },
+    {
+      "word": "lượng",
+      "start": 0.22,
+      "end": 0.46
+    },
+    {
+      "word": "giao",
+      "start": 0.46,
+      "end": 0.66
+    },
+    {
+      "word": "dịch",
+      "start": 0.66,
+      "end": 0.86
+    },
+    {
+      "word": "chung",
+      "start": 0.86,
+      "end": 1.1
+    },
+    {
+      "word": "bình",
+      "start": 1.1,
+      "end": 1.28
+    },
+    {
+      "word": "phải",
+      "start": 1.28,
+      "end": 1.44
+    },
+    {
+      "word": "vừa",
+      "start": 1.44,
+      "end": 1.72
+    },
+    {
+      "word": "đủ.",
+      "start": 1.72,
+      "end": 1.96
+    },
+    {
+      "word": "Không",
+      "start": 2.44,
+      "end": 2.86
+    },
+    {
+      "word": "quá",
+      "start": 2.86,
+      "end": 3.1
+    },
+    {
+      "word": "thấp",
+      "start": 3.1,
+      "end": 3.34
+    },
+    {
+      "word": "dễ",
+      "start": 3.34,
+      "end": 3.56
+    },
+    {
+      "word": "bị",
+      "start": 3.56,
+      "end": 3.68
+    },
+    {
+      "word": "nhóm",
+      "start": 3.68,
+      "end": 3.98
+    },
+    {
+      "word": "nhỏ",
+      "start": 3.98,
+      "end": 4.22
+    },
+    {
+      "word": "thao",
+      "start": 4.22,
+      "end": 4.48
+    },
+    {
+      "word": "túng,",
+      "start": 4.48,
+      "end": 4.76
+    },
+    {
+      "word": "cũng",
+      "start": 5.06,
+      "end": 5.3
+    },
+    {
+      "word": "không",
+      "start": 5.3,
+      "end": 5.52
+    },
+    {
+      "word": "quá",
+      "start": 5.52,
+      "end": 5.76
+    },
+    {
+      "word": "đặc",
+      "start": 5.76,
+      "end": 6.0
+    },
+    {
+      "word": "kiến",
+      "start": 6.0,
+      "end": 6.24
+    },
+    {
+      "word": "giá",
+      "start": 6.24,
+      "end": 6.52
+    },
+    {
+      "word": "khó",
+      "start": 6.52,
+      "end": 6.8
+    },
+    {
+      "word": "nhúc",
+      "start": 6.8,
+      "end": 7.0
+    },
+    {
+      "word": "nhích.",
+      "start": 7.0,
+      "end": 7.24
+    }
+  ]
+}

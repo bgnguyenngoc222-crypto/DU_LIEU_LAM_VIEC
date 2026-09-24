@@ -1,0 +1,97 @@
+[
+ {
+  "word": "Phá",
+  "start": 0.0,
+  "end": 0.14
+ },
+ {
+  "word": "câu",
+  "start": 0.14,
+  "end": 0.32
+ },
+ {
+  "word": "hỏi",
+  "start": 0.32,
+  "end": 0.44
+ },
+ {
+  "word": "này",
+  "start": 0.44,
+  "end": 0.54
+ },
+ {
+  "word": "không",
+  "start": 0.54,
+  "end": 0.72
+ },
+ {
+  "word": "đoán",
+  "start": 0.72,
+  "end": 0.96
+ },
+ {
+  "word": "tương",
+  "start": 0.96,
+  "end": 1.12
+ },
+ {
+  "word": "lai,",
+  "start": 1.12,
+  "end": 1.4
+ },
+ {
+  "word": "mà",
+  "start": 1.64,
+  "end": 1.74
+ },
+ {
+  "word": "chỉ",
+  "start": 1.74,
+  "end": 1.88
+ },
+ {
+  "word": "dũng",
+  "start": 1.88,
+  "end": 2.16
+ },
+ {
+  "word": "mình",
+  "start": 2.16,
+  "end": 2.26
+ },
+ {
+  "word": "nhìn",
+  "start": 2.26,
+  "end": 2.48
+ },
+ {
+  "word": "cho",
+  "start": 2.48,
+  "end": 2.6
+ },
+ {
+  "word": "tỉnh",
+  "start": 2.6,
+  "end": 2.9
+ },
+ {
+  "word": "trước",
+  "start": 2.9,
+  "end": 3.06
+ },
+ {
+  "word": "khi",
+  "start": 3.06,
+  "end": 3.24
+ },
+ {
+  "word": "xuống",
+  "start": 3.24,
+  "end": 3.44
+ },
+ {
+  "word": "tiền.",
+  "start": 3.44,
+  "end": 3.68
+ }
+]

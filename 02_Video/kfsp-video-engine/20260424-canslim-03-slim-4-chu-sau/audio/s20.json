@@ -1,0 +1,91 @@
+{
+  "id": "s20",
+  "duration_s": 6.191,
+  "word_timestamps": [
+    {
+      "word": "Cổ",
+      "start": 0.0,
+      "end": 0.26
+    },
+    {
+      "word": "phíu",
+      "start": 0.26,
+      "end": 0.5
+    },
+    {
+      "word": "tốt",
+      "start": 0.5,
+      "end": 0.72
+    },
+    {
+      "word": "đến",
+      "start": 0.72,
+      "end": 0.88
+    },
+    {
+      "word": "bấy,",
+      "start": 0.88,
+      "end": 1.18
+    },
+    {
+      "word": "gặp",
+      "start": 1.64,
+      "end": 1.82
+    },
+    {
+      "word": "sống",
+      "start": 1.82,
+      "end": 2.04
+    },
+    {
+      "word": "giảng",
+      "start": 2.04,
+      "end": 2.28
+    },
+    {
+      "word": "trung,",
+      "start": 2.28,
+      "end": 2.62
+    },
+    {
+      "word": "thì",
+      "start": 2.86,
+      "end": 3.16
+    },
+    {
+      "word": "75",
+      "start": 3.16,
+      "end": 3.66
+    },
+    {
+      "word": "%",
+      "start": 3.66,
+      "end": 4.12
+    },
+    {
+      "word": "cổ",
+      "start": 4.12,
+      "end": 4.46
+    },
+    {
+      "word": "phíu",
+      "start": 4.46,
+      "end": 4.74
+    },
+    {
+      "word": "vẫn",
+      "start": 4.74,
+      "end": 4.82
+    },
+    {
+      "word": "rơi",
+      "start": 4.82,
+      "end": 5.18
+    },
+    {
+      "word": "theo.",
+      "start": 5.18,
+      "end": 5.36
+    }
+  ]
+}
