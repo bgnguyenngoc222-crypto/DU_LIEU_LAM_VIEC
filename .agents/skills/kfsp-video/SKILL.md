@@ -75,7 +75,7 @@ Dựa trên dàn ý đã chốt, BẮT BUỘC ưu tiên sản xuất nội dung 
 1. **Lên Kịch bản Video (Ưu tiên 1):** Định dạng Short dọc (thời lượng linh hoạt, tối đa 3 phút). BẮT BUỘC áp dụng **Công thức Kép:** 
    - **Mở đầu:** Gieo kỳ vọng ngay lập tức (nói rõ xem đến cuối sẽ nhận được giải pháp/danh sách cơ hội gì) để giữ chân người xem.
    - **Kết thúc:** Gieo kỳ vọng lần 2 (tạo sự tò mò về tính năng/đặc quyền/giá trị của KFSP) để ép họ hành động (Inbox/Tải app).
-   - **Cấu trúc xuất ra:** Gồm Phần Full Text Voice và Kịch bản Kỹ thuật. Kịch bản Kỹ thuật phải **đề xuất chi tiết Visual/Components cho Remotion** (định dạng dọc 9:16) để phục vụ cho việc lập trình sinh video. **ĐẶC BIỆT LƯU Ý VỀ LỜI THOẠI (VO):** Tuyệt đối không dùng văn viết, sáo rỗng hay hàn lâm. Bắt buộc dùng 100% **VĂN NÓI (Spoken language)**, ngắt nghỉ tự nhiên, dùng từ ngữ đời thường như đang trò chuyện trực tiếp với bạn bè.
+   - **Cấu trúc xuất ra:** Gồm Phần Full Text Voice và Kịch bản Kỹ thuật. Kịch bản Kỹ thuật phải **đề xuất chi tiết Visual/Components cho Remotion** (định dạng dọc 9:16) để phục vụ cho việc lập trình sinh video. **ĐẶC BIỆT LƯU Ý VỀ LỜI THOẠI (VO):** 100% **VĂN NÓI (Spoken language)**. KHÔNG dùng ngoặc kép ("") trong kịch bản thoại để tránh làm gián đoạn/gây lỗi cho tool AI Text-to-Speech. BẮT BUỘC phải có câu chốt slogan KFSP - Đưa chứng khoán về tầm tay bạn ở đoạn cuối video.
 2. **Tái chế thành bài Text (Áp giọng):** Sau khi chốt kịch bản video, chuyển thể Voice thành bài Fanpage bám sát **`reference/style-fanpage.md`** (Tít CAPS 2 vế · đánh số · xưng "bạn" · CTA phễu hối lộ · brand spine).
 3. **Kênh khác →** xem `reference/style-<kênh>.md`.
 
@@ -105,6 +105,8 @@ Sau khi nội dung được duyệt hoàn chỉnh, AI phải đề xuất concep
 - **Thời lượng là phụ, Trọn vẹn ý là chính:** Không cần cố bóp nghẹt kịch bản cho ngắn nếu điều đó làm gãy logic. Ưu tiên truyền tải ĐỦ và ĐÚNG tư duy sâu sắc đến người xem (Tối đa 3 phút).
 - **Video First & Tái chế:** Ưu tiên Kịch bản Video trước. 1 Video gốc = Bài Fanpage (bóc voice) + Infographic (trích frame).
 - **Phễu Nurturing & CTA "Hối lộ":** Đưa lead vào phễu trung gian bằng mồi nhử cụ thể (Inbox nhận checklist + 5 ngày VIP).
+- **Tối ưu Thuật toán (CTA Kép):** Bắt buộc kết hợp "Bình luận [Từ khóa]" để hack tương tác, rồi mới dẫn vào "Inbox/Nhắn tin". Tuyệt chiêu này giúp video cắn đề xuất trên các nền tảng Short/Reel.
+- **Tiết chế ngôn ngữ PR (Less is More):** KHÔNG tự nhận mình "khách quan", không nhồi nhét từ ngữ sáo rỗng. Hãy nói đúng tính năng và lợi ích, người xem sẽ tự hiểu. Đừng làm loãng luồng giáo dục bằng văn phong quảng cáo lố bịch.
 
 
 ## Registry reference
